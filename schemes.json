@@ -1,0 +1,34 @@
+[
+  {
+    "id": "lakshmir-bhandar",
+    "name": "Lakshmir Bhandar",
+    "name_bn": "লক্ষ্মীর ভান্ডার",
+    "category": "Women",
+    "dept": "Women & Child Development",
+    "benefit": "₹1000/month for General, ₹1200/month for SC/ST",
+    "eligibility": [
+      "Female resident of West Bengal",
+      "Age 25-60 years",
+      "Enrolled in Swasthya Sathi"
+    ],
+    "documents": ["Aadhaar", "Bank Passbook", "Swasthya Sathi Card", "Passport Photo"],
+    "apply_url": "https://socialsecurity.wb.gov.in",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "kanyashree",
+    "name": "Kanyashree Prakalpa", 
+    "name_bn": "কন্যাশ্রী প্রকল্প",
+    "category": "Education",
+    "dept": "Women & Child Development",
+    "benefit": "₹750/year K1 + ₹25000 one-time K2",
+    "eligibility": [
+      "Unmarried girl student",
+      "Age 13-18 years", 
+      "Family income < ₹1.2L/year"
+    ],
+    "documents": ["Birth Certificate", "Aadhaar", "School Certificate", "Income Certificate"],
+    "apply_url": "https://wbkanyashree.gov.in",
+    "last_updated": "2026-01-15"
+  }
+]

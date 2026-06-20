@@ -1,7 +1,7 @@
 [
   {
     "id": "lakshmir-bhandar",
-    "name": "Lakshmir Bhandar",
+    "name_en": "Lakshmir Bhandar",
     "name_bn": "লক্ষ্মীর ভান্ডার",
     "category": "Women",
     "dept": "Women & Child Development",
@@ -12,12 +12,13 @@
       "Enrolled in Swasthya Sathi"
     ],
     "documents": ["Aadhaar", "Bank Passbook", "Swasthya Sathi Card", "Passport Photo"],
-    "apply_url": "https://socialsecurity.wb.gov.in",
+    "form_pdf_url": "https://socialsecurity.wb.gov.in/forms/lakshmir-bhandar.pdf",
+    "apply_online_url": "https://socialsecurity.wb.gov.in",
     "last_updated": "2026-01-15"
   },
   {
     "id": "kanyashree",
-    "name": "Kanyashree Prakalpa", 
+    "name_en": "Kanyashree Prakalpa", 
     "name_bn": "কন্যাশ্রী প্রকল্প",
     "category": "Education",
     "dept": "Women & Child Development",
@@ -28,7 +29,40 @@
       "Family income < ₹1.2L/year"
     ],
     "documents": ["Birth Certificate", "Aadhaar", "School Certificate", "Income Certificate"],
-    "apply_url": "https://wbkanyashree.gov.in",
+    "form_pdf_url": "https://wbkanyashree.gov.in/forms/kanyashree.pdf",
+    "apply_online_url": "https://wbkanyashree.gov.in",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "1",
+    "name_en": "Housing Grant",
+    "name_bn": "বাড়ি নির্মাণ অনুদান",
+    "category": "Housing",
+    "dept": "Rural Development",
+    "benefit": "বাড়ি নির্মাণের জন্য আর্থিক সহায়তা",
+    "eligibility": [
+      "নিম্ন আয়ের পরিবার",
+      "গ্রামীণ এলাকায় বসবাস"
+    ],
+    "documents": ["জাতীয় পরিচয়পত্র", "আয়ের প্রমাণ"],
+    "form_pdf_url": "https://example.com/form1.pdf",
+    "apply_online_url": "https://example.com/apply1",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "2",
+    "name_en": "Agriculture Support",
+    "name_bn": "কৃষি উন্নয়ন অনুদান",
+    "category": "Agriculture",
+    "dept": "Department of Agriculture",
+    "benefit": "কৃষি কার্যক্রমের জন্য তহবিল",
+    "eligibility": [
+      "ক্ষুদ্র এবং মাঝারি কৃষক",
+      "কৃষি জমির মালিক"
+    ],
+    "documents": ["জমির দলিল", "আধার কার্ড"],
+    "form_pdf_url": "https://example.com/form2.pdf",
+    "apply_online_url": "https://example.com/apply2",
     "last_updated": "2026-01-15"
   }
 ]

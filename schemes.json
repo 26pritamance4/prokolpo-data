@@ -14,6 +14,10 @@
     "documents": ["Aadhaar", "Bank Passbook", "Swasthya Sathi Card", "Passport Photo"],
     "form_pdf_url": "https://socialsecurity.wb.gov.in/forms/lakshmir-bhandar.pdf",
     "apply_online_url": "https://socialsecurity.wb.gov.in",
+    "video_url": [
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+    ],
     "last_updated": "2026-01-15"
   },
   {
@@ -31,6 +35,9 @@
     "documents": ["Birth Certificate", "Aadhaar", "School Certificate", "Income Certificate"],
     "form_pdf_url": "https://wbkanyashree.gov.in/forms/kanyashree.pdf",
     "apply_online_url": "https://wbkanyashree.gov.in",
+    "video_url": [
+      "https://www.youtube.com/watch?v=kJQP7kiw9Fk"
+    ],
     "last_updated": "2026-01-15"
   },
   {
@@ -47,6 +54,10 @@
     "documents": ["জাতীয় পরিচয়পত্র", "আয়ের প্রমাণ"],
     "form_pdf_url": "https://example.com/form1.pdf",
     "apply_online_url": "https://example.com/apply1",
+    "video_url": [
+      "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "https://www.youtube.com/watch?v=RgKAFK5djSk"
+    ],
     "last_updated": "2026-01-15"
   },
   {
@@ -63,6 +74,11 @@
     "documents": ["জমির দলিল", "আধার কার্ড"],
     "form_pdf_url": "https://example.com/form2.pdf",
     "apply_online_url": "https://example.com/apply2",
+    "video_url": [
+      "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "https://www.youtube.com/watch?v=LaHU_x1jJ9Y",
+      "https://www.youtube.com/watch?v=wIFs8qBsk0I"
+    ],
     "last_updated": "2026-01-15"
   }
 ]

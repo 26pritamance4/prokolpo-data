@@ -18,7 +18,8 @@
       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "https://www.youtube.com/watch?v=jNQXAC9IVRw"
     ],
-    "last_updated": "2026-01-15"
+    "last_updated": "2026-01-15",
+    "last_date_to_apply": "2026-04-30"
   },
   {
     "id": "kanyashree",
@@ -38,7 +39,8 @@
     "video_url": [
       "https://www.youtube.com/watch?v=kJQP7kiw9Fk"
     ],
-    "last_updated": "2026-01-15"
+    "last_updated": "2026-01-15",
+    "last_date_to_apply": "2026-04-30"
   },
   {
     "id": "1",
@@ -58,7 +60,8 @@
       "https://www.youtube.com/watch?v=9bZkp7q19f0",
       "https://www.youtube.com/watch?v=RgKAFK5djSk"
     ],
-    "last_updated": "2026-01-15"
+    "last_updated": "2026-01-15",
+    "last_date_to_apply": "2026-04-30"
   },
   {
     "id": "2",
@@ -79,6 +82,7 @@
       "https://www.youtube.com/watch?v=LaHU_x1jJ9Y",
       "https://www.youtube.com/watch?v=wIFs8qBsk0I"
     ],
-    "last_updated": "2026-01-15"
+    "last_updated": "2026-01-15",
+    "last_date_to_apply": "2026-04-30"
   }
 ]

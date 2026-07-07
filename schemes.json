@@ -18,6 +18,7 @@
         "Swasthya Sathi Card",
         "Passport Photo"
       ],
+      "official_website": "https://www.wb.gov.in/",
       "form_pdf_url": "https://www.govtschemes.in/sites/default/files/2026-05/West%20Bengal%20Annapurna%20Bhandar%20Scheme%20English%20Application%20Form.pdf",
       "apply_online_url": "https://socialregistry.wb.gov.in/citizen/#/login",
       "video_url": [
@@ -47,6 +48,7 @@
         "School Certificate",
         "Income Certificate"
       ],
+      "official_website": "https://www.wb.gov.in/",
       "form_pdf_url": "https://wbkanyashree.gov.in/forms/kanyashree.pdf",
       "apply_online_url": "https://wbkanyashree.gov.in",
       "video_url": [
@@ -71,8 +73,9 @@
         "জাতীয় পরিচয়পত্র",
         "আয়ের প্রমাণ"
       ],
-      "form_pdf_url": "https://example.com/form1.pdf",
-      "apply_online_url": "https://example.com/apply1",
+      "official_website": "https://www.india.gov.in/",
+      "form_pdf_url": "https://www.india.gov.in/form1.pdf",
+      "apply_online_url": "https://www.india.gov.in/apply1",
       "video_url": [
         "https://www.youtube.com/watch?v=9bZkp7q19f0",
         "https://www.youtube.com/watch?v=RgKAFK5djSk"
@@ -96,8 +99,9 @@
         "জমির দলিল",
         "আধার কার্ড"
       ],
-      "form_pdf_url": "https://example.com/form2.pdf",
-      "apply_online_url": "https://example.com/apply2",
+      "official_website": "https://pmkisan.gov.in/",
+      "form_pdf_url": "https://pmkisan.gov.in/form2.pdf",
+      "apply_online_url": "https://pmkisan.gov.in/apply2",
       "video_url": [
         "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
         "https://www.youtube.com/watch?v=LaHU_x1jJ9Y",

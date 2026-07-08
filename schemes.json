@@ -24,7 +24,11 @@
       ],
       "last_updated": null,
       "start_date": "2018-12-01",
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://pmkisan.gov.in/",
+        "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf"
+      ]
     },
     {
       "id": "pm-ujjwala-yojana",
@@ -55,7 +59,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://www.pmuy.gov.in/ujjwala2.html",
+        "https://www.pmuy.gov.in/faq.html"
+      ]
     },
     {
       "id": "pmay-urban",
@@ -84,7 +92,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://pmay-urban.gov.in/",
+        "https://pmaymis.gov.in/"
+      ]
     },
     {
       "id": "pmay-gramin",
@@ -112,7 +124,10 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://pmayg.dord.gov.in/netiayHome/Home.aspx"
+      ]
     },
     {
       "id": "kanyashree-prakalpa",
@@ -142,7 +157,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://www.wbkanyashree.gov.in/",
+        "https://www.wbkanyashree.gov.in/kp_scheme.php"
+      ]
     },
     {
       "id": "lakshmir-bhandar",
@@ -172,7 +191,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://socialsecurity.wb.gov.in/",
+        "https://s24pgs.gov.in/lakshmir-bhandar/"
+      ]
     },
     {
       "id": "rupashree-prakalpa",
@@ -205,7 +228,10 @@
       ],
       "last_updated": null,
       "start_date": "2018-04-01",
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://uttardinajpur.gov.in/rupashree-prakalpa/"
+      ]
     },
     {
       "id": "krishak-bandhu",
@@ -233,7 +259,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://krishakbandhu.wb.gov.in/about_kb",
+        "https://krishakbandhu.wb.gov.in/"
+      ]
     },
     {
       "id": "swasthya-sathi",
@@ -259,7 +289,11 @@
       ],
       "last_updated": null,
       "start_date": "2016-12-30",
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://swasthyasathi.gov.in/",
+        "https://swasthyasathi.gov.in/FAQ"
+      ]
     },
     {
       "id": "west-bengal-bhabishyat-credit-card",
@@ -285,7 +319,11 @@
       ],
       "last_updated": null,
       "start_date": null,
-      "last_date_to_apply": null
+      "last_date_to_apply": null,
+      "source": [
+        "https://bccs.wb.gov.in/scheme",
+        "https://bccs.wb.gov.in/"
+      ]
     }
   ]
 }

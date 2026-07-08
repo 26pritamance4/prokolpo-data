@@ -1,115 +1,291 @@
 {
   "schemes": [
     {
-      "id": "lakshmir-bhandar",
-      "name_en": "Lakshmir Bhandar",
-      "name_bn": "লক্ষ্মীর ভান্ডার",
-      "category": "Women",
-      "dept": "Women & Child Development",
-      "benefit": "₹3000/month",
+      "id": "pm-kisan",
+      "name_en": "Pradhan Mantri Kisan Samman Nidhi",
+      "name_bn": "প্রধানমন্ত্রী কিষাণ সম্মান নিধি",
+      "category": "Farmer",
+      "dept": "Ministry of Agriculture & Farmers Welfare, Government of India",
+      "benefit": "যোগ্য ভূমিধারী কৃষক পরিবার বছরে ₹৬,০০০ তিনটি সমান কিস্তিতে পায়।",
       "eligibility": [
-        "Female resident of West Bengal",
-        "Age 20-60 years",
-        "Enrolled in Swasthya Sathi"
+        "কৃষিযোগ্য জমির মালিক ভূমিধারী কৃষক পরিবার",
+        "রাজ্য সরকার বা কেন্দ্রশাসিত অঞ্চল প্রশাসন প্রকল্পের নির্দেশিকা অনুযায়ী যোগ্য পরিবার শনাক্ত করে"
       ],
       "documents": [
-        "Aadhaar",
-        "Bank Passbook",
-        "Swasthya Sathi Card",
-        "Passport Photo"
+        "আধার কার্ড",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "জমির রেকর্ড/ভূমির মালিকানার তথ্য"
       ],
-      "official_website": "https://wb.gov.in",
-      "form_pdf_url": "https://www.govtschemes.in/sites/default/files/2026-05/West%20Bengal%20Annapurna%20Bhandar%20Scheme%20English%20Application%20Form.pdf",
-      "apply_online_url": "https://socialregistry.wb.gov.in/citizen/#/login",
+      "official_website": "https://pmkisan.gov.in/",
+      "form_pdf_url": null,
+      "apply_online_url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
       "video_url": [
-        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-        "https://www.youtube.com/watch?v=GbEFCzg1A2Y"
+        
       ],
-      "last_updated": "2026-01-15",
-      "start_date": "2026-01-10",
-      "last_date_to_apply": "2026-04-30"
+      "last_updated": null,
+      "start_date": "2018-12-01",
+      "last_date_to_apply": null
     },
     {
-      "id": "kanyashree",
+      "id": "pm-ujjwala-yojana",
+      "name_en": "Pradhan Mantri Ujjwala Yojana",
+      "name_bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনা",
+      "category": "Social Security",
+      "dept": "Ministry of Petroleum and Natural Gas, Government of India",
+      "benefit": "যোগ্য দরিদ্র পরিবারের প্রাপ্তবয়স্ক মহিলাকে LPG সংযোগের সুবিধা দেওয়া হয়।",
+      "eligibility": [
+        "আবেদনকারী মহিলা হতে হবে",
+        "বয়স কমপক্ষে ১৮ বছর হতে হবে",
+        "একই পরিবারে অন্য কোনো OMC LPG সংযোগ থাকা যাবে না",
+        "দরিদ্র পরিবারের অন্তর্ভুক্ত হতে হবে"
+      ],
+      "documents": [
+        "KYC আবেদন ফর্ম",
+        "আবেদনকারীর আধার কার্ড",
+        "ঠিকানার প্রমাণ, যদি বর্তমান ঠিকানা আধারের ঠিকানার থেকে আলাদা হয়",
+        "রেশন কার্ড বা পরিবার গঠনের সরকারি প্রমাণ",
+        "ব্যাংক অ্যাকাউন্ট নম্বর ও IFSC",
+        "প্রাপ্তবয়স্ক পরিবারের সদস্যদের আধার"
+      ],
+      "official_website": "https://www.pmuy.gov.in/ujjwala2.html",
+      "form_pdf_url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
+      "apply_online_url": "https://www.pmuy.gov.in/",
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
+    },
+    {
+      "id": "pmay-urban",
+      "name_en": "Pradhan Mantri Awas Yojana - Urban",
+      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা - শহর",
+      "category": "Housing",
+      "dept": "Ministry of Housing and Urban Affairs, Government of India",
+      "benefit": "শহরাঞ্চলের যোগ্য দরিদ্র ও মধ্যবিত্ত পরিবারকে সাশ্রয়ী বাড়ি নির্মাণ, ক্রয় বা ভাড়ার জন্য আর্থিক সহায়তা দেওয়া হয়।",
+      "eligibility": [
+        "শহরাঞ্চলের যোগ্য দরিদ্র বা মধ্যবিত্ত পরিবার",
+        "PMAY-U 2.0 নির্দেশিকা অনুযায়ী নির্ধারিত শ্রেণির পরিবার",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "documents": [
+        "আধার কার্ড",
+        "আয়ের প্রমাণ",
+        "ঠিকানার প্রমাণ",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://pmay-urban.gov.in/",
+      "form_pdf_url": null,
+      "apply_online_url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/Applicant_Login.aspx",
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
+    },
+    {
+      "id": "pmay-gramin",
+      "name_en": "Pradhan Mantri Awaas Yojana - Gramin",
+      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা - গ্রামীণ",
+      "category": "Housing",
+      "dept": "Ministry of Rural Development, Government of India",
+      "benefit": "গ্রামীণ এলাকায় যোগ্য পরিবারকে পাকা বাড়ি নির্মাণে সহায়তা করা হয়।",
+      "eligibility": [
+        "গ্রামীণ এলাকার যোগ্য পরিবার",
+        "সরকারি সার্ভে/তালিকা অনুযায়ী অতিরিক্ত যোগ্য গ্রামীণ পরিবার শনাক্ত করা হয়",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "documents": [
+        "আধার কার্ড",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "বাসস্থান/পরিবারের তথ্য",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
+      "form_pdf_url": null,
+      "apply_online_url": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
+    },
+    {
+      "id": "kanyashree-prakalpa",
       "name_en": "Kanyashree Prakalpa",
       "name_bn": "কন্যাশ্রী প্রকল্প",
-      "category": "Education",
-      "dept": "Women & Child Development",
-      "benefit": "₹1750/year K1 + ₹25000 one-time K2",
+      "category": "Scholarship",
+      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
+      "benefit": "মেয়েদের পড়াশোনা চালিয়ে যেতে এবং ১৮ বছরের আগে বিয়ে রোধে আর্থিক সহায়তা দেওয়া হয়।",
       "eligibility": [
-        "Unmarried girl student",
-        "Age 13-18 years",
-        "Family income < ₹1.2L/year"
+        "১৩ থেকে ১৮ বছর বয়সী অবিবাহিত মেয়ে বার্ষিক স্কলারশিপের জন্য যোগ্য হতে পারে",
+        "সরকার স্বীকৃত প্রতিষ্ঠানে অষ্টম থেকে দ্বাদশ শ্রেণিতে পড়াশোনা করতে হবে",
+        "এককালীন অনুদানের জন্য ১৮ থেকে ১৯ বছর বয়সী অবিবাহিত মেয়ে হতে হবে",
+        "অফিসিয়াল নিয়ম অনুযায়ী পরিবারের বার্ষিক আয়সীমা প্রযোজ্য"
       ],
       "documents": [
-        "Birth Certificate",
-        "Aadhaar",
-        "School Certificate",
-        "Income Certificate"
+        "বয়সের প্রমাণ",
+        "শিক্ষা প্রতিষ্ঠানে অধ্যয়নের প্রমাণ",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "অবিবাহিত থাকার ঘোষণা/প্রাসঙ্গিক নথি",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
-      "official_website": "https://wb.gov.in",
-      "form_pdf_url": "https://wbkanyashree.gov.in/forms/kanyashree.pdf",
-      "apply_online_url": "https://wbkanyashree.gov.in",
+      "official_website": "https://www.wbkanyashree.gov.in/",
+      "form_pdf_url": null,
+      "apply_online_url": "https://admin-kanyashree.wb.gov.in/",
       "video_url": [
-        "https://www.youtube.com/watch?v=kJQP7kiw9Fk"
+        
       ],
-      "start_date": "2026-01-10",
-      "last_updated": "2026-01-15",
-      "last_date_to_apply": "2026-04-30"
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
     },
     {
-      "id": "1",
-      "name_en": "Housing Grant",
-      "name_bn": "বাড়ি নির্মাণ অনুদান",
-      "category": "Housing",
-      "dept": "Rural Development",
-      "benefit": "বাড়ি নির্মাণের জন্য আর্থিক সহায়তা",
+      "id": "lakshmir-bhandar",
+      "name_en": "Lakshmir Bhandar",
+      "name_bn": "লক্ষ্মীর ভাণ্ডার",
+      "category": "Women",
+      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
+      "benefit": "পশ্চিমবঙ্গের যোগ্য মহিলারা মাসিক আর্থিক সহায়তা পান।",
       "eligibility": [
-        "নিম্ন আয়ের পরিবার",
-        "গ্রামীণ এলাকায় বসবাস"
+        "মহিলা হতে হবে",
+        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "বয়স ২৫ থেকে ৬০ বছরের মধ্যে হতে হবে",
+        "নিয়মিত বেতন বা পেনশনপ্রাপ্ত সরকারি কর্মী হওয়া যাবে না",
+        "নিজস্ব আধার ও একক ব্যাংক অ্যাকাউন্ট থাকতে হবে"
       ],
       "documents": [
-        "জাতীয় পরিচয়পত্র",
-        "আয়ের প্রমাণ"
+        "আধার কার্ড",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "জাতি শংসাপত্র, যদি প্রযোজ্য হয়",
+        "বাসিন্দা/পরিচয় সংক্রান্ত নথি"
       ],
-      "official_website": "https://www.india.gov.in",
-      "form_pdf_url": "https://www.india.gov.in/form1.pdf",
-      "apply_online_url": "https://www.india.gov.in/apply1",
+      "official_website": "https://s24pgs.gov.in/lakshmir-bhandar/",
+      "form_pdf_url": null,
+      "apply_online_url": "https://socialsecurity.wb.gov.in/",
       "video_url": [
-        "https://www.youtube.com/watch?v=9bZkp7q19f0",
-        "https://www.youtube.com/watch?v=RgKAFK5djSk"
+        
       ],
-      "start_date": "2026-01-10",
-      "last_updated": "2026-01-15",
-      "last_date_to_apply": "2026-04-30"
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
     },
     {
-      "id": "2",
-      "name_en": "Agriculture Support",
-      "name_bn": "কৃষি উন্নয়ন অনুদান",
+      "id": "rupashree-prakalpa",
+      "name_en": "Rupashree Prakalpa",
+      "name_bn": "রূপশ্রী প্রকল্প",
+      "category": "Women",
+      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
+      "benefit": "অর্থনৈতিকভাবে দুর্বল পরিবারের প্রাপ্তবয়স্ক কন্যার বিবাহের সময় এককালীন ₹২৫,০০০ অনুদান দেওয়া হয়।",
+      "eligibility": [
+        "আবেদনকারীর বয়স কমপক্ষে ১৮ বছর হতে হবে",
+        "আবেদন জমা দেওয়ার দিনে অবিবাহিত থাকতে হবে",
+        "প্রস্তাবিত বিবাহটি প্রথম বিবাহ হতে হবে",
+        "পশ্চিমবঙ্গে জন্মগ্রহণকারী বা গত ৫ বছর পশ্চিমবঙ্গের বাসিন্দা বা পিতা-মাতা পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "পরিবারের বার্ষিক আয় ₹১.৫০ লক্ষের বেশি হওয়া যাবে না",
+        "প্রস্তাবিত পাত্রের বয়স কমপক্ষে ২১ বছর হতে হবে"
+      ],
+      "documents": [
+        "বয়সের প্রমাণ",
+        "বাসস্থানের প্রমাণ",
+        "আয়ের প্রমাণ",
+        "ব্যাংক অ্যাকাউন্টের বিবরণ",
+        "বিবাহ সংক্রান্ত নথি",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://uttardinajpur.gov.in/rupashree-prakalpa/",
+      "form_pdf_url": null,
+      "apply_online_url": null,
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": "2018-04-01",
+      "last_date_to_apply": null
+    },
+    {
+      "id": "krishak-bandhu",
+      "name_en": "Krishak Bandhu",
+      "name_bn": "কৃষক বন্ধু",
       "category": "Agriculture",
-      "dept": "Department of Agriculture",
-      "benefit": "কৃষি কার্যক্রমের জন্য তহবিল",
+      "dept": "Department of Agriculture, Government of West Bengal",
+      "benefit": "কৃষকদের চাষের জন্য বছরে সর্বোচ্চ ₹১০,০০০ এবং ন্যূনতম ₹৪,০০০ আর্থিক সহায়তা দেওয়া হয়।",
       "eligibility": [
-        "ক্ষুদ্র এবং মাঝারি কৃষক",
-        "কৃষি জমির মালিক"
+        "পশ্চিমবঙ্গের কৃষক",
+        "চাষযোগ্য জমি থাকা কৃষক",
+        "ROR থাকা কৃষক বা রেকর্ডেড ভাগচাষি",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
       "documents": [
-        "জমির দলিল",
-        "আধার কার্ড"
+        "ভোটার কার্ড",
+        "আধার কার্ড",
+        "ROR বা স্ব-ঘোষণা"
       ],
-      "official_website": "https://pmkisan.gov.in",
-      "form_pdf_url": "https://pmkisan.gov.in/form2.pdf",
-      "apply_online_url": "https://pmkisan.gov.in/apply2",
+      "official_website": "https://krishakbandhu.wb.gov.in/about_kb",
+      "form_pdf_url": null,
+      "apply_online_url": "https://krishakbandhu.wb.gov.in/",
       "video_url": [
-        "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
-        "https://www.youtube.com/watch?v=LaHU_x1jJ9Y",
-        "https://www.youtube.com/watch?v=wIFs8qBsk0I"
+        
       ],
-      "last_updated": "2026-01-15",
-      "start_date": "2026-01-10",
-      "last_date_to_apply": "2026-04-30"
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
+    },
+    {
+      "id": "swasthya-sathi",
+      "name_en": "Swasthya Sathi",
+      "name_bn": "স্বাস্থ্য সাথী",
+      "category": "Health",
+      "dept": "Health & Family Welfare Department, Government of West Bengal",
+      "benefit": "পরিবার প্রতি বছরে ₹৫ লক্ষ পর্যন্ত ক্যাশলেস চিকিৎসা সুবিধা দেওয়া হয়।",
+      "eligibility": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "documents": [
+        "আধার কার্ড",
+        "পরিবারের সদস্যদের তথ্য",
+        "বাসস্থানের প্রমাণ",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://swasthyasathi.gov.in/FAQ",
+      "form_pdf_url": null,
+      "apply_online_url": "https://swasthyasathi.gov.in/",
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": "2016-12-30",
+      "last_date_to_apply": null
+    },
+    {
+      "id": "west-bengal-bhabishyat-credit-card",
+      "name_en": "West Bengal Bhabishyat Credit Card Scheme",
+      "name_bn": "পশ্চিমবঙ্গ ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্প",
+      "category": "Business",
+      "dept": "Micro, Small & Medium Enterprises and Textiles Department, Government of West Bengal",
+      "benefit": "যোগ্য তরুণ উদ্যোক্তাদের নতুন উদ্যোগ বা মাইক্রো এন্টারপ্রাইজ শুরু করতে ঋণ সহায়তা দেওয়া হয়।",
+      "eligibility": [
+        "ভারতীয় নাগরিক হতে হবে",
+        "গত ১০ বছর পশ্চিমবঙ্গে বসবাস করতে হবে",
+        "বয়স ১৮ থেকে ৪৫ বছরের মধ্যে হতে হবে",
+        "নতুন উদ্যোগ/প্রকল্প/মাইক্রো এন্টারপ্রাইজ স্থাপনের উদ্দেশ্য থাকতে হবে"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://bccs.wb.gov.in/scheme",
+      "form_pdf_url": null,
+      "apply_online_url": "https://bccs.wb.gov.in/",
+      "video_url": [
+        
+      ],
+      "last_updated": null,
+      "start_date": null,
+      "last_date_to_apply": null
     }
   ]
 }

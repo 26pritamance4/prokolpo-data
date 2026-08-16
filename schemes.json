@@ -1,329 +1,1673 @@
 {
+  "schema_version": "1.0",
+  "project": "Prokolpo Bondhu",
+  "dataset_type": "production",
+  "total_records": 29,
+  "verified_records": 29,
+  "needs_review_records": 0,
+  "last_verified_at": "2026-08-14",
   "schemes": [
+    {
+      "id": "annapurna-yojana",
+      "name_en": "Annapurna Yojana",
+      "name_bn": "অন্নপূর্ণা যোজনা",
+      "category": "west_bengal",
+      "dept": "Government of West Bengal",
+      "description_bn": "পশ্চিমবঙ্গের ২৫ থেকে ৬০ বছর বয়সী যোগ্য মহিলা বাসিন্দাদের মাসিক আর্থিক সহায়তা দেওয়ার নতুন রাজ্য সরকারি প্রকল্প।",
+      "benefit": "প্রত্যেক যোগ্য সুবিধাভোগী মাসে ₹৩,০০০ আর্থিক সহায়তা পান।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের মহিলা বাসিন্দা হতে হবে",
+        "বয়স ২৫ থেকে ৬০ বছরের মধ্যে হতে হবে",
+        "স্থায়ী সরকারি কর্মচারী হওয়া যাবে না",
+        "আয়করদাতা হওয়া যাবে না",
+        "অবৈধ অভিবাসী হওয়া যাবে না"
+      ],
+      "documents": [
+        "EPIC বা ভোটার পরিচয়পত্র",
+        "আধার কার্ড",
+        "সক্রিয় মোবাইল নম্বর"
+      ],
+      "application_process": [
+        "Social Registry পোর্টালে মোবাইল নম্বর দিয়ে নিবন্ধন করুন",
+        "পরিবার ও পরিচয়সংক্রান্ত তথ্য পূরণ করুন",
+        "অথবা BDO, SDO বা KMC ওয়ার্ড অফিসে ফর্ম জমা দিন",
+        "OTP ও প্রশাসনিক যাচাই সম্পন্ন করুন"
+      ],
+      "official_website": "https://socialregistry.wb.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
+      "apply_online_url": "https://socialregistry.wb.gov.in/login",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Annapurna Yojana - Egiye Bangla",
+          "url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-06-26"
+        },
+        {
+          "title": "Annapurna Yojana Citizen Portal",
+          "url": "https://socialregistry.wb.gov.in/login",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit, eligibility, documents and online/offline routes verified from current West Bengal official sources.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-06-26",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2026-06-03"
+    },
+    {
+      "id": "banglar-yuba-sathi",
+      "name_en": "Banglar Yuba Sathi",
+      "name_bn": "বাংলার যুব সাথী",
+      "category": "west_bengal",
+      "dept": "Government of West Bengal",
+      "description_bn": "নির্দিষ্ট বয়সের শিক্ষিত বেকার যুবকদের অস্থায়ী মাসিক আর্থিক সহায়তা দেওয়ার কর্মসূচি।",
+      "benefit": "যোগ্য যুবক মাসে ₹১,৫০০ পেতে পারেন; সহায়তা সর্বোচ্চ পাঁচ বছর বা কর্মসংস্থান পর্যন্ত চলতে পারে।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "২০২৬ সালের ১ এপ্রিল অনুযায়ী বয়স ২১ থেকে ৪০ বছরের মধ্যে হতে হবে",
+        "শিক্ষিত বেকার হতে হবে",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "অফিসিয়াল পোর্টালে নিবন্ধন করুন",
+        "শিক্ষা, কর্মসংস্থান অবস্থা ও ব্যাংকের তথ্য পূরণ করুন",
+        "প্রয়োজনীয় যাচাই সম্পন্ন করে আবেদন জমা দিন"
+      ],
+      "official_website": "https://ds.wb.gov.in/",
+      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "apply_online_url": "https://ds.wb.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Chief Minister's Office Scheme Master",
+          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Banglar Yuba Sathi portal",
+          "url": "https://ds.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit and age range were available on official pages; complete document list was not clearly published.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2026-04-01"
+    },
     {
       "id": "pm-kisan",
       "name_en": "Pradhan Mantri Kisan Samman Nidhi",
-      "name_bn": "প্রধানমন্ত্রী কিষাণ সম্মান নিধি",
-      "category": "Farmer",
-      "dept": "Ministry of Agriculture & Farmers Welfare, Government of India",
-      "benefit": "যোগ্য ভূমিধারী কৃষক পরিবার বছরে ₹৬,০০০ তিনটি সমান কিস্তিতে পায়।",
+      "name_bn": "প্রধানমন্ত্রী কিষান সম্মান নিধি",
+      "category": "central",
+      "dept": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India",
+      "description_bn": "যোগ্য ভূমিধারী কৃষক পরিবারকে কৃষি ও সংশ্লিষ্ট কাজের প্রয়োজনীয় ব্যয় এবং পারিবারিক প্রয়োজন মেটাতে সরাসরি আয় সহায়তা দেওয়ার জন্য কেন্দ্রীয় সরকারের এই প্রকল্প চালু রয়েছে।",
+      "benefit": "যোগ্য কৃষক পরিবার বছরে মোট ₹৬,০০০ পায়। এই অর্থ প্রতি চার মাস অন্তর ₹২,০০০ করে তিনটি সমান কিস্তিতে সরাসরি ব্যাংক অ্যাকাউন্টে দেওয়া হয়।",
       "eligibility": [
-        "কৃষিযোগ্য জমির মালিক ভূমিধারী কৃষক পরিবার",
-        "রাজ্য সরকার বা কেন্দ্রশাসিত অঞ্চল প্রশাসন প্রকল্পের নির্দেশিকা অনুযায়ী যোগ্য পরিবার শনাক্ত করে"
+        "পরিবারের নামে কৃষিযোগ্য জমির মালিকানা থাকতে হবে",
+        "প্রাতিষ্ঠানিক জমির মালিক এই সুবিধার যোগ্য নন",
+        "নির্দেশিকায় উল্লিখিত সরকারি পদাধিকারী, নির্দিষ্ট সরকারি কর্মচারী বা পেনশনভোগী, আয়করদাতা এবং নিবন্ধিত পেশাজীবীদের পরিবার বাদ পড়তে পারে"
       ],
       "documents": [
-        "আধার কার্ড",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "জমির রেকর্ড/ভূমির মালিকানার তথ্য"
+        "আধার নম্বর",
+        "সক্রিয় মোবাইল নম্বর",
+        "ব্যাংক অ্যাকাউন্টের তথ্য",
+        "জমির মালিকানা বা ভূমি রেকর্ডের তথ্য"
+      ],
+      "application_process": [
+        "PM-KISAN-এর অফিসিয়াল New Farmer Registration পেজ খুলুন",
+        "আধার নম্বর, মোবাইল নম্বর ও রাজ্য নির্বাচন করুন",
+        "UIDAI-এর মাধ্যমে আধার প্রমাণীকরণ সম্পন্ন করুন",
+        "প্রয়োজনীয় কৃষিজমি, ব্যক্তিগত ও ব্যাংক সংক্রান্ত তথ্য দিয়ে নিবন্ধন সম্পন্ন করুন",
+        "নিবন্ধনের পরে অফিসিয়াল পোর্টাল থেকে অবস্থা পরীক্ষা করুন"
       ],
       "official_website": "https://pmkisan.gov.in/",
-      "form_pdf_url": null,
+      "official_scheme_url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf",
       "apply_online_url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": "2018-12-01",
-      "last_date_to_apply": null,
+      "form_pdf_url": "",
+      "video_url": [],
       "source": [
-        "https://pmkisan.gov.in/",
-        "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf"
-      ]
-    },
-    {
-      "id": "pm-ujjwala-yojana",
-      "name_en": "Pradhan Mantri Ujjwala Yojana",
-      "name_bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনা",
-      "category": "Social Security",
-      "dept": "Ministry of Petroleum and Natural Gas, Government of India",
-      "benefit": "যোগ্য দরিদ্র পরিবারের প্রাপ্তবয়স্ক মহিলাকে LPG সংযোগের সুবিধা দেওয়া হয়।",
-      "eligibility": [
-        "আবেদনকারী মহিলা হতে হবে",
-        "বয়স কমপক্ষে ১৮ বছর হতে হবে",
-        "একই পরিবারে অন্য কোনো OMC LPG সংযোগ থাকা যাবে না",
-        "দরিদ্র পরিবারের অন্তর্ভুক্ত হতে হবে"
+        {
+          "title": "PM-KISAN official portal",
+          "url": "https://pmkisan.gov.in/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PM-KISAN Revised Frequently Asked Questions",
+          "url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PM-KISAN New Farmer Registration Form",
+          "url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
       ],
-      "documents": [
-        "KYC আবেদন ফর্ম",
-        "আবেদনকারীর আধার কার্ড",
-        "ঠিকানার প্রমাণ, যদি বর্তমান ঠিকানা আধারের ঠিকানার থেকে আলাদা হয়",
-        "রেশন কার্ড বা পরিবার গঠনের সরকারি প্রমাণ",
-        "ব্যাংক অ্যাকাউন্ট নম্বর ও IFSC",
-        "প্রাপ্তবয়স্ক পরিবারের সদস্যদের আধার"
-      ],
-      "official_website": "https://www.pmuy.gov.in/ujjwala2.html",
-      "form_pdf_url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
-      "apply_online_url": "https://www.pmuy.gov.in/",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
-      "source": [
-        "https://www.pmuy.gov.in/ujjwala2.html",
-        "https://www.pmuy.gov.in/faq.html"
-      ]
-    },
-    {
-      "id": "pmay-urban",
-      "name_en": "Pradhan Mantri Awas Yojana - Urban",
-      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা - শহর",
-      "category": "Housing",
-      "dept": "Ministry of Housing and Urban Affairs, Government of India",
-      "benefit": "শহরাঞ্চলের যোগ্য দরিদ্র ও মধ্যবিত্ত পরিবারকে সাশ্রয়ী বাড়ি নির্মাণ, ক্রয় বা ভাড়ার জন্য আর্থিক সহায়তা দেওয়া হয়।",
-      "eligibility": [
-        "শহরাঞ্চলের যোগ্য দরিদ্র বা মধ্যবিত্ত পরিবার",
-        "PMAY-U 2.0 নির্দেশিকা অনুযায়ী নির্ধারিত শ্রেণির পরিবার",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "documents": [
-        "আধার কার্ড",
-        "আয়ের প্রমাণ",
-        "ঠিকানার প্রমাণ",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "official_website": "https://pmay-urban.gov.in/",
-      "form_pdf_url": null,
-      "apply_online_url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/Applicant_Login.aspx",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
-      "source": [
-        "https://pmay-urban.gov.in/",
-        "https://pmaymis.gov.in/"
-      ]
-    },
-    {
-      "id": "pmay-gramin",
-      "name_en": "Pradhan Mantri Awaas Yojana - Gramin",
-      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা - গ্রামীণ",
-      "category": "Housing",
-      "dept": "Ministry of Rural Development, Government of India",
-      "benefit": "গ্রামীণ এলাকায় যোগ্য পরিবারকে পাকা বাড়ি নির্মাণে সহায়তা করা হয়।",
-      "eligibility": [
-        "গ্রামীণ এলাকার যোগ্য পরিবার",
-        "সরকারি সার্ভে/তালিকা অনুযায়ী অতিরিক্ত যোগ্য গ্রামীণ পরিবার শনাক্ত করা হয়",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "documents": [
-        "আধার কার্ড",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "বাসস্থান/পরিবারের তথ্য",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "official_website": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
-      "form_pdf_url": null,
-      "apply_online_url": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
-      "source": [
-        "https://pmayg.dord.gov.in/netiayHome/Home.aspx"
-      ]
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit, principal eligibility, exclusion criteria and registration gateway were checked against the PM-KISAN official portal and official FAQ.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "পুরোনো রেকর্ডকে নতুন PIP স্কিমায় রূপান্তর করা হয়েছে এবং যোগ্যতা, বর্জন ও নিবন্ধন ধাপ আরও নির্ভুলভাবে যুক্ত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2018-12-01"
     },
     {
       "id": "kanyashree-prakalpa",
       "name_en": "Kanyashree Prakalpa",
       "name_bn": "কন্যাশ্রী প্রকল্প",
-      "category": "Scholarship",
-      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
-      "benefit": "মেয়েদের পড়াশোনা চালিয়ে যেতে এবং ১৮ বছরের আগে বিয়ে রোধে আর্থিক সহায়তা দেওয়া হয়।",
+      "category": "west_bengal",
+      "dept": "Department of Women and Child Development and Social Welfare, Government of West Bengal",
+      "description_bn": "কিশোরীদের পড়াশোনায় ধরে রাখা এবং প্রাপ্তবয়স্ক হওয়ার আগে বিয়ে প্রতিরোধের উদ্দেশ্যে পশ্চিমবঙ্গ সরকারের শর্তসাপেক্ষ আর্থিক সহায়তা প্রকল্প।",
+      "benefit": "যোগ্য ছাত্রীদের বার্ষিক বৃত্তি এবং ১৮ বছর পূর্ণ হওয়ার পরে নির্ধারিত শর্তে এককালীন ₹২৫,০০০ অনুদান দেওয়া হয়। বার্ষিক বৃত্তির পরিমাণ সম্পর্কে অফিসিয়াল ওয়েবপেজ ও অন্য অফিসিয়াল SOP-তে ভিন্ন তথ্য পাওয়া গেছে।",
       "eligibility": [
-        "১৩ থেকে ১৮ বছর বয়সী অবিবাহিত মেয়ে বার্ষিক স্কলারশিপের জন্য যোগ্য হতে পারে",
-        "সরকার স্বীকৃত প্রতিষ্ঠানে অষ্টম থেকে দ্বাদশ শ্রেণিতে পড়াশোনা করতে হবে",
-        "এককালীন অনুদানের জন্য ১৮ থেকে ১৯ বছর বয়সী অবিবাহিত মেয়ে হতে হবে",
-        "অফিসিয়াল নিয়ম অনুযায়ী পরিবারের বার্ষিক আয়সীমা প্রযোজ্য"
+        "K1-এর জন্য সাধারণত ১৩ থেকে ১৮ বছর বয়সী অবিবাহিত ছাত্রী",
+        "স্বীকৃত শিক্ষা প্রতিষ্ঠানে অষ্টম শ্রেণি বা তার উপরে অধ্যয়নরত হতে হবে",
+        "K2-এর জন্য ১৮ বছর পূর্ণ হওয়া অবিবাহিত ছাত্রী এবং নির্ধারিত শিক্ষা বা প্রশিক্ষণ প্রতিষ্ঠানের সঙ্গে যুক্ত থাকা প্রয়োজন",
+        "প্রযোজ্য আয় ও অন্যান্য শর্ত অফিসিয়াল নির্দেশিকা অনুযায়ী যাচাই করতে হবে"
       ],
       "documents": [
         "বয়সের প্রমাণ",
         "শিক্ষা প্রতিষ্ঠানে অধ্যয়নের প্রমাণ",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "অবিবাহিত থাকার ঘোষণা/প্রাসঙ্গিক নথি",
+        "নিজের নামে ব্যাংক অ্যাকাউন্টের তথ্য",
+        "প্রয়োজনীয় ঘোষণা ও শিক্ষা প্রতিষ্ঠানের প্রত্যয়ন",
         "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
-      "official_website": "https://www.wbkanyashree.gov.in/",
-      "form_pdf_url": null,
-      "apply_online_url": "https://admin-kanyashree.wb.gov.in/",
-      "video_url": [
-        
+      "application_process": [
+        "নিজের শিক্ষা প্রতিষ্ঠানের Kanyashree দায়িত্বপ্রাপ্ত ব্যক্তির সঙ্গে যোগাযোগ করুন",
+        "K1 বা K2 অনুযায়ী নির্ধারিত আবেদনপত্র সংগ্রহ ও পূরণ করুন",
+        "প্রয়োজনীয় বয়স, শিক্ষা ও ব্যাংক-সংক্রান্ত নথি জমা দিন",
+        "প্রতিষ্ঠান ও সংশ্লিষ্ট প্রশাসনিক স্তরের যাচাই সম্পন্ন হওয়ার অপেক্ষা করুন"
       ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
+      "official_website": "https://www.wbkanyashree.gov.in/",
+      "official_scheme_url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
       "source": [
-        "https://www.wbkanyashree.gov.in/",
-        "https://www.wbkanyashree.gov.in/kp_scheme.php"
-      ]
+        {
+          "title": "Kanyashree official scheme page",
+          "url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Kanyashree official FAQ",
+          "url": "https://www.wbkanyashree.gov.in/kp_faq.php",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Kanyashree Duare Sarkar SOP",
+          "url": "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "needs_review",
+      "verification_notes": "Official sources conflict on the K1 annual scholarship amount: one official scheme page shows ₹500 while an official Duare Sarkar SOP search result shows ₹1,000. The record intentionally omits a final K1 amount until the department confirms the current figure.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "K1 বার্ষিক বৃত্তির পরিমাণ নিয়ে অফিসিয়াল উৎসে অসঙ্গতি ধরা পড়েছে; তাই রেকর্ডটি মানব যাচাইয়ের জন্য চিহ্নিত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2013-10-01"
     },
     {
-      "id": "lakshmir-bhandar",
-      "name_en": "Lakshmir Bhandar",
-      "name_bn": "লক্ষ্মীর ভাণ্ডার",
-      "category": "Women",
-      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
-      "benefit": "পশ্চিমবঙ্গের যোগ্য মহিলারা মাসিক আর্থিক সহায়তা পান।",
+      "id": "krishak-bandhu",
+      "name_en": "Krishak Bandhu (Natun)",
+      "name_bn": "কৃষক বন্ধু (নতুন)",
+      "category": "west_bengal",
+      "dept": "Department of Agriculture, Government of West Bengal",
+      "description_bn": "পশ্চিমবঙ্গের কৃষকদের চাষের আর্থিক সহায়তা এবং কৃষকের অকালমৃত্যুর ক্ষেত্রে পরিবারকে সামাজিক সুরক্ষা দেওয়ার রাজ্য সরকারি প্রকল্প।",
+      "benefit": "এক একর বা তার বেশি কৃষিযোগ্য জমির জন্য বছরে ₹১০,০০০ এবং এক একরের কম জমির জন্য আনুপাতিক হারে, তবে কমপক্ষে ₹৪,০০০ সহায়তা দেওয়া হয়। ১৮ থেকে ৬০ বছর বয়সী নিবন্ধিত কৃষকের মৃত্যু হলে পরিবার এককালীন ₹২ লক্ষ পেতে পারে।",
       "eligibility": [
-        "মহিলা হতে হবে",
-        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
-        "বয়স ২৫ থেকে ৬০ বছরের মধ্যে হতে হবে",
-        "নিয়মিত বেতন বা পেনশনপ্রাপ্ত সরকারি কর্মী হওয়া যাবে না",
-        "নিজস্ব আধার ও একক ব্যাংক অ্যাকাউন্ট থাকতে হবে"
+        "পশ্চিমবঙ্গের যোগ্য কৃষক হতে হবে",
+        "কৃষিযোগ্য জমির মালিক বা নির্দেশিকায় স্বীকৃত রেকর্ডভুক্ত চাষি হতে হবে",
+        "মৃত্যু-সহায়তার জন্য মৃত কৃষকের বয়স ১৮ থেকে ৬০ বছরের মধ্যে হতে হবে",
+        "চূড়ান্ত যোগ্যতা কৃষি দপ্তরের রেকর্ড ও যাচাইয়ের ওপর নির্ভরশীল"
       ],
       "documents": [
-        "আধার কার্ড",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "জাতি শংসাপত্র, যদি প্রযোজ্য হয়",
-        "বাসিন্দা/পরিচয় সংক্রান্ত নথি"
+        "পরিচয়পত্র",
+        "আধার",
+        "জমির রেকর্ড বা প্রযোজ্য কৃষি-সংক্রান্ত ঘোষণা",
+        "ব্যাংক অ্যাকাউন্টের তথ্য",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
-      "official_website": "https://s24pgs.gov.in/lakshmir-bhandar/",
-      "form_pdf_url": null,
-      "apply_online_url": "https://socialsecurity.wb.gov.in/",
-      "video_url": [
-        
+      "application_process": [
+        "নিজের ব্লকের Assistant Director of Agriculture-এর অফিসে যোগাযোগ করুন",
+        "বর্তমান নিবন্ধন পদ্ধতি ও প্রয়োজনীয় ফর্ম সংগ্রহ করুন",
+        "পরিচয়, জমি ও ব্যাংক সংক্রান্ত নথি জমা দিন",
+        "দপ্তরের যাচাই শেষে নিবন্ধনের অবস্থা পরীক্ষা করুন"
       ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
+      "official_website": "https://krishakbandhu.wb.gov.in/",
+      "official_scheme_url": "https://krishakbandhu.wb.gov.in/about_kb",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
       "source": [
-        "https://socialsecurity.wb.gov.in/",
-        "https://s24pgs.gov.in/lakshmir-bhandar/"
-      ]
+        {
+          "title": "About Krishak Bandhu",
+          "url": "https://krishakbandhu.wb.gov.in/about_kb",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Krishak Bandhu official portal",
+          "url": "https://krishakbandhu.wb.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Krishak Bandhu official FAQ",
+          "url": "https://krishakbandhu.wb.gov.in/download_notification12",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Cultivation assistance, two seasonal instalments, death benefit and block-level registration route were confirmed on the official portal.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "মৃত্যু-সহায়তার ₹২ লক্ষ সুবিধা এবং ব্লক কৃষি দপ্তরের মাধ্যমে নিবন্ধন পদ্ধতি যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2021-06-17"
+    },
+    {
+      "id": "swasthya-sathi",
+      "name_en": "Swasthya Sathi",
+      "name_bn": "স্বাস্থ্য সাথী",
+      "category": "west_bengal",
+      "dept": "Health and Family Welfare Department, Government of West Bengal",
+      "description_bn": "পশ্চিমবঙ্গের যোগ্য পরিবারকে তালিকাভুক্ত সরকারি ও বেসরকারি হাসপাতালে ক্যাশলেস চিকিৎসা সুবিধা দেওয়ার রাজ্য স্বাস্থ্য সুরক্ষা প্রকল্প।",
+      "benefit": "পরিবার প্রতি বছরে সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ক্যাশলেস চিকিৎসা সুবিধা দেওয়া হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা পরিবার",
+        "নির্দিষ্ট সরকারি স্বাস্থ্যবিমা বা স্বাস্থ্য-আশ্বাস প্রকল্পে ইতিমধ্যে অন্তর্ভুক্ত পরিবার বাদ পড়তে পারে",
+        "সরকারি নিয়ম অনুযায়ী চিকিৎসা ভাতা পাওয়া কর্মচারী বা নির্দিষ্ট গোষ্ঠী বাদ পড়তে পারে"
+      ],
+      "documents": [
+        "আধার নম্বর",
+        "খাদ্যসাথী রেশন কার্ড নম্বর",
+        "নিবন্ধিত মোবাইল নম্বর",
+        "পরিবারের সদস্যদের পরিচয় ও সম্পর্কের তথ্য",
+        "প্রযোজ্য কর্মসংস্থান ও সরকারি স্বাস্থ্যসুবিধা সংক্রান্ত তথ্য"
+      ],
+      "application_process": [
+        "Swasthya Sathi-এর অফিসিয়াল পোর্টালে Apply Online অংশ খুলুন",
+        "মোবাইল নম্বর দিয়ে OTP যাচাই করুন",
+        "জেলা, ব্লক বা পৌরসভা এবং ঠিকানার তথ্য পূরণ করুন",
+        "পরিবারের সদস্যদের আধার, খাদ্যসাথী রেশন কার্ড ও অন্যান্য প্রয়োজনীয় তথ্য যোগ করুন",
+        "সব তথ্য পরীক্ষা করে আবেদন জমা দিন"
+      ],
+      "official_website": "https://swasthyasathi.gov.in/",
+      "official_scheme_url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
+      "apply_online_url": "https://swasthyasathi.gov.in/",
+      "form_pdf_url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Swasthya Sathi official scheme page",
+          "url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Swasthya Sathi official portal",
+          "url": "https://swasthyasathi.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Instructions for Swasthya Sathi Form B",
+          "url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Coverage, major exclusions, family provisions and Form B online application instructions were checked against official Swasthya Sathi sources.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "যোগ্যতার প্রধান বর্জন, প্রয়োজনীয় Form B তথ্য এবং অনলাইন আবেদন ধাপ বিস্তারিতভাবে যুক্ত হয়েছে।",
+      "last_updated": "2026-01-21",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2016-12-30"
+    },
+    {
+      "id": "west-bengal-student-credit-card",
+      "name_en": "West Bengal Student Credit Card Scheme",
+      "name_bn": "পশ্চিমবঙ্গ স্টুডেন্ট ক্রেডিট কার্ড প্রকল্প",
+      "category": "west_bengal",
+      "dept": "Higher Education Department, Government of West Bengal",
+      "description_bn": "পশ্চিমবঙ্গের শিক্ষার্থীদের স্কুল, উচ্চশিক্ষা, পেশাগত শিক্ষা, গবেষণা বা নির্দিষ্ট প্রতিযোগিতামূলক পরীক্ষার প্রশিক্ষণের ব্যয় বহনে ঋণ সহায়তা দেওয়ার প্রকল্প।",
+      "benefit": "যোগ্য শিক্ষার্থী সর্বোচ্চ ₹১০ লক্ষ পর্যন্ত জামানতবিহীন শিক্ষা ঋণ পেতে পারেন। অফিসিয়াল পোর্টাল অনুযায়ী সাধারণ সরল সুদের হার বছরে ৪% এবং পড়াশোনার সময়ে সুদ নিয়মিত পরিশোধ করলে অতিরিক্ত ১% ছাড়ের বিধান রয়েছে।",
+      "eligibility": [
+        "আবেদনকারীর পরিবারকে আবেদনকালে অন্তত গত ১০ বছর পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "আবেদনকারীর বয়স ঋণের আবেদনকালে ৪০ বছরের বেশি হওয়া যাবে না",
+        "স্বীকৃত স্কুল, মাদ্রাসা, কলেজ, বিশ্ববিদ্যালয়, পেশাগত প্রতিষ্ঠান, গবেষণা বা অনুমোদিত প্রশিক্ষণে যুক্ত থাকতে হবে",
+        "দেশের বাইরে স্বীকৃত প্রতিষ্ঠানে অধ্যয়নরত শিক্ষার্থীও নির্দেশিকা অনুযায়ী আবেদন করতে পারে",
+        "আয়ের সর্বোচ্চ সীমা নেই"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "WBSCC-এর অফিসিয়াল পোর্টাল খুলুন",
+        "দেশের ভিতরে বা বিদেশে প্রতিষ্ঠানের ধরন অনুযায়ী Student Registration নির্বাচন করুন",
+        "নিবন্ধন সম্পন্ন করে আবেদনকারী অ্যাকাউন্টে লগইন করুন",
+        "ব্যক্তিগত, শিক্ষা, প্রতিষ্ঠান ও ঋণ-সংক্রান্ত তথ্য পূরণ করুন",
+        "প্রয়োজনীয় নথি জমা দিয়ে আবেদন নম্বর সংরক্ষণ করুন"
+      ],
+      "official_website": "https://wbscc.wb.gov.in/",
+      "official_scheme_url": "https://wbscc.wb.gov.in/About",
+      "apply_online_url": "https://wbscc.wb.gov.in/Applicant_Login",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "West Bengal Student Credit Card official portal",
+          "url": "https://wbscc.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "WBSCC About the Scheme",
+          "url": "https://wbscc.wb.gov.in/About",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "WBSCC official FAQ",
+          "url": "https://wbscc.wb.gov.in/FAQ",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "This active high-priority West Bengal scheme was not present in the existing dataset and has been added from the official WBSCC portal and FAQ.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "পশ্চিমবঙ্গ স্টুডেন্ট ক্রেডিট কার্ডকে নতুন রেকর্ড হিসেবে যুক্ত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2021-06-30"
+    },
+    {
+      "id": "oasis-scholarships",
+      "name_en": "OASIS Scholarships for SC, ST and OBC Students",
+      "name_bn": "ওয়েসিস—এসসি, এসটি ও ওবিসি বৃত্তি",
+      "category": "west_bengal",
+      "dept": "Backward Classes Welfare Department, Government of West Bengal",
+      "description_bn": "SC, ST ও OBC ছাত্রছাত্রীদের প্রি-ম্যাট্রিক ও পোস্ট-ম্যাট্রিক বৃত্তির সরকারি আবেদন পোর্টাল।",
+      "benefit": "শ্রেণি, সম্প্রদায়, কোর্স ও আবাসিক অবস্থার ভিত্তিতে বৃত্তি দেওয়া হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের যোগ্য SC, ST বা OBC ছাত্রছাত্রী হতে হবে",
+        "প্রযোজ্য শিক্ষার স্তর ও আয়সীমা পূরণ করতে হবে",
+        "ST আবেদনকারীদের NSP OTR বাধ্যতামূলক"
+      ],
+      "documents": [
+        "NSP OTR, যেখানে প্রযোজ্য",
+        "আধার",
+        "জাতিগত শংসাপত্র",
+        "মার্কশিট ও ভর্তি প্রমাণ",
+        "DBT-সক্ষম ব্যাংক অ্যাকাউন্ট",
+        "আয়ের শংসাপত্র, যেখানে প্রযোজ্য"
+      ],
+      "application_process": [
+        "OASIS পোর্টালে Student Registration করুন",
+        "ST হলে NSP OTR তৈরি করুন",
+        "বৃত্তি নির্বাচন করে তথ্য পূরণ করুন",
+        "নথি আপলোড করে আবেদন জমা দিন",
+        "Track Application থেকে অবস্থা দেখুন"
+      ],
+      "official_website": "https://oasis.wb.gov.in/",
+      "official_scheme_url": "https://oasis.wb.gov.in/",
+      "apply_online_url": "https://oasis.wb.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "OASIS Scholarship Portal",
+          "url": "https://oasis.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": "2026-07-23"
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Official portal confirms 2026-27 applications are open for listed components.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-07-23",
+      "last_verified_at": "2026-07-23",
+      "start_date": ""
+    },
+    {
+      "id": "swami-vivekananda-merit-cum-means-scholarship",
+      "name_en": "Swami Vivekananda Merit-cum-Means Scholarship",
+      "name_bn": "স্বামী বিবেকানন্দ মেরিট-কাম-মিনস বৃত্তি",
+      "category": "west_bengal",
+      "dept": "Higher Education Department, Government of West Bengal",
+      "description_bn": "মেধাবী কিন্তু আর্থিকভাবে দুর্বল ছাত্রছাত্রীদের একাদশ শ্রেণি থেকে উচ্চশিক্ষা ও গবেষণায় সহায়তার বৃত্তি।",
+      "benefit": "কোর্স ও স্তর অনুযায়ী মাসিক বৃত্তির হার আলাদা; অফিসিয়াল তালিকায় ₹১,০০০ থেকে উচ্চতর হার রয়েছে।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের যোগ্য প্রতিষ্ঠানে নিয়মিত কোর্সে পড়তে হবে",
+        "HS/UG স্তরে সাধারণত কমপক্ষে ৬০% নম্বর",
+        "PG General-এ ৫৩% এবং PG Technical-এ ৫৫%",
+        "বার্ষিক পারিবারিক আয় সাধারণত ₹২.৫০ লক্ষের বেশি নয়",
+        "একই কোর্সে অন্য সরকারি বৃত্তি একসঙ্গে নেওয়া যায় না"
+      ],
+      "documents": [
+        "মার্কশিট",
+        "ভর্তি প্রমাণ",
+        "আয়ের শংসাপত্র",
+        "ব্যাংক অ্যাকাউন্ট ও IFSC",
+        "ছবি ও স্বাক্ষর"
+      ],
+      "application_process": [
+        "SVMCM পোর্টালে নিবন্ধন করুন",
+        "ব্যক্তিগত, শিক্ষা, আয় ও ব্যাংকের তথ্য পূরণ করুন",
+        "নথি আপলোড করুন",
+        "চূড়ান্ত আবেদন জমা দিন",
+        "পুরোনো সুবিধাভোগী হলে Renewal করুন"
+      ],
+      "official_website": "https://svmcm.wb.gov.in/",
+      "official_scheme_url": "https://svmcm.wb.gov.in/page/about.php",
+      "apply_online_url": "https://svmcm.wb.gov.in/",
+      "form_pdf_url": "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "SVMCM About and Guidelines",
+          "url": "https://svmcm.wb.gov.in/page/about.php",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "SVMCM Application Procedure",
+          "url": "https://svmcm.wb.gov.in/page/application_procedure.php",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Eligibility, income ceiling and example scholarship rates verified from the official portal.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-07-23",
+      "last_verified_at": "2026-07-23",
+      "start_date": ""
+    },
+    {
+      "id": "pm-fasal-bima-yojana",
+      "name_en": "Pradhan Mantri Fasal Bima Yojana",
+      "name_bn": "প্রধানমন্ত্রী ফসল বিমা যোজনা",
+      "category": "central",
+      "dept": "Department of Agriculture and Farmers Welfare, Government of India",
+      "description_bn": "প্রাকৃতিক দুর্যোগ, আবহাওয়া, কীটপতঙ্গ ও রোগে বিজ্ঞাপিত ফসলের ক্ষতির বিরুদ্ধে কৃষকদের বিমা সুরক্ষা।",
+      "benefit": "খরিফ খাদ্যশস্য/তেলবীজে কৃষকের সর্বোচ্চ প্রিমিয়াম ২%, রবি ফসলে ১.৫% এবং বার্ষিক বাণিজ্যিক/উদ্যান ফসলে ৫% বা actuarial rate—যেটি কম।",
+      "eligibility": [
+        "বিজ্ঞাপিত এলাকার বিজ্ঞাপিত ফসল চাষকারী হতে হবে",
+        "চাষের বৈধ প্রমাণ থাকতে হবে",
+        "মৌসুমি সময়সীমার মধ্যে নিবন্ধন ও প্রিমিয়াম দিতে হবে"
+      ],
+      "documents": [
+        "পরিচয়পত্র",
+        "মোবাইল নম্বর",
+        "ব্যাংক পাসবুক",
+        "জমি বা চাষের রেকর্ড",
+        "ফসল ও বপনের তথ্য"
+      ],
+      "application_process": [
+        "PMFBY Farmer Registration খুলুন",
+        "কৃষক, ঠিকানা, পরিচয় ও ব্যাংক তথ্য পূরণ করুন",
+        "ফসল ও জমির তথ্য দিন",
+        "নথি জমা দিয়ে প্রিমিয়াম দিন",
+        "Application Status পরীক্ষা করুন"
+      ],
+      "official_website": "https://pmfby.gov.in/",
+      "official_scheme_url": "https://pmfby.gov.in/guidelines",
+      "apply_online_url": "https://pmfby.gov.in/farmerRegistrationForm",
+      "form_pdf_url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMFBY official portal",
+          "url": "https://pmfby.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": "2026-07-22"
+        },
+        {
+          "title": "PMFBY Farmer Registration",
+          "url": "https://pmfby.gov.in/farmerRegistrationForm",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMFBY Revised Guidelines",
+          "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Portal active; deadlines vary by state, crop and season.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-07-22",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2016-02-18"
+    },
+    {
+      "id": "ayushman-bharat-pm-jay",
+      "name_en": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
+      "name_bn": "আয়ুষ্মান ভারত প্রধানমন্ত্রী জন আরোগ্য যোজনা",
+      "category": "central",
+      "dept": "National Health Authority, Ministry of Health and Family Welfare, Government of India",
+      "description_bn": "যোগ্য পরিবারকে তালিকাভুক্ত হাসপাতালে secondary ও tertiary hospitalization-এর cashless স্বাস্থ্য সুরক্ষা।",
+      "benefit": "যোগ্য পরিবার বছরে সর্বোচ্চ ₹৫ লক্ষ cashless hospitalisation cover পায়।",
+      "eligibility": [
+        "সাধারণ PM-JAY-এর জন্য অনুমোদিত beneficiary database-এ নাম",
+        "৭০+ ভারতীয় প্রবীণের জন্য আয় নির্বিশেষে বিশেষ সুবিধা",
+        "নির্দিষ্ট অন্য সরকারি health scheme সুবিধাভোগীর ক্ষেত্রে option প্রযোজ্য"
+      ],
+      "documents": [
+        "মোবাইল নম্বর",
+        "আধার বা পরিচয়পত্র",
+        "পরিবার/beneficiary তথ্য",
+        "৭০+ ক্ষেত্রে বয়সের প্রমাণ"
+      ],
+      "application_process": [
+        "Beneficiary Portal খুলুন",
+        "মোবাইল OTP দিয়ে লগইন করুন",
+        "রাজ্য ও পরিচয় তথ্য দিয়ে status খুঁজুন",
+        "যোগ্য হলে e-KYC করুন",
+        "Ayushman Card তৈরি বা ডাউনলোড করুন"
+      ],
+      "official_website": "https://nha.gov.in/",
+      "official_scheme_url": "https://nha.gov.in/PM-JAY",
+      "apply_online_url": "https://beneficiary.nha.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "About PM-JAY - NHA",
+          "url": "https://nha.gov.in/PM-JAY",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PM-JAY Beneficiary Portal",
+          "url": "https://beneficiary.nha.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMO approval for 70+ coverage",
+          "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-health-coverage-to-all-senior-citizens-of-the-age-70-years-and-above-irrespective-of-income-under-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-ab-pm-jay/",
+          "source_type": "official_press_release",
+          "published_or_updated_date": "2024-09-11"
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "₹5 lakh cover and 70+ expansion verified; ordinary eligibility is database-based.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2018-09-23"
+    },
+    {
+      "id": "pm-ujjwala-yojana",
+      "name_en": "Pradhan Mantri Ujjwala Yojana 2.0",
+      "name_bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনা ২.০",
+      "category": "central",
+      "dept": "Ministry of Petroleum and Natural Gas, Government of India",
+      "description_bn": "দরিদ্র পরিবারের প্রাপ্তবয়স্ক মহিলাদের পরিচ্ছন্ন রান্নার জ্বালানি ব্যবহারে সহায়তার জন্য জমামুক্ত LPG সংযোগ দেওয়ার কেন্দ্রীয় প্রকল্প।",
+      "benefit": "যোগ্য আবেদনকারী জমামুক্ত LPG সংযোগ পান। অফিসিয়াল তথ্য অনুযায়ী প্রথম LPG রিফিল এবং চুলা বা হটপ্লেটও বিনামূল্যে দেওয়া হয়।",
+      "eligibility": [
+        "আবেদনকারীকে মহিলা হতে হবে",
+        "আবেদনকারীর বয়স কমপক্ষে ১৮ বছর হতে হবে",
+        "একই পরিবারের নামে অন্য কোনো Oil Marketing Company-এর LPG সংযোগ থাকা যাবে না",
+        "নির্ধারিত deprivation declaration অনুযায়ী দরিদ্র পরিবারের অন্তর্ভুক্ত হতে হবে"
+      ],
+      "documents": [
+        "KYC আবেদনপত্র",
+        "আবেদনকারীর আধার",
+        "প্রযোজ্য হলে বর্তমান ঠিকানার প্রমাণ",
+        "রেশন কার্ড বা পরিবারের সদস্যসংখ্যার সরকারি প্রমাণ",
+        "প্রাপ্তবয়স্ক পরিবারের সদস্যদের আধার",
+        "ব্যাংক পাসবইয়ের কপি বা বাতিল চেক",
+        "Deprivation Declaration"
+      ],
+      "application_process": [
+        "PMUY-এর অফিসিয়াল Ujjwala 2.0 পেজ খুলুন",
+        "অনলাইন আবেদন অংশ থেকে পছন্দের Oil Marketing Company নির্বাচন করুন অথবা নিকটবর্তী LPG পরিবেশকের কাছে যান",
+        "KYC ও প্রয়োজনীয় ঘোষণাপত্র পূরণ করুন",
+        "প্রয়োজনীয় পরিচয়, পরিবার ও ব্যাংক সংক্রান্ত নথি জমা দিন",
+        "পরিবেশক ও সংশ্লিষ্ট কর্তৃপক্ষের যাচাই সম্পন্ন হওয়ার অপেক্ষা করুন"
+      ],
+      "official_website": "https://www.pmuy.gov.in/",
+      "official_scheme_url": "https://www.pmuy.gov.in/ujjwala2.html",
+      "apply_online_url": "https://www.pmuy.gov.in/ujjwala2.html",
+      "form_pdf_url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMUY Ujjwala 2.0 connection page",
+          "url": "https://www.pmuy.gov.in/ujjwala2.html",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMUY official home page",
+          "url": "https://www.pmuy.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Ujjwala KYC form",
+          "url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Current eligibility, documents, connection benefits and official application gateway were checked on the PMUY portal.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "বর্তমান Ujjwala 2.0 সুবিধা, দরিদ্র পরিবারের declaration এবং অফিসিয়াল আবেদন গেটওয়ে স্পষ্টভাবে যুক্ত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2016-05-01"
+    },
+    {
+      "id": "pmay-urban",
+      "name_en": "Pradhan Mantri Awas Yojana - Urban 2.0",
+      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা—শহর ২.০",
+      "category": "central",
+      "dept": "Ministry of Housing and Urban Affairs, Government of India",
+      "description_bn": "শহরাঞ্চলের যোগ্য পরিবারকে পাকা বাড়ি নির্মাণ, ক্রয় বা সাশ্রয়ী ভাড়া ব্যবস্থার মাধ্যমে আবাসন সহায়তা দেওয়ার কেন্দ্রীয় প্রকল্প।",
+      "benefit": "PMAY-U 2.0-এর চারটি অংশের মাধ্যমে যোগ্য পরিবারকে আর্থিক সহায়তা দেওয়া হয়। BLC-তে যোগ্য EWS পরিবার নিজের জমিতে নতুন পাকা বাড়ি নির্মাণের জন্য সর্বোচ্চ ₹২.৫ লক্ষ সহায়তা পেতে পারে।",
+      "eligibility": [
+        "আবেদনকারী পরিবারকে শহরাঞ্চলে বসবাস করতে হবে",
+        "পরিবারের দেশের কোথাও পাকা বাড়ি থাকা যাবে না",
+        "BLC ও AHP-এর জন্য EWS পরিবারের বার্ষিক আয় সর্বোচ্চ ₹৩ লক্ষ",
+        "ISS-এর জন্য EWS, LIG ও MIG আয়ের সীমা যথাক্রমে সর্বোচ্চ ₹৩ লক্ষ, ₹৬ লক্ষ ও ₹৯ লক্ষ",
+        "চূড়ান্ত যোগ্যতা সংশ্লিষ্ট রাজ্য, কেন্দ্রশাসিত অঞ্চল, নগর সংস্থা বা ঋণদাতা কর্তৃপক্ষ যাচাই করবে"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "PMAY-U 2.0-এর অফিসিয়াল আবেদন পোর্টাল খুলুন",
+        "নির্দেশিকা পড়ে উপযুক্ত vertical নির্বাচন করুন",
+        "Eligibility Check সম্পন্ন করুন",
+        "ব্যক্তিগত, পারিবারিক, আয় ও আবাসন সংক্রান্ত তথ্য পূরণ করুন",
+        "সংশ্লিষ্ট কর্তৃপক্ষের যাচাই সম্পন্ন হওয়ার অপেক্ষা করুন"
+      ],
+      "official_website": "https://pmay-urban.gov.in/",
+      "official_scheme_url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
+      "apply_online_url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
+      "form_pdf_url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMAY-U 2.0 scheme guidelines page",
+          "url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMAY-U 2.0 eligibility and application gateway",
+          "url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMAY-U 2.0 Operational Guidelines",
+          "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": "2024-09-01"
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "The record now reflects PMAY-U 2.0 rather than the earlier mission version. Exact document requirements were not clearly exposed on the official public eligibility page and are therefore not guessed.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "রেকর্ডটি PMAY-U 2.0 অনুযায়ী সংশোধন করা হয়েছে; চারটি vertical, বর্তমান আয়সীমা ও সঠিক eligibility-check URL যুক্ত হয়েছে।",
+      "last_updated": "2024-09-01",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2024-09-01"
+    },
+    {
+      "id": "pmay-gramin",
+      "name_en": "Pradhan Mantri Awaas Yojana - Gramin",
+      "name_bn": "প্রধানমন্ত্রী আবাস যোজনা—গ্রামীণ",
+      "category": "central",
+      "dept": "Ministry of Rural Development, Government of India",
+      "description_bn": "গ্রামীণ এলাকার গৃহহীন পরিবার এবং কাঁচা বা জরাজীর্ণ ঘরে বসবাসকারী যোগ্য পরিবারকে মৌলিক সুবিধাসহ পাকা বাড়ি নির্মাণে সহায়তার কেন্দ্রীয় প্রকল্প।",
+      "benefit": "সমতল এলাকায় বাড়ি নির্মাণের জন্য ₹১.২০ লক্ষ এবং পাহাড়ি, দুর্গম ও নির্দিষ্ট এলাকায় ₹১.৩০ লক্ষ ইউনিট সহায়তা দেওয়ার বিধান রয়েছে। অন্যান্য সরকারি কর্মসূচির সঙ্গে সমন্বয় করে শৌচাগার, শ্রমদিবস ও মৌলিক পরিষেবার সুবিধাও যুক্ত হতে পারে।",
+      "eligibility": [
+        "গ্রামীণ এলাকার গৃহহীন পরিবার",
+        "কাঁচা বা জরাজীর্ণ ঘরে বসবাসকারী যোগ্য পরিবার",
+        "সরকারি সমীক্ষা, স্থায়ী অপেক্ষমাণ তালিকা বা Awaas+ যাচাইয়ের মাধ্যমে পরিবার নির্বাচন করা হয়",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "PMAY-G-তে সাধারণত সরাসরি উন্মুক্ত অনলাইন আবেদন নয়; সরকারি সমীক্ষা ও যাচাইয়ের মাধ্যমে সম্ভাব্য পরিবার চিহ্নিত করা হয়",
+        "নাম ও যোগ্যতার অবস্থা জানতে স্থানীয় গ্রাম পঞ্চায়েত বা সংশ্লিষ্ট গ্রামীণ উন্নয়ন দপ্তরের সঙ্গে যোগাযোগ করুন",
+        "Awaas+ সমীক্ষায় অন্তর্ভুক্ত হলে প্রয়োজনীয় পারিবারিক ও বর্তমান বাসস্থানের তথ্য প্রদান করুন",
+        "অফিসিয়াল PMAY-G পোর্টালে সুবিধাভোগীর অবস্থা পরীক্ষা করুন"
+      ],
+      "official_website": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
+      "official_scheme_url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMAY-G official portal",
+          "url": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMAY-G About Us",
+          "url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Awaas+ 2024 Standard Operating Procedure",
+          "url": "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": "2024-12-27"
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "The previous homepage-as-application-link was removed. PMAY-G beneficiary identification is survey/list based rather than a normal public application form.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "ভুল সরাসরি আবেদন লিংক সরানো হয়েছে এবং সরকারি সমীক্ষা ও তালিকাভিত্তিক নির্বাচন পদ্ধতি স্পষ্ট করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2016-04-01"
     },
     {
       "id": "rupashree-prakalpa",
       "name_en": "Rupashree Prakalpa",
       "name_bn": "রূপশ্রী প্রকল্প",
-      "category": "Women",
-      "dept": "Department of Women & Child Development and Social Welfare, Government of West Bengal",
-      "benefit": "অর্থনৈতিকভাবে দুর্বল পরিবারের প্রাপ্তবয়স্ক কন্যার বিবাহের সময় এককালীন ₹২৫,০০০ অনুদান দেওয়া হয়।",
+      "category": "west_bengal",
+      "dept": "Department of Women and Child Development and Social Welfare, Government of West Bengal",
+      "description_bn": "অর্থনৈতিকভাবে দুর্বল পরিবারের প্রাপ্তবয়স্ক মেয়ের প্রথম বিবাহের সময়ে এককালীন আর্থিক সহায়তা দেওয়ার পশ্চিমবঙ্গ সরকারের প্রকল্প।",
+      "benefit": "যোগ্য আবেদনকারী এককালীন ₹২৫,০০০ আর্থিক অনুদান পান।",
       "eligibility": [
         "আবেদনকারীর বয়স কমপক্ষে ১৮ বছর হতে হবে",
         "আবেদন জমা দেওয়ার দিনে অবিবাহিত থাকতে হবে",
-        "প্রস্তাবিত বিবাহটি প্রথম বিবাহ হতে হবে",
-        "পশ্চিমবঙ্গে জন্মগ্রহণকারী বা গত ৫ বছর পশ্চিমবঙ্গের বাসিন্দা বা পিতা-মাতা পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "প্রস্তাবিত বিবাহটি আবেদনকারীর প্রথম বিবাহ হতে হবে",
+        "পশ্চিমবঙ্গে জন্মগ্রহণকারী বা নির্ধারিত বাসিন্দা-সংক্রান্ত শর্ত পূরণ করতে হবে",
         "পরিবারের বার্ষিক আয় ₹১.৫০ লক্ষের বেশি হওয়া যাবে না",
         "প্রস্তাবিত পাত্রের বয়স কমপক্ষে ২১ বছর হতে হবে"
       ],
       "documents": [
         "বয়সের প্রমাণ",
         "বাসস্থানের প্রমাণ",
-        "আয়ের প্রমাণ",
-        "ব্যাংক অ্যাকাউন্টের বিবরণ",
-        "বিবাহ সংক্রান্ত নথি",
+        "পরিবারের আয়ের প্রমাণ বা নির্ধারিত ঘোষণা",
+        "নিজের নামে ব্যাংক অ্যাকাউন্টের তথ্য",
+        "প্রস্তাবিত বিবাহের তথ্য ও প্রাসঙ্গিক নথি",
         "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
-      "official_website": "https://uttardinajpur.gov.in/rupashree-prakalpa/",
-      "form_pdf_url": null,
-      "apply_online_url": null,
-      "video_url": [
-        
+      "application_process": [
+        "Rupashree Online 3.0-এর অফিসিয়াল পোর্টাল খুলুন",
+        "প্রযোজ্য হলে নতুন ব্যবহারকারী হিসেবে নিবন্ধন করুন",
+        "আবেদনপত্র পূরণ করে প্রয়োজনীয় নথি জমা দিন",
+        "আবেদন আইডি সংরক্ষণ করুন",
+        "অফিসিয়াল Track Application সুবিধা দিয়ে অবস্থা পরীক্ষা করুন"
       ],
-      "last_updated": null,
-      "start_date": "2018-04-01",
-      "last_date_to_apply": null,
+      "official_website": "https://wcdsw.wb.gov.in/",
+      "official_scheme_url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
+      "apply_online_url": "https://rupashree.wb.gov.in/",
+      "form_pdf_url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+      "video_url": [],
       "source": [
-        "https://uttardinajpur.gov.in/rupashree-prakalpa/"
-      ]
-    },
-    {
-      "id": "krishak-bandhu",
-      "name_en": "Krishak Bandhu",
-      "name_bn": "কৃষক বন্ধু",
-      "category": "Agriculture",
-      "dept": "Department of Agriculture, Government of West Bengal",
-      "benefit": "কৃষকদের চাষের জন্য বছরে সর্বোচ্চ ₹১০,০০০ এবং ন্যূনতম ₹৪,০০০ আর্থিক সহায়তা দেওয়া হয়।",
-      "eligibility": [
-        "পশ্চিমবঙ্গের কৃষক",
-        "চাষযোগ্য জমি থাকা কৃষক",
-        "ROR থাকা কৃষক বা রেকর্ডেড ভাগচাষি",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        {
+          "title": "Rupashree Online 3.0",
+          "url": "https://rupashree.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Rupashree Prakalpa - North 24 Parganas District",
+          "url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Rupashree Application Form",
+          "url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
       ],
-      "documents": [
-        "ভোটার কার্ড",
-        "আধার কার্ড",
-        "ROR বা স্ব-ঘোষণা"
-      ],
-      "official_website": "https://krishakbandhu.wb.gov.in/about_kb",
-      "form_pdf_url": null,
-      "apply_online_url": "https://krishakbandhu.wb.gov.in/",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
-      "source": [
-        "https://krishakbandhu.wb.gov.in/about_kb",
-        "https://krishakbandhu.wb.gov.in/"
-      ]
-    },
-    {
-      "id": "swasthya-sathi",
-      "name_en": "Swasthya Sathi",
-      "name_bn": "স্বাস্থ্য সাথী",
-      "category": "Health",
-      "dept": "Health & Family Welfare Department, Government of West Bengal",
-      "benefit": "পরিবার প্রতি বছরে ₹৫ লক্ষ পর্যন্ত ক্যাশলেস চিকিৎসা সুবিধা দেওয়া হয়।",
-      "eligibility": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "documents": [
-        "আধার কার্ড",
-        "পরিবারের সদস্যদের তথ্য",
-        "বাসস্থানের প্রমাণ",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "official_website": "https://swasthyasathi.gov.in/FAQ",
-      "form_pdf_url": null,
-      "apply_online_url": "https://swasthyasathi.gov.in/",
-      "video_url": [
-        
-      ],
-      "last_updated": null,
-      "start_date": "2016-12-30",
-      "last_date_to_apply": null,
-      "source": [
-        "https://swasthyasathi.gov.in/",
-        "https://swasthyasathi.gov.in/FAQ"
-      ]
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "The current official Rupashree Online 3.0 portal, tracking facility and official form were located and linked.",
+      "change_type": "source_changed",
+      "detected_change_summary_bn": "বর্তমান Rupashree Online 3.0 আবেদন ও ট্র্যাকিং পোর্টাল যুক্ত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2018-04-01"
     },
     {
       "id": "west-bengal-bhabishyat-credit-card",
       "name_en": "West Bengal Bhabishyat Credit Card Scheme",
       "name_bn": "পশ্চিমবঙ্গ ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্প",
-      "category": "Business",
-      "dept": "Micro, Small & Medium Enterprises and Textiles Department, Government of West Bengal",
-      "benefit": "যোগ্য তরুণ উদ্যোক্তাদের নতুন উদ্যোগ বা মাইক্রো এন্টারপ্রাইজ শুরু করতে ঋণ সহায়তা দেওয়া হয়।",
+      "category": "west_bengal",
+      "dept": "Micro, Small and Medium Enterprises and Textiles Department, Government of West Bengal",
+      "description_bn": "যোগ্য উদ্যোক্তাকে নতুন বা বিদ্যমান আয়সৃষ্টিকারী ক্ষুদ্র উদ্যোগের জন্য ঋণ সহায়তা দেওয়ার পশ্চিমবঙ্গ সরকারের প্রকল্প।",
+      "benefit": "উৎপাদন, পরিষেবা, ব্যবসা বা বাণিজ্যভিত্তিক যোগ্য প্রকল্পের জন্য সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ সুবিধা পাওয়া যেতে পারে।",
       "eligibility": [
         "ভারতীয় নাগরিক হতে হবে",
-        "গত ১০ বছর পশ্চিমবঙ্গে বসবাস করতে হবে",
-        "বয়স ১৮ থেকে ৪৫ বছরের মধ্যে হতে হবে",
-        "নতুন উদ্যোগ/প্রকল্প/মাইক্রো এন্টারপ্রাইজ স্থাপনের উদ্দেশ্য থাকতে হবে"
+        "নির্ধারিত সময় ধরে পশ্চিমবঙ্গে বসবাসের শর্ত পূরণ করতে হবে",
+        "নির্ধারিত বয়সসীমা পূরণ করতে হবে",
+        "যোগ্য আয়সৃষ্টিকারী উৎপাদন, পরিষেবা, ব্যবসা বা বাণিজ্য প্রকল্প থাকতে হবে",
+        "চূড়ান্ত যোগ্যতা অফিসিয়াল নির্দেশিকা ও ব্যাংকের মূল্যায়নের ওপর নির্ভরশীল"
       ],
       "documents": [
         "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
       ],
-      "official_website": "https://bccs.wb.gov.in/scheme",
-      "form_pdf_url": null,
-      "apply_online_url": "https://bccs.wb.gov.in/",
-      "video_url": [
-        
+      "application_process": [
+        "Bhabishyat Credit Card-এর অফিসিয়াল পোর্টাল খুলুন",
+        "Apply Online নির্বাচন করুন",
+        "আবেদনকারী ও প্রকল্পের তথ্য পূরণ করুন",
+        "প্রয়োজনীয় নথি ও প্রকল্প-সংক্রান্ত তথ্য জমা দিন",
+        "আবেদন নম্বর সংরক্ষণ করে পরবর্তী যাচাই ও ব্যাংক প্রক্রিয়া অনুসরণ করুন"
       ],
-      "last_updated": null,
-      "start_date": null,
-      "last_date_to_apply": null,
+      "official_website": "https://bccs.wb.gov.in/",
+      "official_scheme_url": "https://bccs.wb.gov.in/scheme",
+      "apply_online_url": "https://bccs.wb.gov.in/apply_online",
+      "form_pdf_url": "",
+      "video_url": [],
       "source": [
-        "https://bccs.wb.gov.in/scheme",
-        "https://bccs.wb.gov.in/"
-      ]
+        {
+          "title": "West Bengal Bhabishyat Credit Card official portal",
+          "url": "https://bccs.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "West Bengal Bhabishyat Credit Card scheme page",
+          "url": "https://bccs.wb.gov.in/scheme",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Bhabishyat Credit Card FAQ",
+          "url": "https://bccs.wb.gov.in/FAQ",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "The official portal currently presents an Apply Online route and states a project ceiling up to ₹5 lakh for eligible new or existing units.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "সর্বোচ্চ ₹৫ লক্ষ প্রকল্পসীমা, নতুন ও বিদ্যমান ইউনিটের যোগ্যতা এবং সঠিক Apply Online URL যুক্ত হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2023-04-01"
+    },
+    {
+      "id": "pm-vishwakarma",
+      "name_en": "PM Vishwakarma",
+      "name_bn": "পিএম বিশ্বকর্মা",
+      "category": "central",
+      "dept": "Ministry of Micro, Small and Medium Enterprises, Government of India",
+      "description_bn": "হাত ও প্রথাগত সরঞ্জাম ব্যবহার করে কাজ করা ১৮টি নির্ধারিত পেশার ঐতিহ্যবাহী কারিগর ও শিল্পীদের পরিচয়, দক্ষতা, আধুনিক সরঞ্জাম, ঋণ ও বাজার সহায়তা দেওয়ার কেন্দ্রীয় প্রকল্প।",
+      "benefit": "যোগ্য কারিগর PM Vishwakarma শংসাপত্র ও পরিচয়পত্র, দক্ষতা প্রশিক্ষণ, দৈনিক ₹৫০০ প্রশিক্ষণ ভাতা, সর্বোচ্চ ₹১৫,০০০ টুলকিট প্রণোদনা, ঋণ সহায়তা, ডিজিটাল লেনদেন প্রণোদনা এবং বিপণন সহায়তা পেতে পারেন।",
+      "eligibility": [
+        "অফিসিয়াল তালিকাভুক্ত ১৮টি ঐতিহ্যবাহী পেশার কোনো একটিতে হাত ও সরঞ্জাম দিয়ে কাজ করা কারিগর বা শিল্পী হতে হবে",
+        "আবেদনকারীর বয়স কমপক্ষে ১৮ বছর হতে হবে",
+        "একটি পরিবার থেকে সাধারণত একজন সদস্য সুবিধা পেতে পারেন",
+        "সরকারি কর্মচারী ও তাদের পরিবারের সদস্যদের ক্ষেত্রে নির্দেশিকায় বর্জনের বিধান রয়েছে",
+        "অনুরূপ ঋণভিত্তিক সরকারি স্বনিযুক্তি প্রকল্পের সাম্প্রতিক সুবিধা গ্রহণের ক্ষেত্রে নির্দেশিকার শর্ত প্রযোজ্য"
+      ],
+      "documents": [
+        "আধার",
+        "আধার-সংযুক্ত মোবাইল নম্বর",
+        "ব্যাংক অ্যাকাউন্টের তথ্য",
+        "পেশা ও পরিবারের প্রয়োজনীয় তথ্য",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "নিকটবর্তী Common Service Centre বা CSC-তে যোগাযোগ করুন",
+        "CSC অপারেটরের মাধ্যমে PM Vishwakarma পোর্টালে নিবন্ধন শুরু করুন",
+        "আধার-সংযুক্ত মোবাইল নম্বর দিয়ে OTP এবং বায়োমেট্রিক প্রমাণীকরণ সম্পন্ন করুন",
+        "পেশা, পরিবার ও ব্যাংক সংক্রান্ত তথ্য প্রদান করুন",
+        "গ্রাম পঞ্চায়েত বা নগর সংস্থা এবং পরবর্তী প্রশাসনিক যাচাই সম্পন্ন হওয়ার অপেক্ষা করুন"
+      ],
+      "official_website": "https://pmvishwakarma.gov.in/",
+      "official_scheme_url": "https://pmvishwakarma.gov.in/Home/FAQ",
+      "apply_online_url": "",
+      "form_pdf_url": "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PM Vishwakarma official portal",
+          "url": "https://pmvishwakarma.gov.in/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PM Vishwakarma official FAQ",
+          "url": "https://pmvishwakarma.gov.in/Home/FAQ",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PIB - PM Vishwakarma benefits and eligible trades",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716",
+          "source_type": "official_press_release",
+          "published_or_updated_date": "2023-12-18"
+        },
+        {
+          "title": "PM Vishwakarma CSC Registration e-Booklet",
+          "url": "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "This high-priority central scheme was absent from the existing dataset. Benefits, the 18-trade scope and CSC-led registration were checked against official portal and PIB materials.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "পিএম বিশ্বকর্মা প্রকল্পকে নতুন রেকর্ড হিসেবে যুক্ত করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2023-09-17"
+    },
+    {
+      "id": "aikyashree-scholarship",
+      "name_en": "Aikyashree Scholarships",
+      "name_bn": "ঐক্যশ্রী বৃত্তি",
+      "category": "west_bengal",
+      "dept": "Minority Affairs and Madrasah Education Department, Government of West Bengal",
+      "description_bn": "সংখ্যালঘু সম্প্রদায়ের মেধাবী ও আর্থিকভাবে দুর্বল ছাত্রছাত্রীদের প্রি-ম্যাট্রিক, পোস্ট-ম্যাট্রিক ও মেরিট-কাম-মিনস বৃত্তি।",
+      "benefit": "শিক্ষার স্তর ও বৃত্তির ধরন অনুযায়ী ভর্তি, টিউশন ও রক্ষণাবেক্ষণ সহায়তা দেওয়া হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "স্বীকৃত সংখ্যালঘু সম্প্রদায়ভুক্ত হতে হবে",
+        "স্বীকৃত শিক্ষা প্রতিষ্ঠানে অধ্যয়ন করতে হবে",
+        "প্রযোজ্য নম্বর ও আয়সীমা পূরণ করতে হবে"
+      ],
+      "documents": [
+        "মার্কশিট",
+        "আয়ের শংসাপত্র",
+        "ব্যাংক তথ্য",
+        "বাসিন্দা ও সংখ্যালঘু পরিচয় নথি"
+      ],
+      "application_process": [
+        "বর্তমান শিক্ষাবর্ষের সরকারি পোর্টাল খোলা আছে কি না যাচাই করুন",
+        "নিবন্ধন করে শিক্ষা, আয় ও ব্যাংকের তথ্য পূরণ করুন",
+        "নথি আপলোড করে আবেদন জমা দিন"
+      ],
+      "official_website": "https://www.wbmdfc.net/",
+      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "West Bengal CMO Scheme Master - Aikyashree",
+          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "WBMDFC",
+          "url": "https://www.wbmdfc.net/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Scheme and components verified; a reliable current direct application URL was not confirmed in this run.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2019-04-01"
+    },
+    {
+      "id": "atal-pension-yojana",
+      "name_en": "Atal Pension Yojana",
+      "name_bn": "অটল পেনশন যোজনা",
+      "category": "central",
+      "dept": "Pension Fund Regulatory and Development Authority, Government of India",
+      "description_bn": "অসংগঠিত ক্ষেত্রসহ যোগ্য নাগরিকের বার্ধক্যে নিশ্চিত মাসিক পেনশনের অবদানভিত্তিক প্রকল্প।",
+      "benefit": "৬০ বছর বয়সের পরে অবদান অনুযায়ী মাসে ₹১,০০০, ₹২,০০০, ₹৩,০০০, ₹৪,০০০ বা ₹৫,০০০ ন্যূনতম পেনশন।",
+      "eligibility": [
+        "ভারতীয় নাগরিক",
+        "বয়স ১৮ থেকে ৪০ বছর",
+        "ব্যাংক/ডাকঘর সঞ্চয়ী অ্যাকাউন্ট",
+        "১ অক্টোবর ২০২২ থেকে আয়করদাতা নতুন করে যোগ দিতে পারবেন না"
+      ],
+      "documents": [
+        "APY registration form",
+        "সঞ্চয়ী অ্যাকাউন্ট",
+        "KYC/আধার",
+        "মোবাইল নম্বর",
+        "নমিনির তথ্য"
+      ],
+      "application_process": [
+        "ব্যাংক বা ডাকঘর থেকে APY form নিন",
+        "পেনশন স্তর ও অবদান নির্বাচন করুন",
+        "KYC, জীবনসঙ্গী ও নমিনি তথ্য পূরণ করুন",
+        "Auto-debit সম্মতি দিয়ে জমা দিন"
+      ],
+      "official_website": "https://pfrda.org.in/",
+      "official_scheme_url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Atal Pension Yojana - PFRDA",
+          "url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-01-23"
+        },
+        {
+          "title": "APY FAQs",
+          "url": "https://www.pfrda.org.in/w/faqs/atal-pension-yojana",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2025-08-21"
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Age, tax exclusion and pension choices verified.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-01-23",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2015-06-01"
+    },
+    {
+      "id": "duare-sarkar",
+      "name_en": "Duare Sarkar",
+      "name_bn": "দুয়ারে সরকার",
+      "category": "west_bengal",
+      "dept": "Government of West Bengal",
+      "description_bn": "স্থানীয় ক্যাম্পের মাধ্যমে বিভিন্ন সরকারি প্রকল্প ও পরিষেবার আবেদন ও সহায়তা নাগরিকের কাছে পৌঁছে দেওয়ার উদ্যোগ।",
+      "benefit": "এক জায়গায় বহু সরকারি প্রকল্পের আবেদন, নথি জমা, সংশোধন ও সহায়তা পাওয়া যায়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের নাগরিক বা সংশ্লিষ্ট পরিষেবার আবেদনকারী",
+        "প্রতিটি পরিষেবার নিজস্ব যোগ্যতা প্রযোজ্য"
+      ],
+      "documents": [
+        "প্রকল্প বা পরিষেবা অনুযায়ী নথি আলাদা",
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "ক্যাম্পের সময়সূচি ও স্থান যাচাই করুন",
+        "প্রয়োজনীয় নথি নিয়ে ক্যাম্পে যান",
+        "ফর্ম ও নথি জমা দিন",
+        "Acknowledgment সংগ্রহ করুন"
+      ],
+      "official_website": "https://ds.wb.gov.in/",
+      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "West Bengal CMO Scheme Master - Duare Sarkar",
+          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Duare Sarkar portal",
+          "url": "https://ds.wb.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Classified as a service-delivery initiative; camp availability is phase-specific.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2020-12-01"
+    },
+    {
+      "id": "jai-johar",
+      "name_en": "Jai Johar Scheme",
+      "name_bn": "জয় জোহার প্রকল্প",
+      "category": "west_bengal",
+      "dept": "Tribal Development Department, Government of West Bengal",
+      "description_bn": "৬০ বছর বা তার বেশি বয়সী অর্থনৈতিকভাবে দুর্বল ST প্রবীণদের মাসিক পেনশন প্রকল্প।",
+      "benefit": "যোগ্য ST প্রবীণকে মাসিক পেনশন DBT-র মাধ্যমে দেওয়া হয়; বর্তমান অফিসিয়াল পেজে নির্দিষ্ট পরিমাণ স্পষ্ট নয়।",
+      "eligibility": [
+        "ST সম্প্রদায়ভুক্ত",
+        "পশ্চিমবঙ্গের বাসিন্দা",
+        "বয়স ৬০ বছর বা তার বেশি",
+        "অন্য অনুরূপ সরকারি পেনশন গ্রহণকারী নন"
+      ],
+      "documents": [
+        "বয়সের প্রমাণ",
+        "ST শংসাপত্র",
+        "পরিচয় ও বাসস্থানের প্রমাণ",
+        "ব্যাংক তথ্য"
+      ],
+      "application_process": [
+        "GP, ULB, BDO, জেলা কল্যাণ অফিস বা CSC-তে যোগাযোগ করুন",
+        "ফর্ম পূরণ করে নথি জমা দিন",
+        "যাচাই ও অনুমোদনের অপেক্ষা করুন"
+      ],
+      "official_website": "https://adibasikalyan.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Jai Johar - Egiye Bangla",
+          "url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-06-26"
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Eligibility and DBT verified; no numerical amount invented because current page omits it.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-06-26",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2020-04-01"
+    },
+    {
+      "id": "pradhan-mantri-jan-dhan-yojana",
+      "name_en": "Pradhan Mantri Jan-Dhan Yojana",
+      "name_bn": "প্রধানমন্ত্রী জনধন যোজনা",
+      "category": "central",
+      "dept": "Department of Financial Services, Ministry of Finance, Government of India",
+      "description_bn": "ব্যাংকিং পরিষেবা থেকে বঞ্চিত মানুষকে basic savings account, DBT, remittance, credit, insurance ও pension ব্যবস্থার সঙ্গে যুক্ত করার কর্মসূচি।",
+      "benefit": "যোগ্য ব্যক্তি basic savings account, RuPay card, DBT এবং যোগ্যতা অনুযায়ী overdraft, বিমা ও pension-linked সুবিধা পেতে পারেন।",
+      "eligibility": [
+        "যোগ্য ভারতীয় নাগরিক",
+        "ব্যাংকের KYC নিয়ম পূরণ করতে হবে",
+        "নাবালকের ক্ষেত্রে minor-account নিয়ম প্রযোজ্য"
+      ],
+      "documents": [
+        "আধার বা ব্যাংক অনুমোদিত KYC নথি",
+        "ঠিকানার প্রমাণ, যেখানে প্রয়োজন",
+        "ছবি, যেখানে প্রয়োজন",
+        "মোবাইল নম্বর"
+      ],
+      "application_process": [
+        "ব্যাংক শাখা বা Bank Mitra-র কাছে যান",
+        "PMJDY/Basic Savings form পূরণ করুন",
+        "KYC নথি জমা দিন",
+        "অ্যাকাউন্ট খোলার পরে Aadhaar/mobile/DBT seeding যাচাই করুন"
+      ],
+      "official_website": "https://pmjdy.gov.in/",
+      "official_scheme_url": "https://pmjdy.gov.in/scheme",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMJDY Scheme Page",
+          "url": "https://pmjdy.gov.in/scheme",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMJDY About",
+          "url": "https://www.pmjdy.gov.in/about",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Classified as a financial inclusion service; account opening is through banks/BCs.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-07-15",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2014-08-28"
+    },
+    {
+      "id": "pradhan-mantri-matru-vandana-yojana",
+      "name_en": "Pradhan Mantri Matru Vandana Yojana",
+      "name_bn": "প্রধানমন্ত্রী মাতৃ বন্দনা যোজনা",
+      "category": "central",
+      "dept": "Ministry of Women and Child Development, Government of India",
+      "description_bn": "যোগ্য গর্ভবতী ও স্তন্যদানকারী মহিলাদের মাতৃত্বকালীন আর্থিক সহায়তার প্রকল্প।",
+      "benefit": "প্রথম সন্তানের জন্য ₹৫,০০০ এবং দ্বিতীয় সন্তান মেয়ে হলে ₹৬,০০০ DBT সহায়তা।",
+      "eligibility": [
+        "সামাজিক ও অর্থনৈতিকভাবে পিছিয়ে থাকা বা প্রান্তিক গর্ভবতী/স্তন্যদানকারী মহিলা",
+        "SC/ST, ৪০%+ প্রতিবন্ধী, BPL, PM-JAY, e-Shram, PM-KISAN মহিলা কৃষক, MGNREGA Job Card বা NFSA-সহ সরকার নির্ধারিত শ্রেণি",
+        "বার্ষিক পারিবারিক নিট আয় ₹৮ লক্ষের কম, যেখানে প্রযোজ্য"
+      ],
+      "documents": [
+        "আধার",
+        "মোবাইল নম্বর",
+        "ব্যাংক/ডাকঘর অ্যাকাউন্ট",
+        "MCP রেকর্ড",
+        "গর্ভাবস্থা, জন্ম ও টিকাকরণের প্রমাণ",
+        "যোগ্যতা-শ্রেণির নথি"
+      ],
+      "application_process": [
+        "Anganwadi Worker, ASHA বা স্বাস্থ্যকর্মীর সঙ্গে যোগাযোগ করুন",
+        "PMMVY নিবন্ধন ও আধার যাচাই সম্পন্ন করুন",
+        "গর্ভাবস্থা, ব্যাংক ও যোগ্যতা তথ্য দিন",
+        "Milestone অনুযায়ী নথি আপডেট করুন"
+      ],
+      "official_website": "https://pmmvy.wcd.gov.in/",
+      "official_scheme_url": "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
+      "apply_online_url": "https://pmmvy.wcd.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMMVY official scheme page",
+          "url": "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMMVY FAQ",
+          "url": "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Current benefit amounts and eligibility categories verified.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2017-01-01"
+    },
+    {
+      "id": "pradhan-mantri-suraksha-bima-yojana",
+      "name_en": "Pradhan Mantri Suraksha Bima Yojana",
+      "name_bn": "প্রধানমন্ত্রী সুরক্ষা বিমা যোজনা",
+      "category": "central",
+      "dept": "Department of Financial Services, Ministry of Finance, Government of India",
+      "description_bn": "ব্যাংক বা ডাকঘর অ্যাকাউন্টধারীদের অল্প প্রিমিয়ামে দুর্ঘটনাজনিত মৃত্যু ও প্রতিবন্ধিতার বিমা।",
+      "benefit": "দুর্ঘটনাজনিত মৃত্যু বা সম্পূর্ণ স্থায়ী অক্ষমতায় ₹২ লক্ষ, আংশিক স্থায়ী অক্ষমতায় ₹১ লক্ষ; বার্ষিক প্রিমিয়াম ₹২০।",
+      "eligibility": [
+        "বয়স ১৮ থেকে ৭০ বছর",
+        "অংশগ্রহণকারী ব্যাংক/ডাকঘরের সঞ্চয়ী অ্যাকাউন্ট",
+        "Auto-debit সম্মতি",
+        "এক ব্যক্তির জন্য একটি অ্যাকাউন্টের মাধ্যমে কভার"
+      ],
+      "documents": [
+        "সম্মতি ও ঘোষণা ফর্ম",
+        "সঞ্চয়ী অ্যাকাউন্ট",
+        "KYC/আধার",
+        "নমিনির তথ্য"
+      ],
+      "application_process": [
+        "ব্যাংক/ডাকঘর শাখা, net banking বা mobile banking-এ PMSBY নির্বাচন করুন",
+        "ফর্ম ও নমিনি তথ্য পূরণ করুন",
+        "₹২০ auto-debit অনুমোদন করুন",
+        "Enrollment acknowledgment সংরক্ষণ করুন"
+      ],
+      "official_website": "https://jansuraksha.gov.in/",
+      "official_scheme_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+      "apply_online_url": "",
+      "form_pdf_url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMSBY Rules",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMSBY Application Form",
+          "url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Corrected to accidental death/disability only.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2015-05-09"
+    },
+    {
+      "id": "prime-ministers-employment-generation-programme",
+      "name_en": "Prime Minister's Employment Generation Programme",
+      "name_bn": "প্রধানমন্ত্রীর কর্মসংস্থান সৃষ্টি কর্মসূচি",
+      "category": "central",
+      "dept": "Ministry of Micro, Small and Medium Enterprises, Government of India",
+      "description_bn": "নতুন non-farm micro-enterprise স্থাপন করে স্বনিযুক্তি ও কর্মসংস্থানের জন্য subsidy-linked bank credit প্রকল্প।",
+      "benefit": "সাধারণ শ্রেণিতে ১৫%–২৫% এবং বিশেষ শ্রেণিতে ২৫%–৩৫% subsidy; manufacturing প্রকল্পে সর্বোচ্চ ₹৫০ লক্ষ ও service/trading-এ ₹২০ লক্ষ প্রকল্প ব্যয়।",
+      "eligibility": [
+        "বয়স ১৮ বছরের বেশি",
+        "নতুন micro-enterprise হতে হবে",
+        "নির্ধারিত বড় প্রকল্পে অন্তত অষ্টম শ্রেণি পাস",
+        "আয়ের সর্বোচ্চ সীমা নেই",
+        "এক পরিবারে সাধারণত একজন নতুন-unit সুবিধাভোগী"
+      ],
+      "documents": [
+        "আধার",
+        "PAN",
+        "ছবি",
+        "শিক্ষাগত নথি",
+        "Project Report",
+        "প্রযোজ্য শ্রেণির শংসাপত্র",
+        "ব্যাংক ও unit location তথ্য"
+      ],
+      "application_process": [
+        "PMEGP Online Application খুলুন",
+        "আধার যাচাই করে তথ্য পূরণ করুন",
+        "Project activity, ব্যয় ও কর্মসংস্থান তথ্য দিন",
+        "ব্যাংক নির্বাচন করুন",
+        "নথি ও Project Report আপলোড করে আবেদন জমা দিন"
+      ],
+      "official_website": "https://pmegp.msme.gov.in/",
+      "official_scheme_url": "https://pmegp.msme.gov.in/",
+      "apply_online_url": "https://pmegp.msme.gov.in/Home/HomePage",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "PMEGP official portal",
+          "url": "https://pmegp.msme.gov.in/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMEGP Online Application",
+          "url": "https://pmegp.msme.gov.in/Home/HomePage",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Current application route, project ceilings and eligibility verified.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-07-23",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2008-08-01"
+    },
+    {
+      "id": "rajya-khadya-suraksha-yojana",
+      "name_en": "Rajya Khadya Suraksha Yojana",
+      "name_bn": "রাজ্য খাদ্য সুরক্ষা যোজনা",
+      "category": "west_bengal",
+      "dept": "Food and Supplies Department, Government of West Bengal",
+      "description_bn": "অর্থনৈতিকভাবে দুর্বল পরিবারকে বিনামূল্যে খাদ্যশস্য দেওয়ার পশ্চিমবঙ্গ সরকারি প্রকল্প।",
+      "benefit": "Category 1-এ প্রতি ব্যক্তি মাসে ৫ কেজি এবং Category 2-এ ২ কেজি চাল বিনামূল্যে দেওয়া হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের বাসিন্দা",
+        "বৈধ রেশন কার্ড বা যোগ্য আবেদন",
+        "অর্থনৈতিকভাবে দুর্বল পরিবার",
+        "সরকারি বর্জন শর্তে না পড়া"
+      ],
+      "documents": [
+        "আধার",
+        "ঠিকানার প্রমাণ",
+        "আয়ের শংসাপত্র",
+        "পরিচয়পত্র",
+        "পরিবার ও পেশার তথ্য"
+      ],
+      "application_process": [
+        "Food and Supplies পোর্টালে আবেদন নির্বাচন করুন",
+        "OTP যাচাই করুন",
+        "পরিবার, ঠিকানা, আয় ও পেশার তথ্য পূরণ করুন",
+        "নথি আপলোড বা খাদ্য অফিসে জমা দিন",
+        "অনুমোদনের পরে Fair Price Shop থেকে খাদ্যশস্য নিন"
+      ],
+      "official_website": "https://food.wb.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx",
+      "apply_online_url": "https://food.wb.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Rajya Khadya Suraksha Yojana - Egiye Bangla",
+          "url": "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-06-26"
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Grain quantities, eligibility, documents and process verified.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-06-26",
+      "last_verified_at": "2026-07-23",
+      "start_date": ""
+    },
+    {
+      "id": "sabooj-sathi",
+      "name_en": "Sabooj Sathi",
+      "name_bn": "সবুজ সাথী",
+      "category": "west_bengal",
+      "dept": "Government of West Bengal",
+      "description_bn": "সরকারি, সরকার-পোষিত ও সরকার-সহায়তাপ্রাপ্ত বিদ্যালয়ের নবম থেকে দ্বাদশ শ্রেণির শিক্ষার্থীদের সাইকেল দেওয়ার প্রকল্প।",
+      "benefit": "যোগ্য শিক্ষার্থী বিনামূল্যে সাইকেল পায়।",
+      "eligibility": [
+        "নবম থেকে দ্বাদশ শ্রেণির শিক্ষার্থী হতে হবে",
+        "সরকারি, সরকার-পোষিত বা সরকার-সহায়তাপ্রাপ্ত বিদ্যালয়ে পড়তে হবে"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "বিদ্যালয় কর্তৃপক্ষ শিক্ষার্থীর তথ্য সরকারি তালিকায় অন্তর্ভুক্ত করে",
+        "তথ্য ভুল থাকলে বিদ্যালয়ের সঙ্গে যোগাযোগ করুন",
+        "বিদ্যালয়ের মাধ্যমে সাইকেল গ্রহণ করুন"
+      ],
+      "official_website": "https://wb.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Sabooj Sathi - Egiye Bangla",
+          "url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2022-05-02"
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit and eligible classes verified; institution-managed with no public application.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2022-05-02",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2015-01-01"
+    },
+    {
+      "id": "taposili-bandhu",
+      "name_en": "Taposili Bandhu Scheme",
+      "name_bn": "তপশিলি বন্ধু প্রকল্প",
+      "category": "west_bengal",
+      "dept": "Backward Classes Welfare Department, Government of West Bengal",
+      "description_bn": "৬০ বছর বা তার বেশি বয়সী অর্থনৈতিকভাবে দুর্বল SC প্রবীণদের মাসিক পেনশন প্রকল্প।",
+      "benefit": "যোগ্য সুবিধাভোগী মাসে ₹১,০০০ পেনশন পান।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা",
+        "SC সম্প্রদায়ভুক্ত",
+        "বয়স ৬০ বছর বা তার বেশি",
+        "অন্য সরকারি পেনশন গ্রহণকারী নন",
+        "বৈধ ব্যাংক অ্যাকাউন্ট থাকতে হবে"
+      ],
+      "documents": [
+        "বয়সের প্রমাণ",
+        "SC শংসাপত্র",
+        "বাসস্থানের প্রমাণ",
+        "ব্যাংক তথ্য",
+        "পরিচয়পত্র"
+      ],
+      "application_process": [
+        "BDO বা পৌরসভা অফিস থেকে ফর্ম নিন",
+        "তথ্য ও নথি পূরণ করুন",
+        "স্থানীয় কর্তৃপক্ষের কাছে জমা দিন",
+        "যাচাই ও অনুমোদনের অপেক্ষা করুন"
+      ],
+      "official_website": "https://wb.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Taposili Bandhu - Egiye Bangla",
+          "url": "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-06-26"
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Amount, age, caste and duplicate-pension exclusion verified.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "2026-06-26",
+      "last_verified_at": "2026-07-23",
+      "start_date": "2020-04-01"
+    },
+    {
+      "id": "pradhan-mantri-viksit-bharat-rozgar-yojana",
+      "name_en": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+      "name_bn": "প্রধানমন্ত্রী বিকশিত ভারত রোজগার যোজনা",
+      "category": "central",
+      "dept": "Ministry of Labour and Employment, Government of India",
+      "description_bn": "নতুন কর্মসংস্থান সৃষ্টি, কর্মসংস্থানের আনুষ্ঠানিকীকরণ এবং প্রথমবার EPFO-তে যোগদানকারী কর্মী ও যোগ্য নিয়োগকর্তাদের উৎসাহ দেওয়ার জন্য কেন্দ্রীয় সরকারের কর্মসংস্থান-সংযুক্ত প্রণোদনা প্রকল্প।",
+      "benefit": "প্রথমবার EPFO-তে যোগদানকারী যোগ্য কর্মী সর্বোচ্চ ₹১৫,০০০ পর্যন্ত প্রণোদনা পেতে পারেন। যোগ্য নিয়োগকর্তা প্রতি অতিরিক্ত কর্মীর জন্য মাসে সর্বোচ্চ ₹৩,০০০ পর্যন্ত প্রণোদনা পেতে পারেন, প্রযোজ্য মজুরি-স্ল্যাব অনুযায়ী।",
+      "eligibility": [
+        "কর্মীর যোগদানের তারিখ ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭-এর মধ্যে হতে হবে।",
+        "কর্মীকে ০১-০৮-২০২৫-এর আগে EPFO বা exempted trust-এ contributing member হওয়া যাবে না।",
+        "কর্মীর মাসিক মোট মজুরি ₹১,০০,০০০ পর্যন্ত হতে হবে।",
+        "প্রথম কিস্তির জন্য একই প্রতিষ্ঠানে কমপক্ষে ৬ মাস কাজ করতে হবে।",
+        "নিয়োগকর্তাকে EPFO-registered establishment হতে হবে এবং নির্ধারিত অতিরিক্ত নতুন কর্মসংস্থান সৃষ্টি ও বজায় রাখতে হবে।"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "কর্মী UAN সংগ্রহ/সক্রিয় করুন এবং যোগ্য চাকরিতে যোগদান করুন।",
+        "যোগ্যতা অনুযায়ী EPFO-তে কর্মসংস্থান সংক্রান্ত অবদান ও তথ্য নথিভুক্ত হবে।",
+        "নির্ধারিত সময় কর্মরত থাকার পরে প্রণোদনা Aadhaar-seeded bank account-এ প্রদান করা হবে।",
+        "নিয়োগকর্তা EPFO employer login-এর মাধ্যমে প্রণোদনার জন্য নিবন্ধন করবেন, যোগ্য কর্মী নিয়োগ করবেন এবং নিয়মিত ECR জমা দেবেন।"
+      ],
+      "official_website": "https://pmvbry.epfindia.gov.in/",
+      "official_scheme_url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
+      "apply_online_url": "https://pmvbry.epfindia.gov.in/dashboard/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana - EPFO official scheme page",
+          "url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMVBRY official employee and employer benefits page",
+          "url": "https://pmvbry.epfindia.gov.in/?page_id=7123",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Official PMVBRY Guidelines",
+          "url": "https://pmvbry.epfindia.gov.in/guidelines/",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "বর্তমান EPFO-এর সরকারি PMVBRY পোর্টালে কর্মী ও নিয়োগকর্তার যোগ্যতা, ₹১৫,০০০ পর্যন্ত কর্মী প্রণোদনা, প্রতি অতিরিক্ত কর্মীতে সর্বোচ্চ ₹৩,০০০ মাসিক নিয়োগকর্তা প্রণোদনা এবং ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭ সময়কাল নিশ্চিত করা হয়েছে।",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রধানমন্ত্রী বিকশিত ভারত রোজগার যোজনা নতুন যাচাইকৃত কেন্দ্রীয় প্রকল্প হিসেবে যুক্ত হয়েছে।",
+      "last_updated": "2026-08-14",
+      "last_verified_at": "2026-08-14",
+      "start_date": "2025-08-01"
     }
   ]
 }

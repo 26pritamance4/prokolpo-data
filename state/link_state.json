@@ -1,0 +1,1206 @@
+{
+  "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf": {
+    "url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
+    "checked_at": "2026-08-20T10:27:04+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swasthya-sathi.form_pdf_url",
+      "swasthya-sathi.source"
+    ]
+  },
+  "https://adibasikalyan.gov.in/": {
+    "url": "https://adibasikalyan.gov.in/",
+    "checked_at": "2026-08-20T10:27:05+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='adibasikalyan.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLErro",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "jai-johar.official_website"
+    ]
+  },
+  "https://bccs.wb.gov.in/": {
+    "url": "https://bccs.wb.gov.in/",
+    "checked_at": "2026-08-20T10:27:16+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-bhabishyat-credit-card.official_website",
+      "west-bengal-bhabishyat-credit-card.source"
+    ]
+  },
+  "https://bccs.wb.gov.in/FAQ": {
+    "url": "https://bccs.wb.gov.in/FAQ",
+    "checked_at": "2026-08-20T10:27:19+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /FAQ (Caused by SSLError(SSLError(1",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-bhabishyat-credit-card.source"
+    ]
+  },
+  "https://bccs.wb.gov.in/apply_online": {
+    "url": "https://bccs.wb.gov.in/apply_online",
+    "checked_at": "2026-08-20T10:27:22+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /apply_online (Caused by SSLError(S",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-bhabishyat-credit-card.apply_online_url"
+    ]
+  },
+  "https://bccs.wb.gov.in/scheme": {
+    "url": "https://bccs.wb.gov.in/scheme",
+    "checked_at": "2026-08-20T10:27:25+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /scheme (Caused by SSLError(SSLErro",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-bhabishyat-credit-card.official_scheme_url",
+      "west-bengal-bhabishyat-credit-card.source"
+    ]
+  },
+  "https://beneficiary.nha.gov.in/": {
+    "url": "https://beneficiary.nha.gov.in/",
+    "checked_at": "2026-08-20T10:27:26+00:00",
+    "outcome": "tls_error",
+    "status": 403,
+    "note": "HTTPSConnectionPool(host='beneficiary.nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCe",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "tls_unverified": true,
+    "referenced_by": [
+      "ayushman-bharat-pm-jay.apply_online_url",
+      "ayushman-bharat-pm-jay.source"
+    ]
+  },
+  "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf": {
+    "url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+    "checked_at": "2026-08-20T10:27:28+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='bsk.wb.gov.in', port=443): Max retries exceeded with url: /download/RupashreeApplicationForm.p",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "rupashree-prakalpa.form_pdf_url",
+      "rupashree-prakalpa.source"
+    ]
+  },
+  "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx": {
+    "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+    "checked_at": "2026-08-20T10:27:29+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "banglar-yuba-sathi.official_scheme_url",
+      "banglar-yuba-sathi.source",
+      "aikyashree-scholarship.official_scheme_url",
+      "aikyashree-scholarship.source",
+      "duare-sarkar.official_scheme_url",
+      "duare-sarkar.source"
+    ]
+  },
+  "https://ds.wb.gov.in/": {
+    "url": "https://ds.wb.gov.in/",
+    "checked_at": "2026-08-20T10:29:54+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "banglar-yuba-sathi.official_website",
+      "banglar-yuba-sathi.apply_online_url",
+      "banglar-yuba-sathi.source",
+      "duare-sarkar.official_website",
+      "duare-sarkar.source"
+    ]
+  },
+  "https://food.wb.gov.in/": {
+    "url": "https://food.wb.gov.in/",
+    "checked_at": "2026-08-20T10:32:18+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "7ac2b18a3b340394a977c8ea90ca6c4c080857e9dfe36e43551c4f0cc43c392d",
+    "referenced_by": [
+      "rajya-khadya-suraksha-yojana.official_website",
+      "rajya-khadya-suraksha-yojana.apply_online_url"
+    ]
+  },
+  "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx": {
+    "url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
+    "checked_at": "2026-08-20T10:32:30+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swasthya-sathi.official_scheme_url",
+      "swasthya-sathi.source"
+    ]
+  },
+  "https://jansuraksha.gov.in/": {
+    "url": "https://jansuraksha.gov.in/",
+    "checked_at": "2026-08-20T10:32:32+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "62ba7dc270b4208a206fdf38a01ea676faf2b7c65156d80b7d87aa52970710b5",
+    "tls_unverified": true,
+    "referenced_by": [
+      "pradhan-mantri-suraksha-bima-yojana.official_website"
+    ]
+  },
+  "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf": {
+    "url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
+    "checked_at": "2026-08-20T10:32:36+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "9c7b435148ef56aa6d06b8322e471285712bbda64c587dde1aefb343f98ff33d",
+    "tls_unverified": true,
+    "referenced_by": [
+      "pradhan-mantri-suraksha-bima-yojana.form_pdf_url",
+      "pradhan-mantri-suraksha-bima-yojana.source"
+    ]
+  },
+  "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf": {
+    "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+    "checked_at": "2026-08-20T10:32:40+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "195a99298e85821bd84174c4973ad8f8be2ecf24cfb97f865799c702cae7feb5",
+    "tls_unverified": true,
+    "referenced_by": [
+      "pradhan-mantri-suraksha-bima-yojana.official_scheme_url",
+      "pradhan-mantri-suraksha-bima-yojana.source"
+    ]
+  },
+  "https://krishakbandhu.wb.gov.in/": {
+    "url": "https://krishakbandhu.wb.gov.in/",
+    "checked_at": "2026-08-20T10:32:44+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLE",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "krishak-bandhu.official_website",
+      "krishak-bandhu.source"
+    ]
+  },
+  "https://krishakbandhu.wb.gov.in/about_kb": {
+    "url": "https://krishakbandhu.wb.gov.in/about_kb",
+    "checked_at": "2026-08-20T10:32:47+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: /about_kb (Caused by SSLEr",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "krishak-bandhu.official_scheme_url",
+      "krishak-bandhu.source"
+    ]
+  },
+  "https://krishakbandhu.wb.gov.in/download_notification12": {
+    "url": "https://krishakbandhu.wb.gov.in/download_notification12",
+    "checked_at": "2026-08-20T10:32:50+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: /download_notification12 (",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "krishak-bandhu.source"
+    ]
+  },
+  "https://nha.gov.in/": {
+    "url": "https://nha.gov.in/",
+    "checked_at": "2026-08-20T10:32:51+00:00",
+    "outcome": "tls_error",
+    "status": 403,
+    "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificati",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "tls_unverified": true,
+    "referenced_by": [
+      "ayushman-bharat-pm-jay.official_website"
+    ]
+  },
+  "https://nha.gov.in/PM-JAY": {
+    "url": "https://nha.gov.in/PM-JAY",
+    "checked_at": "2026-08-20T10:32:54+00:00",
+    "outcome": "tls_error",
+    "status": 403,
+    "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: /PM-JAY (Caused by SSLError(SSLCertVeri",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "tls_unverified": true,
+    "referenced_by": [
+      "ayushman-bharat-pm-jay.official_scheme_url",
+      "ayushman-bharat-pm-jay.source"
+    ]
+  },
+  "https://north24parganas.gov.in/scheme/rupashree-prakalpa/": {
+    "url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
+    "checked_at": "2026-08-20T10:32:55+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "e6aeaf0319d6b00c30504f8402b5b358e887c648d5f7b542ca7c7a7821afc11d",
+    "referenced_by": [
+      "rupashree-prakalpa.official_scheme_url",
+      "rupashree-prakalpa.source"
+    ]
+  },
+  "https://oasis.wb.gov.in/": {
+    "url": "https://oasis.wb.gov.in/",
+    "checked_at": "2026-08-20T10:32:57+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "de8bcf67e3cef939bd6758876d9307107709389a7e079939ef81554ef2c8553a",
+    "referenced_by": [
+      "oasis-scholarships.official_website",
+      "oasis-scholarships.source"
+    ]
+  },
+  "https://oasis.wb.gov.in/index/1": {
+    "url": "https://oasis.wb.gov.in/index/1",
+    "checked_at": "2026-08-20T10:33:01+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "5c4f28edf935cf1becf7c4d0e2349561b37aab09ea22c76837c76d6271b0d51f",
+    "referenced_by": [
+      "oasis-scholarships.apply_online_url"
+    ]
+  },
+  "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf": {
+    "url": "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf",
+    "checked_at": "2026-08-20T10:33:05+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"6d6b8a-65510c9a2eec0\"",
+    "last_modified": "Thu, 25 Jun 2026 09:40:51 GMT",
+    "content_hash": "b6a797a837e58ba37fd90115405bde37b74bbea4937c9c9260f157fa275381df",
+    "referenced_by": [
+      "oasis-scholarships.official_scheme_url",
+      "oasis-scholarships.source"
+    ]
+  },
+  "https://oasis.wb.gov.in/web/pdf/RateChartforCSScholarshipSchemes.pdf": {
+    "url": "https://oasis.wb.gov.in/web/pdf/RateChartforCSScholarshipSchemes.pdf",
+    "checked_at": "2026-08-20T10:33:36+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"9bd44-64eeebfd73900\"",
+    "last_modified": "Wed, 08 Apr 2026 08:33:08 GMT",
+    "content_hash": "ba4936bfc56f30972fd2c17f0223c2ddf8009b18243ca94338a1b6808667127f",
+    "referenced_by": [
+      "oasis-scholarships.source"
+    ]
+  },
+  "https://pfrda.org.in/": {
+    "url": "https://pfrda.org.in/",
+    "checked_at": "2026-08-20T10:33:41+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "5886e0fe1df6587e8b1746014a64a89fed44ccbda9daa69c13c700c4d2e0316c",
+    "referenced_by": [
+      "atal-pension-yojana.official_website"
+    ]
+  },
+  "https://pfrda.org.in/schemes/atal-pension-yojana-apy": {
+    "url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
+    "checked_at": "2026-08-20T10:33:45+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "4ce0f9c5815bce71ec4d82c113b2478954782ec4dc3c5b91d95ea1b1e9ebc9e2",
+    "referenced_by": [
+      "atal-pension-yojana.official_scheme_url",
+      "atal-pension-yojana.source"
+    ]
+  },
+  "https://pmay-urban.gov.in/": {
+    "url": "https://pmay-urban.gov.in/",
+    "checked_at": "2026-08-20T10:33:46+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "ef172b47c01de8a2b674081e27c6ebe25109df013e2442ad2251852b90b160f3",
+    "referenced_by": [
+      "pmay-urban.official_website"
+    ]
+  },
+  "https://pmay-urban.gov.in/pmay-u-2.0-guidelines": {
+    "url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
+    "checked_at": "2026-08-20T10:33:50+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "bd999589829bce13b9e03606ffcb1ae601c58162ac7f2fe60310953f5e3d9d91",
+    "referenced_by": [
+      "pmay-urban.official_scheme_url",
+      "pmay-urban.source"
+    ]
+  },
+  "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf": {
+    "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
+    "checked_at": "2026-08-20T10:33:52+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"5812c7-6290de7877e11\"",
+    "last_modified": "Thu, 12 Dec 2024 07:45:55 GMT",
+    "content_hash": "74c4f6724f6645f08463e9b09009edd3ddd720739bf2a13af0f4bf22fea4b0f3",
+    "referenced_by": [
+      "pmay-urban.form_pdf_url",
+      "pmay-urban.source"
+    ]
+  },
+  "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf": {
+    "url": "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf",
+    "checked_at": "2026-08-20T10:33:57+00:00",
+    "outcome": "blocked",
+    "status": 401,
+    "note": "HTTP 401",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pmay-gramin.source"
+    ]
+  },
+  "https://pmayg.dord.gov.in/netiayHome/Home.aspx": {
+    "url": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
+    "checked_at": "2026-08-20T10:34:00+00:00",
+    "outcome": "blocked",
+    "status": 401,
+    "note": "HTTP 401",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pmay-gramin.official_website",
+      "pmay-gramin.source"
+    ]
+  },
+  "https://pmayg.dord.gov.in/netiayHome/about.aspx": {
+    "url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
+    "checked_at": "2026-08-20T10:34:03+00:00",
+    "outcome": "blocked",
+    "status": 401,
+    "note": "HTTP 401",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pmay-gramin.official_scheme_url",
+      "pmay-gramin.source"
+    ]
+  },
+  "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx": {
+    "url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
+    "checked_at": "2026-08-20T10:34:04+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "53dff1f7d4faac82c9061c35a5f33bbef1664af7824022c8f8e425a790c7b957",
+    "referenced_by": [
+      "pmay-urban.apply_online_url",
+      "pmay-urban.source"
+    ]
+  },
+  "https://pmegp.msme.gov.in/": {
+    "url": "https://pmegp.msme.gov.in/",
+    "checked_at": "2026-08-20T10:34:05+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "236d39f8ef340b5c81429b38299f60ebbe46b295d98386d4a1591b1700d2c1cc",
+    "referenced_by": [
+      "prime-ministers-employment-generation-programme.official_website",
+      "prime-ministers-employment-generation-programme.official_scheme_url",
+      "prime-ministers-employment-generation-programme.source"
+    ]
+  },
+  "https://pmegp.msme.gov.in/Home/HomePage": {
+    "url": "https://pmegp.msme.gov.in/Home/HomePage",
+    "checked_at": "2026-08-20T10:34:08+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "3396ddbc65efa62802c7a6eda5ef7b4b21ed1dae494b658b9e0ac3c1e5890d4e",
+    "referenced_by": [
+      "prime-ministers-employment-generation-programme.apply_online_url",
+      "prime-ministers-employment-generation-programme.source"
+    ]
+  },
+  "https://pmfby.gov.in/": {
+    "url": "https://pmfby.gov.in/",
+    "checked_at": "2026-08-20T10:34:09+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "W/\"1aba-1a01d315474\"",
+    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
+    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "referenced_by": [
+      "pm-fasal-bima-yojana.official_website",
+      "pm-fasal-bima-yojana.source"
+    ]
+  },
+  "https://pmfby.gov.in/farmerRegistrationForm": {
+    "url": "https://pmfby.gov.in/farmerRegistrationForm",
+    "checked_at": "2026-08-20T10:34:12+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "W/\"1aba-1a01d315474\"",
+    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
+    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "referenced_by": [
+      "pm-fasal-bima-yojana.apply_online_url",
+      "pm-fasal-bima-yojana.source"
+    ]
+  },
+  "https://pmfby.gov.in/guidelines": {
+    "url": "https://pmfby.gov.in/guidelines",
+    "checked_at": "2026-08-20T10:34:14+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "W/\"1aba-1a01d315474\"",
+    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
+    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "referenced_by": [
+      "pm-fasal-bima-yojana.official_scheme_url"
+    ]
+  },
+  "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf": {
+    "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
+    "checked_at": "2026-08-20T10:34:16+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "W/\"12d203-18e988ccc60\"",
+    "last_modified": "Mon, 01 Apr 2024 07:25:48 GMT",
+    "content_hash": "3c663bae70fa3a02bc4b8549a436ea5df2b0b55fc17d9efe3965fdde58b18685",
+    "referenced_by": [
+      "pm-fasal-bima-yojana.form_pdf_url",
+      "pm-fasal-bima-yojana.source"
+    ]
+  },
+  "https://pmjdy.gov.in/": {
+    "url": "https://pmjdy.gov.in/",
+    "checked_at": "2026-08-20T10:34:19+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "c61e1338b7c5de20abba74710d87daad2dd2472d048b7baf7aac95b71a999f94",
+    "referenced_by": [
+      "pradhan-mantri-jan-dhan-yojana.official_website"
+    ]
+  },
+  "https://pmjdy.gov.in/scheme": {
+    "url": "https://pmjdy.gov.in/scheme",
+    "checked_at": "2026-08-20T10:34:24+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "bb25f46490656864980d68c10722f04345a31671c1bfb2d1eb0cdcecc0a58b0f",
+    "referenced_by": [
+      "pradhan-mantri-jan-dhan-yojana.official_scheme_url",
+      "pradhan-mantri-jan-dhan-yojana.source"
+    ]
+  },
+  "https://pmkisan.gov.in/": {
+    "url": "https://pmkisan.gov.in/",
+    "checked_at": "2026-08-20T10:34:26+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "78da65bf90d32ed2f47a234d8dac2be7d0b57329f1eab9c45efa429401651717",
+    "referenced_by": [
+      "pm-kisan.official_website",
+      "pm-kisan.source"
+    ]
+  },
+  "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf": {
+    "url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf",
+    "checked_at": "2026-08-20T10:34:29+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"457710958473da1:0\"",
+    "last_modified": "Mon, 11 Mar 2024 07:20:23 GMT",
+    "content_hash": "95d4e2892b4b351e599bf903f8c6f89b20d4b74831eb8f1a0e61a2a66771ff86",
+    "referenced_by": [
+      "pm-kisan.official_scheme_url",
+      "pm-kisan.source"
+    ]
+  },
+  "https://pmkisan.gov.in/RegistrationFormupdated.aspx": {
+    "url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
+    "checked_at": "2026-08-20T10:34:43+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "b896ba5514fc8606f05fb6a7aa86e4b8e50149ebd8ff6e6bc7cf990ab7744c5a",
+    "referenced_by": [
+      "pm-kisan.apply_online_url",
+      "pm-kisan.source"
+    ]
+  },
+  "https://pmmvy.wcd.gov.in/": {
+    "url": "https://pmmvy.wcd.gov.in/",
+    "checked_at": "2026-08-20T10:34:45+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-matru-vandana-yojana.official_website",
+      "pradhan-mantri-matru-vandana-yojana.apply_online_url"
+    ]
+  },
+  "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions": {
+    "url": "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions",
+    "checked_at": "2026-08-20T10:34:47+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-matru-vandana-yojana.source"
+    ]
+  },
+  "https://pmvbry.epfindia.gov.in/": {
+    "url": "https://pmvbry.epfindia.gov.in/",
+    "checked_at": "2026-08-20T10:34:48+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.official_website"
+    ]
+  },
+  "https://pmvbry.epfindia.gov.in/?page_id=7123": {
+    "url": "https://pmvbry.epfindia.gov.in/?page_id=7123",
+    "checked_at": "2026-08-20T10:34:50+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+    ]
+  },
+  "https://pmvbry.epfindia.gov.in/dashboard/": {
+    "url": "https://pmvbry.epfindia.gov.in/dashboard/",
+    "checked_at": "2026-08-20T10:34:52+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.apply_online_url"
+    ]
+  },
+  "https://pmvbry.epfindia.gov.in/guidelines/": {
+    "url": "https://pmvbry.epfindia.gov.in/guidelines/",
+    "checked_at": "2026-08-20T10:34:53+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+    ]
+  },
+  "https://pmvbry.epfindia.gov.in/pmvbry-scheme/": {
+    "url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
+    "checked_at": "2026-08-20T10:34:55+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.official_scheme_url",
+      "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+    ]
+  },
+  "https://pmvishwakarma.gov.in/": {
+    "url": "https://pmvishwakarma.gov.in/",
+    "checked_at": "2026-08-20T10:34:55+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pm-vishwakarma.official_website",
+      "pm-vishwakarma.source"
+    ]
+  },
+  "https://pmvishwakarma.gov.in/Home/FAQ": {
+    "url": "https://pmvishwakarma.gov.in/Home/FAQ",
+    "checked_at": "2026-08-20T10:37:22+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pm-vishwakarma.official_scheme_url",
+      "pm-vishwakarma.source"
+    ]
+  },
+  "https://rupashree.wb.gov.in/": {
+    "url": "https://rupashree.wb.gov.in/",
+    "checked_at": "2026-08-20T10:39:47+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='rupashree.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "rupashree-prakalpa.apply_online_url",
+      "rupashree-prakalpa.source"
+    ]
+  },
+  "https://socialregistry.wb.gov.in/": {
+    "url": "https://socialregistry.wb.gov.in/",
+    "checked_at": "2026-08-20T10:39:48+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "annapurna-yojana.official_website"
+    ]
+  },
+  "https://socialregistry.wb.gov.in/login": {
+    "url": "https://socialregistry.wb.gov.in/login",
+    "checked_at": "2026-08-20T10:42:14+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "annapurna-yojana.apply_online_url",
+      "annapurna-yojana.source"
+    ]
+  },
+  "https://svmcm.wb.gov.in/": {
+    "url": "https://svmcm.wb.gov.in/",
+    "checked_at": "2026-08-20T10:44:39+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swami-vivekananda-merit-cum-means-scholarship.official_website",
+      "swami-vivekananda-merit-cum-means-scholarship.apply_online_url"
+    ]
+  },
+  "https://svmcm.wb.gov.in/page/about.php": {
+    "url": "https://svmcm.wb.gov.in/page/about.php",
+    "checked_at": "2026-08-20T10:44:47+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /page/about.php (Caused by SSLErro",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swami-vivekananda-merit-cum-means-scholarship.official_scheme_url",
+      "swami-vivekananda-merit-cum-means-scholarship.source"
+    ]
+  },
+  "https://svmcm.wb.gov.in/page/application_procedure.php": {
+    "url": "https://svmcm.wb.gov.in/page/application_procedure.php",
+    "checked_at": "2026-08-20T10:44:50+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /page/application_procedure.php (C",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swami-vivekananda-merit-cum-means-scholarship.source"
+    ]
+  },
+  "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf": {
+    "url": "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
+    "checked_at": "2026-08-20T10:44:53+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /readwrite/SVMCM_GUIDELINES.pdf (C",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swami-vivekananda-merit-cum-means-scholarship.form_pdf_url"
+    ]
+  },
+  "https://swasthyasathi.gov.in/": {
+    "url": "https://swasthyasathi.gov.in/",
+    "checked_at": "2026-08-20T10:44:55+00:00",
+    "outcome": "blocked",
+    "status": 403,
+    "note": "HTTP 403",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "swasthya-sathi.official_website",
+      "swasthya-sathi.apply_online_url",
+      "swasthya-sathi.source"
+    ]
+  },
+  "https://wb.gov.in/": {
+    "url": "https://wb.gov.in/",
+    "checked_at": "2026-08-20T10:44:56+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "262a46048baeae1fa56589ca770f6390d9f3ad3053cc4a737ecd4762d751b703",
+    "referenced_by": [
+      "sabooj-sathi.official_website",
+      "taposili-bandhu.official_website"
+    ]
+  },
+  "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx": {
+    "url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
+    "checked_at": "2026-08-20T10:44:59+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "95ddeab5addb81b3df6dfbee0017e8eb6aaefb88077b3b2cabd3948d694287ee",
+    "referenced_by": [
+      "annapurna-yojana.official_scheme_url",
+      "annapurna-yojana.source"
+    ]
+  },
+  "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx": {
+    "url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
+    "checked_at": "2026-08-20T10:45:02+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "c6801de605411fbe87d86895afcbecbdb7629c6a8a51b2e4abd40d0ad57194ab",
+    "referenced_by": [
+      "jai-johar.official_scheme_url",
+      "jai-johar.source"
+    ]
+  },
+  "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx": {
+    "url": "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx",
+    "checked_at": "2026-08-20T10:45:05+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "17c8bff4d0e5a96a5370cf67aeb9610243488275d2b65074f1fc36f555f4e385",
+    "referenced_by": [
+      "rajya-khadya-suraksha-yojana.official_scheme_url",
+      "rajya-khadya-suraksha-yojana.source"
+    ]
+  },
+  "https://wb.gov.in/government-schemes-details-saboojsathi.aspx": {
+    "url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
+    "checked_at": "2026-08-20T10:45:07+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "900e62dcb7e504ec5e4ca165f11732f932aa4d45b8c59dfb70daf6bf0ee80e9a",
+    "referenced_by": [
+      "sabooj-sathi.official_scheme_url",
+      "sabooj-sathi.source"
+    ]
+  },
+  "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx": {
+    "url": "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx",
+    "checked_at": "2026-08-20T10:45:10+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "f74c2e74bca06ede5575be0493bf297c52aa53394598bcf59ec5349f037ca284",
+    "referenced_by": [
+      "taposili-bandhu.official_scheme_url",
+      "taposili-bandhu.source"
+    ]
+  },
+  "https://wbscc.wb.gov.in/": {
+    "url": "https://wbscc.wb.gov.in/",
+    "checked_at": "2026-08-20T10:45:12+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-student-credit-card.official_website",
+      "west-bengal-student-credit-card.source"
+    ]
+  },
+  "https://wbscc.wb.gov.in/About": {
+    "url": "https://wbscc.wb.gov.in/About",
+    "checked_at": "2026-08-20T10:45:15+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /About (Caused by SSLError(SSLErro",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-student-credit-card.official_scheme_url",
+      "west-bengal-student-credit-card.source"
+    ]
+  },
+  "https://wbscc.wb.gov.in/Applicant_Login": {
+    "url": "https://wbscc.wb.gov.in/Applicant_Login",
+    "checked_at": "2026-08-20T10:45:18+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /Applicant_Login (Caused by SSLErr",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-student-credit-card.apply_online_url"
+    ]
+  },
+  "https://wbscc.wb.gov.in/FAQ": {
+    "url": "https://wbscc.wb.gov.in/FAQ",
+    "checked_at": "2026-08-20T10:45:21+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /FAQ (Caused by SSLError(SSLError(",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "west-bengal-student-credit-card.source"
+    ]
+  },
+  "https://wcdsw.wb.gov.in/": {
+    "url": "https://wcdsw.wb.gov.in/",
+    "checked_at": "2026-08-20T10:45:22+00:00",
+    "outcome": "tls_error",
+    "status": null,
+    "note": "HTTPSConnectionPool(host='wcdsw.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "rupashree-prakalpa.official_website"
+    ]
+  },
+  "https://www.pfrda.org.in/w/faqs/atal-pension-yojana": {
+    "url": "https://www.pfrda.org.in/w/faqs/atal-pension-yojana",
+    "checked_at": "2026-08-20T10:45:24+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "1c7d5f6794b6db6167e74c55773cbd5d4b72a41487034d4e4776c8c29fee4bbf",
+    "referenced_by": [
+      "atal-pension-yojana.source"
+    ]
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716",
+    "checked_at": "2026-08-20T10:45:25+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "XXXXXXXX",
+    "last_modified": null,
+    "content_hash": "39e13ed1ffa737a60cb56c19202748629b1c89bff6dba08bf8d6d4954a6537e4",
+    "referenced_by": [
+      "pm-vishwakarma.source"
+    ]
+  },
+  "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-health-coverage-to-all-senior-citizens-of-the-age-70-years-and-above-irrespective-of-income-under-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-ab-pm-jay/": {
+    "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-health-coverage-to-all-senior-citizens-of-the-age-70-years-and-above-irrespective-of-income-under-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-ab-pm-jay/",
+    "checked_at": "2026-08-20T10:45:30+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "694bd6bae956130d8a8c94a8de53aa4981fd643fde5726e97af24695d9318a44",
+    "referenced_by": [
+      "ayushman-bharat-pm-jay.source"
+    ]
+  },
+  "https://www.pmjdy.gov.in/about": {
+    "url": "https://www.pmjdy.gov.in/about",
+    "checked_at": "2026-08-20T10:45:32+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "certificate NOT verified: HTTPSConnectionPool(host='www.pmjdy.gov.in', port=443): Max retries exceeded wit",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "02a059621dde512a89a5077725513d88b933092937269e326e610966324e4012",
+    "tls_unverified": true,
+    "referenced_by": [
+      "pradhan-mantri-jan-dhan-yojana.source"
+    ]
+  },
+  "https://www.pmuy.gov.in/": {
+    "url": "https://www.pmuy.gov.in/",
+    "checked_at": "2026-08-20T10:45:35+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "db8442a37d72fb5985c17959fe8de7f301c49d980d911352bef37e1a101602e6",
+    "referenced_by": [
+      "pm-ujjwala-yojana.official_website",
+      "pm-ujjwala-yojana.source"
+    ]
+  },
+  "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf": {
+    "url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
+    "checked_at": "2026-08-20T10:45:38+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"2b74a78bf93cdc1:0\"",
+    "last_modified": "Tue, 14 Oct 2025 10:59:00 GMT",
+    "content_hash": "e2ecac3614bacb5febbf6fe3ef190c41b4bbe0835c33dec61b7a8de95cd780ad",
+    "referenced_by": [
+      "pm-ujjwala-yojana.form_pdf_url",
+      "pm-ujjwala-yojana.source"
+    ]
+  },
+  "https://www.pmuy.gov.in/ujjwala2.html": {
+    "url": "https://www.pmuy.gov.in/ujjwala2.html",
+    "checked_at": "2026-08-20T10:45:43+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": "\"07bc7ec23dd1:0\"",
+    "last_modified": "Tue, 04 Aug 2026 08:34:14 GMT",
+    "content_hash": "b600bf485d54f9c3e2d31e1b6b3d7333de7ba8671b741a3630e9d161cfa7d451",
+    "referenced_by": [
+      "pm-ujjwala-yojana.official_scheme_url",
+      "pm-ujjwala-yojana.apply_online_url",
+      "pm-ujjwala-yojana.source"
+    ]
+  },
+  "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf": {
+    "url": "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
+    "checked_at": "2026-08-20T10:45:44+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "pm-vishwakarma.form_pdf_url",
+      "pm-vishwakarma.source"
+    ]
+  },
+  "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna": {
+    "url": "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
+    "checked_at": "2026-08-20T10:48:10+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": "Thu, 20 Aug 2026 10:48:11 GMT",
+    "content_hash": "96a0185357db730a9afe01ddd30dea6c4b780fdcc3c7677a6c1eb4da9c4c4f2f",
+    "referenced_by": [
+      "pradhan-mantri-matru-vandana-yojana.official_scheme_url",
+      "pradhan-mantri-matru-vandana-yojana.source"
+    ]
+  },
+  "https://www.wbkanyashree.gov.in/": {
+    "url": "https://www.wbkanyashree.gov.in/",
+    "checked_at": "2026-08-20T10:48:11+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "kanyashree-prakalpa.official_website"
+    ]
+  },
+  "https://www.wbkanyashree.gov.in/kp_faq.php": {
+    "url": "https://www.wbkanyashree.gov.in/kp_faq.php",
+    "checked_at": "2026-08-20T10:48:24+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "kanyashree-prakalpa.source"
+    ]
+  },
+  "https://www.wbkanyashree.gov.in/kp_scheme.php": {
+    "url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
+    "checked_at": "2026-08-20T10:48:35+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "kanyashree-prakalpa.official_scheme_url",
+      "kanyashree-prakalpa.source"
+    ]
+  },
+  "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf": {
+    "url": "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf",
+    "checked_at": "2026-08-20T10:48:47+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": null,
+    "referenced_by": [
+      "kanyashree-prakalpa.source"
+    ]
+  },
+  "https://www.wbmdfc.net/": {
+    "url": "https://www.wbmdfc.net/",
+    "checked_at": "2026-08-20T10:48:57+00:00",
+    "outcome": "new",
+    "status": 200,
+    "note": "",
+    "etag": null,
+    "last_modified": null,
+    "content_hash": "e4244bd44378aa3a6f7cf05fba9c1e6f65c338bbfc40d808ed5c9737adfc48ef",
+    "referenced_by": [
+      "aikyashree-scholarship.official_website",
+      "aikyashree-scholarship.source"
+    ]
+  }
+}

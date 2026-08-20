@@ -1,0 +1,492 @@
+{
+  "run_date": "2026-08-20",
+  "checked_at": "2026-08-20",
+  "sources_checked": 87,
+  "new_candidates": 0,
+  "new_verified_records": 0,
+  "changed_records": 0,
+  "needs_review_records": 1,
+  "unchanged_records": 29,
+  "excluded_discontinued_or_replaced": 0,
+  "duplicate_candidates": 0,
+  "production_count": 28,
+  "phase_1_target": 40,
+  "remaining_to_target": 12,
+  "sources_unavailable": [
+    "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+    "https://ds.wb.gov.in/",
+    "https://pmvishwakarma.gov.in/",
+    "https://pmvishwakarma.gov.in/Home/FAQ",
+    "https://socialregistry.wb.gov.in/",
+    "https://socialregistry.wb.gov.in/login",
+    "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
+    "https://www.wbkanyashree.gov.in/",
+    "https://www.wbkanyashree.gov.in/kp_faq.php",
+    "https://www.wbkanyashree.gov.in/kp_scheme.php",
+    "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf",
+    "https://adibasikalyan.gov.in/",
+    "https://bccs.wb.gov.in/",
+    "https://bccs.wb.gov.in/FAQ",
+    "https://bccs.wb.gov.in/apply_online",
+    "https://bccs.wb.gov.in/scheme",
+    "https://beneficiary.nha.gov.in/",
+    "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+    "https://krishakbandhu.wb.gov.in/",
+    "https://krishakbandhu.wb.gov.in/about_kb",
+    "https://krishakbandhu.wb.gov.in/download_notification12",
+    "https://nha.gov.in/",
+    "https://nha.gov.in/PM-JAY",
+    "https://rupashree.wb.gov.in/",
+    "https://svmcm.wb.gov.in/",
+    "https://svmcm.wb.gov.in/page/about.php",
+    "https://svmcm.wb.gov.in/page/application_procedure.php",
+    "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
+    "https://wbscc.wb.gov.in/",
+    "https://wbscc.wb.gov.in/About",
+    "https://wbscc.wb.gov.in/Applicant_Login",
+    "https://wbscc.wb.gov.in/FAQ",
+    "https://wcdsw.wb.gov.in/"
+  ],
+  "important_notes": [
+    "banglar-yuba-sathi: apply_online_url is the homepage (§7 Step 4)",
+    "banglar-yuba-sathi: eligibility mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "kanyashree-prakalpa: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "kanyashree-prakalpa: needs_review record sitting in production (§14)",
+    "krishak-bandhu: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "swasthya-sathi: apply_online_url is the homepage (§7 Step 4)",
+    "swami-vivekananda-merit-cum-means-scholarship: apply_online_url is the homepage (§7 Step 4)",
+    "pm-ujjwala-yojana: apply_online_url == official_scheme_url (§7 Step 4)",
+    "pmay-gramin: eligibility mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "rupashree-prakalpa: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "pm-vishwakarma: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "duare-sarkar: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "pradhan-mantri-matru-vandana-yojana: apply_online_url is the homepage (§7 Step 4)",
+    "prime-ministers-employment-generation-programme: official_website == official_scheme_url (§7 Step 4)",
+    "rajya-khadya-suraksha-yojana: apply_online_url is the homepage (§7 Step 4)"
+  ],
+  "link_outcomes": {
+    "blocked": 13,
+    "tls_error": 22,
+    "unreachable": 11,
+    "new": 41,
+    "dead": 0,
+    "soft_fail": 0
+  },
+  "broken_ratio": 0.529,
+  "pages_changed": [],
+  "tls_unverified": [
+    "https://beneficiary.nha.gov.in/",
+    "https://jansuraksha.gov.in/",
+    "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
+    "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+    "https://nha.gov.in/",
+    "https://nha.gov.in/PM-JAY",
+    "https://www.pmjdy.gov.in/about"
+  ],
+  "circuit_breaker_tripped": false,
+  "partial_degradation": true,
+  "url_diagnostics": {
+    "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.form_pdf_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://adibasikalyan.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='adibasikalyan.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLErro",
+      "referenced_by": [
+        "jai-johar.official_website"
+      ]
+    },
+    "https://bccs.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '",
+      "referenced_by": [
+        "west-bengal-bhabishyat-credit-card.official_website",
+        "west-bengal-bhabishyat-credit-card.source"
+      ]
+    },
+    "https://bccs.wb.gov.in/FAQ": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /FAQ (Caused by SSLError(SSLError(1",
+      "referenced_by": [
+        "west-bengal-bhabishyat-credit-card.source"
+      ]
+    },
+    "https://bccs.wb.gov.in/apply_online": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /apply_online (Caused by SSLError(S",
+      "referenced_by": [
+        "west-bengal-bhabishyat-credit-card.apply_online_url"
+      ]
+    },
+    "https://bccs.wb.gov.in/scheme": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with url: /scheme (Caused by SSLError(SSLErro",
+      "referenced_by": [
+        "west-bengal-bhabishyat-credit-card.official_scheme_url",
+        "west-bengal-bhabishyat-credit-card.source"
+      ]
+    },
+    "https://beneficiary.nha.gov.in/": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='beneficiary.nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCe",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.apply_online_url",
+        "ayushman-bharat-pm-jay.source"
+      ]
+    },
+    "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='bsk.wb.gov.in', port=443): Max retries exceeded with url: /download/RupashreeApplicationForm.p",
+      "referenced_by": [
+        "rupashree-prakalpa.form_pdf_url",
+        "rupashree-prakalpa.source"
+      ]
+    },
+    "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "banglar-yuba-sathi.official_scheme_url",
+        "banglar-yuba-sathi.source",
+        "aikyashree-scholarship.official_scheme_url",
+        "aikyashree-scholarship.source",
+        "duare-sarkar.official_scheme_url",
+        "duare-sarkar.source"
+      ]
+    },
+    "https://ds.wb.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "banglar-yuba-sathi.official_website",
+        "banglar-yuba-sathi.apply_online_url",
+        "banglar-yuba-sathi.source",
+        "duare-sarkar.official_website",
+        "duare-sarkar.source"
+      ]
+    },
+    "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.official_scheme_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://krishakbandhu.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLE",
+      "referenced_by": [
+        "krishak-bandhu.official_website",
+        "krishak-bandhu.source"
+      ]
+    },
+    "https://krishakbandhu.wb.gov.in/about_kb": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: /about_kb (Caused by SSLEr",
+      "referenced_by": [
+        "krishak-bandhu.official_scheme_url",
+        "krishak-bandhu.source"
+      ]
+    },
+    "https://krishakbandhu.wb.gov.in/download_notification12": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries exceeded with url: /download_notification12 (",
+      "referenced_by": [
+        "krishak-bandhu.source"
+      ]
+    },
+    "https://nha.gov.in/": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificati",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.official_website"
+      ]
+    },
+    "https://nha.gov.in/PM-JAY": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: /PM-JAY (Caused by SSLError(SSLCertVeri",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.official_scheme_url",
+        "ayushman-bharat-pm-jay.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiayHome/Home.aspx": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.official_website",
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiayHome/about.aspx": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.official_scheme_url",
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmmvy.wcd.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-matru-vandana-yojana.official_website",
+        "pradhan-mantri-matru-vandana-yojana.apply_online_url"
+      ]
+    },
+    "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-matru-vandana-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.official_website"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/?page_id=7123": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/dashboard/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.apply_online_url"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/guidelines/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/pmvbry-scheme/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.official_scheme_url",
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvishwakarma.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.official_website",
+        "pm-vishwakarma.source"
+      ]
+    },
+    "https://pmvishwakarma.gov.in/Home/FAQ": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.official_scheme_url",
+        "pm-vishwakarma.source"
+      ]
+    },
+    "https://rupashree.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='rupashree.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError",
+      "referenced_by": [
+        "rupashree-prakalpa.apply_online_url",
+        "rupashree-prakalpa.source"
+      ]
+    },
+    "https://socialregistry.wb.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "annapurna-yojana.official_website"
+      ]
+    },
+    "https://socialregistry.wb.gov.in/login": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "annapurna-yojana.apply_online_url",
+        "annapurna-yojana.source"
+      ]
+    },
+    "https://svmcm.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+      "referenced_by": [
+        "swami-vivekananda-merit-cum-means-scholarship.official_website",
+        "swami-vivekananda-merit-cum-means-scholarship.apply_online_url"
+      ]
+    },
+    "https://svmcm.wb.gov.in/page/about.php": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /page/about.php (Caused by SSLErro",
+      "referenced_by": [
+        "swami-vivekananda-merit-cum-means-scholarship.official_scheme_url",
+        "swami-vivekananda-merit-cum-means-scholarship.source"
+      ]
+    },
+    "https://svmcm.wb.gov.in/page/application_procedure.php": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /page/application_procedure.php (C",
+      "referenced_by": [
+        "swami-vivekananda-merit-cum-means-scholarship.source"
+      ]
+    },
+    "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with url: /readwrite/SVMCM_GUIDELINES.pdf (C",
+      "referenced_by": [
+        "swami-vivekananda-merit-cum-means-scholarship.form_pdf_url"
+      ]
+    },
+    "https://swasthyasathi.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.official_website",
+        "swasthya-sathi.apply_online_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://wbscc.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+      "referenced_by": [
+        "west-bengal-student-credit-card.official_website",
+        "west-bengal-student-credit-card.source"
+      ]
+    },
+    "https://wbscc.wb.gov.in/About": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /About (Caused by SSLError(SSLErro",
+      "referenced_by": [
+        "west-bengal-student-credit-card.official_scheme_url",
+        "west-bengal-student-credit-card.source"
+      ]
+    },
+    "https://wbscc.wb.gov.in/Applicant_Login": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /Applicant_Login (Caused by SSLErr",
+      "referenced_by": [
+        "west-bengal-student-credit-card.apply_online_url"
+      ]
+    },
+    "https://wbscc.wb.gov.in/FAQ": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with url: /FAQ (Caused by SSLError(SSLError(",
+      "referenced_by": [
+        "west-bengal-student-credit-card.source"
+      ]
+    },
+    "https://wcdsw.wb.gov.in/": {
+      "outcome": "tls_error",
+      "status": null,
+      "note": "HTTPSConnectionPool(host='wcdsw.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, ",
+      "referenced_by": [
+        "rupashree-prakalpa.official_website"
+      ]
+    },
+    "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.form_pdf_url",
+        "pm-vishwakarma.source"
+      ]
+    },
+    "https://www.wbkanyashree.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+      "referenced_by": [
+        "kanyashree-prakalpa.official_website"
+      ]
+    },
+    "https://www.wbkanyashree.gov.in/kp_faq.php": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+      "referenced_by": [
+        "kanyashree-prakalpa.source"
+      ]
+    },
+    "https://www.wbkanyashree.gov.in/kp_scheme.php": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+      "referenced_by": [
+        "kanyashree-prakalpa.official_scheme_url",
+        "kanyashree-prakalpa.source"
+      ]
+    },
+    "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
+      "referenced_by": [
+        "kanyashree-prakalpa.source"
+      ]
+    }
+  }
+}

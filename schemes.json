@@ -3,9 +3,9 @@
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
   "total_records": 29,
-  "verified_records": 29,
-  "needs_review_records": 0,
-  "last_verified_at": "2026-08-14",
+  "verified_records": 28,
+  "needs_review_records": 1,
+  "last_verified_at": "2026-08-20",
   "schemes": [
     {
       "id": "annapurna-yojana",
@@ -229,11 +229,11 @@
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "needs_review",
-      "verification_notes": "Official sources conflict on the K1 annual scholarship amount: one official scheme page shows ₹500 while an official Duare Sarkar SOP search result shows ₹1,000. The record intentionally omits a final K1 amount until the department confirms the current figure.",
+      "verification_notes": "K1 annual amount still unresolved as of 2026-08-20. The official Duare Sarkar SOP (wb.gov.in) states K1 = Rs 1,000 and K2 = Rs 25,000, but that same document describes Kanyashree years 2019-20 and 2020-21 as currently open, so it is outdated and cannot establish the present figure. The official scheme page reportedly shows Rs 500. Per §5 the conflict is not silently resolved; the record omits a final K1 amount pending department confirmation. K2 = Rs 25,000 is consistent across official sources.",
       "change_type": "correction",
-      "detected_change_summary_bn": "K1 বার্ষিক বৃত্তির পরিমাণ নিয়ে অফিসিয়াল উৎসে অসঙ্গতি ধরা পড়েছে; তাই রেকর্ডটি মানব যাচাইয়ের জন্য চিহ্নিত করা হয়েছে।",
+      "detected_change_summary_bn": "K1 বার্ষিক অনুদানের পরিমাণ এখনও অমীমাংসিত। অফিসিয়াল দুয়ারে সরকার SOP-তে ₹১,০০০ বলা থাকলেও সেই নথিটি ২০১৯-২০ ও ২০২০-২১ বর্ষকে চলতি বলে উল্লেখ করায় তা পুরোনো; তাই দপ্তরের নিশ্চিতকরণ ছাড়া চূড়ান্ত পরিমাণ যোগ করা হয়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-08-20",
       "start_date": "2013-10-01"
     },
     {
@@ -426,12 +426,12 @@
       "name_bn": "ওয়েসিস—এসসি, এসটি ও ওবিসি বৃত্তি",
       "category": "west_bengal",
       "dept": "Backward Classes Welfare Department, Government of West Bengal",
-      "description_bn": "SC, ST ও OBC ছাত্রছাত্রীদের প্রি-ম্যাট্রিক ও পোস্ট-ম্যাট্রিক বৃত্তির সরকারি আবেদন পোর্টাল।",
-      "benefit": "শ্রেণি, সম্প্রদায়, কোর্স ও আবাসিক অবস্থার ভিত্তিতে বৃত্তি দেওয়া হয়।",
+      "description_bn": "পশ্চিমবঙ্গের SC, ST ও OBC ছাত্রছাত্রীদের প্রি-ম্যাট্রিক ও পোস্ট-ম্যাট্রিক বৃত্তির সরকারি অনলাইন আবেদন পোর্টাল। বর্তমানে পোর্টালে মোট ৭টি বৃত্তি প্রকল্প রয়েছে।",
+      "benefit": "শ্রেণি, সম্প্রদায়, কোর্স ও আবাসিক অবস্থার ভিত্তিতে বৃত্তি দেওয়া হয়। ভারত সরকারের নতুন নির্দেশিকা অনুযায়ী প্রি-ম্যাট্রিক ও পোস্ট-ম্যাট্রিক SC ছাত্রছাত্রীদের ক্ষেত্রে প্রথম পর্যায়ে মোট প্রাপ্য অর্থের ৪০% এবং বাকি ৬০% পরবর্তী পর্যায়ে দেওয়া হয়।",
       "eligibility": [
         "পশ্চিমবঙ্গের যোগ্য SC, ST বা OBC ছাত্রছাত্রী হতে হবে",
         "প্রযোজ্য শিক্ষার স্তর ও আয়সীমা পূরণ করতে হবে",
-        "ST আবেদনকারীদের NSP OTR বাধ্যতামূলক"
+        "আদিবাসী বিষয়ক মন্ত্রকের নির্দেশিকা অনুযায়ী ST আবেদনকারীদের প্রি-ম্যাট্রিক ও পোস্ট-ম্যাট্রিক উভয় ক্ষেত্রেই NSP পোর্টালে OTR বাধ্যতামূলক"
       ],
       "documents": [
         "NSP OTR, যেখানে প্রযোজ্য",
@@ -442,33 +442,46 @@
         "আয়ের শংসাপত্র, যেখানে প্রযোজ্য"
       ],
       "application_process": [
-        "OASIS পোর্টালে Student Registration করুন",
-        "ST হলে NSP OTR তৈরি করুন",
-        "বৃত্তি নির্বাচন করে তথ্য পূরণ করুন",
-        "নথি আপলোড করে আবেদন জমা দিন",
-        "Track Application থেকে অবস্থা দেখুন"
+        "OASIS পোর্টালে Student's registration অংশে নতুন নিবন্ধন করুন",
+        "ST হলে আগে NSP পোর্টালে লগ-ইন করে OTR তৈরি করুন",
+        "নিবন্ধনের পরে Registered Student's Login দিয়ে ঢুকে তথ্য পূরণ করুন",
+        "প্রয়োজনীয় নথি আপলোড করে আবেদন জমা দিন",
+        "পুরোনো সুবিধাভোগী হলে Renew Scholarship অংশ ব্যবহার করুন",
+        "Track an application থেকে আবেদনের অবস্থা দেখুন"
       ],
       "official_website": "https://oasis.wb.gov.in/",
-      "official_scheme_url": "https://oasis.wb.gov.in/",
-      "apply_online_url": "https://oasis.wb.gov.in/",
+      "official_scheme_url": "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf",
+      "apply_online_url": "https://oasis.wb.gov.in/index/1",
       "form_pdf_url": "",
       "video_url": [],
       "source": [
         {
-          "title": "OASIS Scholarship Portal",
+          "title": "OASIS Scholarship Portal — Students Corner, Academic Session 2026-27",
           "url": "https://oasis.wb.gov.in/",
           "source_type": "official_application_portal",
-          "published_or_updated_date": "2026-07-23"
+          "published_or_updated_date": "2026-08-20"
+        },
+        {
+          "title": "User Manual for Generating NSP OTR and Submitting Scholarship Application through OASIS",
+          "url": "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Rate Chart for CS Scholarship Schemes",
+          "url": "https://oasis.wb.gov.in/web/pdf/RateChartforCSScholarshipSchemes.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
-      "scheme_status": "active",
+      "scheme_status": "application_open",
       "verification_status": "verified",
-      "verification_notes": "Official portal confirms 2026-27 applications are open for listed components.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
-      "last_updated": "2026-07-23",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Checked live on 2026-08-20; portal self-dates its counters 'AS ON 20-08-2026'. Homepage states 2026-27 applications are open for Post-Matric SC/ST/OBC and Pre-Matric SC/ST/OBC plus Pre-Matric Component-II (7 schemes total). apply_online_url now points to the actual Student's registration route instead of the portal homepage (§7 Step 4). NSP OTR requirement for ST applicants confirmed on the homepage notice.",
+      "change_type": "status_changed",
+      "detected_change_summary_bn": "২০২৬-২৭ শিক্ষাবর্ষের আবেদন চালু থাকায় অবস্থা 'application_open' করা হয়েছে। হোমপেজের বদলে প্রকৃত নিবন্ধন লিংক যুক্ত হয়েছে এবং ৪০%/৬০% পর্যায়ক্রমে অর্থপ্রদানের তথ্য যোগ করা হয়েছে।",
+      "last_updated": "2026-08-20",
+      "last_verified_at": "2026-08-20",
       "start_date": ""
     },
     {

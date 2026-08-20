@@ -22,6 +22,7 @@ from datetime import date
 from datetime import date, datetime
 from datetime import datetime, timezone
 from pathlib import Path
+from requests.adapters import HTTPAdapter
 from requests.exceptions import SSLError, Timeout, ConnectionError as ReqConnError
 from urllib.parse import urlparse
 import hashlib
@@ -30,6 +31,8 @@ import os
 import random
 import re
 import requests
+import ssl
+import warnings
 import sys
 import time
 
@@ -368,6 +371,50 @@ SOFT_FAIL_MARKERS = re.compile(
 STATE_PATH = Path("state/link_state.json")
 
 
+class LegacyTLSAdapter(HTTPAdapter):
+    """
+    Many .gov.in / .wb.gov.in hosts still terminate TLS on old stacks:
+    TLS 1.0/1.1, small DH parameters, or ciphers that OpenSSL 3 on Ubuntu 24
+    refuses outright at SECLEVEL=2. The handshake dies before HTTP happens,
+    which surfaces as 'Max retries exceeded' and looks like the host is down
+    when it is actually up and serving.
+
+    This adapter lowers the security level far enough to complete those
+    handshakes. It is used ONLY as a second attempt, after a strict verified
+    connection has already failed, and anything fetched through it is tagged
+    tls_unverified so the report never implies the certificate was checked.
+    """
+
+    def init_poolmanager(self, connections, maxsize, block=False, **kw):
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        try:
+            ctx.set_ciphers("DEFAULT@SECLEVEL=0")
+        except ssl.SSLError:
+            ctx.set_ciphers("DEFAULT@SECLEVEL=1")
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", DeprecationWarning)
+                ctx.minimum_version = ssl.TLSVersion.TLSv1
+        except (AttributeError, ValueError):
+            pass
+        if hasattr(ssl, "OP_LEGACY_SERVER_CONNECT"):
+            ctx.options |= ssl.OP_LEGACY_SERVER_CONNECT
+        kw["ssl_context"] = ctx
+        return super().init_poolmanager(connections, maxsize, block=block, **kw)
+
+
+def _make_sessions() -> tuple[requests.Session, requests.Session]:
+    strict = requests.Session()
+    legacy = requests.Session()
+    legacy.mount("https://", LegacyTLSAdapter())
+    return strict, legacy
+
+
+SESSION_STRICT, SESSION_LEGACY = _make_sessions()
+
+
 def collect_urls(records: list[dict]) -> dict[str, list[str]]:
     """Map each URL to the record ids that reference it."""
     urls: dict[str, list[str]] = defaultdict(list)
@@ -411,10 +458,17 @@ def check_url(url: str, prior: dict) -> dict:
     """Check one URL. Never raises."""
     headers = {
         "User-Agent": UA,
-        "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
-        "Accept-Language": "en-IN,en;q=0.9,bn;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+                  "application/pdf,*/*;q=0.8",
+        "Accept-Language": "en-IN,en-GB;q=0.9,en;q=0.8,bn;q=0.7",
         "Accept-Encoding": "gzip, deflate",
         "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Cache-Control": "max-age=0",
     }
     if prior.get("etag"):
         headers["If-None-Match"] = prior["etag"]
@@ -435,8 +489,8 @@ def check_url(url: str, prior: dict) -> dict:
     last_err = ""
     for attempt in range(MAX_RETRIES + 1):
         try:
-            resp = requests.get(url, headers=headers, timeout=TIMEOUT,
-                                allow_redirects=True)
+            resp = SESSION_STRICT.get(url, headers=headers, timeout=TIMEOUT,
+                                      allow_redirects=True)
             out["status"] = resp.status_code
 
             if resp.status_code == 304:
@@ -481,8 +535,8 @@ def check_url(url: str, prior: dict) -> dict:
             try:
                 import urllib3
                 urllib3.disable_warnings()
-                resp = requests.get(url, headers=headers, timeout=TIMEOUT,
-                                    allow_redirects=True, verify=False)
+                resp = SESSION_LEGACY.get(url, headers=headers, timeout=TIMEOUT,
+                                          allow_redirects=True, verify=False)
                 out["status"] = resp.status_code
                 out["tls_unverified"] = True
                 if resp.status_code < 400:

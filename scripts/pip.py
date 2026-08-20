@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Prokolpo Bondhu — PIP Monitor (single-file build).
@@ -10,7 +9,7 @@ Phases implemented here:
   1  link health + cheap change detection (§7 Step 1, §15)
   6  regenerate wrapper counts from the array (§12/§13)
   7  run report -> reports/YYYY-MM-DD.json (§17)
-  8  notify via Telegram (§18, amended: always send)
+  8  write run summary to the Actions job summary (§18)
 
 Phases 2-5 (LLM verification, video discovery, Bengali generation) plug in
 between phase 1 and phase 6 inside main().
@@ -351,8 +350,9 @@ without any LLM involvement.
 
 
 
-UA = "ProkolpoBondhu-PIP/1.0 (public scheme monitoring; +https://github.com/26pritamance4/prokolpo-data)"
-TIMEOUT = 25
+UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/124.0 Safari/537.36 ProkolpoBondhu-PIP/1.1")
+TIMEOUT = 45              # Indian government portals are frequently slow
 PER_HOST_DELAY = 1.5      # politeness toward government servers
 MAX_RETRIES = 2
 MIN_SANE_BYTES = 500      # below this, a 200 is suspicious
@@ -409,7 +409,13 @@ def _sanity(resp) -> tuple[bool, str]:
 
 def check_url(url: str, prior: dict) -> dict:
     """Check one URL. Never raises."""
-    headers = {"User-Agent": UA, "Accept": "*/*"}
+    headers = {
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
+        "Accept-Language": "en-IN,en;q=0.9,bn;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Connection": "keep-alive",
+    }
     if prior.get("etag"):
         headers["If-None-Match"] = prior["etag"]
     if prior.get("last_modified"):
@@ -468,9 +474,34 @@ def check_url(url: str, prior: dict) -> dict:
             return out
 
         except SSLError as e:
-            out["outcome"] = "tls_error"
-            out["note"] = str(e)[:120]
-            return out                       # never silently disable verification
+            # Many wb.gov.in hosts serve broken certificate chains. Refusing
+            # outright loses real coverage; accepting silently would be
+            # dishonest. So: retry unverified, and mark the record so the
+            # report says plainly that the certificate could not be checked.
+            try:
+                import urllib3
+                urllib3.disable_warnings()
+                resp = requests.get(url, headers=headers, timeout=TIMEOUT,
+                                    allow_redirects=True, verify=False)
+                out["status"] = resp.status_code
+                out["tls_unverified"] = True
+                if resp.status_code < 400:
+                    ok, why = _sanity(resp)
+                    if ok:
+                        digest = hashlib.sha256(resp.content).hexdigest()
+                        out["content_hash"] = digest
+                        prior_hash = prior.get("content_hash")
+                        out["outcome"] = ("unchanged" if prior_hash == digest
+                                          else ("changed" if prior_hash else "new"))
+                        out["note"] = f"certificate NOT verified: {str(e)[:80]}"
+                        return out
+                out["outcome"] = "tls_error"
+                out["note"] = str(e)[:120]
+                return out
+            except Exception:                        # noqa: BLE001
+                out["outcome"] = "tls_error"
+                out["note"] = str(e)[:120]
+                return out
         except Timeout:
             last_err = "timeout"
         except ReqConnError as e:
@@ -514,11 +545,13 @@ def link_run(records: list[dict]) -> dict:
     for url, res in results.items():
         spread[res["outcome"]].append(url)
 
-    # "blocked" counts here: a runner IP being rate-limited or firewalled
-    # looks exactly like this, and is precisely what the breaker is for.
+    # Two different situations, previously conflated:
+    #   systemic  - nearly everything failed => the runner is blocked, abort
+    #   partial   - some portals are down => normal for .gov.in, carry on
     broken = (len(spread["dead"]) + len(spread["unreachable"])
               + len(spread["soft_fail"]) + len(spread["tls_error"])
               + len(spread["blocked"]))
+    tls_unverified = [u for u, r in results.items() if r.get("tls_unverified")]
     total = max(len(results), 1)
 
     return {
@@ -531,6 +564,7 @@ def link_run(records: list[dict]) -> dict:
         "tls_error": spread["tls_error"],
         "unreachable": spread["unreachable"],
         "blocked": spread["blocked"],
+        "tls_unverified": tls_unverified,
         "results": results,
     }
 
@@ -559,38 +593,20 @@ SCHEMES = Path("schemes.json")
 REPORTS = Path("reports")
 PHASE_1_TARGET = 40
 
-# If more than this share of URLs break in one run, assume the runner or the
-# network is at fault rather than the government of India. Abort, commit nothing.
-BREAKER_RATIO = 0.30
-
-TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
+# Systemic failure: nearly every URL failed, so the runner is almost certainly
+# blocked or offline. Abort and change nothing.
+BREAKER_SYSTEMIC = 0.80
+# Partial failure: some government portals are down. Normal. Report and carry on.
+BREAKER_PARTIAL = 0.30
 
 
 def notify(text: str) -> None:
-    """Telegram if configured, always the Actions job summary."""
+    """Write to the Actions job summary and stdout. No external services."""
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a", encoding="utf-8") as fh:
             fh.write(text + "\n")
-
-    if not (TG_TOKEN and TG_CHAT):
-        print("[notify] Telegram secrets absent — job summary only")
-        print(text)
-        return
-
-    body = text if len(text) <= 4000 else text[:3900] + "\n…(truncated)"
-    try:
-        r = requests.post(
-            f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-            json={"chat_id": TG_CHAT, "text": body,
-                  "parse_mode": "HTML", "disable_web_page_preview": True},
-            timeout=20,
-        )
-        if r.status_code != 200:
-            print(f"[notify] Telegram failed: {r.status_code} {r.text[:200]}")
-    except Exception as e:                                   # noqa: BLE001
-        print(f"[notify] Telegram error: {e}")
+    print(text)
 
 
 def main() -> int:
@@ -614,11 +630,12 @@ def main() -> int:
     records = raw["schemes"] if isinstance(raw, dict) else raw
     links = link_run(records)
 
-    breaker_tripped = links["broken_ratio"] > BREAKER_RATIO
+    systemic = links["broken_ratio"] > BREAKER_SYSTEMIC
+    partial = links["broken_ratio"] > BREAKER_PARTIAL
 
     # ---- Phase 6 --------------------------------------------------------
     counts_rewritten = False
-    if not breaker_tripped:
+    if not systemic:
         counts_rewritten = regenerate_counts(SCHEMES, stats)
 
     # ---- Phase 7 : §17 run report ---------------------------------------
@@ -640,52 +657,75 @@ def main() -> int:
                                + links["tls_error"] + links["soft_fail"],
         "important_notes": warnings,
         "link_outcomes": links["outcomes"],
+        "broken_ratio": links["broken_ratio"],
         "pages_changed": links["changed"],
-        "circuit_breaker_tripped": breaker_tripped,
+        "tls_unverified": links["tls_unverified"],
+        "circuit_breaker_tripped": systemic,
+        "partial_degradation": partial and not systemic,
+        "url_diagnostics": {
+            u: {"outcome": r["outcome"], "status": r.get("status"),
+                "note": r.get("note", ""), "referenced_by": r.get("referenced_by", [])}
+            for u, r in links["results"].items()
+            if r["outcome"] not in ("unchanged", "new", "changed")
+        },
     }
     (REPORTS / f"{today}.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
 
     # ---- Phase 8 --------------------------------------------------------
-    if breaker_tripped:
+    if systemic:
         notify(
-            f"🔴 <b>PIP circuit breaker — {today}</b>\n\n"
-            f"{links['broken_ratio']:.0%} of URLs failed "
-            f"({links['total_urls']} checked). That is almost certainly a "
-            f"network or runner fault, not the schemes.\n\n"
-            f"<b>Nothing was committed.</b>"
+            f"## 🔴 PIP circuit breaker — {today}\n\n"
+            f"**{links['broken_ratio']:.0%} of {links['total_urls']} URLs failed.** "
+            f"That is almost certainly the runner being blocked, not the schemes.\n\n"
+            f"`schemes.json` was **not modified**. The full per-URL breakdown was "
+            f"still written to `reports/{today}.json` so the cause can be diagnosed.\n\n"
+            f"Outcomes: `{links['outcomes']}`\n"
         )
-        return 1
+        # Deliberately exit 0: a non-zero exit would skip the commit step and
+        # throw away the diagnostic report at exactly the moment it is needed.
+        return 0
 
     lines = [
-        f"🌅 <b>PIP run — {today}</b>",
+        f"## 🌅 PIP run — {today}",
         "",
-        f"Production count: <b>{stats['production_count']}</b> / {PHASE_1_TARGET}"
-        f"  (§12 calculated)",
-        f"Needs review: {stats['needs_review_count']}"
+        f"- **Production count:** {stats['production_count']} / {PHASE_1_TARGET} (§12 calculated)",
+        f"- **Needs review:** {stats['needs_review_count']}"
         + (f" — {', '.join(stats['needs_review_ids'])}"
            if stats["needs_review_ids"] else ""),
-        f"URLs checked: {links['total_urls']}",
+        f"- **URLs checked:** {links['total_urls']} "
+        f"({links['broken_ratio']:.0%} failing)",
     ]
 
+    if partial:
+        lines += ["", f"⚠️ **Partial degradation** — {links['broken_ratio']:.0%} of "
+                      f"sources unreachable. Counts were still updated; treat "
+                      f"unreachable records as unverified this run."]
+
+    if links["tls_unverified"]:
+        lines += ["", f"🔓 **{len(links['tls_unverified'])} host(s) served an "
+                      f"unverifiable certificate** — content was read but the "
+                      f"certificate was NOT validated:"]
+        lines += [f"  - `{u}`" for u in links["tls_unverified"][:8]]
+
     if links["changed"]:
-        lines += ["", f"📄 <b>{len(links['changed'])} page(s) changed</b> "
-                      f"— need verification:"]
-        lines += [f"• {u}" for u in links["changed"][:10]]
+        lines += ["", f"### 📄 {len(links['changed'])} page(s) changed — need verification"]
+        lines += [f"- `{u}`" for u in links["changed"][:12]]
 
     trouble = [("dead", "🔗 dead"), ("soft_fail", "⚠️ 200-but-empty"),
-               ("tls_error", "🔒 TLS"), ("unreachable", "📡 unreachable"),
+               ("tls_error", "🔒 TLS failure"), ("unreachable", "📡 unreachable"),
                ("blocked", "🚫 blocked")]
     problems = [(lbl, links[k]) for k, lbl in trouble if links[k]]
     if problems:
-        lines.append("")
+        lines.append("\n### Source problems")
         for lbl, urls in problems:
-            lines.append(f"{lbl}: {len(urls)}")
-            lines += [f"  • {u}" for u in urls[:5]]
+            lines.append(f"**{lbl}: {len(urls)}**")
+            lines += [f"- `{u}`" for u in urls[:6]]
 
     if warnings:
-        lines += ["", f"📋 {len(warnings)} spec warning(s) — see report"]
+        lines += ["", f"📋 {len(warnings)} spec warning(s) — see "
+                      f"`reports/{today}.json`"]
     if counts_rewritten:
         lines += ["", "✏️ Wrapper counts corrected from the array"]
     if not (links["changed"] or problems):

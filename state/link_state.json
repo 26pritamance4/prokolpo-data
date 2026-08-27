@@ -1,7 +1,7 @@
 {
   "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf": {
     "url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
-    "checked_at": "2026-08-24T00:47:23+00:00",
+    "checked_at": "2026-08-27T12:13:25+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -15,13 +15,13 @@
   },
   "https://adibasikalyan.gov.in/": {
     "url": "https://adibasikalyan.gov.in/",
-    "checked_at": "2026-08-24T00:47:24+00:00",
+    "checked_at": "2026-08-27T12:13:26+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='adibasikalyan.gov.in', port=443): Max retries exceeded",
     "etag": null,
     "last_modified": null,
-    "content_hash": "a2f333a8634b10dadad07c7f17af62f2d9f23b1a6258ca4a38cb3a90237bc6d4",
+    "content_hash": "6a02f5fdbcd428b3305dd70fce5ef8a5728e38ef8437572de0629bb37f53cdc4",
     "tls_unverified": true,
     "referenced_by": [
       "jai-johar.official_website"
@@ -29,13 +29,13 @@
   },
   "https://bccs.wb.gov.in/": {
     "url": "https://bccs.wb.gov.in/",
-    "checked_at": "2026-08-24T00:47:29+00:00",
+    "checked_at": "2026-08-27T12:13:30+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with ",
     "etag": null,
     "last_modified": null,
-    "content_hash": "5c2a0af5ed01d2581e78c9f12c56e1f0367de7d29641e569381ed871a42c1cad",
+    "content_hash": "e36346f1acab6ae1894a548633d7c01c4584b5476acaa0b8aa9ff4a82c8e6f6a",
     "tls_unverified": true,
     "referenced_by": [
       "west-bengal-bhabishyat-credit-card.official_website",
@@ -44,13 +44,13 @@
   },
   "https://bccs.wb.gov.in/FAQ": {
     "url": "https://bccs.wb.gov.in/FAQ",
-    "checked_at": "2026-08-24T00:47:35+00:00",
+    "checked_at": "2026-08-27T12:13:35+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with ",
     "etag": null,
     "last_modified": null,
-    "content_hash": "3a4ac1a9dafa56b2e61e62c5f31a4872e050331a43eab59e97eb0dec550f33e3",
+    "content_hash": "0716129f9d13ef5804c496ff38a6a40367f8e1735566ac0cbbd3abb8b76b1780",
     "tls_unverified": true,
     "referenced_by": [
       "west-bengal-bhabishyat-credit-card.source"
@@ -58,13 +58,13 @@
   },
   "https://bccs.wb.gov.in/apply_online": {
     "url": "https://bccs.wb.gov.in/apply_online",
-    "checked_at": "2026-08-24T00:47:39+00:00",
+    "checked_at": "2026-08-27T12:13:40+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with ",
     "etag": null,
     "last_modified": null,
-    "content_hash": "26eb4852699bb83364931e0da9cfa9f0b557aeab06027f3903ce62c8d20a97c0",
+    "content_hash": "5492068d1012e736065ed9d28d86a1194a4e55d81683bc0ca0cdfb32a8b5a390",
     "tls_unverified": true,
     "referenced_by": [
       "west-bengal-bhabishyat-credit-card.apply_online_url"
@@ -72,13 +72,13 @@
   },
   "https://bccs.wb.gov.in/scheme": {
     "url": "https://bccs.wb.gov.in/scheme",
-    "checked_at": "2026-08-24T00:47:43+00:00",
+    "checked_at": "2026-08-27T12:13:45+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='bccs.wb.gov.in', port=443): Max retries exceeded with ",
     "etag": null,
     "last_modified": null,
-    "content_hash": "fc877cb0fe5e8280475562e92380e95548b85f329526168118d6584c9ede4ef5",
+    "content_hash": "2f1bbcb2cea6ea5ad17ec88fd8283432d4dab01b3d9ea199c28d726e337c73db",
     "tls_unverified": true,
     "referenced_by": [
       "west-bengal-bhabishyat-credit-card.official_scheme_url",
@@ -87,7 +87,7 @@
   },
   "https://beneficiary.nha.gov.in/": {
     "url": "https://beneficiary.nha.gov.in/",
-    "checked_at": "2026-08-24T00:47:45+00:00",
+    "checked_at": "2026-08-27T12:13:47+00:00",
     "outcome": "tls_error",
     "status": 403,
     "note": "HTTPSConnectionPool(host='beneficiary.nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCe",
@@ -102,7 +102,7 @@
   },
   "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf": {
     "url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
-    "checked_at": "2026-08-24T00:47:47+00:00",
+    "checked_at": "2026-08-27T12:13:49+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='bsk.wb.gov.in', port=443): Max retries exceeded with u",
@@ -117,7 +117,7 @@
   },
   "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx": {
     "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
-    "checked_at": "2026-08-24T00:48:37+00:00",
+    "checked_at": "2026-08-27T12:14:35+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -135,7 +135,7 @@
   },
   "https://ds.wb.gov.in/": {
     "url": "https://ds.wb.gov.in/",
-    "checked_at": "2026-08-24T00:51:02+00:00",
+    "checked_at": "2026-08-27T12:17:00+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -152,13 +152,13 @@
   },
   "https://food.wb.gov.in/": {
     "url": "https://food.wb.gov.in/",
-    "checked_at": "2026-08-24T00:53:27+00:00",
+    "checked_at": "2026-08-27T12:19:25+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "ec71a4d2b14b64d7e39b142aae46406191072aa3ab8c1288fc7e28bc9946aa24",
+    "content_hash": "f290611fd98c34699237bc1a7333107f4b66029cb79dd655af0fd80a1e4dbc9e",
     "referenced_by": [
       "rajya-khadya-suraksha-yojana.official_website",
       "rajya-khadya-suraksha-yojana.apply_online_url"
@@ -166,7 +166,7 @@
   },
   "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx": {
     "url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
-    "checked_at": "2026-08-24T00:53:30+00:00",
+    "checked_at": "2026-08-27T12:19:27+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -180,7 +180,7 @@
   },
   "https://jansuraksha.gov.in/": {
     "url": "https://jansuraksha.gov.in/",
-    "checked_at": "2026-08-24T00:53:31+00:00",
+    "checked_at": "2026-08-27T12:19:28+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
@@ -194,7 +194,7 @@
   },
   "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf": {
     "url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
-    "checked_at": "2026-08-24T00:53:36+00:00",
+    "checked_at": "2026-08-27T12:19:33+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
@@ -209,7 +209,7 @@
   },
   "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf": {
     "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
-    "checked_at": "2026-08-24T00:53:39+00:00",
+    "checked_at": "2026-08-27T12:19:37+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='jansuraksha.gov.in', port=443): Max retries exceeded w",
@@ -224,13 +224,13 @@
   },
   "https://krishakbandhu.wb.gov.in/": {
     "url": "https://krishakbandhu.wb.gov.in/",
-    "checked_at": "2026-08-24T00:53:41+00:00",
+    "checked_at": "2026-08-27T12:19:39+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries excee",
     "etag": null,
     "last_modified": null,
-    "content_hash": "981990588d9792fd5e3aab55bb25ea5ce8a8258b2f4a2e8a7d25b0f7e586e255",
+    "content_hash": "eb15aca58b78cc4358d8b1c80cd890b7e7892c1eac0024e77726bf5292885ffb",
     "tls_unverified": true,
     "referenced_by": [
       "krishak-bandhu.official_website",
@@ -239,13 +239,13 @@
   },
   "https://krishakbandhu.wb.gov.in/about_kb": {
     "url": "https://krishakbandhu.wb.gov.in/about_kb",
-    "checked_at": "2026-08-24T00:53:45+00:00",
+    "checked_at": "2026-08-27T12:19:43+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries excee",
     "etag": null,
     "last_modified": null,
-    "content_hash": "42f0d809e7e8c2f8ade01b8dfe9d061b2cdf344e6d16760abf4c18b0f973f214",
+    "content_hash": "44d12673ed987d0901c0dcbac38954a9a7e981286e30b6f90e43fd5887e05d3d",
     "tls_unverified": true,
     "referenced_by": [
       "krishak-bandhu.official_scheme_url",
@@ -254,7 +254,7 @@
   },
   "https://krishakbandhu.wb.gov.in/download_notification12": {
     "url": "https://krishakbandhu.wb.gov.in/download_notification12",
-    "checked_at": "2026-08-24T00:53:47+00:00",
+    "checked_at": "2026-08-27T12:19:46+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='krishakbandhu.wb.gov.in', port=443): Max retries excee",
@@ -268,7 +268,7 @@
   },
   "https://nha.gov.in/": {
     "url": "https://nha.gov.in/",
-    "checked_at": "2026-08-24T00:53:56+00:00",
+    "checked_at": "2026-08-27T12:19:54+00:00",
     "outcome": "tls_error",
     "status": 403,
     "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificati",
@@ -282,7 +282,7 @@
   },
   "https://nha.gov.in/PM-JAY": {
     "url": "https://nha.gov.in/PM-JAY",
-    "checked_at": "2026-08-24T00:53:59+00:00",
+    "checked_at": "2026-08-27T12:19:57+00:00",
     "outcome": "tls_error",
     "status": 403,
     "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: /PM-JAY (Caused by SSLError(SSLCertVeri",
@@ -297,7 +297,7 @@
   },
   "https://north24parganas.gov.in/scheme/rupashree-prakalpa/": {
     "url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
-    "checked_at": "2026-08-24T00:53:59+00:00",
+    "checked_at": "2026-08-27T12:19:58+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "",
@@ -311,13 +311,13 @@
   },
   "https://oasis.wb.gov.in/": {
     "url": "https://oasis.wb.gov.in/",
-    "checked_at": "2026-08-24T00:54:01+00:00",
+    "checked_at": "2026-08-27T12:20:00+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "cec6ade913aa80efbe6aab13557b5c45a5652484f4b818be1c3d75541fb3c832",
+    "content_hash": "6c6aea3514801c6c19e09640c3d323fe0a4519269e9cc3e79954bfd9522f355b",
     "referenced_by": [
       "oasis-scholarships.official_website",
       "oasis-scholarships.source"
@@ -325,20 +325,20 @@
   },
   "https://oasis.wb.gov.in/index/1": {
     "url": "https://oasis.wb.gov.in/index/1",
-    "checked_at": "2026-08-24T00:54:06+00:00",
+    "checked_at": "2026-08-27T12:20:03+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "531609e908b675a34801068c27a80fea07042cda2eba022c1b2a1beacf2a4281",
+    "content_hash": "78a9c945cc28db2f1f775ffbe26a7aea194de0fa85039bb628b30f42c5011de8",
     "referenced_by": [
       "oasis-scholarships.apply_online_url"
     ]
   },
   "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf": {
     "url": "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf",
-    "checked_at": "2026-08-24T00:54:07+00:00",
+    "checked_at": "2026-08-27T12:20:05+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -352,7 +352,7 @@
   },
   "https://oasis.wb.gov.in/web/pdf/RateChartforCSScholarshipSchemes.pdf": {
     "url": "https://oasis.wb.gov.in/web/pdf/RateChartforCSScholarshipSchemes.pdf",
-    "checked_at": "2026-08-24T00:54:09+00:00",
+    "checked_at": "2026-08-27T12:20:07+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -365,26 +365,26 @@
   },
   "https://pfrda.org.in/": {
     "url": "https://pfrda.org.in/",
-    "checked_at": "2026-08-24T00:54:09+00:00",
+    "checked_at": "2026-08-27T12:20:07+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "aca3ef9554b36fbcb5eb132c4a23917eec22e81f8e389fd042297d4d7c5fe5fb",
+    "content_hash": "5a09038f04f75861308ea10d1c339f407599432cc64dccc9733a68688b94a709",
     "referenced_by": [
       "atal-pension-yojana.official_website"
     ]
   },
   "https://pfrda.org.in/schemes/atal-pension-yojana-apy": {
     "url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
-    "checked_at": "2026-08-24T00:54:12+00:00",
+    "checked_at": "2026-08-27T12:20:11+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "4050954af353ac74e7752bfb3c0ba9aa94d375b9a54d894294f12eae69f35f45",
+    "content_hash": "d2a751afc3913a7d553ff393ba8eccc000775464f39bbdc3503cf2a00c8a22a6",
     "referenced_by": [
       "atal-pension-yojana.official_scheme_url",
       "atal-pension-yojana.source"
@@ -392,26 +392,26 @@
   },
   "https://pmay-urban.gov.in/": {
     "url": "https://pmay-urban.gov.in/",
-    "checked_at": "2026-08-24T00:54:13+00:00",
+    "checked_at": "2026-08-27T12:20:11+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "fa2ac26bc1225d8a1df720253bbafeafda035ff80cca8ddd58c91ac218f9bc0c",
+    "content_hash": "5a63f5b9c397de0e1e2bc637861d72a7af268000f7d688c14373cd284c101e48",
     "referenced_by": [
       "pmay-urban.official_website"
     ]
   },
   "https://pmay-urban.gov.in/pmay-u-2.0-guidelines": {
     "url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
-    "checked_at": "2026-08-24T00:54:16+00:00",
+    "checked_at": "2026-08-27T12:20:15+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "bf910be7a7a51dc2154e62580f46ea51886bf10d6b5225147c23f1b21fedfb21",
+    "content_hash": "4745f3caf60dfeb0671451b3ac446d816d8cba837c6e17e32c0eec728cedf3bf",
     "referenced_by": [
       "pmay-urban.official_scheme_url",
       "pmay-urban.source"
@@ -419,7 +419,7 @@
   },
   "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf": {
     "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
-    "checked_at": "2026-08-24T00:54:18+00:00",
+    "checked_at": "2026-08-27T12:20:17+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -433,7 +433,7 @@
   },
   "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf": {
     "url": "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf",
-    "checked_at": "2026-08-24T00:54:18+00:00",
+    "checked_at": "2026-08-27T12:20:17+00:00",
     "outcome": "blocked",
     "status": 401,
     "note": "HTTP 401",
@@ -446,7 +446,7 @@
   },
   "https://pmayg.dord.gov.in/netiayHome/Home.aspx": {
     "url": "https://pmayg.dord.gov.in/netiayHome/Home.aspx",
-    "checked_at": "2026-08-24T00:54:21+00:00",
+    "checked_at": "2026-08-27T12:20:20+00:00",
     "outcome": "blocked",
     "status": 401,
     "note": "HTTP 401",
@@ -460,7 +460,7 @@
   },
   "https://pmayg.dord.gov.in/netiayHome/about.aspx": {
     "url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
-    "checked_at": "2026-08-24T00:54:23+00:00",
+    "checked_at": "2026-08-27T12:20:21+00:00",
     "outcome": "blocked",
     "status": 401,
     "note": "HTTP 401",
@@ -474,7 +474,7 @@
   },
   "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx": {
     "url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
-    "checked_at": "2026-08-24T00:54:23+00:00",
+    "checked_at": "2026-08-27T12:20:22+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "",
@@ -488,7 +488,7 @@
   },
   "https://pmegp.msme.gov.in/": {
     "url": "https://pmegp.msme.gov.in/",
-    "checked_at": "2026-08-24T00:54:25+00:00",
+    "checked_at": "2026-08-27T12:20:23+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "",
@@ -503,13 +503,13 @@
   },
   "https://pmegp.msme.gov.in/Home/HomePage": {
     "url": "https://pmegp.msme.gov.in/Home/HomePage",
-    "checked_at": "2026-08-24T00:54:27+00:00",
+    "checked_at": "2026-08-27T12:20:25+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "290874350d811c5e0179a3f78b88812cc925f85b7e122b414f6bf68a8ef2bc59",
+    "content_hash": "298d7bd0dba91b1830f4061743e3ab969bdf6cc8feab2c0810cbdac4316170f4",
     "referenced_by": [
       "prime-ministers-employment-generation-programme.apply_online_url",
       "prime-ministers-employment-generation-programme.source"
@@ -517,13 +517,13 @@
   },
   "https://pmfby.gov.in/": {
     "url": "https://pmfby.gov.in/",
-    "checked_at": "2026-08-24T00:54:28+00:00",
-    "outcome": "unchanged",
-    "status": 304,
+    "checked_at": "2026-08-27T12:20:26+00:00",
+    "outcome": "changed",
+    "status": 200,
     "note": "",
-    "etag": "W/\"1aba-1a01d315474\"",
-    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
-    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "etag": "W/\"1aba-1a040f0de91\"",
+    "last_modified": "Thu, 27 Aug 2026 01:58:42 GMT",
+    "content_hash": "3ee3c5f9928e9689143cddea10961829cff7165510d4d7ea8a5ab50658b6eff1",
     "referenced_by": [
       "pm-fasal-bima-yojana.official_website",
       "pm-fasal-bima-yojana.source"
@@ -531,13 +531,13 @@
   },
   "https://pmfby.gov.in/farmerRegistrationForm": {
     "url": "https://pmfby.gov.in/farmerRegistrationForm",
-    "checked_at": "2026-08-24T00:54:30+00:00",
-    "outcome": "unchanged",
-    "status": 304,
+    "checked_at": "2026-08-27T12:20:28+00:00",
+    "outcome": "changed",
+    "status": 200,
     "note": "",
-    "etag": "W/\"1aba-1a01d315474\"",
-    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
-    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "etag": "W/\"1aba-1a040f0de91\"",
+    "last_modified": "Thu, 27 Aug 2026 01:58:42 GMT",
+    "content_hash": "3ee3c5f9928e9689143cddea10961829cff7165510d4d7ea8a5ab50658b6eff1",
     "referenced_by": [
       "pm-fasal-bima-yojana.apply_online_url",
       "pm-fasal-bima-yojana.source"
@@ -545,20 +545,20 @@
   },
   "https://pmfby.gov.in/guidelines": {
     "url": "https://pmfby.gov.in/guidelines",
-    "checked_at": "2026-08-24T00:54:32+00:00",
-    "outcome": "unchanged",
-    "status": 304,
+    "checked_at": "2026-08-27T12:20:30+00:00",
+    "outcome": "changed",
+    "status": 200,
     "note": "",
-    "etag": "W/\"1aba-1a01d315474\"",
-    "last_modified": "Thu, 20 Aug 2026 03:22:47 GMT",
-    "content_hash": "cebbf90e4485d5725b546874ac09c17529482e8d55201d120185896fc3ad48fb",
+    "etag": "W/\"1aba-1a040f0de91\"",
+    "last_modified": "Thu, 27 Aug 2026 01:58:42 GMT",
+    "content_hash": "3ee3c5f9928e9689143cddea10961829cff7165510d4d7ea8a5ab50658b6eff1",
     "referenced_by": [
       "pm-fasal-bima-yojana.official_scheme_url"
     ]
   },
   "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf": {
     "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
-    "checked_at": "2026-08-24T00:54:34+00:00",
+    "checked_at": "2026-08-27T12:20:31+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -572,26 +572,26 @@
   },
   "https://pmjdy.gov.in/": {
     "url": "https://pmjdy.gov.in/",
-    "checked_at": "2026-08-24T00:54:34+00:00",
+    "checked_at": "2026-08-27T12:20:32+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "4cf64b0dbb8cc051cc0b4418d1014133071010103d4e082318f71e393a66f2cb",
+    "content_hash": "d83633efafa40be42160c5545e2af5979dce07bf4c287c81b926f494711b8c70",
     "referenced_by": [
       "pradhan-mantri-jan-dhan-yojana.official_website"
     ]
   },
   "https://pmjdy.gov.in/scheme": {
     "url": "https://pmjdy.gov.in/scheme",
-    "checked_at": "2026-08-24T00:54:39+00:00",
+    "checked_at": "2026-08-27T12:20:39+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "77df358107b8ba4e0d134946a80a2d0b1e43a5d42d52a7f773aee609bd3a30fe",
+    "content_hash": "cf6baa27b5ab86f9606fd4307eb88fcd91efb0bf3af215e9c6a790eadb8565bc",
     "referenced_by": [
       "pradhan-mantri-jan-dhan-yojana.official_scheme_url",
       "pradhan-mantri-jan-dhan-yojana.source"
@@ -599,13 +599,13 @@
   },
   "https://pmkisan.gov.in/": {
     "url": "https://pmkisan.gov.in/",
-    "checked_at": "2026-08-24T00:54:39+00:00",
+    "checked_at": "2026-08-27T12:20:40+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "2378a69ec444f4db15b0276baddb2664ac2008398e4e0ee09207e73f137589f2",
+    "content_hash": "cf2ea738f566a16e03980560bc4bd873550419c37fc1cb321e06259f478440fb",
     "referenced_by": [
       "pm-kisan.official_website",
       "pm-kisan.source"
@@ -613,7 +613,7 @@
   },
   "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf": {
     "url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf",
-    "checked_at": "2026-08-24T00:54:43+00:00",
+    "checked_at": "2026-08-27T12:20:43+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -627,13 +627,13 @@
   },
   "https://pmkisan.gov.in/RegistrationFormupdated.aspx": {
     "url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
-    "checked_at": "2026-08-24T00:54:45+00:00",
+    "checked_at": "2026-08-27T12:20:45+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "4a1ad861f2c27760edc2b41781f4f80caeb16ed7e6fcdeedcc49f891651d1567",
+    "content_hash": "7d4a87a24e4f0d47c76eb4e3f9e7d738ed7cb371f9cb22fa1f023d102da4a528",
     "referenced_by": [
       "pm-kisan.apply_online_url",
       "pm-kisan.source"
@@ -641,7 +641,7 @@
   },
   "https://pmmvy.wcd.gov.in/": {
     "url": "https://pmmvy.wcd.gov.in/",
-    "checked_at": "2026-08-24T00:54:45+00:00",
+    "checked_at": "2026-08-27T12:20:45+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -655,7 +655,7 @@
   },
   "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions": {
     "url": "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions",
-    "checked_at": "2026-08-24T00:54:48+00:00",
+    "checked_at": "2026-08-27T12:20:48+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -668,7 +668,7 @@
   },
   "https://pmvbry.epfindia.gov.in/": {
     "url": "https://pmvbry.epfindia.gov.in/",
-    "checked_at": "2026-08-24T00:54:48+00:00",
+    "checked_at": "2026-08-27T12:20:48+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -681,7 +681,7 @@
   },
   "https://pmvbry.epfindia.gov.in/?page_id=7123": {
     "url": "https://pmvbry.epfindia.gov.in/?page_id=7123",
-    "checked_at": "2026-08-24T00:54:50+00:00",
+    "checked_at": "2026-08-27T12:20:50+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -694,7 +694,7 @@
   },
   "https://pmvbry.epfindia.gov.in/dashboard/": {
     "url": "https://pmvbry.epfindia.gov.in/dashboard/",
-    "checked_at": "2026-08-24T00:54:52+00:00",
+    "checked_at": "2026-08-27T12:20:52+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -707,7 +707,7 @@
   },
   "https://pmvbry.epfindia.gov.in/guidelines/": {
     "url": "https://pmvbry.epfindia.gov.in/guidelines/",
-    "checked_at": "2026-08-24T00:54:53+00:00",
+    "checked_at": "2026-08-27T12:20:53+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -720,7 +720,7 @@
   },
   "https://pmvbry.epfindia.gov.in/pmvbry-scheme/": {
     "url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
-    "checked_at": "2026-08-24T00:54:55+00:00",
+    "checked_at": "2026-08-27T12:20:55+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -734,7 +734,7 @@
   },
   "https://pmvishwakarma.gov.in/": {
     "url": "https://pmvishwakarma.gov.in/",
-    "checked_at": "2026-08-24T00:54:55+00:00",
+    "checked_at": "2026-08-27T12:20:55+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -748,7 +748,7 @@
   },
   "https://pmvishwakarma.gov.in/Home/FAQ": {
     "url": "https://pmvishwakarma.gov.in/Home/FAQ",
-    "checked_at": "2026-08-24T00:57:21+00:00",
+    "checked_at": "2026-08-27T12:23:21+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -762,13 +762,13 @@
   },
   "https://rupashree.wb.gov.in/": {
     "url": "https://rupashree.wb.gov.in/",
-    "checked_at": "2026-08-24T00:59:46+00:00",
+    "checked_at": "2026-08-27T12:25:44+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='rupashree.wb.gov.in', port=443): Max retries exceeded ",
     "etag": null,
     "last_modified": null,
-    "content_hash": "beafdf1bcaa803947f548469734baedc81a520fc55a2ad2bc88817198e1ae625",
+    "content_hash": "669d2bcac4a64fb391d53cf145a5d6883d8ae2a65522938474e64b541c537bc5",
     "tls_unverified": true,
     "referenced_by": [
       "rupashree-prakalpa.apply_online_url",
@@ -777,7 +777,7 @@
   },
   "https://socialregistry.wb.gov.in/": {
     "url": "https://socialregistry.wb.gov.in/",
-    "checked_at": "2026-08-24T00:59:49+00:00",
+    "checked_at": "2026-08-27T12:25:47+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -790,7 +790,7 @@
   },
   "https://socialregistry.wb.gov.in/login": {
     "url": "https://socialregistry.wb.gov.in/login",
-    "checked_at": "2026-08-24T01:02:16+00:00",
+    "checked_at": "2026-08-27T12:28:13+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -804,13 +804,13 @@
   },
   "https://svmcm.wb.gov.in/": {
     "url": "https://svmcm.wb.gov.in/",
-    "checked_at": "2026-08-24T01:04:41+00:00",
+    "checked_at": "2026-08-27T12:30:39+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with",
     "etag": null,
     "last_modified": null,
-    "content_hash": "31c3e55e623c867123331a8f4fa1e3d47ad36272a6f5f252b232068cc85eeea0",
+    "content_hash": "27d8e3fcafe74b61ef7d98860f4f03c2dd7652ab6faa9a954cdd436080444fae",
     "tls_unverified": true,
     "referenced_by": [
       "swami-vivekananda-merit-cum-means-scholarship.official_website",
@@ -819,7 +819,7 @@
   },
   "https://svmcm.wb.gov.in/page/about.php": {
     "url": "https://svmcm.wb.gov.in/page/about.php",
-    "checked_at": "2026-08-24T01:04:45+00:00",
+    "checked_at": "2026-08-27T12:30:43+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with",
@@ -834,7 +834,7 @@
   },
   "https://svmcm.wb.gov.in/page/application_procedure.php": {
     "url": "https://svmcm.wb.gov.in/page/application_procedure.php",
-    "checked_at": "2026-08-24T01:04:48+00:00",
+    "checked_at": "2026-08-27T12:30:46+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with",
@@ -848,7 +848,7 @@
   },
   "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf": {
     "url": "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
-    "checked_at": "2026-08-24T01:04:50+00:00",
+    "checked_at": "2026-08-27T12:30:49+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='svmcm.wb.gov.in', port=443): Max retries exceeded with",
@@ -862,7 +862,7 @@
   },
   "https://swasthyasathi.gov.in/": {
     "url": "https://swasthyasathi.gov.in/",
-    "checked_at": "2026-08-24T01:04:52+00:00",
+    "checked_at": "2026-08-27T12:30:50+00:00",
     "outcome": "blocked",
     "status": 403,
     "note": "HTTP 403",
@@ -877,13 +877,13 @@
   },
   "https://wb.gov.in/": {
     "url": "https://wb.gov.in/",
-    "checked_at": "2026-08-24T01:04:53+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:30:51+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "262a46048baeae1fa56589ca770f6390d9f3ad3053cc4a737ecd4762d751b703",
+    "content_hash": "f340a80adff1b91a383a3690ed50c6d97cd5d60ab869663e4056418e42d9ee5f",
     "referenced_by": [
       "sabooj-sathi.official_website",
       "taposili-bandhu.official_website"
@@ -891,13 +891,13 @@
   },
   "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx": {
     "url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
-    "checked_at": "2026-08-24T01:04:57+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:30:54+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "95ddeab5addb81b3df6dfbee0017e8eb6aaefb88077b3b2cabd3948d694287ee",
+    "content_hash": "8a353bca7ea6467a70686123b7253049bf5ff677ceebba9b53f81ba9622ad558",
     "referenced_by": [
       "annapurna-yojana.official_scheme_url",
       "annapurna-yojana.source"
@@ -905,13 +905,13 @@
   },
   "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx": {
     "url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
-    "checked_at": "2026-08-24T01:04:58+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:30:56+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "c6801de605411fbe87d86895afcbecbdb7629c6a8a51b2e4abd40d0ad57194ab",
+    "content_hash": "1bf6fc0b11424d598353abab0699683fbb93d211ed69c34c1a266a3855a045e1",
     "referenced_by": [
       "jai-johar.official_scheme_url",
       "jai-johar.source"
@@ -919,13 +919,13 @@
   },
   "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx": {
     "url": "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx",
-    "checked_at": "2026-08-24T01:05:00+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:30:58+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "17c8bff4d0e5a96a5370cf67aeb9610243488275d2b65074f1fc36f555f4e385",
+    "content_hash": "ce5127203147320e32048364c5e88da03b98efd06a74c6247a7e4ab33aec6647",
     "referenced_by": [
       "rajya-khadya-suraksha-yojana.official_scheme_url",
       "rajya-khadya-suraksha-yojana.source"
@@ -933,13 +933,13 @@
   },
   "https://wb.gov.in/government-schemes-details-saboojsathi.aspx": {
     "url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
-    "checked_at": "2026-08-24T01:05:02+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:30:59+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "900e62dcb7e504ec5e4ca165f11732f932aa4d45b8c59dfb70daf6bf0ee80e9a",
+    "content_hash": "28f762f309deb32d244cd6f38c77be1485c0b93351dce0aba8d04e2a276d5b3c",
     "referenced_by": [
       "sabooj-sathi.official_scheme_url",
       "sabooj-sathi.source"
@@ -947,13 +947,13 @@
   },
   "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx": {
     "url": "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx",
-    "checked_at": "2026-08-24T01:05:03+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:31:01+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "f74c2e74bca06ede5575be0493bf297c52aa53394598bcf59ec5349f037ca284",
+    "content_hash": "ec48ce3acbe7d2873ccd9c4539a65a97885b8ca5dd5b862a0d34ad88c3960da5",
     "referenced_by": [
       "taposili-bandhu.official_scheme_url",
       "taposili-bandhu.source"
@@ -961,7 +961,7 @@
   },
   "https://wbscc.wb.gov.in/": {
     "url": "https://wbscc.wb.gov.in/",
-    "checked_at": "2026-08-24T01:05:04+00:00",
+    "checked_at": "2026-08-27T12:31:01+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with",
@@ -976,7 +976,7 @@
   },
   "https://wbscc.wb.gov.in/About": {
     "url": "https://wbscc.wb.gov.in/About",
-    "checked_at": "2026-08-24T01:05:09+00:00",
+    "checked_at": "2026-08-27T12:31:06+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with",
@@ -991,13 +991,13 @@
   },
   "https://wbscc.wb.gov.in/Applicant_Login": {
     "url": "https://wbscc.wb.gov.in/Applicant_Login",
-    "checked_at": "2026-08-24T01:05:11+00:00",
+    "checked_at": "2026-08-27T12:31:08+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with",
     "etag": null,
     "last_modified": null,
-    "content_hash": "dbcb4cc88cb462d26cce664e2441dd4307699ca629bbdec5bcdfe3cc793546f8",
+    "content_hash": "6e5b2bf3039e0ca3342823049ece709989d0074295833e383ab057828d0ebadc",
     "tls_unverified": true,
     "referenced_by": [
       "west-bengal-student-credit-card.apply_online_url"
@@ -1005,7 +1005,7 @@
   },
   "https://wbscc.wb.gov.in/FAQ": {
     "url": "https://wbscc.wb.gov.in/FAQ",
-    "checked_at": "2026-08-24T01:05:14+00:00",
+    "checked_at": "2026-08-27T12:31:11+00:00",
     "outcome": "unchanged",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='wbscc.wb.gov.in', port=443): Max retries exceeded with",
@@ -1019,13 +1019,13 @@
   },
   "https://wcdsw.wb.gov.in/": {
     "url": "https://wcdsw.wb.gov.in/",
-    "checked_at": "2026-08-24T01:05:16+00:00",
+    "checked_at": "2026-08-27T12:31:12+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='wcdsw.wb.gov.in', port=443): Max retries exceeded with",
     "etag": null,
     "last_modified": null,
-    "content_hash": "e528e7fa44c209906283ad5e6800106a4fc61f53cdb1ea9af5884803b18455e6",
+    "content_hash": "b4cf3c25e766ebbafa9e13addac79120e289213e535a3667c2de76e3c4cee30b",
     "tls_unverified": true,
     "referenced_by": [
       "rupashree-prakalpa.official_website"
@@ -1033,52 +1033,52 @@
   },
   "https://www.pfrda.org.in/w/faqs/atal-pension-yojana": {
     "url": "https://www.pfrda.org.in/w/faqs/atal-pension-yojana",
-    "checked_at": "2026-08-24T01:05:19+00:00",
+    "checked_at": "2026-08-27T12:31:15+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "d1c1a18ee598ccf5dd88495759014b05f0af246a221e7028d542ed3801aa7a12",
+    "content_hash": "890f47a9c02d982eca124a3d7f2edf47d1c32add28219a08c95d455186f4d5e4",
     "referenced_by": [
       "atal-pension-yojana.source"
     ]
   },
   "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716": {
     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716",
-    "checked_at": "2026-08-24T01:05:20+00:00",
+    "checked_at": "2026-08-27T12:31:17+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": "XXXXXXXX",
     "last_modified": null,
-    "content_hash": "b1b27659e680f873caf79cc471ca05368abdba1def12dd219296573e24dba1e2",
+    "content_hash": "7a410ac50762579c714bbadaf011eee424f755a522163f399d99d1a1536c7506",
     "referenced_by": [
       "pm-vishwakarma.source"
     ]
   },
   "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-health-coverage-to-all-senior-citizens-of-the-age-70-years-and-above-irrespective-of-income-under-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-ab-pm-jay/": {
     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-health-coverage-to-all-senior-citizens-of-the-age-70-years-and-above-irrespective-of-income-under-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-ab-pm-jay/",
-    "checked_at": "2026-08-24T01:05:23+00:00",
+    "checked_at": "2026-08-27T12:31:20+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "f2ad47b653d6d563729353cdd4084ad38fd59dc766797af5890b5d7e39b67d88",
+    "content_hash": "77a11816082b75c1af3afa2f53ad6a9e242b02ed649c397f325050436c87cc71",
     "referenced_by": [
       "ayushman-bharat-pm-jay.source"
     ]
   },
   "https://www.pmjdy.gov.in/about": {
     "url": "https://www.pmjdy.gov.in/about",
-    "checked_at": "2026-08-24T01:05:25+00:00",
+    "checked_at": "2026-08-27T12:31:22+00:00",
     "outcome": "changed",
     "status": 200,
     "note": "certificate NOT verified: HTTPSConnectionPool(host='www.pmjdy.gov.in', port=443): Max retries exceeded wit",
     "etag": null,
     "last_modified": null,
-    "content_hash": "4b33e51b96bc4c96a07d2f6ef223443dabcfffd8561aa2f34692ec8c0736ff35",
+    "content_hash": "980090e10828090fd63b25140515818fa3f7ecc5aa34227212f591427858af37",
     "tls_unverified": true,
     "referenced_by": [
       "pradhan-mantri-jan-dhan-yojana.source"
@@ -1086,13 +1086,13 @@
   },
   "https://www.pmuy.gov.in/": {
     "url": "https://www.pmuy.gov.in/",
-    "checked_at": "2026-08-24T01:05:29+00:00",
-    "outcome": "unchanged",
+    "checked_at": "2026-08-27T12:31:30+00:00",
+    "outcome": "changed",
     "status": 200,
     "note": "",
     "etag": null,
     "last_modified": null,
-    "content_hash": "db8442a37d72fb5985c17959fe8de7f301c49d980d911352bef37e1a101602e6",
+    "content_hash": "5c4236e51e7b9ce945b1008face74832428caa1d277f5efdec62d3aaf9624a71",
     "referenced_by": [
       "pm-ujjwala-yojana.official_website",
       "pm-ujjwala-yojana.source"
@@ -1100,7 +1100,7 @@
   },
   "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf": {
     "url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
-    "checked_at": "2026-08-24T01:05:32+00:00",
+    "checked_at": "2026-08-27T12:31:33+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -1114,7 +1114,7 @@
   },
   "https://www.pmuy.gov.in/ujjwala2.html": {
     "url": "https://www.pmuy.gov.in/ujjwala2.html",
-    "checked_at": "2026-08-24T01:05:34+00:00",
+    "checked_at": "2026-08-27T12:31:34+00:00",
     "outcome": "unchanged",
     "status": 304,
     "note": "",
@@ -1129,7 +1129,7 @@
   },
   "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf": {
     "url": "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
-    "checked_at": "2026-08-24T01:05:34+00:00",
+    "checked_at": "2026-08-27T12:31:35+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "timeout",
@@ -1143,10 +1143,10 @@
   },
   "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna": {
     "url": "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
-    "checked_at": "2026-08-24T01:07:58+00:00",
-    "outcome": "changed",
-    "status": 200,
-    "note": "",
+    "checked_at": "2026-08-27T12:33:59+00:00",
+    "outcome": "unreachable",
+    "status": null,
+    "note": "timeout",
     "etag": null,
     "last_modified": "Mon, 24 Aug 2026 01:07:59 GMT",
     "content_hash": "61c5bf7c22bf9990683e43025debb972c55db14a4dfdde48846150ed20c9845d",
@@ -1157,7 +1157,7 @@
   },
   "https://www.wbkanyashree.gov.in/": {
     "url": "https://www.wbkanyashree.gov.in/",
-    "checked_at": "2026-08-24T01:07:59+00:00",
+    "checked_at": "2026-08-27T12:36:24+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
@@ -1170,7 +1170,7 @@
   },
   "https://www.wbkanyashree.gov.in/kp_faq.php": {
     "url": "https://www.wbkanyashree.gov.in/kp_faq.php",
-    "checked_at": "2026-08-24T01:08:11+00:00",
+    "checked_at": "2026-08-27T12:36:35+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
@@ -1183,7 +1183,7 @@
   },
   "https://www.wbkanyashree.gov.in/kp_scheme.php": {
     "url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
-    "checked_at": "2026-08-24T01:08:22+00:00",
+    "checked_at": "2026-08-27T12:36:47+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
@@ -1197,7 +1197,7 @@
   },
   "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf": {
     "url": "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf",
-    "checked_at": "2026-08-24T01:08:33+00:00",
+    "checked_at": "2026-08-27T12:36:58+00:00",
     "outcome": "unreachable",
     "status": null,
     "note": "connection: HTTPSConnectionPool(host='www.wbkanyashree.gov.in', port=443): Max retries excee",
@@ -1210,10 +1210,10 @@
   },
   "https://www.wbmdfc.net/": {
     "url": "https://www.wbmdfc.net/",
-    "checked_at": "2026-08-24T01:08:43+00:00",
-    "outcome": "changed",
+    "checked_at": "2026-08-27T12:37:07+00:00",
+    "outcome": "soft_fail",
     "status": 200,
-    "note": "",
+    "note": "soft-fail marker: Under Maintenance",
     "etag": null,
     "last_modified": null,
     "content_hash": "dd69b4c7b5af339beaa6d69b58498906549a8ec7bc784c1251b1befc919ce134",

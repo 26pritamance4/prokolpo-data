@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
-  "total_records": 29,
-  "verified_records": 28,
-  "needs_review_records": 1,
+  "total_records": 40,
+  "verified_records": 40,
+  "needs_review_records": 0,
   "last_verified_at": "2026-09-03",
   "schemes": [
     {
@@ -37,7 +37,10 @@
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
       "apply_online_url": "https://socialregistry.wb.gov.in/login",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=YBmBBSKd4ms",
+        "https://www.youtube.com/watch?v=XI6_s1frKHw"
+      ],
       "source": [
         {
           "title": "Annapurna Yojana - Egiye Bangla",
@@ -88,7 +91,10 @@
       "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
       "apply_online_url": "https://ds.wb.gov.in/",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=6-ijRhJHfgQ",
+        "https://www.youtube.com/watch?v=VVlof-w_rOc"
+      ],
       "source": [
         {
           "title": "Chief Minister's Office Scheme Master",
@@ -143,7 +149,11 @@
       "official_scheme_url": "https://pmkisan.gov.in/Documents/RevisedFAQ.pdf",
       "apply_online_url": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=H-Jjfdd6wLM",
+        "https://www.youtube.com/watch?v=N6WlNqM6W7g",
+        "https://www.youtube.com/watch?v=m5oobtmqnwA"
+      ],
       "source": [
         {
           "title": "PM-KISAN official portal",
@@ -173,68 +183,6 @@
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2018-12-01"
-    },
-    {
-      "id": "kanyashree-prakalpa",
-      "name_en": "Kanyashree Prakalpa",
-      "name_bn": "কন্যাশ্রী প্রকল্প",
-      "category": "west_bengal",
-      "dept": "Department of Women and Child Development and Social Welfare, Government of West Bengal",
-      "description_bn": "কিশোরীদের পড়াশোনায় ধরে রাখা এবং প্রাপ্তবয়স্ক হওয়ার আগে বিয়ে প্রতিরোধের উদ্দেশ্যে পশ্চিমবঙ্গ সরকারের শর্তসাপেক্ষ আর্থিক সহায়তা প্রকল্প।",
-      "benefit": "যোগ্য ছাত্রীদের বার্ষিক বৃত্তি এবং ১৮ বছর পূর্ণ হওয়ার পরে নির্ধারিত শর্তে এককালীন ₹২৫,০০০ অনুদান দেওয়া হয়। বার্ষিক বৃত্তির পরিমাণ সম্পর্কে অফিসিয়াল ওয়েবপেজ ও অন্য অফিসিয়াল SOP-তে ভিন্ন তথ্য পাওয়া গেছে।",
-      "eligibility": [
-        "K1-এর জন্য সাধারণত ১৩ থেকে ১৮ বছর বয়সী অবিবাহিত ছাত্রী",
-        "স্বীকৃত শিক্ষা প্রতিষ্ঠানে অষ্টম শ্রেণি বা তার উপরে অধ্যয়নরত হতে হবে",
-        "K2-এর জন্য ১৮ বছর পূর্ণ হওয়া অবিবাহিত ছাত্রী এবং নির্ধারিত শিক্ষা বা প্রশিক্ষণ প্রতিষ্ঠানের সঙ্গে যুক্ত থাকা প্রয়োজন",
-        "প্রযোজ্য আয় ও অন্যান্য শর্ত অফিসিয়াল নির্দেশিকা অনুযায়ী যাচাই করতে হবে"
-      ],
-      "documents": [
-        "বয়সের প্রমাণ",
-        "শিক্ষা প্রতিষ্ঠানে অধ্যয়নের প্রমাণ",
-        "নিজের নামে ব্যাংক অ্যাকাউন্টের তথ্য",
-        "প্রয়োজনীয় ঘোষণা ও শিক্ষা প্রতিষ্ঠানের প্রত্যয়ন",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "application_process": [
-        "নিজের শিক্ষা প্রতিষ্ঠানের Kanyashree দায়িত্বপ্রাপ্ত ব্যক্তির সঙ্গে যোগাযোগ করুন",
-        "K1 বা K2 অনুযায়ী নির্ধারিত আবেদনপত্র সংগ্রহ ও পূরণ করুন",
-        "প্রয়োজনীয় বয়স, শিক্ষা ও ব্যাংক-সংক্রান্ত নথি জমা দিন",
-        "প্রতিষ্ঠান ও সংশ্লিষ্ট প্রশাসনিক স্তরের যাচাই সম্পন্ন হওয়ার অপেক্ষা করুন"
-      ],
-      "official_website": "https://www.wbkanyashree.gov.in/",
-      "official_scheme_url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
-      "apply_online_url": "",
-      "form_pdf_url": "",
-      "video_url": [],
-      "source": [
-        {
-          "title": "Kanyashree official scheme page",
-          "url": "https://www.wbkanyashree.gov.in/kp_scheme.php",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Kanyashree official FAQ",
-          "url": "https://www.wbkanyashree.gov.in/kp_faq.php",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Kanyashree Duare Sarkar SOP",
-          "url": "https://www.wbkanyashree.gov.in/readwrite/notice_publications/SOP%20for%20Duare%20Sarkar_KP.pdf",
-          "source_type": "official_pdf",
-          "published_or_updated_date": ""
-        }
-      ],
-      "government_level": "west_bengal",
-      "scheme_status": "active",
-      "verification_status": "needs_review",
-      "verification_notes": "K1 annual amount still unresolved as of 2026-08-20. The official Duare Sarkar SOP (wb.gov.in) states K1 = Rs 1,000 and K2 = Rs 25,000, but that same document describes Kanyashree years 2019-20 and 2020-21 as currently open, so it is outdated and cannot establish the present figure. The official scheme page reportedly shows Rs 500. Per §5 the conflict is not silently resolved; the record omits a final K1 amount pending department confirmation. K2 = Rs 25,000 is consistent across official sources.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "K1 বার্ষিক অনুদানের পরিমাণ এখনও অমীমাংসিত। অফিসিয়াল দুয়ারে সরকার SOP-তে ₹১,০০০ বলা থাকলেও সেই নথিটি ২০১৯-২০ ও ২০২০-২১ বর্ষকে চলতি বলে উল্লেখ করায় তা পুরোনো; তাই দপ্তরের নিশ্চিতকরণ ছাড়া চূড়ান্ত পরিমাণ যোগ করা হয়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-08-20",
-      "start_date": "2013-10-01"
     },
     {
       "id": "krishak-bandhu",
@@ -267,7 +215,10 @@
       "official_scheme_url": "https://krishakbandhu.wb.gov.in/about_kb",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=qAcTCCLyBTM",
+        "https://www.youtube.com/watch?v=f9g3dy3RTbk"
+      ],
       "source": [
         {
           "title": "About Krishak Bandhu",
@@ -329,7 +280,10 @@
       "official_scheme_url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
       "apply_online_url": "https://swasthyasathi.gov.in/",
       "form_pdf_url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=2zlhdpNgBu8",
+        "https://www.youtube.com/watch?v=M4m2W6HNvFY"
+      ],
       "source": [
         {
           "title": "Swasthya Sathi official scheme page",
@@ -389,7 +343,10 @@
       "official_scheme_url": "https://wbscc.wb.gov.in/About",
       "apply_online_url": "https://wbscc.wb.gov.in/Applicant_Login",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=oO6dMMljmQU",
+        "https://www.youtube.com/watch?v=3zI5fSkLKbU"
+      ],
       "source": [
         {
           "title": "West Bengal Student Credit Card official portal",
@@ -453,7 +410,10 @@
       "official_scheme_url": "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf",
       "apply_online_url": "https://oasis.wb.gov.in/index/1",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=1N7qfx4-sy8",
+        "https://www.youtube.com/watch?v=wTVpmGS95VA"
+      ],
       "source": [
         {
           "title": "OASIS Scholarship Portal — Students Corner, Academic Session 2026-27",
@@ -517,7 +477,10 @@
       "official_scheme_url": "https://svmcm.wb.gov.in/page/about.php",
       "apply_online_url": "https://svmcm.wb.gov.in/",
       "form_pdf_url": "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=3hLa2AU-ZV4",
+        "https://www.youtube.com/watch?v=MNF_ttfL2JA"
+      ],
       "source": [
         {
           "title": "SVMCM About and Guidelines",
@@ -573,7 +536,10 @@
       "official_scheme_url": "https://pmfby.gov.in/guidelines",
       "apply_online_url": "https://pmfby.gov.in/farmerRegistrationForm",
       "form_pdf_url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=nHRfeD6pUNM",
+        "https://www.youtube.com/watch?v=sSJCgATZKNQ"
+      ],
       "source": [
         {
           "title": "PMFBY official portal",
@@ -634,7 +600,10 @@
       "official_scheme_url": "https://nha.gov.in/PM-JAY",
       "apply_online_url": "https://beneficiary.nha.gov.in/",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=pCXrnLEEUnY",
+        "https://www.youtube.com/watch?v=oWB45pWids0"
+      ],
       "source": [
         {
           "title": "About PM-JAY - NHA",
@@ -699,7 +668,10 @@
       "official_scheme_url": "https://www.pmuy.gov.in/ujjwala2.html",
       "apply_online_url": "https://www.pmuy.gov.in/ujjwala2.html",
       "form_pdf_url": "https://www.pmuy.gov.in/documents/Ujjwala-KYC_englishnew.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=w7K_usSer4U",
+        "https://www.youtube.com/watch?v=egcIxBDAZIg"
+      ],
       "source": [
         {
           "title": "PMUY Ujjwala 2.0 connection page",
@@ -759,7 +731,11 @@
       "official_scheme_url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
       "apply_online_url": "https://pmaymis.gov.in/pmaymis2_2024/PMAY_SURVEY/EligiblityCheck.aspx",
       "form_pdf_url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=4ePGVvZ69MA",
+        "https://www.youtube.com/watch?v=2fC9thAys3c",
+        "https://www.youtube.com/watch?v=vGQynWezqoA"
+      ],
       "source": [
         {
           "title": "PMAY-U 2.0 scheme guidelines page",
@@ -817,7 +793,10 @@
       "official_scheme_url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=EXpxsYNXHUI",
+        "https://www.youtube.com/watch?v=4eXC8tvwFG4"
+      ],
       "source": [
         {
           "title": "PMAY-G official portal",
@@ -883,7 +862,10 @@
       "official_scheme_url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
       "apply_online_url": "https://rupashree.wb.gov.in/",
       "form_pdf_url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=1R8gf2MUi-I",
+        "https://www.youtube.com/watch?v=rqBgvRhZDas"
+      ],
       "source": [
         {
           "title": "Rupashree Online 3.0",
@@ -943,7 +925,10 @@
       "official_scheme_url": "https://bccs.wb.gov.in/scheme",
       "apply_online_url": "https://bccs.wb.gov.in/apply_online",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=9Wzw8jR2vtE",
+        "https://www.youtube.com/watch?v=C7yd8wfKqo4"
+      ],
       "source": [
         {
           "title": "West Bengal Bhabishyat Credit Card official portal",
@@ -1007,7 +992,10 @@
       "official_scheme_url": "https://pmvishwakarma.gov.in/Home/FAQ",
       "apply_online_url": "",
       "form_pdf_url": "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=W-GbTraeKV8",
+        "https://www.youtube.com/watch?v=Zi4Ywb7vOAY"
+      ],
       "source": [
         {
           "title": "PM Vishwakarma official portal",
@@ -1073,7 +1061,10 @@
       "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=Bnq6tWtIbOI",
+        "https://www.youtube.com/watch?v=vWTizhwIOaw"
+      ],
       "source": [
         {
           "title": "West Bengal CMO Scheme Master - Aikyashree",
@@ -1129,7 +1120,10 @@
       "official_scheme_url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=8jGf_ywSjoo",
+        "https://www.youtube.com/watch?v=0_OG-vxehjs"
+      ],
       "source": [
         {
           "title": "Atal Pension Yojana - PFRDA",
@@ -1234,7 +1228,9 @@
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=-XiXBDgSKyI"
+      ],
       "source": [
         {
           "title": "Jai Johar - Egiye Bangla",
@@ -1282,7 +1278,10 @@
       "official_scheme_url": "https://pmjdy.gov.in/scheme",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=Y9MxlC8DjpU",
+        "https://www.youtube.com/watch?v=2zlLPMPY3tA"
+      ],
       "source": [
         {
           "title": "PMJDY Scheme Page",
@@ -1338,7 +1337,11 @@
       "official_scheme_url": "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
       "apply_online_url": "https://pmmvy.wcd.gov.in/",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=s4eRlIcZBdk",
+        "https://www.youtube.com/watch?v=Nq7ey2_CTj0",
+        "https://www.youtube.com/watch?v=xTf1npLc63I"
+      ],
       "source": [
         {
           "title": "PMMVY official scheme page",
@@ -1393,7 +1396,10 @@
       "official_scheme_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
       "apply_online_url": "",
       "form_pdf_url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=BtAbsEX9xy0",
+        "https://www.youtube.com/watch?v=FeJbXTBNrBY"
+      ],
       "source": [
         {
           "title": "PMSBY Rules",
@@ -1453,7 +1459,10 @@
       "official_scheme_url": "https://pmegp.msme.gov.in/",
       "apply_online_url": "https://pmegp.msme.gov.in/Home/HomePage",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=vJsUnmCUiIw",
+        "https://www.youtube.com/watch?v=lm1J3cyKgGk"
+      ],
       "source": [
         {
           "title": "PMEGP official portal",
@@ -1510,7 +1519,10 @@
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-rajya-khadya-suraksha-yojana.aspx",
       "apply_online_url": "https://food.wb.gov.in/",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=rCNr3Ec0Zxs",
+        "https://www.youtube.com/watch?v=GHK_DSj7T8c"
+      ],
       "source": [
         {
           "title": "Rajya Khadya Suraksha Yojana - Egiye Bangla",
@@ -1553,7 +1565,9 @@
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=y-6rLWBUdH8"
+      ],
       "source": [
         {
           "title": "Sabooj Sathi - Egiye Bangla",
@@ -1604,7 +1618,9 @@
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=-XiXBDgSKyI"
+      ],
       "source": [
         {
           "title": "Taposili Bandhu - Egiye Bangla",
@@ -1651,7 +1667,11 @@
       "official_scheme_url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
       "apply_online_url": "https://pmvbry.epfindia.gov.in/dashboard/",
       "form_pdf_url": "",
-      "video_url": [],
+      "video_url": [
+        "https://www.youtube.com/watch?v=TLQahzzORA4",
+        "https://www.youtube.com/watch?v=w0wP4Aiw3IA",
+        "https://www.youtube.com/watch?v=-SaZMwn5c9c"
+      ],
       "source": [
         {
           "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana - EPFO official scheme page",
@@ -1681,6 +1701,700 @@
       "last_updated": "2026-08-14",
       "last_verified_at": "2026-08-14",
       "start_date": "2025-08-01"
+    },
+    {
+      "id": "pm-surya-ghar-muft-bijli-yojana",
+      "name_en": "PM Surya Ghar: Muft Bijli Yojana",
+      "name_bn": "পিএম সূর্য ঘর: মুফত বিজলি যোজনা",
+      "category": "central",
+      "dept": "Government of India",
+      "description_bn": "আবাসিক বাড়ির ছাদে সৌর বিদ্যুৎ ব্যবস্থা বসানোর জন্য কেন্দ্রীয় ভর্তুকি দেওয়ার প্রকল্প। ২০২৪ সালের ১৫ ফেব্রুয়ারি ভারত সরকার এটি চালু করেছে।",
+      "benefit": "২ কিলোওয়াট পর্যন্ত ক্ষমতায় প্রতি কিলোওয়াট ₹৩০,০০০ হারে সর্বোচ্চ ₹৬০,০০০ ভর্তুকি; ৩ কিলোওয়াট পর্যন্ত অতিরিক্ত ক্ষমতার জন্য প্রতি কিলোওয়াট ₹১৮,০০০ হারে সর্বোচ্চ ₹৭৮,০০০; ৩ কিলোওয়াটের বেশি ক্ষমতাতেও ভর্তুকি সর্বোচ্চ ₹৭৮,০০০। গোষ্ঠী আবাসন সমিতি বা RWA-র সাধারণ ব্যবহারের জন্য প্রতি কিলোওয়াট ₹১৮,০০০ (প্রতি বাড়ি ৩ কিলোওয়াট হিসেবে সর্বোচ্চ ৫০০ কিলোওয়াট)। ভর্তুকি DBT-তে সরাসরি ব্যাংক অ্যাকাউন্টে জমা হয়।",
+      "eligibility": [
+        "ভারতীয় নাগরিক হতে হবে",
+        "বৈধ গার্হস্থ্য বিদ্যুৎ সংযোগ থাকতে হবে",
+        "নিজের আবাসিক বাড়ি এবং সৌর প্যানেল বসানোর উপযুক্ত ছাদ থাকতে হবে",
+        "একই সিস্টেমের জন্য আগে ভর্তুকি নেওয়া থাকলে চলবে না",
+        "সাধারণ সুবিধার জন্য গোষ্ঠী আবাসন সমিতি ও RWA আবেদন করতে পারে"
+      ],
+      "documents": [
+        "বিদ্যুতের বিল",
+        "পরিচয়পত্র",
+        "ব্যাংক অ্যাকাউন্টের তথ্য",
+        "বাড়ির মালিকানা বা দখলের প্রমাণ"
+      ],
+      "application_process": [
+        "অফিসিয়াল পোর্টাল pmsuryaghar.gov.in-এ অনলাইনে আবেদন করুন",
+        "বিদ্যুৎ গ্রাহক নম্বর দিয়ে নিবন্ধন করুন",
+        "তালিকাভুক্ত (empanelled) ভেন্ডর নির্বাচন করুন",
+        "প্রয়োজনীয় কারিগরি অনুমোদন নিন",
+        "সিস্টেম বসানোর পরে পরিদর্শন করান",
+        "নেট মিটার চালু হলে ভর্তুকি DBT-তে ব্যাংক অ্যাকাউন্টে জমা হবে"
+      ],
+      "official_website": "https://www.pmsuryaghar.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-pm-surya-ghar-muft-bijli-yojana-scheme.aspx",
+      "apply_online_url": "https://www.pmsuryaghar.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=6tyciTKFRbU",
+        "https://www.youtube.com/watch?v=4wpg7XMPFj4"
+      ],
+      "source": [
+        {
+          "title": "PM Surya Ghar Muft Bijli Yojana Scheme - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-pm-surya-ghar-muft-bijli-yojana-scheme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Launch date, subsidy slabs, eligibility, documents and application steps verified on the official West Bengal State Portal scheme page, which names pmsuryaghar.gov.in as the official application portal. Direct fetch of pmsuryaghar.gov.in (403) and mnre.gov.in (404) failed, so the administering ministry is not asserted; dept recorded only at the level the accessible official source supports.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": "2024-02-15"
+    },
+    {
+      "id": "pradhan-mantri-jeevan-jyoti-bima-yojana",
+      "name_en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "name_bn": "প্রধানমন্ত্রী জীবন জ্যোতি বিমা যোজনা",
+      "category": "central",
+      "dept": "Department of Financial Services, Ministry of Finance, Government of India",
+      "description_bn": "ব্যাংক অ্যাকাউন্টধারীদের জন্য কম প্রিমিয়ামের বার্ষিক নবীকরণযোগ্য জীবন বিমা প্রকল্প।",
+      "benefit": "যে কোনও কারণে গ্রাহকের মৃত্যু হলে নমিনি ₹২ লক্ষ পান। বার্ষিক প্রিমিয়াম ₹৪৩৬, যা ব্যাংক অ্যাকাউন্ট থেকে অটো-ডেবিটে কাটা হয়। বিমার মেয়াদ প্রতি বছর ১ জুন থেকে ৩১ মে পর্যন্ত।",
+      "eligibility": [
+        "যোগদানের সময় বয়স ১৮ থেকে ৫০ বছরের মধ্যে হতে হবে",
+        "সঞ্চয়ী ব্যাংক অ্যাকাউন্ট থাকতে হবে (একক বা যৌথ)",
+        "প্রিমিয়াম অটো-ডেবিটে দেওয়ার সম্মতি দিতে হবে",
+        "প্রতি বছর নবীকরণ করে ৫৫ বছর বয়স পর্যন্ত কভার চালু রাখা যায়"
+      ],
+      "documents": [
+        "সচল সঞ্চয়ী ব্যাংক অ্যাকাউন্ট",
+        "নাম, বয়স ও নমিনির তথ্য",
+        "অটো-ডেবিট সম্মতিপত্র",
+        "নির্ধারিত সময়ের পরে যোগ দিলে স্ব-ঘোষণাপত্র"
+      ],
+      "application_process": [
+        "অংশগ্রহণকারী ব্যাংকের শাখায় যান, অথবা নেট ব্যাংকিং বা মোবাইল ব্যাংকিং অ্যাপ ব্যবহার করুন",
+        "PMJJBY-র আবেদনপত্র (কাগজে বা ডিজিটালে) পূরণ করুন",
+        "ব্যক্তিগত ও নমিনির তথ্য দিন",
+        "অটো-ডেবিটের সম্মতি জমা দিন",
+        "প্রিমিয়াম কাটা হলে বিমা কভার চালু হবে"
+      ],
+      "official_website": "https://financialservices.gov.in/",
+      "official_scheme_url": "https://financialservices.gov.in/pradhan-mantri-jeevan-jyoti-bima-yojana-pmjjby",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=BtAbsEX9xy0",
+        "https://www.youtube.com/watch?v=1FW36NBA0aQ"
+      ],
+      "source": [
+        {
+          "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) - Department of Financial Services",
+          "url": "https://financialservices.gov.in/pradhan-mantri-jeevan-jyoti-bima-yojana-pmjjby",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-pradhan-mantri-jeevan-jyoti-bima-yojana.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Sum assured Rs 2 lakh, annual premium Rs 436, entry age 18-50, cover renewable to age 55 and the 1 June to 31 May cover period confirmed on the Department of Financial Services page and cross-checked with the official West Bengal State Portal scheme page; both agree. Enrolment happens through participating banks and there is no separate citizen application portal, so apply_online_url is left empty.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "pradhan-mantri-shram-yogi-maandhan",
+      "name_en": "Pradhan Mantri Shram Yogi Maandhan",
+      "name_bn": "প্রধানমন্ত্রী শ্রম যোগী মানধন",
+      "category": "central",
+      "dept": "Ministry of Labour and Employment, Government of India",
+      "description_bn": "অসংগঠিত ক্ষেত্রের শ্রমিকদের বার্ধক্যে নিশ্চিত পেনশনের জন্য স্বেচ্ছামূলক চাঁদাভিত্তিক পেনশন প্রকল্প।",
+      "benefit": "৬০ বছর বয়সের পর সারা জীবন মাসে ন্যূনতম নিশ্চিত ₹৩,০০০ পেনশন। গ্রাহকের মৃত্যুর পরে স্বামী/স্ত্রী পেনশনের ৫০%, অর্থাৎ মাসে ₹১,৫০০ পারিবারিক পেনশন পান। বয়স অনুযায়ী মাসিক চাঁদা ₹৫৫ থেকে ₹২০০; সমপরিমাণ চাঁদা ভারত সরকার দেয়।",
+      "eligibility": [
+        "অসংগঠিত ক্ষেত্রের শ্রমিক হতে হবে (যেমন হকার, নির্মাণ শ্রমিক, গৃহকর্মী)",
+        "যোগদানের সময় বয়স ১৮ থেকে ৪০ বছরের মধ্যে হতে হবে",
+        "মাসিক আয় ₹১৫,০০০ বা তার কম হতে হবে",
+        "মোবাইল নম্বরের সঙ্গে যুক্ত বৈধ আধার থাকতে হবে",
+        "সচল সঞ্চয়ী বা জন ধন ব্যাংক অ্যাকাউন্ট থাকতে হবে",
+        "EPF, ESIC বা NPS-এ অন্তর্ভুক্ত হলে চলবে না",
+        "আয়করদাতা হলে চলবে না"
+      ],
+      "documents": [
+        "আধার নম্বর",
+        "সঞ্চয়ী বা জন ধন ব্যাংক অ্যাকাউন্টের তথ্য",
+        "আধারের সঙ্গে যুক্ত মোবাইল নম্বর",
+        "নাম, বয়স, ঠিকানা ও পেশার তথ্য"
+      ],
+      "application_process": [
+        "নিকটবর্তী কমন সার্ভিস সেন্টারে (CSC) যান বা অফিসিয়াল পোর্টালে নিবন্ধন করুন",
+        "আধার ও ব্যাংক অ্যাকাউন্টের তথ্য দিন",
+        "ব্যক্তিগত তথ্য জমা দিন",
+        "বয়স অনুযায়ী নির্ধারিত প্রথম চাঁদা জমা দিন",
+        "মাসিক চাঁদার জন্য অটো-ডেবিট চালু করুন",
+        "নিবন্ধনের পরে PM-SYM কার্ড ও অ্যাকাউন্টের তথ্য সংগ্রহ করুন"
+      ],
+      "official_website": "https://maandhan.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-pradhan-mantri-shram-yogi-mandhan.aspx",
+      "apply_online_url": "https://maandhan.in/",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=nVzw0rpPTWQ"
+      ],
+      "source": [
+        {
+          "title": "Pradhan Mantri Shram Yogi Maandhan - Maandhan portal, Ministry of Labour and Employment",
+          "url": "https://maandhan.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Pradhan Mantri Shram Yogi Mandhan - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-pradhan-mantri-shram-yogi-mandhan.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Assured pension Rs 3,000/month, entry age 18-40 and monthly income ceiling Rs 15,000 match on both the official maandhan.in portal and the official West Bengal State Portal scheme page. Contribution range Rs 55-200 with matching government contribution, family pension of Rs 1,500, and the EPF/ESIC/NPS and income-tax exclusions are stated on the West Bengal State Portal page; maandhan.in confirms the matching government contribution.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "sukanya-samriddhi-yojana",
+      "name_en": "Sukanya Samriddhi Yojana",
+      "name_bn": "সুকন্যা সমৃদ্ধি যোজনা",
+      "category": "central",
+      "dept": "National Savings Institute, Department of Economic Affairs, Ministry of Finance, Government of India",
+      "description_bn": "কন্যাসন্তানের পড়াশোনা ও বিবাহের খরচের জন্য দীর্ঘমেয়াদি সঞ্চয়ে উৎসাহ দিতে ভারত সরকারের ক্ষুদ্র সঞ্চয় প্রকল্প।",
+      "benefit": "অর্থবর্ষে ন্যূনতম ₹২৫০ থেকে সর্বোচ্চ ₹১.৫ লক্ষ পর্যন্ত জমা করা যায়; অ্যাকাউন্ট খোলার তারিখ থেকে ২১ বছর পূর্ণ হলে ম্যাচিওর করে। উচ্চশিক্ষার খরচে টাকা তোলা যায় এবং কন্যার ১৮ বছর বয়স পূর্ণ হওয়ার পরে বিবাহের কারণে অ্যাকাউন্ট আগেভাগে বন্ধ করা যায়। জমা টাকায় আয়কর আইনের ৮০-সি ধারায় ছাড় এবং অর্জিত সুদ ১০ ধারায় করমুক্ত। সুদের হার কেন্দ্রীয় সরকার নির্ধারণ করে; পশ্চিমবঙ্গ সরকারের অফিসিয়াল পৃষ্ঠায় বার্ষিক ৮.২% (বার্ষিক চক্রবৃদ্ধি) উল্লেখ আছে।",
+      "eligibility": [
+        "কন্যাসন্তানের বয়স ১০ বছরের কম থাকতে অ্যাকাউন্ট খুলতে হবে",
+        "একটি কন্যাসন্তানের নামে একটিই অ্যাকাউন্ট খোলা যাবে",
+        "এক পরিবারে সর্বোচ্চ দুটি অ্যাকাউন্ট; যমজ বা একাধিক সন্তানের ক্ষেত্রে নথিসহ ব্যতিক্রম",
+        "কন্যা নিজে পরিচালনা করতে না পারা পর্যন্ত অভিভাবক বা আইনি অভিভাবক অ্যাকাউন্ট পরিচালনা করবেন"
+      ],
+      "documents": [
+        "কন্যাসন্তানের জন্ম শংসাপত্র",
+        "অভিভাবকের পরিচয়পত্র",
+        "অভিভাবকের ঠিকানার প্রমাণ",
+        "ছবি ও KYC নথি"
+      ],
+      "application_process": [
+        "নিকটবর্তী ডাকঘর বা অনুমোদিত ব্যাংকের শাখায় যান",
+        "সুকন্যা সমৃদ্ধি অ্যাকাউন্ট খোলার ফর্ম সংগ্রহ করুন",
+        "কন্যাসন্তান, অভিভাবক ও জমার তথ্য দিয়ে ফর্ম পূরণ করুন",
+        "প্রয়োজনীয় নথি জমা দিন",
+        "ন্যূনতম ₹২৫০ প্রথম জমা করুন",
+        "যাচাইয়ের পরে পাসবই বা অ্যাকাউন্টের তথ্য সংগ্রহ করুন"
+      ],
+      "official_website": "https://www.nsiindia.gov.in/",
+      "official_scheme_url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=GJpEpvCCZE4",
+        "https://www.youtube.com/watch?v=HqVUnDSVcIw"
+      ],
+      "source": [
+        {
+          "title": "Sukanya Samriddhi Account - National Savings Institute, Ministry of Finance",
+          "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Sukanya Samriddhi Yojana - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-sukanya-samriddhi-yojana.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Minimum Rs 250 and maximum Rs 1.5 lakh per financial year, account opening below age 10, one account per girl child, 21-year maturity, education withdrawal and premature closure on marriage after 18, and the 80-C / Section 10 tax treatment are confirmed on the National Savings Institute page. The West Bengal State Portal page adds the two-accounts-per-family limit, documents, branch application steps and states an interest rate of 8.2% per annum; the NSI page links the rate rather than printing it, so the rate is published with attribution and flagged as periodically notified. Accounts are opened at post offices and authorised banks, so apply_online_url is empty.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "e-shram-registration",
+      "name_en": "e-Shram Registration for Unorganised Workers",
+      "name_bn": "অসংগঠিত শ্রমিকদের ই-শ্রম নিবন্ধন",
+      "category": "central",
+      "dept": "Ministry of Labour and Employment, Government of India",
+      "description_bn": "অসংগঠিত ক্ষেত্রের শ্রমিকদের জাতীয় ডেটাবেস তৈরি করে সামাজিক সুরক্ষা প্রকল্পের সঙ্গে যুক্ত করার জন্য ই-শ্রম নিবন্ধন ও ১২ সংখ্যার UAN কার্ড।",
+      "benefit": "নিবন্ধিত শ্রমিক সারা ভারতে বৈধ ১২ সংখ্যার UAN-সহ ই-শ্রম কার্ড পান। দুর্ঘটনাজনিত মৃত্যু বা সম্পূর্ণ অক্ষমতায় ₹২ লক্ষ এবং আংশিক অক্ষমতায় ₹১ লক্ষ পর্যন্ত দুর্ঘটনা বিমার সুরক্ষা। জাতীয় ডেটাবেসের মাধ্যমে বিভিন্ন কল্যাণ প্রকল্পে যুক্ত হওয়ার সুযোগ, National Career Service-এর মাধ্যমে কর্মসংস্থানের সংযোগ, Skill India-র দক্ষতা উন্নয়ন এবং পরিযায়ী শ্রমিকদের জন্য সুবিধার পোর্টেবিলিটি। নিবন্ধনে কোনও ফি লাগে না।",
+      "eligibility": [
+        "ভারতীয় নাগরিক হতে হবে",
+        "বয়স ১৬ থেকে ৫৯ বছরের মধ্যে হতে হবে",
+        "অসংগঠিত ক্ষেত্রের শ্রমিক হতে হবে (নির্মাণ শ্রমিক, হকার, গৃহকর্মী, পরিযায়ী শ্রমিক প্রভৃতি)",
+        "EPFO, ESIC বা NPS-এ অন্তর্ভুক্ত হলে চলবে না",
+        "স্বনিযুক্ত, বাড়িভিত্তিক বা অনিয়মিত মজুরির কাজে যুক্ত হতে পারেন"
+      ],
+      "documents": [
+        "আধার নম্বর",
+        "আধারের সঙ্গে যুক্ত মোবাইল নম্বর",
+        "ব্যাংক অ্যাকাউন্ট নম্বর ও IFSC কোড"
+      ],
+      "application_process": [
+        "ই-শ্রম পোর্টালে যান বা নিকটবর্তী কমন সার্ভিস সেন্টারে (CSC) যোগাযোগ করুন",
+        "আধারের সঙ্গে যুক্ত মোবাইল নম্বরে OTP দিয়ে আধার যাচাই সম্পন্ন করুন",
+        "নাম, ঠিকানা, জন্মতারিখ, পেশা ও দক্ষতার তথ্য দিন",
+        "ব্যাংক অ্যাকাউন্ট নম্বর ও IFSC কোড দিন",
+        "যোগ্যতার স্ব-ঘোষণা নিশ্চিত করুন",
+        "১২ সংখ্যার UAN পাওয়ার পরে ই-শ্রম কার্ড ডাউনলোড বা প্রিন্ট করুন"
+      ],
+      "official_website": "https://eshram.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-e-shram-card.aspx",
+      "apply_online_url": "https://eshram.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=jU2NQviABB8",
+        "https://www.youtube.com/watch?v=NIAYCC9DsqA",
+        "https://www.youtube.com/watch?v=ZurxAllIA0A"
+      ],
+      "source": [
+        {
+          "title": "e-Shram portal, Ministry of Labour and Employment",
+          "url": "https://eshram.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "E-Shram Card - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-e-shram-card.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Purpose, 16-59 age band, unorganised-worker eligibility, EPFO/ESIC/NPS exclusion, accident cover of Rs 2 lakh / Rs 1 lakh, the 12-digit UAN and the fee-free registration steps are taken from the official West Bengal State Portal scheme page; eshram.gov.in confirms the portal is run by the Ministry of Labour and Employment. The West Bengal page also mentions a roughly Rs 3,000 monthly pension after age 60, which belongs to the separate PM-SYM scheme and is deliberately not published as an e-Shram benefit here.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "mgnrega-job-card",
+      "name_en": "Mahatma Gandhi NREGA Job Card and Wage Employment",
+      "name_bn": "মহাত্মা গান্ধী এনরেগা জব কার্ড ও মজুরি কর্মসংস্থান",
+      "category": "central",
+      "dept": "Ministry of Rural Development, Government of India",
+      "description_bn": "গ্রামীণ পরিবারের প্রাপ্তবয়স্ক সদস্যদের অদক্ষ শারীরিক কাজের মাধ্যমে মজুরি কর্মসংস্থানের আইনি নিশ্চয়তা; জব কার্ড এই অধিকারের নথি।",
+      "benefit": "ইচ্ছুক প্রতিটি গ্রামীণ পরিবারকে এক অর্থবর্ষে অন্তত ১০০ দিনের নিশ্চিত অদক্ষ মজুরি কর্মসংস্থান। মজুরি সরাসরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হয় এবং জব কার্ডে কাজ ও মজুরির হিসাব রাখা হয়।",
+      "eligibility": [
+        "গ্রামীণ পরিবারের সদস্য হতে হবে",
+        "পরিবারের প্রাপ্তবয়স্ক সদস্য (১৮ বছর বা তার বেশি) হতে হবে",
+        "অদক্ষ শারীরিক কাজ করতে ইচ্ছুক হতে হবে",
+        "সংশ্লিষ্ট গ্রাম পঞ্চায়েত এলাকার বাসিন্দা হতে হবে"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "জব কার্ডের জন্য গ্রাম পঞ্চায়েতে নিবন্ধনের আবেদন জমা দিন",
+        "স্থানীয় কর্তৃপক্ষ পরিবারের সদস্যদের তথ্য নথিভুক্ত ও যাচাই করবে",
+        "যাচাইয়ের পরে পরিবারের নামে জব কার্ড দেওয়া হবে",
+        "কাজের প্রয়োজন হলে গ্রাম পঞ্চায়েতে কাজের আবেদন করুন",
+        "চালু প্রকল্পের মধ্যে কাজ বরাদ্দ করা হবে",
+        "মজুরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হবে এবং জব কার্ড নিয়মিত আপডেট হবে"
+      ],
+      "official_website": "https://nrega.nic.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=RrRwxTTuXyo",
+        "https://www.youtube.com/watch?v=hN__wIh-JVY"
+      ],
+      "source": [
+        {
+          "title": "Mahatma Gandhi NREGA official portal",
+          "url": "https://nrega.nic.in/MGNREGA_new/Nrega_home.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Job Cards under VB-G RAM-G Scheme / MGNREGS - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "The guarantee of at least 100 days of wage employment per rural household per financial year is confirmed on the official Mahatma Gandhi NREGA portal. Eligibility, the Gram Panchayat registration route, job card issuance and direct bank/post office wage payment are confirmed on the official West Bengal State Portal page. Neither accessible official source listed the documents required for job card registration, so the documents array records that explicitly rather than inferring. Daily wage rate is state-notified and revised periodically, so no rate is published.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "kisan-credit-card",
+      "name_en": "Kisan Credit Card",
+      "name_bn": "কিষাণ ক্রেডিট কার্ড",
+      "category": "central",
+      "dept": "Government of India",
+      "description_bn": "চাষ, কৃষি সরঞ্জাম ও চলতি মূলধনের জন্য কৃষকদের সময়মতো ও সাশ্রয়ী ঋণ দেওয়ার প্রকল্প।",
+      "benefit": "₹৩ লক্ষ পর্যন্ত ঋণসীমা; সুদের হার বার্ষিক ৭%, সময়মতো শোধ করলে সুদ ছাড়ের পরে কার্যকর হার দাঁড়ায় বার্ষিক ৩%। বারবার আবেদন ছাড়াই রিভলভিং নগদ সুবিধা, টাকা তোলার জন্য ATM-cum-debit কার্ড এবং ফসল ও আয়ের চক্র অনুযায়ী নমনীয় শোধের সুযোগ। বীজ, সার, কীটনাশক, সেচ এবং দুগ্ধ, মৎস্য ও পশুপালনের মতো সহযোগী কাজও এর আওতায় পড়ে।",
+      "eligibility": [
+        "কৃষিকাজে যুক্ত কৃষক — নিজস্ব জমির চাষি, ভাগচাষি, বর্গাদার ও মৌখিক ইজারাদার",
+        "কৃষকদের স্বনির্ভর গোষ্ঠী (SHG) বা যৌথ দায়বদ্ধ গোষ্ঠী (JLG)",
+        "দুগ্ধ, মৎস্য ও পশুপালনের মতো সহযোগী কাজে যুক্ত ব্যক্তি",
+        "চাষযোগ্য জমি বা বৈধ চাষের ব্যবস্থা থাকতে হবে",
+        "ব্যাংকের ঋণযোগ্যতা ও শোধক্ষমতার শর্ত পূরণ করতে হবে"
+      ],
+      "documents": [
+        "পরিচয় ও ঠিকানার প্রমাণ",
+        "জমির মালিকানা বা ভাগচাষের নথি",
+        "পাসপোর্ট মাপের ছবি",
+        "ফসলের ধরন ও আর্থিক প্রয়োজনের বিবরণ"
+      ],
+      "application_process": [
+        "ব্যাংকের শাখায় যান বা অনলাইনে আবেদন করুন",
+        "ব্যক্তিগত ও কৃষিসংক্রান্ত তথ্য দিয়ে KCC আবেদনপত্র পূরণ করুন",
+        "প্রয়োজনীয় নথি জমা দিন",
+        "ব্যাংক যাচাই ও মূল্যায়ন করবে",
+        "চাষের প্রয়োজন অনুযায়ী ঋণসীমা মঞ্জুর হবে",
+        "KCC কার্ড সংগ্রহ করুন; সাধারণত ৩ থেকে ৫ বছর অন্তর পর্যালোচনা বা নবীকরণ হয়"
+      ],
+      "official_website": "https://fasalrin.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-kisan-credit-card.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=BSXniicq0Kg",
+        "https://www.youtube.com/watch?v=S4zYRUWnF34"
+      ],
+      "source": [
+        {
+          "title": "Kisan Credit Card (KCC) - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-kisan-credit-card.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Kisan Rin Portal, Government of India",
+          "url": "https://fasalrin.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "central",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Rs 3 lakh limit, 7% interest with an effective 3% after interest subvention for timely repayment, eligibility categories, documents and the bank application route are verified on the official West Bengal State Portal scheme page, which names fasalrin.gov.in (Kisan Rin Portal) as the official portal. The Kisan Rin Portal home page confirms it is a Government of India initiative but is JavaScript-driven and did not expose scheme text, and agriwelfare.gov.in returned 403, so no administering department is asserted beyond Government of India. Applications are made through banks, so apply_online_url is empty.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "medhashree-scholarship",
+      "name_en": "Medhashree Scholarship for OBC Students",
+      "name_bn": "মেধাশ্রী বৃত্তি",
+      "category": "west_bengal",
+      "dept": "Backward Classes Welfare Department, Government of West Bengal",
+      "description_bn": "পঞ্চম থেকে অষ্টম শ্রেণির OBC পড়ুয়াদের পড়াশোনা চালিয়ে যেতে বার্ষিক আর্থিক সহায়তার প্রি-ম্যাট্রিক বৃত্তি।",
+      "benefit": "যোগ্য পড়ুয়া প্রতি বছর ₹৮০০ আর্থিক সহায়তা পান; অষ্টম শ্রেণি পর্যন্ত প্রতি বছর নবীকরণ হয়। টাকা DBT-তে সরাসরি পড়ুয়ার ব্যাংক অ্যাকাউন্টে জমা হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "OBC শ্রেণিভুক্ত হতে হবে",
+        "সরকারি, সরকার-পোষিত বা সরকার-স্বীকৃত স্কুলে পঞ্চম থেকে অষ্টম শ্রেণিতে পড়তে হবে",
+        "পারিবারিক বার্ষিক আয় সাধারণত ₹২.৫ লক্ষের বেশি নয়",
+        "একই সঙ্গে অন্য বৃত্তি নেওয়া যাবে না",
+        "পড়ুয়ার বৈধ ব্যাংক অ্যাকাউন্ট থাকতে হবে"
+      ],
+      "documents": [
+        "জাতিগত শংসাপত্র",
+        "আয়ের শংসাপত্র",
+        "আধার",
+        "ব্যাংক অ্যাকাউন্টের তথ্য"
+      ],
+      "application_process": [
+        "স্কুল কর্তৃপক্ষ যোগ্য পড়ুয়াদের চিহ্নিত করে",
+        "স্কুল অফিসিয়াল পোর্টালে পড়ুয়ার তথ্য জমা দেয়",
+        "আবেদনপত্র (অনলাইন বা অফলাইন) পূরণ করুন",
+        "প্রয়োজনীয় নথি জমা দিন",
+        "স্কুল ও সংশ্লিষ্ট সরকারি দফতর তথ্য যাচাই করে",
+        "অনুমোদনের পরে DBT-তে টাকা পড়ুয়ার ব্যাংক অ্যাকাউন্টে জমা হয়"
+      ],
+      "official_website": "https://anagrasarkalyan.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-west-bengal-medhashree-scheme.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=dhvF1mvtEOs",
+        "https://www.youtube.com/watch?v=aIq0ABzKCFE"
+      ],
+      "source": [
+        {
+          "title": "West Bengal Medhashree Scheme - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-west-bengal-medhashree-scheme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Backward Classes Welfare Department, Government of West Bengal",
+          "url": "https://anagrasarkalyan.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Rs 800 per year, class V-VIII OBC eligibility, the Rs 2.5 lakh family income ceiling, documents and the school-routed DBT process are verified on the official West Bengal State Portal scheme page. The Backward Classes Welfare Department site lists the class V-VIII Shikshashree/Medhashree application under a bare IP-based link rather than a stable official domain, so apply_online_url is left empty instead of publishing an unstable address.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "shikshashree-scholarship",
+      "name_en": "Shikshashree Scholarship for SC and ST Students",
+      "name_bn": "শিক্ষাশ্রী বৃত্তি",
+      "category": "west_bengal",
+      "dept": "Backward Classes Welfare Department, Government of West Bengal",
+      "description_bn": "অর্থনৈতিকভাবে দুর্বল SC ও ST পড়ুয়াদের পঞ্চম থেকে অষ্টম শ্রেণিতে পড়াশোনা চালিয়ে যেতে বার্ষিক আর্থিক সহায়তার রাজ্য প্রকল্প।",
+      "benefit": "পঞ্চম থেকে অষ্টম শ্রেণির যোগ্য পড়ুয়া প্রতি বছর ₹৮০০ আর্থিক সহায়তা পান; টাকা DBT-তে সরাসরি পড়ুয়ার ব্যাংক অ্যাকাউন্টে জমা হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "তফসিলি জাতি (SC) বা তফসিলি উপজাতি (ST) শ্রেণিভুক্ত হতে হবে",
+        "সরকারি, সরকার-পোষিত বা সরকার-স্বীকৃত স্কুলে পঞ্চম থেকে অষ্টম শ্রেণিতে পড়তে হবে",
+        "পারিবারিক বার্ষিক আয় সাধারণত ₹২.৫ লক্ষের বেশি নয়",
+        "পড়ুয়ার বৈধ ব্যাংক অ্যাকাউন্ট থাকতে হবে",
+        "একই ধরনের অন্য বৃত্তি নেওয়া যাবে না"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "পঞ্চম থেকে অষ্টম শ্রেণির শিক্ষাশ্রী/মেধাশ্রী আবেদন অনগ্রসর শ্রেণি কল্যাণ দফতরের পোর্টালের মাধ্যমে জমা দিতে হয়",
+        "বিস্তারিত ধাপ অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "official_website": "https://anagrasarkalyan.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-west-bengal-shikshasree-scheme.aspx",
+      "apply_online_url": "",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=AdpFeyYXtbg",
+        "https://www.youtube.com/watch?v=aIq0ABzKCFE"
+      ],
+      "source": [
+        {
+          "title": "West Bengal Shikshasree Scheme - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-west-bengal-shikshasree-scheme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Backward Classes Welfare Department, Government of West Bengal",
+          "url": "https://anagrasarkalyan.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Rs 800 per year for classes V-VIII, SC/ST eligibility, the Rs 2.5 lakh income ceiling, West Bengal residence, bank account requirement and the no-duplicate-scholarship condition are verified on the official West Bengal State Portal scheme page. That page did not list required documents or step-by-step application instructions, so both are recorded as not explicitly stated rather than inferred. The Backward Classes Welfare Department site confirms a combined class V-VIII Shikshashree/Medhashree application, but only through a bare IP-based link, so apply_online_url is empty. The State Portal page also references adibasikalyan.gov.in (Tribal Development), relevant for ST students.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "bina-mulya-samajik-suraksha-yojana",
+      "name_en": "Bina Mulya Samajik Suraksha Yojana",
+      "name_bn": "বিনা মূল্য সামাজিক সুরক্ষা যোজনা",
+      "category": "west_bengal",
+      "dept": "Labour Department, Government of West Bengal",
+      "description_bn": "অসংগঠিত ক্ষেত্রের শ্রমিক ও স্বনিযুক্ত মানুষদের জন্য সম্পূর্ণ বিনামূল্যে সামাজিক সুরক্ষা ও প্রভিডেন্ট ফান্ডের রাজ্য প্রকল্প।",
+      "benefit": "স্বাভাবিক মৃত্যুতে ₹৫০,০০০ এবং দুর্ঘটনাজনিত মৃত্যুতে ₹২,০০,০০০ পর্যন্ত সহায়তা; অক্ষমতার ক্ষেত্রে ₹৫০,০০০ থেকে ₹২,০০,০০০ পর্যন্ত ক্ষতিপূরণ। শ্রমিকের কোনও চাঁদা ছাড়াই সরকার-পোষিত প্রভিডেন্ট ফান্ডের সুবিধা; পুরো সুরক্ষা সম্পূর্ণ বিনামূল্যে।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "বয়স ১৮ থেকে ৬০ বছরের মধ্যে হতে হবে",
+        "অসংগঠিত ক্ষেত্রের শ্রমিক বা স্বনিযুক্ত হতে হবে",
+        "পারিবারিক আয় মাসে সর্বোচ্চ ₹৬,৫০০ (নির্মাণ ও পরিবহন শ্রমিকদের ক্ষেত্রে ব্যতিক্রম আছে)"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "অফিসিয়াল BM-SSY পোর্টালে অনলাইনে আবেদন করুন, অথবা আঞ্চলিক শ্রম দফতরে অফলাইনে আবেদন করুন",
+        "ব্যক্তিগত, পেশাগত ও নমিনির তথ্য দিয়ে আবেদনপত্র পূরণ করুন",
+        "নথি জমা দিয়ে নিবন্ধন সম্পূর্ণ করুন",
+        "কর্তৃপক্ষ তথ্য যাচাই করে নিবন্ধন অনুমোদন করবে",
+        "নিবন্ধন আইডি/কার্ড ও SSIN সংগ্রহ করে সুবিধা নিন"
+      ],
+      "official_website": "https://bmssy.wblabour.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-bina-mulya-samajik-suraksha-yojana.aspx",
+      "apply_online_url": "https://bmssy.wblabour.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=wdirwy7t_2Y",
+        "https://www.youtube.com/watch?v=r7YPAG1FMXA"
+      ],
+      "source": [
+        {
+          "title": "Bina Mulya Samajik Suraksha Yojana - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-bina-mulya-samajik-suraksha-yojana.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit amounts, 18-60 age band, unorganised-sector and Rs 6,500 monthly family income conditions, and the online/offline application route are verified on the official West Bengal State Portal scheme page, which names bmssy.wblabour.gov.in as the official portal. The page did not list required documents, so that is recorded explicitly rather than inferred.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "utkarsh-bangla",
+      "name_en": "Utkarsh Bangla",
+      "name_bn": "উৎকর্ষ বাংলা",
+      "category": "west_bengal",
+      "dept": "Government of West Bengal",
+      "description_bn": "রাজ্যের যুবক-যুবতীদের বিনামূল্যে বৃত্তিমূলক ও কর্মসংস্থানমুখী দক্ষতা প্রশিক্ষণ দেওয়ার পশ্চিমবঙ্গ সরকারের প্রধান দক্ষতা উন্নয়ন প্রকল্প।",
+      "benefit": "অনুমোদিত ট্রেডে সম্পূর্ণ বিনামূল্যে দক্ষতা প্রশিক্ষণ। নির্মাণ, পোশাক, স্বাস্থ্য, IT-ITES, আতিথেয়তা-সহ বিভিন্ন ক্ষেত্রে স্বল্পমেয়াদি মডিউলার কোর্স; সফলভাবে শেষ করলে শংসাপত্র, কর্মসংস্থানে সহায়তা ও শিল্পসংস্থার সঙ্গে সংযোগ এবং স্বনিযুক্তির জন্য উদ্যোগ-দক্ষতার সহায়তা। জেলাস্তরে প্রশিক্ষণের সুযোগ পাওয়া যায়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "বয়স ১৫ থেকে ৪৫ বছরের মধ্যে (কোর্স অনুযায়ী পরিবর্তিত হতে পারে)",
+        "বেকার, আংশিক নিযুক্ত বা দক্ষতা বাড়াতে ইচ্ছুক হতে হবে",
+        "নির্বাচিত ট্রেডের ন্যূনতম শিক্ষাগত যোগ্যতা থাকতে হবে",
+        "মহিলা, সংখ্যালঘু, SC/ST ও বিশেষভাবে সক্ষম ব্যক্তিদের জন্য বিশেষ উদ্যোগ রয়েছে"
+      ],
+      "documents": [
+        "আধার কার্ড",
+        "ভোটার কার্ড",
+        "বসবাসের প্রমাণ",
+        "শিক্ষাগত যোগ্যতার শংসাপত্র",
+        "প্রযোজ্য ক্ষেত্রে জাতিগত বা প্রতিবন্ধকতার শংসাপত্র",
+        "ব্যাংক পাসবই",
+        "পাসপোর্ট মাপের ছবি"
+      ],
+      "application_process": [
+        "অফিসিয়াল পোর্টালে যান বা নিকটবর্তী অনুমোদিত প্রশিক্ষণ কেন্দ্রে যোগাযোগ করুন",
+        "উপলব্ধ কোর্স ও যোগ্যতার শর্ত দেখে নিন",
+        "ব্যক্তিগত, শিক্ষাগত ও যোগাযোগের তথ্য দিয়ে নিবন্ধন করুন",
+        "প্রয়োজনীয় নথি জমা দিন",
+        "প্রশিক্ষণ কর্তৃপক্ষের যাচাইয়ের পরে উপযুক্ত ব্যাচে ভর্তি হোন",
+        "ক্লাসরুম ও হাতেকলমে প্রশিক্ষণ সম্পূর্ণ করুন",
+        "মূল্যায়নের পরে শংসাপত্র ও কর্মসংস্থান সহায়তা পান"
+      ],
+      "official_website": "https://www.pbssd.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-utkarsh-bangla.aspx",
+      "apply_online_url": "https://www.pbssd.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [],
+      "source": [
+        {
+          "title": "Utkarsh Bangla - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-utkarsh-bangla.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Scheme purpose, free training, sectors covered, certification and placement support, the 15-45 age band, eligibility conditions, documents and application steps are verified on the official West Bengal State Portal scheme page, which names pbssd.gov.in as the official portal. That page describes it only as a flagship scheme of the Government of West Bengal without naming the administering department, so dept is recorded at that level.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
+    },
+    {
+      "id": "west-bengal-migrant-workers-welfare-scheme",
+      "name_en": "West Bengal Migrant Workers Welfare Scheme (Karmasathi - Parijayee Shramik)",
+      "name_bn": "পশ্চিমবঙ্গ পরিযায়ী শ্রমিক কল্যাণ প্রকল্প (কর্মসাথী – পরিযায়ী শ্রমিক)",
+      "category": "west_bengal",
+      "dept": "Labour Department, Government of West Bengal",
+      "description_bn": "রাজ্যের বাইরে কর্মরত পশ্চিমবঙ্গের পরিযায়ী শ্রমিকদের নিবন্ধন করে মৃত্যু, দুর্ঘটনা ও অন্যান্য বিপদে আর্থিক সহায়তা দেওয়ার প্রকল্প।",
+      "benefit": "স্বাভাবিক মৃত্যুতে নমিনি ₹৫০,০০০ এবং দুর্ঘটনাজনিত মৃত্যুতে ₹২,০০,০০০ পান। দেহ ফিরিয়ে আনার জন্য ₹২৫,০০০ এবং রাজ্যের বাইরে মৃত্যুর ক্ষেত্রে ₹৩,০০০ সহায়তা। অক্ষমতার ক্ষেত্রে ₹৫০,০০০ থেকে ₹১ লক্ষ পর্যন্ত সহায়তা। এছাড়া মজুরি সংক্রান্ত সমস্যা, নির্যাতন, পাচার এবং প্রাকৃতিক দুর্যোগ বা মহামারির মতো পরিস্থিতিতেও সহায়তা দেওয়া হয়।",
+      "eligibility": [
+        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
+        "বয়স ১৪ থেকে ৬০ বছরের মধ্যে হতে হবে",
+        "পশ্চিমবঙ্গের বাইরে (অন্য রাজ্য, কেন্দ্রশাসিত অঞ্চল বা বিদেশে) কর্মরত বা কাজে যেতে পারেন এমন হতে হবে"
+      ],
+      "documents": [
+        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+      ],
+      "application_process": [
+        "কর্মসাথী (পরিযায়ী শ্রমিক) পোর্টালে যান",
+        "মোবাইল নম্বর ও OTP দিয়ে নিবন্ধন করুন",
+        "ব্যক্তিগত, ঠিকানা ও কর্মসংস্থানের তথ্য পূরণ করুন",
+        "প্রয়োজনীয় নথি আপলোড করে জমা দিন এবং MWIN নম্বর সংগ্রহ করুন",
+        "সুবিধা দাবি করতে পোর্টালে আবার লগ ইন করুন",
+        "সহায়ক নথি আপলোড করে অনলাইনে দাবি জমা দিন"
+      ],
+      "official_website": "https://karmasathips.wblabour.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/government-schemes-details-west-bengal-migrant-worker-welfare-scheme.aspx",
+      "apply_online_url": "https://karmasathips.wblabour.gov.in/",
+      "form_pdf_url": "",
+      "video_url": [
+        "https://www.youtube.com/watch?v=riRl8fkxyjM",
+        "https://www.youtube.com/watch?v=-y_2uhypkvg"
+      ],
+      "source": [
+        {
+          "title": "West Bengal Migrant Worker Welfare Scheme - West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-west-bengal-migrant-worker-welfare-scheme.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Karmasathi (Parijayee Shramik) portal, Labour Department, Government of West Bengal",
+          "url": "https://karmasathips.wblabour.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        }
+      ],
+      "government_level": "west_bengal",
+      "scheme_status": "active",
+      "verification_status": "verified",
+      "verification_notes": "Benefit amounts, the 14-60 age band, the outside-West-Bengal employment condition and the portal registration and claim steps are verified on the official West Bengal State Portal scheme page. The Karmasathi (Parijayee Shramik) portal confirms it is run by the Labour Department, Government of West Bengal, and confirms the compensation and assistance scope. The State Portal page named the portal without a URL, so the portal address was confirmed directly against the official wblabour.gov.in domain. Required documents were not listed on either accessible official source.",
+      "change_type": "new_scheme",
+      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "last_updated": "",
+      "last_verified_at": "2026-09-03",
+      "start_date": ""
     }
   ]
 }

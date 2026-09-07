@@ -1,0 +1,411 @@
+{
+  "run_date": "2026-09-07",
+  "checked_at": "2026-09-07",
+  "sources_checked": 109,
+  "new_candidates": 0,
+  "new_verified_records": 0,
+  "changed_records": 0,
+  "needs_review_records": 0,
+  "unchanged_records": 40,
+  "excluded_discontinued_or_replaced": 0,
+  "duplicate_candidates": 0,
+  "production_count": 40,
+  "phase_1_target": 40,
+  "remaining_to_target": 0,
+  "sources_unavailable": [
+    "https://nrega.nic.in/MGNREGA_new/Nrega_home.aspx",
+    "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+    "https://ds.wb.gov.in/",
+    "https://karmasathips.wblabour.gov.in/",
+    "https://maandhan.in/",
+    "https://pmvishwakarma.gov.in/",
+    "https://pmvishwakarma.gov.in/Home/FAQ",
+    "https://socialregistry.wb.gov.in/",
+    "https://socialregistry.wb.gov.in/login",
+    "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf",
+    "https://beneficiary.nha.gov.in/",
+    "https://nha.gov.in/",
+    "https://nha.gov.in/PM-JAY",
+    "https://nrega.nic.in/"
+  ],
+  "important_notes": [
+    "annapurna-yojana: last verified 46 days ago",
+    "banglar-yuba-sathi: last verified 46 days ago",
+    "banglar-yuba-sathi: apply_online_url is the homepage (§7 Step 4)",
+    "banglar-yuba-sathi: eligibility mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "pm-kisan: last verified 46 days ago",
+    "krishak-bandhu: last verified 46 days ago",
+    "krishak-bandhu: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "swasthya-sathi: last verified 46 days ago",
+    "swasthya-sathi: apply_online_url is the homepage (§7 Step 4)",
+    "west-bengal-student-credit-card: last verified 46 days ago",
+    "swami-vivekananda-merit-cum-means-scholarship: last verified 46 days ago",
+    "swami-vivekananda-merit-cum-means-scholarship: apply_online_url is the homepage (§7 Step 4)",
+    "pm-fasal-bima-yojana: last verified 46 days ago",
+    "ayushman-bharat-pm-jay: last verified 46 days ago",
+    "pm-ujjwala-yojana: last verified 46 days ago",
+    "pm-ujjwala-yojana: apply_online_url == official_scheme_url (§7 Step 4)",
+    "pmay-urban: last verified 46 days ago",
+    "pmay-gramin: last verified 46 days ago",
+    "pmay-gramin: eligibility mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "rupashree-prakalpa: last verified 46 days ago",
+    "rupashree-prakalpa: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "west-bengal-bhabishyat-credit-card: last verified 46 days ago",
+    "pm-vishwakarma: last verified 46 days ago",
+    "pm-vishwakarma: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "aikyashree-scholarship: last verified 46 days ago",
+    "atal-pension-yojana: last verified 46 days ago",
+    "duare-sarkar: last verified 46 days ago",
+    "duare-sarkar: documents mixes the 'not stated' sentinel with real values (§7 Step 3)",
+    "jai-johar: last verified 46 days ago",
+    "pradhan-mantri-jan-dhan-yojana: last verified 46 days ago",
+    "pradhan-mantri-matru-vandana-yojana: last verified 46 days ago",
+    "pradhan-mantri-matru-vandana-yojana: apply_online_url is the homepage (§7 Step 4)",
+    "pradhan-mantri-suraksha-bima-yojana: last verified 46 days ago",
+    "prime-ministers-employment-generation-programme: last verified 46 days ago",
+    "prime-ministers-employment-generation-programme: official_website == official_scheme_url (§7 Step 4)",
+    "rajya-khadya-suraksha-yojana: last verified 46 days ago",
+    "rajya-khadya-suraksha-yojana: apply_online_url is the homepage (§7 Step 4)",
+    "sabooj-sathi: last verified 46 days ago",
+    "taposili-bandhu: last verified 46 days ago",
+    "pm-surya-ghar-muft-bijli-yojana: apply_online_url is the homepage (§7 Step 4)",
+    "pradhan-mantri-shram-yogi-maandhan: official_website on non-allowlisted domain maandhan.in",
+    "pradhan-mantri-shram-yogi-maandhan: apply_online_url on non-allowlisted domain maandhan.in",
+    "pradhan-mantri-shram-yogi-maandhan: apply_online_url is the homepage (§7 Step 4)",
+    "pradhan-mantri-shram-yogi-maandhan: source on non-allowlisted domain maandhan.in",
+    "e-shram-registration: apply_online_url is the homepage (§7 Step 4)",
+    "bina-mulya-samajik-suraksha-yojana: apply_online_url is the homepage (§7 Step 4)",
+    "utkarsh-bangla: apply_online_url is the homepage (§7 Step 4)",
+    "west-bengal-migrant-workers-welfare-scheme: apply_online_url is the homepage (§7 Step 4)"
+  ],
+  "link_outcomes": {
+    "blocked": 14,
+    "changed": 30,
+    "new": 21,
+    "tls_error": 3,
+    "unchanged": 30,
+    "unreachable": 9,
+    "soft_fail": 1,
+    "dead": 1
+  },
+  "broken_ratio": 0.257,
+  "pages_changed": [
+    "https://adibasikalyan.gov.in/",
+    "https://bccs.wb.gov.in/",
+    "https://bccs.wb.gov.in/FAQ",
+    "https://bccs.wb.gov.in/apply_online",
+    "https://bccs.wb.gov.in/scheme",
+    "https://food.wb.gov.in/",
+    "https://krishakbandhu.wb.gov.in/",
+    "https://krishakbandhu.wb.gov.in/about_kb",
+    "https://oasis.wb.gov.in/",
+    "https://oasis.wb.gov.in/index/1",
+    "https://pfrda.org.in/",
+    "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
+    "https://pmay-urban.gov.in/",
+    "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
+    "https://pmegp.msme.gov.in/Home/HomePage",
+    "https://pmjdy.gov.in/",
+    "https://pmjdy.gov.in/scheme",
+    "https://pmkisan.gov.in/",
+    "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
+    "https://rupashree.wb.gov.in/",
+    "https://svmcm.wb.gov.in/",
+    "https://wb.gov.in/",
+    "https://wbscc.wb.gov.in/Applicant_Login",
+    "https://wcdsw.wb.gov.in/",
+    "https://www.pfrda.org.in/w/faqs/atal-pension-yojana",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716",
+    "https://www.pmjdy.gov.in/about",
+    "https://www.pmuy.gov.in/",
+    "https://www.spniwcd.wcd.gov.in/pradhan-mantri-matru-vandana-yojna",
+    "https://www.wbmdfc.net/"
+  ],
+  "tls_unverified": [
+    "https://adibasikalyan.gov.in/",
+    "https://bccs.wb.gov.in/",
+    "https://bccs.wb.gov.in/FAQ",
+    "https://bccs.wb.gov.in/apply_online",
+    "https://bccs.wb.gov.in/scheme",
+    "https://beneficiary.nha.gov.in/",
+    "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+    "https://jansuraksha.gov.in/",
+    "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
+    "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+    "https://krishakbandhu.wb.gov.in/",
+    "https://krishakbandhu.wb.gov.in/about_kb",
+    "https://krishakbandhu.wb.gov.in/download_notification12",
+    "https://nha.gov.in/",
+    "https://nha.gov.in/PM-JAY",
+    "https://rupashree.wb.gov.in/",
+    "https://svmcm.wb.gov.in/",
+    "https://svmcm.wb.gov.in/page/about.php",
+    "https://svmcm.wb.gov.in/page/application_procedure.php",
+    "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf",
+    "https://wbscc.wb.gov.in/",
+    "https://wbscc.wb.gov.in/About",
+    "https://wbscc.wb.gov.in/Applicant_Login",
+    "https://wbscc.wb.gov.in/FAQ",
+    "https://wcdsw.wb.gov.in/",
+    "https://www.nsiindia.gov.in/",
+    "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+    "https://www.pbssd.gov.in/",
+    "https://www.pmjdy.gov.in/about"
+  ],
+  "circuit_breaker_tripped": false,
+  "partial_degradation": false,
+  "url_diagnostics": {
+    "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.form_pdf_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://beneficiary.nha.gov.in/": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='beneficiary.nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCe",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.apply_online_url",
+        "ayushman-bharat-pm-jay.source"
+      ]
+    },
+    "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "banglar-yuba-sathi.official_scheme_url",
+        "banglar-yuba-sathi.source",
+        "aikyashree-scholarship.official_scheme_url",
+        "aikyashree-scholarship.source",
+        "duare-sarkar.official_scheme_url",
+        "duare-sarkar.source"
+      ]
+    },
+    "https://ds.wb.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "banglar-yuba-sathi.official_website",
+        "banglar-yuba-sathi.apply_online_url",
+        "banglar-yuba-sathi.source",
+        "duare-sarkar.official_website",
+        "duare-sarkar.source"
+      ]
+    },
+    "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.official_scheme_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://karmasathips.wblabour.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "west-bengal-migrant-workers-welfare-scheme.official_website",
+        "west-bengal-migrant-workers-welfare-scheme.apply_online_url",
+        "west-bengal-migrant-workers-welfare-scheme.source"
+      ]
+    },
+    "https://maandhan.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pradhan-mantri-shram-yogi-maandhan.official_website",
+        "pradhan-mantri-shram-yogi-maandhan.apply_online_url",
+        "pradhan-mantri-shram-yogi-maandhan.source"
+      ]
+    },
+    "https://nha.gov.in/": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificati",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.official_website"
+      ]
+    },
+    "https://nha.gov.in/PM-JAY": {
+      "outcome": "tls_error",
+      "status": 403,
+      "note": "HTTPSConnectionPool(host='nha.gov.in', port=443): Max retries exceeded with url: /PM-JAY (Caused by SSLError(SSLCertVeri",
+      "referenced_by": [
+        "ayushman-bharat-pm-jay.official_scheme_url",
+        "ayushman-bharat-pm-jay.source"
+      ]
+    },
+    "https://nrega.nic.in/": {
+      "outcome": "soft_fail",
+      "status": 200,
+      "note": "body only 453 bytes",
+      "referenced_by": [
+        "mgnrega-job-card.official_website"
+      ]
+    },
+    "https://nrega.nic.in/MGNREGA_new/Nrega_home.aspx": {
+      "outcome": "dead",
+      "status": 404,
+      "note": "HTTP 404",
+      "referenced_by": [
+        "mgnrega-job-card.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiayHome/Home.aspx": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.official_website",
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmayg.dord.gov.in/netiayHome/about.aspx": {
+      "outcome": "blocked",
+      "status": 401,
+      "note": "HTTP 401",
+      "referenced_by": [
+        "pmay-gramin.official_scheme_url",
+        "pmay-gramin.source"
+      ]
+    },
+    "https://pmmvy.wcd.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-matru-vandana-yojana.official_website",
+        "pradhan-mantri-matru-vandana-yojana.apply_online_url"
+      ]
+    },
+    "https://pmmvy.wcd.gov.in/Home/FrequentlyAskedQuestions": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-matru-vandana-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.official_website"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/?page_id=7123": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/dashboard/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.apply_online_url"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/guidelines/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvbry.epfindia.gov.in/pmvbry-scheme/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.official_scheme_url",
+        "pradhan-mantri-viksit-bharat-rozgar-yojana.source"
+      ]
+    },
+    "https://pmvishwakarma.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.official_website",
+        "pm-vishwakarma.source"
+      ]
+    },
+    "https://pmvishwakarma.gov.in/Home/FAQ": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.official_scheme_url",
+        "pm-vishwakarma.source"
+      ]
+    },
+    "https://socialregistry.wb.gov.in/": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "annapurna-yojana.official_website"
+      ]
+    },
+    "https://socialregistry.wb.gov.in/login": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "annapurna-yojana.apply_online_url",
+        "annapurna-yojana.source"
+      ]
+    },
+    "https://swasthyasathi.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "swasthya-sathi.official_website",
+        "swasthya-sathi.apply_online_url",
+        "swasthya-sathi.source"
+      ]
+    },
+    "https://www.pmsuryaghar.gov.in/": {
+      "outcome": "blocked",
+      "status": 403,
+      "note": "HTTP 403",
+      "referenced_by": [
+        "pm-surya-ghar-muft-bijli-yojana.official_website",
+        "pm-surya-ghar-muft-bijli-yojana.apply_online_url"
+      ]
+    },
+    "https://www.pmvishwakarma.gov.in/CDN/MiscFiles/Registration%20e-Booklet.pdf": {
+      "outcome": "unreachable",
+      "status": null,
+      "note": "timeout",
+      "referenced_by": [
+        "pm-vishwakarma.form_pdf_url",
+        "pm-vishwakarma.source"
+      ]
+    }
+  }
+}

@@ -1170,21 +1170,21 @@
         "ফর্ম ও নথি জমা দিন",
         "Acknowledgment সংগ্রহ করুন"
       ],
-      "official_website": "https://ds.wb.gov.in/",
-      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "official_website": "https://wb.gov.in/",
+      "official_scheme_url": "https://wb.gov.in/duare-sarkar.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
       "video_url": [],
       "source": [
         {
           "title": "West Bengal CMO Scheme Master - Duare Sarkar",
-          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "url": "https://wb.gov.in/duare-sarkar.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
         {
           "title": "Duare Sarkar portal",
-          "url": "https://ds.wb.gov.in/",
+          "url": "https://wb.gov.in/",
           "source_type": "official_department_page",
           "published_or_updated_date": ""
         }

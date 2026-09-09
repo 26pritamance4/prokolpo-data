@@ -88,7 +88,7 @@
         "প্রয়োজনীয় যাচাই সম্পন্ন করে আবেদন জমা দিন"
       ],
       "official_website": "https://ds.wb.gov.in/",
-      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "official_scheme_url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
       "apply_online_url": "https://ds.wb.gov.in/",
       "form_pdf_url": "",
       "video_url": [
@@ -97,8 +97,8 @@
       ],
       "source": [
         {
-          "title": "Chief Minister's Office Scheme Master",
-          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "title": "Banglar Yuba Sathi - Duare Sarkar, Government of West Bengal",
+          "url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
@@ -277,7 +277,7 @@
         "সব তথ্য পরীক্ষা করে আবেদন জমা দিন"
       ],
       "official_website": "https://swasthyasathi.gov.in/",
-      "official_scheme_url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
+      "official_scheme_url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
       "apply_online_url": "https://swasthyasathi.gov.in/",
       "form_pdf_url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
       "video_url": [
@@ -286,8 +286,8 @@
       ],
       "source": [
         {
-          "title": "Swasthya Sathi official scheme page",
-          "url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
+          "title": "Swasthya Sathi - Duare Sarkar, Government of West Bengal",
+          "url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
@@ -1058,7 +1058,7 @@
         "নথি আপলোড করে আবেদন জমা দিন"
       ],
       "official_website": "https://www.wbmdfc.net/",
-      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+      "official_scheme_url": "https://www.wbmdfc.net/",
       "apply_online_url": "",
       "form_pdf_url": "",
       "video_url": [
@@ -1067,8 +1067,8 @@
       ],
       "source": [
         {
-          "title": "West Bengal CMO Scheme Master - Aikyashree",
-          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
+          "title": "West Bengal Minorities Development and Finance Corporation",
+          "url": "https://www.wbmdfc.net/",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
@@ -2024,7 +2024,7 @@
         "চালু প্রকল্পের মধ্যে কাজ বরাদ্দ করা হবে",
         "মজুরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হবে এবং জব কার্ড নিয়মিত আপডেট হবে"
       ],
-      "official_website": "https://nrega.nic.in/",
+      "official_website": "https://nrega.dord.gov.in/",
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
@@ -2035,7 +2035,7 @@
       "source": [
         {
           "title": "Mahatma Gandhi NREGA official portal",
-          "url": "https://nrega.nic.in/MGNREGA_new/Nrega_home.aspx",
+          "url": "https://nrega.dord.gov.in/MGNREGA_new/home_nrega_new.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },

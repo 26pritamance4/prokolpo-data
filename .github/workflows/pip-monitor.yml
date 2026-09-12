@@ -52,7 +52,7 @@ jobs:
         run: python scripts/pip.py
 
       - name: Commit results
-        if: always() && steps.guard.outputs.skip != 'true'
+        if: success() && steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "pip-monitor[bot]"
           git config user.email "pip-monitor@users.noreply.github.com"

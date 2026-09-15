@@ -233,4 +233,3 @@ def check_freshness(fields: dict, now: datetime | None = None,
             f"{max_age_days}-day freshness window")
     if age < -300:
         raise ApprovalError("approval is dated in the future")
-

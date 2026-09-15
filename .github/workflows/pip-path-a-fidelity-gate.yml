@@ -1,0 +1,99 @@
+# DEPLOY TO: .github/workflows/pip-path-a-fidelity-gate.yml
+#
+# PIP Path A Fidelity Gate — trusted verification of a candidate schemes.json.
+#
+# TRUST MODEL — read before editing:
+#   * pull_request_target evaluates THIS file from the BASE branch, so a pull
+#     request cannot modify the gate, the pinned public key, or the verifier.
+#   * The job checks out the BASE revision for its code and its key.
+#   * The pull request's files are extracted with `git show` as DATA ONLY.
+#   * NOTHING from the pull request is ever executed, imported, sourced or
+#     installed. No PR python, no PR shell, no PR action, no PR requirements
+#     file. Adding any such step would void the entire trust boundary.
+#   * permissions: contents: read. The gate verifies; it never writes.
+
+name: PIP Path A Fidelity Gate
+
+on:
+  pull_request_target:
+    branches: [main]
+    paths:
+      - 'schemes.json'
+      - 'approved/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: path-a-fidelity-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  fidelity:
+    # This job NAME is the status-check context required by ruleset 23019904.
+    name: PIP Path A Fidelity Gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      # Pinned trusted public key, base64 of the 32 raw Ed25519 bytes.
+      # Pinned 2026-09-15 from the operator-supplied production public key.
+      # key_id 9efed76d286866ae. The matching private key is held outside the
+      # workspace and is never read, copied or referenced by any code here.
+      # A PR cannot change this value: this file is read from the base branch.
+      TRUSTED_PUBLIC_KEY_B64: "fh7jXlYJ0z12M91NlaAKvZhsw9lj5hFba0BecoZk26Q="
+
+    steps:
+      # 1 — trusted code and trusted key, from BASE. Never the PR.
+      - name: Checkout trusted base revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Installed from PyPI, never from anything the PR supplies.
+      - name: Install verification dependency
+        run: pip install --quiet "cryptography>=42"
+
+      # 2 — the PR's files are fetched and extracted as DATA. `git show` writes
+      #     bytes to disk; it executes nothing.
+      - name: Extract candidate and approval from the pull request (data only)
+        env:
+          PR_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth=1 origin "$PR_SHA"
+          mkdir -p /tmp/candidate
+          git show "$PR_SHA:schemes.json"          > /tmp/candidate/schemes.json
+          git show "$PR_SHA:approved/approval.txt" > /tmp/candidate/approval.txt
+          git show "$PR_SHA:approved/approval.sig" > /tmp/candidate/approval.sig
+          ls -l /tmp/candidate
+
+      # 3 — published generation, read from the TRUSTED base checkout.
+      #     Absent on first deployment, which bootstraps at 0.
+      - name: Read published generation from base
+        id: gen
+        run: |
+          set -euo pipefail
+          if [ -f approved/approval.txt ]; then
+            BASE_GEN=$(sed -n 's/^generation=//p' approved/approval.txt | head -1)
+            [ -n "$BASE_GEN" ] || BASE_GEN=0
+          else
+            BASE_GEN=0
+          fi
+          echo "base_generation=$BASE_GEN" >> "$GITHUB_OUTPUT"
+          echo "published generation: $BASE_GEN"
+
+      # 4 — trusted verifier, trusted key, fail closed.
+      - name: Verify Path A fidelity
+        run: |
+          python scripts/verify_path_a_approval.py \
+            --candidate      /tmp/candidate/schemes.json \
+            --approval       /tmp/candidate/approval.txt \
+            --signature      /tmp/candidate/approval.sig \
+            --public-key-b64 "$TRUSTED_PUBLIC_KEY_B64" \
+            --base-generation ${{ steps.gen.outputs.base_generation }}

@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
-  "total_records": 40,
-  "verified_records": 40,
+  "total_records": 38,
+  "verified_records": 38,
   "needs_review_records": 0,
-  "last_verified_at": "2026-09-07",
+  "last_verified_at": "2026-11-07",
   "schemes": [
     {
       "id": "annapurna-yojana",
@@ -59,65 +59,11 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit, eligibility, documents and online/offline routes verified from current West Bengal official sources.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-06-26",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2026-06-03"
-    },
-    {
-      "id": "banglar-yuba-sathi",
-      "name_en": "Banglar Yuba Sathi",
-      "name_bn": "বাংলার যুব সাথী",
-      "category": "west_bengal",
-      "dept": "Government of West Bengal",
-      "description_bn": "নির্দিষ্ট বয়সের শিক্ষিত বেকার যুবকদের অস্থায়ী মাসিক আর্থিক সহায়তা দেওয়ার কর্মসূচি।",
-      "benefit": "যোগ্য যুবক মাসে ₹১,৫০০ পেতে পারেন; সহায়তা সর্বোচ্চ পাঁচ বছর বা কর্মসংস্থান পর্যন্ত চলতে পারে।",
-      "eligibility": [
-        "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
-        "২০২৬ সালের ১ এপ্রিল অনুযায়ী বয়স ২১ থেকে ৪০ বছরের মধ্যে হতে হবে",
-        "শিক্ষিত বেকার হতে হবে",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "documents": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "application_process": [
-        "অফিসিয়াল পোর্টালে নিবন্ধন করুন",
-        "শিক্ষা, কর্মসংস্থান অবস্থা ও ব্যাংকের তথ্য পূরণ করুন",
-        "প্রয়োজনীয় যাচাই সম্পন্ন করে আবেদন জমা দিন"
-      ],
-      "official_website": "https://ds.wb.gov.in/",
-      "official_scheme_url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
-      "apply_online_url": "https://ds.wb.gov.in/",
-      "form_pdf_url": "",
-      "video_url": [
-        "https://www.youtube.com/watch?v=6-ijRhJHfgQ",
-        "https://www.youtube.com/watch?v=VVlof-w_rOc"
-      ],
-      "source": [
-        {
-          "title": "Banglar Yuba Sathi - Duare Sarkar, Government of West Bengal",
-          "url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Banglar Yuba Sathi portal",
-          "url": "https://ds.wb.gov.in/",
-          "source_type": "official_application_portal",
-          "published_or_updated_date": ""
-        }
-      ],
-      "government_level": "west_bengal",
-      "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Benefit and age range were available on official pages; complete document list was not clearly published.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
-      "start_date": "2026-04-01"
     },
     {
       "id": "pm-kisan",
@@ -178,10 +124,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit, principal eligibility, exclusion criteria and registration gateway were checked against the PM-KISAN official portal and official FAQ.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "পুরোনো রেকর্ডকে নতুন PIP স্কিমায় রূপান্তর করা হয়েছে এবং যোগ্যতা, বর্জন ও নিবন্ধন ধাপ আরও নির্ভুলভাবে যুক্ত করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2018-12-01"
     },
     {
@@ -243,10 +189,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Cultivation assistance, two seasonal instalments, death benefit and block-level registration route were confirmed on the official portal.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "মৃত্যু-সহায়তার ₹২ লক্ষ সুবিধা এবং ব্লক কৃষি দপ্তরের মাধ্যমে নিবন্ধন পদ্ধতি যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2021-06-17"
     },
     {
@@ -277,7 +223,7 @@
         "সব তথ্য পরীক্ষা করে আবেদন জমা দিন"
       ],
       "official_website": "https://swasthyasathi.gov.in/",
-      "official_scheme_url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
+      "official_scheme_url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
       "apply_online_url": "https://swasthyasathi.gov.in/",
       "form_pdf_url": "https://accounts.swasthyasathi.gov.in/images/SwasthyaSathi-FORmFillup.pdf",
       "video_url": [
@@ -286,8 +232,8 @@
       ],
       "source": [
         {
-          "title": "Swasthya Sathi - Duare Sarkar, Government of West Bengal",
-          "url": "https://ds.wb.gov.in/dws7/Portal_New_Default.aspx",
+          "title": "Swasthya Sathi official scheme page",
+          "url": "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
@@ -307,11 +253,11 @@
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Coverage, major exclusions, family provisions and Form B online application instructions were checked against official Swasthya Sathi sources.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "যোগ্যতার প্রধান বর্জন, প্রয়োজনীয় Form B তথ্য এবং অনলাইন আবেদন ধাপ বিস্তারিতভাবে যুক্ত হয়েছে।",
+      "verification_notes": "Coverage of up to Rs 5 lakh per family per year re-confirmed on the official Swasthya Sathi scheme page on 2026-11-07. Ayushman Bharat PM-JAY is being rolled out in West Bengal from 2026 and existing Swasthya Sathi beneficiaries are to be incorporated; no official notice withdrawing Swasthya Sathi was found, so the record stays active and is re-checked every run.",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-01-21",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2016-12-30"
     },
     {
@@ -371,8 +317,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "This active high-priority West Bengal scheme was not present in the existing dataset and has been added from the official WBSCC portal and FAQ.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "পশ্চিমবঙ্গ স্টুডেন্ট ক্রেডিট কার্ডকে নতুন রেকর্ড হিসেবে যুক্ত করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2021-06-30"
@@ -438,10 +384,10 @@
       "scheme_status": "application_open",
       "verification_status": "verified",
       "verification_notes": "Checked live on 2026-08-20; portal self-dates its counters 'AS ON 20-08-2026'. Homepage states 2026-27 applications are open for Post-Matric SC/ST/OBC and Pre-Matric SC/ST/OBC plus Pre-Matric Component-II (7 schemes total). apply_online_url now points to the actual Student's registration route instead of the portal homepage (§7 Step 4). NSP OTR requirement for ST applicants confirmed on the homepage notice.",
-      "change_type": "status_changed",
-      "detected_change_summary_bn": "২০২৬-২৭ শিক্ষাবর্ষের আবেদন চালু থাকায় অবস্থা 'application_open' করা হয়েছে। হোমপেজের বদলে প্রকৃত নিবন্ধন লিংক যুক্ত হয়েছে এবং ৪০%/৬০% পর্যায়ক্রমে অর্থপ্রদানের তথ্য যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-08-20",
-      "last_verified_at": "2026-08-20",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -499,8 +445,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Eligibility, income ceiling and example scholarship rates verified from the official portal.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-07-23",
       "last_verified_at": "2026-07-23",
       "start_date": ""
@@ -564,8 +510,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Portal active; deadlines vary by state, crop and season.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-07-22",
       "last_verified_at": "2026-07-23",
       "start_date": "2016-02-18"
@@ -628,10 +574,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "₹5 lakh cover and 70+ expansion verified; ordinary eligibility is database-based.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2018-09-23"
     },
     {
@@ -696,10 +642,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Current eligibility, documents, connection benefits and official application gateway were checked on the PMUY portal.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "বর্তমান Ujjwala 2.0 সুবিধা, দরিদ্র পরিবারের declaration এবং অফিসিয়াল আবেদন গেটওয়ে স্পষ্টভাবে যুক্ত করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2016-05-01"
     },
     {
@@ -760,8 +706,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The record now reflects PMAY-U 2.0 rather than the earlier mission version. Exact document requirements were not clearly exposed on the official public eligibility page and are therefore not guessed.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "রেকর্ডটি PMAY-U 2.0 অনুযায়ী সংশোধন করা হয়েছে; চারটি vertical, বর্তমান আয়সীমা ও সঠিক eligibility-check URL যুক্ত হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2024-09-01",
       "last_verified_at": "2026-07-23",
       "start_date": "2024-09-01"
@@ -821,10 +767,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The previous homepage-as-application-link was removed. PMAY-G beneficiary identification is survey/list based rather than a normal public application form.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "ভুল সরাসরি আবেদন লিংক সরানো হয়েছে এবং সরকারি সমীক্ষা ও তালিকাভিত্তিক নির্বাচন পদ্ধতি স্পষ্ট করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2016-04-01"
     },
     {
@@ -890,8 +836,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The current official Rupashree Online 3.0 portal, tracking facility and official form were located and linked.",
-      "change_type": "source_changed",
-      "detected_change_summary_bn": "বর্তমান Rupashree Online 3.0 আবেদন ও ট্র্যাকিং পোর্টাল যুক্ত করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2018-04-01"
@@ -953,8 +899,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The official portal currently presents an Apply Online route and states a project ceiling up to ₹5 lakh for eligible new or existing units.",
-      "change_type": "correction",
-      "detected_change_summary_bn": "সর্বোচ্চ ₹৫ লক্ষ প্রকল্পসীমা, নতুন ও বিদ্যমান ইউনিটের যোগ্যতা এবং সঠিক Apply Online URL যুক্ত হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2023-04-01"
@@ -1026,8 +972,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "This high-priority central scheme was absent from the existing dataset. Benefits, the 18-trade scope and CSC-led registration were checked against official portal and PIB materials.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "পিএম বিশ্বকর্মা প্রকল্পকে নতুন রেকর্ড হিসেবে যুক্ত করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2023-09-17"
@@ -1058,7 +1004,7 @@
         "নথি আপলোড করে আবেদন জমা দিন"
       ],
       "official_website": "https://www.wbmdfc.net/",
-      "official_scheme_url": "https://www.wbmdfc.net/",
+      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
       "apply_online_url": "",
       "form_pdf_url": "",
       "video_url": [
@@ -1067,8 +1013,8 @@
       ],
       "source": [
         {
-          "title": "West Bengal Minorities Development and Finance Corporation",
-          "url": "https://www.wbmdfc.net/",
+          "title": "West Bengal CMO Scheme Master - Aikyashree",
+          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
@@ -1083,8 +1029,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Scheme and components verified; a reliable current direct application URL was not confirmed in this run.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2019-04-01"
@@ -1142,62 +1088,11 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Age, tax exclusion and pension choices verified.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-01-23",
       "last_verified_at": "2026-07-23",
       "start_date": "2015-06-01"
-    },
-    {
-      "id": "duare-sarkar",
-      "name_en": "Duare Sarkar",
-      "name_bn": "দুয়ারে সরকার",
-      "category": "west_bengal",
-      "dept": "Government of West Bengal",
-      "description_bn": "স্থানীয় ক্যাম্পের মাধ্যমে বিভিন্ন সরকারি প্রকল্প ও পরিষেবার আবেদন ও সহায়তা নাগরিকের কাছে পৌঁছে দেওয়ার উদ্যোগ।",
-      "benefit": "এক জায়গায় বহু সরকারি প্রকল্পের আবেদন, নথি জমা, সংশোধন ও সহায়তা পাওয়া যায়।",
-      "eligibility": [
-        "পশ্চিমবঙ্গের নাগরিক বা সংশ্লিষ্ট পরিষেবার আবেদনকারী",
-        "প্রতিটি পরিষেবার নিজস্ব যোগ্যতা প্রযোজ্য"
-      ],
-      "documents": [
-        "প্রকল্প বা পরিষেবা অনুযায়ী নথি আলাদা",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
-      ],
-      "application_process": [
-        "ক্যাম্পের সময়সূচি ও স্থান যাচাই করুন",
-        "প্রয়োজনীয় নথি নিয়ে ক্যাম্পে যান",
-        "ফর্ম ও নথি জমা দিন",
-        "Acknowledgment সংগ্রহ করুন"
-      ],
-      "official_website": "https://wb.gov.in/",
-      "official_scheme_url": "https://wb.gov.in/duare-sarkar.aspx",
-      "apply_online_url": "",
-      "form_pdf_url": "",
-      "video_url": [],
-      "source": [
-        {
-          "title": "West Bengal CMO Scheme Master - Duare Sarkar",
-          "url": "https://wb.gov.in/duare-sarkar.aspx",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Duare Sarkar portal",
-          "url": "https://wb.gov.in/",
-          "source_type": "official_department_page",
-          "published_or_updated_date": ""
-        }
-      ],
-      "government_level": "west_bengal",
-      "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Classified as a service-delivery initiative; camp availability is phase-specific.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
-      "start_date": "2020-12-01"
     },
     {
       "id": "jai-johar",
@@ -1243,10 +1138,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Eligibility and DBT verified; no numerical amount invented because current page omits it.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-06-26",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2020-04-01"
     },
     {
@@ -1300,10 +1195,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Classified as a financial inclusion service; account opening is through banks/BCs.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-07-15",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2014-08-28"
     },
     {
@@ -1360,10 +1255,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Current benefit amounts and eligibility categories verified.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2017-01-01"
     },
     {
@@ -1418,8 +1313,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Corrected to accidental death/disability only.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-07-23",
       "start_date": "2015-05-09"
@@ -1481,8 +1376,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Current application route, project ceilings and eligibility verified.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-07-23",
       "last_verified_at": "2026-07-23",
       "start_date": "2008-08-01"
@@ -1535,10 +1430,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Grain quantities, eligibility, documents and process verified.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-06-26",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -1580,10 +1475,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit and eligible classes verified; institution-managed with no public application.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2022-05-02",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2015-01-01"
     },
     {
@@ -1633,10 +1528,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Amount, age, caste and duplicate-pension exclusion verified.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-06-26",
-      "last_verified_at": "2026-07-23",
+      "last_verified_at": "2026-11-07",
       "start_date": "2020-04-01"
     },
     {
@@ -1696,8 +1591,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "বর্তমান EPFO-এর সরকারি PMVBRY পোর্টালে কর্মী ও নিয়োগকর্তার যোগ্যতা, ₹১৫,০০০ পর্যন্ত কর্মী প্রণোদনা, প্রতি অতিরিক্ত কর্মীতে সর্বোচ্চ ₹৩,০০০ মাসিক নিয়োগকর্তা প্রণোদনা এবং ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭ সময়কাল নিশ্চিত করা হয়েছে।",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রধানমন্ত্রী বিকশিত ভারত রোজগার যোজনা নতুন যাচাইকৃত কেন্দ্রীয় প্রকল্প হিসেবে যুক্ত হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "2026-08-14",
       "last_verified_at": "2026-08-14",
       "start_date": "2025-08-01"
@@ -1751,10 +1646,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Launch date, subsidy slabs, eligibility, documents and application steps verified on the official West Bengal State Portal scheme page, which names pmsuryaghar.gov.in as the official application portal. Direct fetch of pmsuryaghar.gov.in (403) and mnre.gov.in (404) failed, so the administering ministry is not asserted; dept recorded only at the level the accessible official source supports.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": "2024-02-15"
     },
     {
@@ -1810,10 +1705,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Sum assured Rs 2 lakh, annual premium Rs 436, entry age 18-50, cover renewable to age 55 and the 1 June to 31 May cover period confirmed on the Department of Financial Services page and cross-checked with the official West Bengal State Portal scheme page; both agree. Enrolment happens through participating banks and there is no separate citizen application portal, so apply_online_url is left empty.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -1872,10 +1767,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Assured pension Rs 3,000/month, entry age 18-40 and monthly income ceiling Rs 15,000 match on both the official maandhan.in portal and the official West Bengal State Portal scheme page. Contribution range Rs 55-200 with matching government contribution, family pension of Rs 1,500, and the EPF/ESIC/NPS and income-tax exclusions are stated on the West Bengal State Portal page; maandhan.in confirms the matching government contribution.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -1932,10 +1827,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Minimum Rs 250 and maximum Rs 1.5 lakh per financial year, account opening below age 10, one account per girl child, 21-year maturity, education withdrawal and premature closure on marriage after 18, and the 80-C / Section 10 tax treatment are confirmed on the National Savings Institute page. The West Bengal State Portal page adds the two-accounts-per-family limit, documents, branch application steps and states an interest rate of 8.2% per annum; the NSI page links the rate rather than printing it, so the rate is published with attribution and flagged as periodically notified. Accounts are opened at post offices and authorised banks, so apply_online_url is empty.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -1993,68 +1888,62 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Purpose, 16-59 age band, unorganised-worker eligibility, EPFO/ESIC/NPS exclusion, accident cover of Rs 2 lakh / Rs 1 lakh, the 12-digit UAN and the fee-free registration steps are taken from the official West Bengal State Portal scheme page; eshram.gov.in confirms the portal is run by the Ministry of Labour and Employment. The West Bengal page also mentions a roughly Rs 3,000 monthly pension after age 60, which belongs to the separate PM-SYM scheme and is deliberately not published as an e-Shram benefit here.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-09-03",
       "start_date": ""
     },
     {
-      "id": "mgnrega-job-card",
-      "name_en": "Mahatma Gandhi NREGA Job Card and Wage Employment",
-      "name_bn": "মহাত্মা গান্ধী এনরেগা জব কার্ড ও মজুরি কর্মসংস্থান",
+      "id": "viksit-bharat-g-ram-g",
+      "name_en": "Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G)",
+      "name_bn": "বিকশিত ভারত - গ্রামীণ রোজগার ও আজীবিকা মিশন গ্যারান্টি (VB-G RAM G)",
       "category": "central",
       "dept": "Ministry of Rural Development, Government of India",
-      "description_bn": "গ্রামীণ পরিবারের প্রাপ্তবয়স্ক সদস্যদের অদক্ষ শারীরিক কাজের মাধ্যমে মজুরি কর্মসংস্থানের আইনি নিশ্চয়তা; জব কার্ড এই অধিকারের নথি।",
-      "benefit": "ইচ্ছুক প্রতিটি গ্রামীণ পরিবারকে এক অর্থবর্ষে অন্তত ১০০ দিনের নিশ্চিত অদক্ষ মজুরি কর্মসংস্থান। মজুরি সরাসরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হয় এবং জব কার্ডে কাজ ও মজুরির হিসাব রাখা হয়।",
+      "description_bn": "১ জুলাই ২০২৬ থেকে মহাত্মা গান্ধী এনরেগা-র জায়গায় চালু হওয়া গ্রামীণ মজুরি কর্মসংস্থানের নতুন আইনি নিশ্চয়তা প্রকল্প। অদক্ষ শারীরিক কাজে ইচ্ছুক প্রতিটি গ্রামীণ পরিবার এর আওতায় আসে।",
+      "benefit": "ইচ্ছুক প্রতিটি গ্রামীণ পরিবারকে প্রতি অর্থবর্ষে ১২৫ দিনের মজুরি কর্মসংস্থানের আইনি নিশ্চয়তা। মজুরি সাপ্তাহিক বা মাস্টার রোল বন্ধের ১৫ দিনের মধ্যে সরাসরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে দেওয়া হয়; দেরিতে মজুরির জন্য ক্ষতিপূরণ এবং সময়মতো কাজ না পেলে বেকার ভাতার বিধান আছে। রাজ্য কৃষির ব্যস্ত মরসুমে বছরে মোট ৬০ দিন পর্যন্ত বিরতি ঘোষণা করতে পারে।",
       "eligibility": [
-        "গ্রামীণ পরিবারের সদস্য হতে হবে",
-        "পরিবারের প্রাপ্তবয়স্ক সদস্য (১৮ বছর বা তার বেশি) হতে হবে",
-        "অদক্ষ শারীরিক কাজ করতে ইচ্ছুক হতে হবে",
-        "সংশ্লিষ্ট গ্রাম পঞ্চায়েত এলাকার বাসিন্দা হতে হবে"
+        "গ্রামীণ এলাকার পরিবার হতে হবে",
+        "পরিবারের প্রাপ্তবয়স্ক সদস্যকে অদক্ষ শারীরিক কাজ করতে ইচ্ছুক হতে হবে"
       ],
       "documents": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "e-KYC যাচাই করা বিদ্যমান জব কার্ড (গ্রামীণ রোজগার গ্যারান্টি কার্ড দেওয়া পর্যন্ত বৈধ)",
+        "নতুন নিবন্ধনের ক্ষেত্রে গ্রাম পঞ্চায়েতে আবেদন"
       ],
       "application_process": [
-        "জব কার্ডের জন্য গ্রাম পঞ্চায়েতে নিবন্ধনের আবেদন জমা দিন",
-        "স্থানীয় কর্তৃপক্ষ পরিবারের সদস্যদের তথ্য নথিভুক্ত ও যাচাই করবে",
-        "যাচাইয়ের পরে পরিবারের নামে জব কার্ড দেওয়া হবে",
+        "জব কার্ড না থাকলে গ্রাম পঞ্চায়েতে নিবন্ধনের আবেদন করুন",
+        "e-KYC যাচাই সম্পন্ন করুন; e-KYC বাকি থাকলেও কাজ থেকে বঞ্চিত করা হবে না এবং কর্মস্থলে e-KYC করা যায়",
         "কাজের প্রয়োজন হলে গ্রাম পঞ্চায়েতে কাজের আবেদন করুন",
-        "চালু প্রকল্পের মধ্যে কাজ বরাদ্দ করা হবে",
-        "মজুরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হবে এবং জব কার্ড নিয়মিত আপডেট হবে"
+        "মজুরি সরাসরি ব্যাংক বা ডাকঘর অ্যাকাউন্টে জমা হবে"
       ],
-      "official_website": "https://nrega.dord.gov.in/",
-      "official_scheme_url": "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx",
+      "official_website": "https://rural.gov.in/",
+      "official_scheme_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc2026511867601.pdf",
       "apply_online_url": "",
       "form_pdf_url": "",
-      "video_url": [
-        "https://www.youtube.com/watch?v=RrRwxTTuXyo",
-        "https://www.youtube.com/watch?v=hN__wIh-JVY"
-      ],
+      "video_url": [],
       "source": [
         {
-          "title": "Mahatma Gandhi NREGA official portal",
-          "url": "https://nrega.dord.gov.in/MGNREGA_new/home_nrega_new.aspx",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
+          "title": "Viksit Bharat - G RAM G Act, 2025: coming into force from 01/07/2026 - Press Information Bureau",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc2026511867601.pdf",
+          "source_type": "official_press_release",
+          "published_or_updated_date": "2026-05-11"
         },
         {
           "title": "Job Cards under VB-G RAM-G Scheme / MGNREGS - West Bengal State Portal",
           "url": "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx",
           "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
+          "published_or_updated_date": "2026-06-26"
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "The guarantee of at least 100 days of wage employment per rural household per financial year is confirmed on the official Mahatma Gandhi NREGA portal. Eligibility, the Gram Panchayat registration route, job card issuance and direct bank/post office wage payment are confirmed on the official West Bengal State Portal page. Neither accessible official source listed the documents required for job card registration, so the documents array records that explicitly rather than inferring. Daily wage rate is state-notified and revised periodically, so no rate is published.",
+      "verification_notes": "125-day guarantee, commencement 01/07/2026, repeal of MGNREGA, weekly/15-day wage payment, delay compensation, unemployment allowance, 60-day agricultural pause, Gram Panchayat registration and job card validity confirmed from the official PIB document. West Bengal State Portal lists Job Cards under VB-G RAM-G. Wage rate is notified separately and not published. Successor of the archived record mgnrega-job-card.",
       "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
-      "last_updated": "",
-      "last_verified_at": "2026-09-03",
-      "start_date": ""
+      "detected_change_summary_bn": "MGNREGA বাতিল হয়ে ১ জুলাই ২০২৬ থেকে VB-G RAM G চালু হয়েছে; পুরোনো রেকর্ডের জায়গায় এই নতুন রেকর্ড যোগ করা হয়েছে (১০০ দিনের বদলে ১২৫ দিন)।",
+      "last_updated": "2026-05-11",
+      "last_verified_at": "2026-11-07",
+      "start_date": "2026-07-01"
     },
     {
       "id": "kisan-credit-card",
@@ -2111,8 +2000,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Rs 3 lakh limit, 7% interest with an effective 3% after interest subvention for timely repayment, eligibility categories, documents and the bank application route are verified on the official West Bengal State Portal scheme page, which names fasalrin.gov.in (Kisan Rin Portal) as the official portal. The Kisan Rin Portal home page confirms it is a Government of India initiative but is JavaScript-driven and did not expose scheme text, and agriwelfare.gov.in returned 403, so no administering department is asserted beyond Government of India. Applications are made through banks, so apply_online_url is empty.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-09-03",
       "start_date": ""
@@ -2173,10 +2062,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Rs 800 per year, class V-VIII OBC eligibility, the Rs 2.5 lakh family income ceiling, documents and the school-routed DBT process are verified on the official West Bengal State Portal scheme page. The Backward Classes Welfare Department site lists the class V-VIII Shikshashree/Medhashree application under a bare IP-based link rather than a stable official domain, so apply_online_url is left empty instead of publishing an unstable address.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -2228,8 +2117,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Rs 800 per year for classes V-VIII, SC/ST eligibility, the Rs 2.5 lakh income ceiling, West Bengal residence, bank account requirement and the no-duplicate-scholarship condition are verified on the official West Bengal State Portal scheme page. That page did not list required documents or step-by-step application instructions, so both are recorded as not explicitly stated rather than inferred. The Backward Classes Welfare Department site confirms a combined class V-VIII Shikshashree/Medhashree application, but only through a bare IP-based link, so apply_online_url is empty. The State Portal page also references adibasikalyan.gov.in (Tribal Development), relevant for ST students.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-09-03",
       "start_date": ""
@@ -2278,10 +2167,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit amounts, 18-60 age band, unorganised-sector and Rs 6,500 monthly family income conditions, and the online/offline application route are verified on the official West Bengal State Portal scheme page, which names bmssy.wblabour.gov.in as the official portal. The page did not list required documents, so that is recorded explicitly rather than inferred.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     },
     {
@@ -2334,8 +2223,8 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Scheme purpose, free training, sectors covered, certification and placement support, the 15-45 age band, eligibility conditions, documents and application steps are verified on the official West Bengal State Portal scheme page, which names pbssd.gov.in as the official portal. That page describes it only as a flagship scheme of the Government of West Bengal without naming the administering department, so dept is recorded at that level.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
       "last_verified_at": "2026-09-03",
       "start_date": ""
@@ -2390,10 +2279,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit amounts, the 14-60 age band, the outside-West-Bengal employment condition and the portal registration and claim steps are verified on the official West Bengal State Portal scheme page. The Karmasathi (Parijayee Shramik) portal confirms it is run by the Labour Department, Government of West Bengal, and confirms the compensation and assistance scope. The State Portal page named the portal without a URL, so the portal address was confirmed directly against the official wblabour.gov.in domain. Required documents were not listed on either accessible official source.",
-      "change_type": "new_scheme",
-      "detected_change_summary_bn": "প্রকল্পটি নতুন যাচাইকৃত রেকর্ড হিসেবে যোগ করা হয়েছে।",
+      "change_type": "no_change",
+      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
       "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "last_verified_at": "2026-11-07",
       "start_date": ""
     }
   ]

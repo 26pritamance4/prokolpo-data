@@ -3,8 +3,8 @@
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
   "total_records": 38,
-  "verified_records": 35,
-  "needs_review_records": 3,
+  "verified_records": 33,
+  "needs_review_records": 5,
   "last_verified_at": "2026-11-22",
   "schemes": [
     {
@@ -818,23 +818,25 @@
         "প্রস্তাবিত পাত্রের বয়স কমপক্ষে ২১ বছর হতে হবে"
       ],
       "documents": [
-        "বয়সের প্রমাণ",
-        "বাসস্থানের প্রমাণ",
-        "পরিবারের আয়ের প্রমাণ বা নির্ধারিত ঘোষণা",
-        "নিজের নামে ব্যাংক অ্যাকাউন্টের তথ্য",
-        "প্রস্তাবিত বিবাহের তথ্য ও প্রাসঙ্গিক নথি",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "আবেদনকারীর বয়সের প্রমাণ: জন্মসনদ, ভোটার কার্ড, PAN, মাধ্যমিকের অ্যাডমিট, আধার বা স্বীকৃত স্কুল-লিভিং সার্টিফিকেটের যেকোনো একটি",
+        "অবিবাহিত থাকার স্ব-ঘোষণা",
+        "পরিবারের আয়ের স্ব-ঘোষণা",
+        "বাসস্থানের স্ব-ঘোষণা",
+        "আবেদনকারীর একক ব্যাংক অ্যাকাউন্টের পাসবুকের পৃষ্ঠা, যাতে নাম, অ্যাকাউন্ট নম্বর, ব্যাংকের ঠিকানা, IFSC ও MICR থাকে",
+        "প্রস্তাবিত বিবাহের প্রমাণ: বিবাহের নিমন্ত্রণপত্র, বিবাহ নিবন্ধনের নোটিশ অথবা স্ব-ঘোষণা",
+        "প্রস্তাবিত পাত্রের বয়সের প্রমাণ",
+        "আবেদনকারী ও প্রস্তাবিত পাত্রের রঙিন পাসপোর্ট-সাইজ ছবি"
       ],
       "application_process": [
-        "Rupashree Online 3.0-এর অফিসিয়াল পোর্টাল খুলুন",
-        "প্রযোজ্য হলে নতুন ব্যবহারকারী হিসেবে নিবন্ধন করুন",
-        "আবেদনপত্র পূরণ করে প্রয়োজনীয় নথি জমা দিন",
-        "আবেদন আইডি সংরক্ষণ করুন",
-        "অফিসিয়াল Track Application সুবিধা দিয়ে অবস্থা পরীক্ষা করুন"
+        "গ্রামীণ এলাকার আবেদনকারী BDO অফিস, পৌর এলাকার আবেদনকারী SDO অফিস এবং পৌরনিগম এলাকার আবেদনকারী Municipal Commissioner-এর অফিস থেকে বিনামূল্যে ফর্ম সংগ্রহ করুন",
+        "আবেদনপত্র পূরণ করে বয়স, অবিবাহিত অবস্থা, আয়, বাসস্থান, ব্যাংক, বিবাহ ও পাত্রের বয়সের প্রমাণ এবং উভয়ের ছবি সংযুক্ত করুন",
+        "প্রস্তাবিত বিবাহের তারিখের কমপক্ষে ৩০ দিন এবং সর্বোচ্চ ৬০ দিন আগে নিজ এলাকার BDO, SDO বা Municipal Commissioner-এর অফিসে আবেদন জমা দিন",
+        "রসিদ/স্বীকৃতি ও আবেদন নম্বর সংগ্রহ করুন",
+        "কর্তৃপক্ষের যাচাই ও অনুমোদনের পর অনুদান আবেদনকারীর নিজের একক ব্যাংক অ্যাকাউন্টে DBT-র মাধ্যমে দেওয়া হয়"
       ],
       "official_website": "https://wcdsw.wb.gov.in/",
-      "official_scheme_url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
-      "apply_online_url": "https://rupashree.wb.gov.in/",
+      "official_scheme_url": "https://uttardinajpur.gov.in/rupashree-prakalpa/",
+      "apply_online_url": "",
       "form_pdf_url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
       "video_url": [
         "https://www.youtube.com/watch?v=1R8gf2MUi-I",
@@ -842,20 +844,20 @@
       ],
       "source": [
         {
-          "title": "Rupashree Online 3.0",
-          "url": "https://rupashree.wb.gov.in/",
-          "source_type": "official_application_portal",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Rupashree Prakalpa - North 24 Parganas District",
-          "url": "https://north24parganas.gov.in/scheme/rupashree-prakalpa/",
+          "title": "Rupashree Prakalpa - Uttar Dinajpur District, Government of West Bengal",
+          "url": "https://uttardinajpur.gov.in/rupashree-prakalpa/",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
         {
-          "title": "Rupashree Application Form",
-          "url": "https://bsk.wb.gov.in/download/RupashreeApplicationForm.pdf",
+          "title": "Rupashree Prakalpa official FAQ",
+          "url": "https://wbrupashree.gov.in/admin/searchapplicant_public/User_manual/faq_eng",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Rupashree official application form",
+          "url": "https://rupashree.wb.gov.in/download-file?enc=eyJpdiI6Inpva2p5N3FDRVRCK2hvR0lhVEIrNVE9PSIsInZhbHVlIjoiZGNhUW81bW9UbnVRdzNudW9aVG5PRVd3RUlmWTl4dVJmeUlMV0EvVlIxZTlEb2s3YmcxYnVFRjF6RGtoT1VjSWZtdGhrVm9JK0dYOHBhRVVhMVZIMWpzbkYzbHRvZldlYVAvaHF2UkJ4R0E9IiwibWFjIjoiNTMwOTg4MTUwODU0OTI0YTUxNmEwMzA1YjFhYjQwNGI2NzExNzY2ZTk0YTAwNDNjNzE5MGI5Mjk3M2QxNjQ3MyIsInRhZyI6IiJ9",
           "source_type": "official_pdf",
           "published_or_updated_date": ""
         }
@@ -863,11 +865,11 @@
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "The current official Rupashree Online 3.0 portal, tracking facility and official form were located and linked.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Re-verified against the Government of West Bengal district operational page and official FAQ. Eligibility: applicant 18+, unmarried, first marriage; born in WB or resident for 5 years or parents permanent residents; family income up to ₹1.5 lakh; groom 21+; applicant must have a sole-holder active bank account. Benefit remains a one-time ₹25,000. The district page specifies offline submission 30–60 days before the proposed marriage; therefore the previous direct online-application URL was removed from apply_online_url rather than presenting it as the confirmed application route.",
+      "change_type": "process_changed",
+      "detected_change_summary_bn": "সরকারি জেলা নির্দেশিকা অনুযায়ী অনলাইন আবেদন বলে দেখানোর পরিবর্তে BDO/SDO/পৌরনিগমে বিনামূল্যে ফর্ম সংগ্রহ ও বিবাহের ৩০–৬০ দিন আগে অফলাইন জমার প্রক্রিয়া, সময়সীমা এবং পূর্ণ নথি-তালিকা যুক্ত করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2018-04-01"
     },
     {
@@ -877,27 +879,27 @@
       "category": "west_bengal",
       "dept": "Micro, Small and Medium Enterprises and Textiles Department, Government of West Bengal",
       "description_bn": "যোগ্য উদ্যোক্তাকে নতুন বা বিদ্যমান আয়সৃষ্টিকারী ক্ষুদ্র উদ্যোগের জন্য ঋণ সহায়তা দেওয়ার পশ্চিমবঙ্গ সরকারের প্রকল্প।",
-      "benefit": "উৎপাদন, পরিষেবা, ব্যবসা বা বাণিজ্যভিত্তিক যোগ্য প্রকল্পের জন্য সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ সুবিধা পাওয়া যেতে পারে।",
+      "benefit": "যোগ্য প্রকল্পে সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ; পশ্চিমবঙ্গ সরকারের প্রকাশিত scheme summary অনুযায়ী ১০% margin-money subsidy (সরকারি গেজেট অনুযায়ী সর্বোচ্চ ₹২৫,০০০) এবং ব্যাংকের মাধ্যমে বছরে ৪% সুদে ঋণ সুবিধা। জামানত/গ্যারান্টর ছাড়াই ঋণের বিধান রয়েছে; চূড়ান্ত অনুমোদন ব্যাংকের appraisal সাপেক্ষ।",
       "eligibility": [
-        "বয়স ১৮ থেকে ৫৫ বছরের মধ্যে হতে হবে।",
-        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে।",
-        "উদ্যোক্তা, ব্যবসায়ী, কারিগর, স্বনিযুক্ত ব্যক্তি বা ক্ষুদ্র পরিষেবা-প্রদানকারী হতে হবে।",
-        "বিদ্যমান ঋণখেলাপিরা এই প্রকল্পের জন্য যোগ্য নন।",
-        "উৎপাদন, পরিষেবা, ট্রেডিং বা agro-based উদ্যোগ/প্রকল্পের জন্য আবেদন করতে হবে।",
-        "চূড়ান্ত ঋণ অনুমোদন নির্ধারিত ব্যাংকের যাচাই ও প্রযোজ্য প্রকল্প-নিয়মের ওপর নির্ভরশীল।"
+        "ভারতীয় নাগরিক হতে হবে এবং পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
+        "বয়স ১৮–৫৫ বছর—বর্তমান WB State Portal-এ এই সীমা প্রকাশিত; তবে ২০২৩ সালের মূল গেজেটে ১৮–৪৫ বছর লেখা আছে, তাই আবেদনকালে পোর্টাল/দপ্তরের বর্তমান বিজ্ঞপ্তি যাচাই জরুরি",
+        "একটি পরিবার (নিজে ও spouse) থেকে একজন আবেদনকারী",
+        "নতুন বা বিদ্যমান উৎপাদন, পরিষেবা, ট্রেডিং/ব্যবসা বা কৃষিভিত্তিক আয়সৃষ্টিকারী প্রকল্প হতে হবে",
+        "কেন্দ্র/রাজ্য সরকার বা সরকারি সংস্থার কর্মী এবং তাঁদের পরিবারের সদস্যরা মূল গেজেট অনুযায়ী অযোগ্য",
+        "ব্যাংক/আর্থিক প্রতিষ্ঠানের ঋণখেলাপি আবেদনকারী অযোগ্য"
       ],
       "documents": [
         "আধার",
-        "পশ্চিমবঙ্গের স্থায়ী বাসস্থানের প্রমাণ",
-        "আয়ের শংসাপত্র",
-        "ব্যবসায়িক প্রস্তাব বা project proposal"
+        "পশ্চিমবঙ্গে বসবাসের প্রমাণ",
+        "ব্যবসায়িক/প্রকল্প প্রস্তাব",
+        "ব্যাংক ও প্রকল্পের জন্য পোর্টালে চাওয়া অতিরিক্ত নথি"
       ],
       "application_process": [
-        "Bhabishyat Credit Card-এর অফিসিয়াল পোর্টাল খুলুন",
-        "Apply Online নির্বাচন করুন",
-        "আবেদনকারী ও প্রকল্পের তথ্য পূরণ করুন",
-        "প্রয়োজনীয় নথি ও প্রকল্প-সংক্রান্ত তথ্য জমা দিন",
-        "আবেদন নম্বর সংরক্ষণ করে পরবর্তী যাচাই ও ব্যাংক প্রক্রিয়া অনুসরণ করুন"
+        "সরকারি Bhabishyat Credit Card পোর্টাল খুলুন",
+        "নতুন বা বিদ্যমান আয়সৃষ্টিকারী প্রকল্পের বিবরণসহ অনলাইন আবেদন পূরণ করুন",
+        "আধার, বাসস্থানের প্রমাণ, প্রকল্প প্রস্তাব এবং পোর্টালে চাওয়া নথি জমা দিন",
+        "প্রাথমিক স্ক্রিনিং/সংশ্লিষ্ট কমিটির sponsorship প্রক্রিয়া সম্পন্ন হতে দিন",
+        "ব্যাংক প্রকল্প মূল্যায়ন ও ঋণ অনুমোদনের সিদ্ধান্ত নেবে; অনুমোদনের পর subsidy ও ঋণের অর্থ ছাড়ের প্রক্রিয়া হবে"
       ],
       "official_website": "https://bccs.wb.gov.in/",
       "official_scheme_url": "https://bccs.wb.gov.in/scheme",
@@ -909,38 +911,32 @@
       ],
       "source": [
         {
-          "title": "West Bengal Bhabishyat Credit Card official portal",
-          "url": "https://bccs.wb.gov.in/",
-          "source_type": "official_application_portal",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "West Bengal Bhabishyat Credit Card scheme page",
-          "url": "https://bccs.wb.gov.in/scheme",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "Bhabishyat Credit Card FAQ",
-          "url": "https://bccs.wb.gov.in/FAQ",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
           "title": "Bhabisyat Credit Card Scheme - Government of West Bengal State Portal",
           "url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": "2025-07-17"
+        },
+        {
+          "title": "West Bengal Bhabishyat Credit Card Scheme Notification - Kolkata Gazette, 30 March 2023",
+          "url": "https://wbmsme.gov.in/sites/all/themes/anonymous/pdf/notification_msmet_credit_card.pdf",
+          "source_type": "official_notification",
+          "published_or_updated_date": "2023-03-30"
+        },
+        {
+          "title": "Bhabishyat Credit Card official portal",
+          "url": "https://bccs.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "The official portal currently presents an Apply Online route and states a project ceiling up to ₹5 lakh for eligible new or existing units.",
+      "verification_status": "needs_review",
+      "verification_notes": "Current WB State Portal (last updated 17-07-2025) states age 18–55, permanent WB residence, loan up to ₹5 lakh, margin money subsidy and 4% interest. The original Gazette notification dated 30-03-2023 instead specifies age 18–45, residence in WB for at least 10 years, one person per family (self and spouse), 10% margin subsidy capped at ₹25,000, and no family-income bar. Because the live State Portal and original Gazette differ on key eligibility/benefit details, the record is conservatively marked needs_review pending a later formal amendment/notification. Do not use the age/domicile rule as finally settled until confirmed from current scheme portal/SOP or a superseding Gazette.",
       "change_type": "correction",
-      "detected_change_summary_bn": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্পের যোগ্যতা ও নথির বিবরণ পশ্চিমবঙ্গ সরকারের প্রকাশিত নির্দিষ্ট শর্ত অনুযায়ী স্পষ্ট করা হয়েছে।",
-      "last_updated": "2026-11-15",
-      "last_verified_at": "2026-11-15",
+      "detected_change_summary_bn": "পশ্চিমবঙ্গ সরকারের State Portal ও ২০২৩ সালের মূল গেজেটে বয়স/বাসস্থানের শর্তে অমিল পাওয়া গেছে; গেজেটের subsidy cap ও eligibility শর্ত যুক্ত করে রেকর্ডটি needs_review করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2023-04-01"
     },
     {
@@ -950,20 +946,19 @@
       "category": "central",
       "dept": "Ministry of Micro, Small and Medium Enterprises, Government of India",
       "description_bn": "হাত ও প্রথাগত সরঞ্জাম ব্যবহার করে কাজ করা ১৮টি নির্ধারিত পেশার ঐতিহ্যবাহী কারিগর ও শিল্পীদের পরিচয়, দক্ষতা, আধুনিক সরঞ্জাম, ঋণ ও বাজার সহায়তা দেওয়ার কেন্দ্রীয় প্রকল্প।",
-      "benefit": "যোগ্য কারিগর PM Vishwakarma শংসাপত্র ও পরিচয়পত্র, দক্ষতা প্রশিক্ষণ, দৈনিক ₹৫০০ প্রশিক্ষণ ভাতা, সর্বোচ্চ ₹১৫,০০০ টুলকিট প্রণোদনা, ঋণ সহায়তা, ডিজিটাল লেনদেন প্রণোদনা এবং বিপণন সহায়তা পেতে পারেন।",
+      "benefit": "যোগ্য কারিগর PM Vishwakarma Certificate ও ID Card, ৫–৭ দিনের Basic এবং ১৫ দিন বা তার বেশি Advanced Skill Training-এ দৈনিক ₹৫০০ ভাতা, Basic Training শুরুর সময় সর্বোচ্চ ₹১৫,০০০ toolkit e-voucher, জামানতবিহীন সর্বোচ্চ ₹৩ লক্ষ Enterprise Development Loan (₹১ লক্ষ ও ₹২ লক্ষের দুই tranche; ৫% সুদ), যোগ্য ডিজিটাল লেনদেনে প্রতি লেনদেনে ₹১ (মাসে সর্বোচ্চ ১০০টি) এবং marketing support পেতে পারেন।",
       "eligibility": [
-        "অফিসিয়াল তালিকাভুক্ত ১৮টি ঐতিহ্যবাহী পেশার কোনো একটিতে হাত ও সরঞ্জাম দিয়ে কাজ করা কারিগর বা শিল্পী হতে হবে",
-        "আবেদনকারীর বয়স কমপক্ষে ১৮ বছর হতে হবে",
-        "একটি পরিবার থেকে সাধারণত একজন সদস্য সুবিধা পেতে পারেন",
-        "সরকারি কর্মচারী ও তাদের পরিবারের সদস্যদের ক্ষেত্রে নির্দেশিকায় বর্জনের বিধান রয়েছে",
-        "অনুরূপ ঋণভিত্তিক সরকারি স্বনিযুক্তি প্রকল্পের সাম্প্রতিক সুবিধা গ্রহণের ক্ষেত্রে নির্দেশিকার শর্ত প্রযোজ্য"
+        "আবেদনকারীর বয়স নিবন্ধনের দিনে কমপক্ষে ১৮ বছর হতে হবে; সর্বোচ্চ বয়সসীমা নেই",
+        "নিজ হাতে ও সরঞ্জাম ব্যবহার করে সরকারি তালিকাভুক্ত ১৮টি ঐতিহ্যবাহী পেশার একটিতে অসংগঠিত ক্ষেত্রে কাজ করতে হবে",
+        "একটি পরিবার থেকে সাধারণত একজন সদস্য সুবিধা পেতে পারেন; পরিবার বলতে স্বামী, স্ত্রী ও অবিবাহিত সন্তান বোঝায়",
+        "সরকারি কর্মচারী এবং তাঁদের পরিবারের সদস্যরা অযোগ্য",
+        "গত ৫ বছরে PMEGP, PM SVANidhi বা Mudra-র মতো নির্দিষ্ট স্বনিযুক্তি/ঋণ প্রকল্পের সুবিধা নেওয়ার ক্ষেত্রে scheme guideline-এর exclusion প্রযোজ্য; সম্পূর্ণ ঋণ পরিশোধের পর guideline-এ উল্লিখিত ব্যতিক্রম/শর্ত প্রযোজ্য"
       ],
       "documents": [
-        "আধার",
-        "আধার-সংযুক্ত মোবাইল নম্বর",
+        "আধার কার্ড ও আধার-সংযুক্ত মোবাইল নম্বর",
         "ব্যাংক অ্যাকাউন্টের তথ্য",
-        "পেশা ও পরিবারের প্রয়োজনীয় তথ্য",
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "পরিবার ও পেশা/কারিগরি কাজের বিবরণ",
+        "CSC-তে Aadhaar OTP ও biometric authentication-এর জন্য আবেদনকারীকে উপস্থিত থাকতে হবে"
       ],
       "application_process": [
         "নিকটবর্তী Common Service Centre বা CSC-তে যোগাযোগ করুন",
@@ -982,22 +977,22 @@
       ],
       "source": [
         {
+          "title": "Ministry of MSME Annual Report 2025-26 - PM Vishwakarma",
+          "url": "https://www.msme.gov.in/static/uploads/2026/05/1bfda06b460e72543530b40817573495.pdf?v=1790320973",
+          "source_type": "official_pdf",
+          "published_or_updated_date": "2026-05-01"
+        },
+        {
+          "title": "Ministry of MSME - PM Vishwakarma FAQ",
+          "url": "https://www.ideas.msme.gov.in/Ministry-of-MSME/skills%2Cloan%2Ccredit_guarantee%2CPM-atmnirbhar-Economic-Package%2Celigibility_criteria%2Cguidelines_Schemes/query_questions_FAQs.htm",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
           "title": "PM Vishwakarma official portal",
           "url": "https://pmvishwakarma.gov.in/",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
-        },
-        {
-          "title": "PM Vishwakarma official FAQ",
-          "url": "https://pmvishwakarma.gov.in/Home/FAQ",
-          "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
-        },
-        {
-          "title": "PIB - PM Vishwakarma benefits and eligible trades",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987716",
-          "source_type": "official_press_release",
-          "published_or_updated_date": "2023-12-18"
         },
         {
           "title": "PM Vishwakarma CSC Registration e-Booklet",
@@ -1009,11 +1004,11 @@
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "This high-priority central scheme was absent from the existing dataset. Benefits, the 18-trade scope and CSC-led registration were checked against official portal and PIB materials.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Updated against the Ministry of MSME Annual Report 2025-26 and Ministry FAQ. The current report confirms training stipend ₹500/day, toolkit e-voucher up to ₹15,000, collateral-free loans up to ₹3 lakh in two tranches at 5%, and digital transaction incentive ₹1 per eligible transaction up to 100 monthly. The FAQ confirms the 18 trades, minimum age 18 with no upper age limit, and other exclusions. Registration is CSC-led with Aadhaar authentication; no direct self-service application URL is asserted.",
+      "change_type": "benefit_changed",
+      "detected_change_summary_bn": "২০২৫–২৬ সালের MSME মন্ত্রকের বার্ষিক প্রতিবেদন অনুযায়ী ঋণের tranche, ৫% সুদ, training stipend, toolkit e-voucher ও digital transaction incentive-এর পরিমাণ হালনাগাদ করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2023-09-17"
     },
     {
@@ -1028,7 +1023,8 @@
         "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে",
         "স্বীকৃত সংখ্যালঘু সম্প্রদায়ভুক্ত হতে হবে",
         "স্বীকৃত শিক্ষা প্রতিষ্ঠানে অধ্যয়ন করতে হবে",
-        "প্রযোজ্য নম্বর ও আয়সীমা পূরণ করতে হবে"
+        "Pre-matric/Post-matric-এর জন্য আগের পরীক্ষায় কমপক্ষে ৫০% নম্বর এবং বার্ষিক পারিবারিক আয় সর্বোচ্চ ₹২ লক্ষ—সরকারি রাজ্য FAQ অনুযায়ী",
+        "Merit-cum-Means-এর জন্য কারিগরি/পেশাগত কোর্সে ভর্তি, আগের উচ্চমাধ্যমিক/স্নাতক পরীক্ষায় কমপক্ষে ৫০% নম্বর এবং বার্ষিক পারিবারিক আয় সর্বোচ্চ ₹২.৫০ লক্ষ—সরকারি রাজ্য FAQ অনুযায়ী"
       ],
       "documents": [
         "মার্কশিট",
@@ -1037,13 +1033,15 @@
         "বাসিন্দা ও সংখ্যালঘু পরিচয় নথি"
       ],
       "application_process": [
-        "বর্তমান শিক্ষাবর্ষের সরকারি পোর্টাল খোলা আছে কি না যাচাই করুন",
-        "নিবন্ধন করে শিক্ষা, আয় ও ব্যাংকের তথ্য পূরণ করুন",
-        "নথি আপলোড করে আবেদন জমা দিন"
+        "NSP-WB/Aikyashree-এর বর্তমান সরকারি আবেদন পোর্টাল বা নিকটবর্তী Bangla Sahayata Kendra-তে যোগাযোগ করুন",
+        "প্রযোজ্য scholarship component ও academic year নির্বাচন করুন",
+        "শিক্ষা, নম্বর, আয়, বাসস্থান, সংখ্যালঘু পরিচয় ও ব্যাংক-সংক্রান্ত তথ্য পূরণ করুন",
+        "পোর্টাল/প্রতিষ্ঠান যে নথি চায় তা জমা দিয়ে আবেদন সম্পন্ন করুন",
+        "Application ID সংরক্ষণ করে সরকারি পোর্টালের Track Application সুবিধা ব্যবহার করুন"
       ],
       "official_website": "https://www.wbmdfc.net/",
-      "official_scheme_url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
-      "apply_online_url": "",
+      "official_scheme_url": "https://wb.gov.in/duare_sarkar/Aikyashree.pdf",
+      "apply_online_url": "https://nspwb.wbmdfc.org/",
       "form_pdf_url": "",
       "video_url": [
         "https://www.youtube.com/watch?v=Bnq6tWtIbOI",
@@ -1051,13 +1049,19 @@
       ],
       "source": [
         {
-          "title": "West Bengal CMO Scheme Master - Aikyashree",
-          "url": "https://cm.wb.gov.in/ncmo/Public/Scheme_Master.aspx",
-          "source_type": "official_scheme_page",
+          "title": "Government of West Bengal - Aikyashree eligibility and application tracking FAQ",
+          "url": "https://wb.gov.in/duare_sarkar/Aikyashree.pdf",
+          "source_type": "official_pdf",
           "published_or_updated_date": ""
         },
         {
-          "title": "WBMDFC",
+          "title": "Bangla Sahayata Kendra - Application for Aikyashree Scholarship",
+          "url": "https://bsk.wb.gov.in/v3_services?lang=en",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "West Bengal Minorities' Development & Finance Corporation",
           "url": "https://www.wbmdfc.net/",
           "source_type": "official_department_page",
           "published_or_updated_date": ""
@@ -1065,12 +1069,12 @@
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Scheme and components verified; a reliable current direct application URL was not confirmed in this run.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "verification_status": "needs_review",
+      "verification_notes": "The Government of West Bengal Aikyashree FAQ confirms the older scheme components and thresholds: Pre/Post-Matric 50% and family income up to ₹2 lakh; Merit-cum-Means technical/professional course, 50% marks and income up to ₹2.5 lakh. The official BSK service catalogue confirms Aikyashree application service. However, an official WBMDFC notification for the 2026-27 cycle, current component-wise award amounts and application dates could not be directly retrieved in this verification run. Non-official pages report 2026-27 portal dates, but these were not used as authoritative evidence. Marked needs_review rather than asserting current cycle dates/amounts.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "পশ্চিমবঙ্গ সরকারের Aikyashree FAQ থেকে component-ভিত্তিক নম্বর ও আয়সীমা যুক্ত করা হয়েছে; ২০২৬–২৭-এর সরকারি বিজ্ঞপ্তি সরাসরি যাচাই করা না যাওয়ায় needs_review রাখা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2019-04-01"
     },
     {

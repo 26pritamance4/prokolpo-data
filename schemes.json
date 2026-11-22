@@ -3,9 +3,9 @@
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
   "total_records": 38,
-  "verified_records": 38,
-  "needs_review_records": 0,
-  "last_verified_at": "2026-11-07",
+  "verified_records": 36,
+  "needs_review_records": 2,
+  "last_verified_at": "2026-11-15",
   "schemes": [
     {
       "id": "annapurna-yojana",
@@ -28,14 +28,14 @@
         "সক্রিয় মোবাইল নম্বর"
       ],
       "application_process": [
-        "Social Registry পোর্টালে মোবাইল নম্বর দিয়ে নিবন্ধন করুন",
-        "পরিবার ও পরিচয়সংক্রান্ত তথ্য পূরণ করুন",
-        "অথবা BDO, SDO বা KMC ওয়ার্ড অফিসে ফর্ম জমা দিন",
-        "OTP ও প্রশাসনিক যাচাই সম্পন্ন করুন"
+        "প্রথমে পশ্চিমবঙ্গ সরকারের অন্নপূর্ণা যোজনা পেজে যোগ্যতা ও প্রয়োজনীয় নথি যাচাই করুন।",
+        "অনলাইন আবেদনের জন্য সরকারি scheme page-এ নির্দেশিত Social Registry portal ব্যবহার করুন: https://socialregistry.wb.gov.in/।",
+        "বিকল্পভাবে Family Level Data Collection form সংশ্লিষ্ট BDO, SDO অথবা Kolkata Municipal Corporation এলাকার Ward Office-এ জমা দিন।",
+        "পোর্টালে বর্তমানে যে নাগরিক-নির্দেশনা দেখানো হয়, সেটিই অনুসরণ করুন; আলাদা registration, OTP বা family-data workflow নিশ্চিত না করে অ্যাপে ধাপ হিসেবে দেখাবেন না।"
       ],
       "official_website": "https://socialregistry.wb.gov.in/",
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx",
-      "apply_online_url": "https://socialregistry.wb.gov.in/login",
+      "apply_online_url": "https://socialregistry.wb.gov.in/",
       "form_pdf_url": "",
       "video_url": [
         "https://www.youtube.com/watch?v=YBmBBSKd4ms",
@@ -50,7 +50,7 @@
         },
         {
           "title": "Annapurna Yojana Citizen Portal",
-          "url": "https://socialregistry.wb.gov.in/login",
+          "url": "https://socialregistry.wb.gov.in/",
           "source_type": "official_application_portal",
           "published_or_updated_date": ""
         }
@@ -59,10 +59,10 @@
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Benefit, eligibility, documents and online/offline routes verified from current West Bengal official sources.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-06-26",
-      "last_verified_at": "2026-11-07",
+      "change_type": "process_changed",
+      "detected_change_summary_bn": "পশ্চিমবঙ্গ সরকারের প্রকাশিত নির্দেশনা অনুযায়ী অন্নপূর্ণা যোজনার অনলাইন প্রবেশ লিঙ্ক ও আবেদন-ধাপ সংশোধন করা হয়েছে; Android-এ লিঙ্ক খোলার পরীক্ষা এখনও বাকি।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": "2026-06-03"
     },
     {
@@ -761,16 +761,22 @@
           "url": "https://pmayg.dord.gov.in/netiay/writereaddata/Circulars/SOP_AwaasPlus2024.pdf",
           "source_type": "official_pdf",
           "published_or_updated_date": "2024-12-27"
+        },
+        {
+          "title": "PMAY-G AwaasPlus 2024 Survey Information and Self/Assisted Survey SOPs",
+          "url": "https://pmayg.gov.in/infoapp.html",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The previous homepage-as-application-link was removed. PMAY-G beneficiary identification is survey/list based rather than a normal public application form.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-11-07",
+      "change_type": "source_changed",
+      "detected_change_summary_bn": "PMAY-G রেকর্ডে AwaasPlus 2024 সমীক্ষা ও self/assisted survey-সংক্রান্ত সরকারি তথ্যের লিঙ্ক যুক্ত করা হয়েছে; এটি সাধারণ অনলাইন আবেদনপত্র নয়。",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": "2016-04-01"
     },
     {
@@ -851,14 +857,18 @@
       "description_bn": "যোগ্য উদ্যোক্তাকে নতুন বা বিদ্যমান আয়সৃষ্টিকারী ক্ষুদ্র উদ্যোগের জন্য ঋণ সহায়তা দেওয়ার পশ্চিমবঙ্গ সরকারের প্রকল্প।",
       "benefit": "উৎপাদন, পরিষেবা, ব্যবসা বা বাণিজ্যভিত্তিক যোগ্য প্রকল্পের জন্য সর্বোচ্চ ₹৫ লক্ষ পর্যন্ত ঋণ সুবিধা পাওয়া যেতে পারে।",
       "eligibility": [
-        "ভারতীয় নাগরিক হতে হবে",
-        "নির্ধারিত সময় ধরে পশ্চিমবঙ্গে বসবাসের শর্ত পূরণ করতে হবে",
-        "নির্ধারিত বয়সসীমা পূরণ করতে হবে",
-        "যোগ্য আয়সৃষ্টিকারী উৎপাদন, পরিষেবা, ব্যবসা বা বাণিজ্য প্রকল্প থাকতে হবে",
-        "চূড়ান্ত যোগ্যতা অফিসিয়াল নির্দেশিকা ও ব্যাংকের মূল্যায়নের ওপর নির্ভরশীল"
+        "বয়স ১৮ থেকে ৫৫ বছরের মধ্যে হতে হবে।",
+        "পশ্চিমবঙ্গের স্থায়ী বাসিন্দা হতে হবে।",
+        "উদ্যোক্তা, ব্যবসায়ী, কারিগর, স্বনিযুক্ত ব্যক্তি বা ক্ষুদ্র পরিষেবা-প্রদানকারী হতে হবে।",
+        "বিদ্যমান ঋণখেলাপিরা এই প্রকল্পের জন্য যোগ্য নন।",
+        "উৎপাদন, পরিষেবা, ট্রেডিং বা agro-based উদ্যোগ/প্রকল্পের জন্য আবেদন করতে হবে।",
+        "চূড়ান্ত ঋণ অনুমোদন নির্ধারিত ব্যাংকের যাচাই ও প্রযোজ্য প্রকল্প-নিয়মের ওপর নির্ভরশীল।"
       ],
       "documents": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "আধার",
+        "পশ্চিমবঙ্গের স্থায়ী বাসস্থানের প্রমাণ",
+        "আয়ের শংসাপত্র",
+        "ব্যবসায়িক প্রস্তাব বা project proposal"
       ],
       "application_process": [
         "Bhabishyat Credit Card-এর অফিসিয়াল পোর্টাল খুলুন",
@@ -893,16 +903,22 @@
           "url": "https://bccs.wb.gov.in/FAQ",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "Bhabisyat Credit Card Scheme - Government of West Bengal State Portal",
+          "url": "https://wb.gov.in/government-schemes-details-bhabisyat.aspx",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2025-07-17"
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "The official portal currently presents an Apply Online route and states a project ceiling up to ₹5 lakh for eligible new or existing units.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "change_type": "correction",
+      "detected_change_summary_bn": "ভবিষ্যৎ ক্রেডিট কার্ড প্রকল্পের যোগ্যতা ও নথির বিবরণ পশ্চিমবঙ্গ সরকারের প্রকাশিত নির্দিষ্ট শর্ত অনুযায়ী স্পষ্ট করা হয়েছে।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": "2023-04-01"
     },
     {
@@ -1469,16 +1485,22 @@
           "url": "https://wb.gov.in/government-schemes-details-saboojsathi.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": "2022-05-02"
+        },
+        {
+          "title": "West Bengal Budget Speech 2026-27 - Sabooj Sathi programme update",
+          "url": "https://finance.wb.gov.in/writereaddata/Budget_Speech/2026-2027_English_I.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Benefit and eligible classes verified; institution-managed with no public application.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2022-05-02",
-      "last_verified_at": "2026-11-07",
+      "verification_status": "needs_review",
+      "verification_notes": "The West Bengal scheme page currently stored in the record is last updated 2022-05-02. The 2026-27 Budget Speech provides newer evidence of cumulative bicycle distribution under Sabooj Sathi, but does not independently confirm the current eligible classes, school categories or school-led distribution procedure. Keep the record needs_review until a current department circular, guideline or scheme page supports those material claims.",
+      "change_type": "status_changed",
+      "detected_change_summary_bn": "সবুজ সাথীর বর্তমান শ্রেণি-যোগ্যতা ও বিদ্যালয়ভিত্তিক বিতরণ-পদ্ধতির জন্য নতুন ও পর্যাপ্ত সরকারি নির্দেশিকা পাওয়া যায়নি; তাই রেকর্ডটি পুনরায় যাচাইয়ের জন্য রাখা হয়েছে।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": "2015-01-01"
     },
     {
@@ -1640,16 +1662,34 @@
           "url": "https://wb.gov.in/government-schemes-details-pm-surya-ghar-muft-bijli-yojana-scheme.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "National Portal for Rooftop Solar - Ministry of New and Renewable Energy / NIC",
+          "url": "https://solarrooftop.pmsuryaghar.gov.in/",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PM Surya Ghar Muft Bijli Yojana - Homeowner Application Portal",
+          "url": "https://pmsuryaghar.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Guidelines for PM-Surya Ghar: Muft Bijli Yojana - Central Financial Assistance to Residential Consumers",
+          "url": "https://mnre.gov.in/static/uploads/2025/07/5307df6a2e5fa7bdf8a5efa80a5ab29c.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Launch date, subsidy slabs, eligibility, documents and application steps verified on the official West Bengal State Portal scheme page, which names pmsuryaghar.gov.in as the official application portal. Direct fetch of pmsuryaghar.gov.in (403) and mnre.gov.in (404) failed, so the administering ministry is not asserted; dept recorded only at the level the accessible official source supports.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-11-07",
+      "change_type": "source_changed",
+      "detected_change_summary_bn": "পিএম সূর্য ঘর প্রকল্পের জন্য MNRE/NIC জাতীয় পোর্টাল, গৃহস্থালি আবেদন পোর্টাল এবং কেন্দ্রীয় আর্থিক সহায়তার সরকারি নির্দেশিকা উৎস হিসেবে যুক্ত করা হয়েছে।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": "2024-02-15"
     },
     {
@@ -1840,7 +1880,7 @@
       "category": "central",
       "dept": "Ministry of Labour and Employment, Government of India",
       "description_bn": "অসংগঠিত ক্ষেত্রের শ্রমিকদের জাতীয় ডেটাবেস তৈরি করে সামাজিক সুরক্ষা প্রকল্পের সঙ্গে যুক্ত করার জন্য ই-শ্রম নিবন্ধন ও ১২ সংখ্যার UAN কার্ড।",
-      "benefit": "নিবন্ধিত শ্রমিক সারা ভারতে বৈধ ১২ সংখ্যার UAN-সহ ই-শ্রম কার্ড পান। দুর্ঘটনাজনিত মৃত্যু বা সম্পূর্ণ অক্ষমতায় ₹২ লক্ষ এবং আংশিক অক্ষমতায় ₹১ লক্ষ পর্যন্ত দুর্ঘটনা বিমার সুরক্ষা। জাতীয় ডেটাবেসের মাধ্যমে বিভিন্ন কল্যাণ প্রকল্পে যুক্ত হওয়ার সুযোগ, National Career Service-এর মাধ্যমে কর্মসংস্থানের সংযোগ, Skill India-র দক্ষতা উন্নয়ন এবং পরিযায়ী শ্রমিকদের জন্য সুবিধার পোর্টেবিলিটি। নিবন্ধনে কোনও ফি লাগে না।",
+      "benefit": "ই-শ্রম নিবন্ধনের মাধ্যমে অসংগঠিত শ্রমিকের ১২ সংখ্যার UAN তৈরি হয় এবং তাঁকে জাতীয় শ্রমিক ডেটাবেসে অন্তর্ভুক্ত করা হয়। ই-শ্রম কার্ড নিজে PMSBY দুর্ঘটনা বিমার স্বয়ংক্রিয় কভার নয়। PMSBY একটি পৃথক সামাজিক সুরক্ষা প্রকল্প; এতে যোগদানের জন্য ১৮–৭০ বছর বয়স, যোগ্য ব্যাংক/ডাকঘর সঞ্চয়ী হিসাব এবং সম্মতিসহ প্রিমিয়ামের স্বয়ংক্রিয় কর্তনের শর্ত প্রযোজ্য।",
       "eligibility": [
         "ভারতীয় নাগরিক হতে হবে",
         "বয়স ১৬ থেকে ৫৯ বছরের মধ্যে হতে হবে",
@@ -1882,16 +1922,22 @@
           "url": "https://wb.gov.in/government-schemes-details-e-shram-card.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "e-Shram - Social Security Welfare Schemes (Ministry of Labour & Employment)",
+          "url": "https://www.eshram.gov.in/Schemes",
+          "source_type": "official_department_page",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
       "verification_notes": "Purpose, 16-59 age band, unorganised-worker eligibility, EPFO/ESIC/NPS exclusion, accident cover of Rs 2 lakh / Rs 1 lakh, the 12-digit UAN and the fee-free registration steps are taken from the official West Bengal State Portal scheme page; eshram.gov.in confirms the portal is run by the Ministry of Labour and Employment. The West Bengal page also mentions a roughly Rs 3,000 monthly pension after age 60, which belongs to the separate PM-SYM scheme and is deliberately not published as an e-Shram benefit here.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "change_type": "benefit_changed",
+      "detected_change_summary_bn": "ই-শ্রম নিবন্ধন ও PMSBY-কে পৃথকভাবে দেখানো হয়েছে; PMSBY-র দুর্ঘটনা বিমাকে ই-শ্রম কার্ডের স্বয়ংক্রিয় সুবিধা হিসেবে আর উপস্থাপন করা হচ্ছে না।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": ""
     },
     {
@@ -1952,7 +1998,7 @@
       "category": "central",
       "dept": "Government of India",
       "description_bn": "চাষ, কৃষি সরঞ্জাম ও চলতি মূলধনের জন্য কৃষকদের সময়মতো ও সাশ্রয়ী ঋণ দেওয়ার প্রকল্প।",
-      "benefit": "₹৩ লক্ষ পর্যন্ত ঋণসীমা; সুদের হার বার্ষিক ৭%, সময়মতো শোধ করলে সুদ ছাড়ের পরে কার্যকর হার দাঁড়ায় বার্ষিক ৩%। বারবার আবেদন ছাড়াই রিভলভিং নগদ সুবিধা, টাকা তোলার জন্য ATM-cum-debit কার্ড এবং ফসল ও আয়ের চক্র অনুযায়ী নমনীয় শোধের সুযোগ। বীজ, সার, কীটনাশক, সেচ এবং দুগ্ধ, মৎস্য ও পশুপালনের মতো সহযোগী কাজও এর আওতায় পড়ে।",
+      "benefit": "KCC-এর মাধ্যমে কৃষি ও সংশ্লিষ্ট কাজের জন্য ব্যাংক ঋণসুবিধা পাওয়া যেতে পারে। ঋণসীমা, সুদের হার এবং সুদে ছাড় সংশ্লিষ্ট অর্থবছরের কার্যকর Government of India/RBI নির্দেশনা ও ব্যাংকের ঋণ-অনুমোদনের ওপর নির্ভর করে। ২০২৫-২৬ সালের হারকে ২০২৬-২৭ সালের বর্তমান হার হিসেবে দেখাবেন না; নতুন অর্থবছরের প্রযোজ্য সরকারি বিজ্ঞপ্তি যাচাই না হওয়া পর্যন্ত নির্দিষ্ট হার/সীমা নিশ্চিত বলে প্রকাশ করা উচিত নয়।",
       "eligibility": [
         "কৃষিকাজে যুক্ত কৃষক — নিজস্ব জমির চাষি, ভাগচাষি, বর্গাদার ও মৌখিক ইজারাদার",
         "কৃষকদের স্বনির্ভর গোষ্ঠী (SHG) বা যৌথ দায়বদ্ধ গোষ্ঠী (JLG)",
@@ -1994,16 +2040,28 @@
           "url": "https://fasalrin.gov.in/",
           "source_type": "official_application_portal",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "RBI - Modified Interest Subvention Scheme for KCC during FY2025-26",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13270",
+          "source_type": "official_notification",
+          "published_or_updated_date": "2026-01-13"
+        },
+        {
+          "title": "RBI - Commercial Banks Kisan Credit Card Scheme Directions, 2026",
+          "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13522&Mode=0",
+          "source_type": "official_notification",
+          "published_or_updated_date": "2026-06-19"
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Rs 3 lakh limit, 7% interest with an effective 3% after interest subvention for timely repayment, eligibility categories, documents and the bank application route are verified on the official West Bengal State Portal scheme page, which names fasalrin.gov.in (Kisan Rin Portal) as the official portal. The Kisan Rin Portal home page confirms it is a Government of India initiative but is JavaScript-driven and did not expose scheme text, and agriwelfare.gov.in returned 403, so no administering department is asserted beyond Government of India. Applications are made through banks, so apply_online_url is empty.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "verification_status": "needs_review",
+      "verification_notes": "২০২৫–২৬ অর্থবছরের RBI বিজ্ঞপ্তিতে KCC-র স্বল্পমেয়াদি কৃষি ও সংশ্লিষ্ট ঋণের জন্য ৭% ঋণহার, ১.৫% সুদ-সাবভেনশন এবং সময়মতো পরিশোধে অতিরিক্ত ৩% প্রণোদনা (যোগ্য ক্ষেত্রে কার্যকর ৪%) উল্লেখ আছে। এই বিজ্ঞপ্তি ২০২৫–২৬ অর্থবছরেই সীমাবদ্ধ। RBI-র ২০২৬ সালের Commercial Banks KCC Directions ১ জানুয়ারি ২০২৭ থেকে প্রযোজ্য হবে। ২০২৬–২৭ অর্থবছরের বর্তমান MISS হার/সীমার কার্যকর বিজ্ঞপ্তি এই যাচাইয়ে প্রতিষ্ঠিত হয়নি; তাই নির্দিষ্ট হার/সীমা প্রকাশ না করে রেকর্ড needs_review রাখা হয়েছে।",
+      "change_type": "status_changed",
+      "detected_change_summary_bn": "২০২৬–২৭ অর্থবছরের প্রযোজ্য সুদ-সুবিধার সরকারি ভিত্তি নিশ্চিত না হওয়ায় নির্দিষ্ট সুদের হার ও ঋণসীমার দাবি সরিয়ে রেকর্ডটি পুনরায় যাচাইয়ের জন্য স্থগিত রাখা হয়েছে。",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": ""
     },
     {
@@ -2178,15 +2236,15 @@
       "name_en": "Utkarsh Bangla",
       "name_bn": "উৎকর্ষ বাংলা",
       "category": "west_bengal",
-      "dept": "Government of West Bengal",
+      "dept": "Department of Technical Education, Training and Skill Development, Government of West Bengal",
       "description_bn": "রাজ্যের যুবক-যুবতীদের বিনামূল্যে বৃত্তিমূলক ও কর্মসংস্থানমুখী দক্ষতা প্রশিক্ষণ দেওয়ার পশ্চিমবঙ্গ সরকারের প্রধান দক্ষতা উন্নয়ন প্রকল্প।",
       "benefit": "অনুমোদিত ট্রেডে সম্পূর্ণ বিনামূল্যে দক্ষতা প্রশিক্ষণ। নির্মাণ, পোশাক, স্বাস্থ্য, IT-ITES, আতিথেয়তা-সহ বিভিন্ন ক্ষেত্রে স্বল্পমেয়াদি মডিউলার কোর্স; সফলভাবে শেষ করলে শংসাপত্র, কর্মসংস্থানে সহায়তা ও শিল্পসংস্থার সঙ্গে সংযোগ এবং স্বনিযুক্তির জন্য উদ্যোগ-দক্ষতার সহায়তা। জেলাস্তরে প্রশিক্ষণের সুযোগ পাওয়া যায়।",
       "eligibility": [
         "পশ্চিমবঙ্গের বাসিন্দা হতে হবে",
-        "বয়স ১৫ থেকে ৪৫ বছরের মধ্যে (কোর্স অনুযায়ী পরিবর্তিত হতে পারে)",
+        "সাধারণভাবে বয়স ১৫ থেকে ৪৫ বছরের মধ্যে; তবে নির্বাচিত কোর্সের ন্যূনতম বয়স ও অন্যান্য শর্ত ভিন্ন হতে পারে।",
         "বেকার, আংশিক নিযুক্ত বা দক্ষতা বাড়াতে ইচ্ছুক হতে হবে",
         "নির্বাচিত ট্রেডের ন্যূনতম শিক্ষাগত যোগ্যতা থাকতে হবে",
-        "মহিলা, সংখ্যালঘু, SC/ST ও বিশেষভাবে সক্ষম ব্যক্তিদের জন্য বিশেষ উদ্যোগ রয়েছে"
+        "মহিলা, সংখ্যালঘু, SC/ST ও বিশেষভাবে সক্ষম ব্যক্তিদের জন্য বিশেষ উদ্যোগ থাকতে পারে"
       ],
       "documents": [
         "আধার কার্ড",
@@ -2217,16 +2275,28 @@
           "url": "https://wb.gov.in/government-schemes-details-utkarsh-bangla.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "PBSSD Trainee Enquiry - official Utkarsh Bangla portal",
+          "url": "https://pbssd.gov.in/trainee_enquiry",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PBSSD Cashier Course Details - course-specific minimum age",
+          "url": "https://pbssd.gov.in/course/details/34173cb38f07f89ddbebc2ac9128303f/018b59ce1fd616d874afad0f44ba338d",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Scheme purpose, free training, sectors covered, certification and placement support, the 15-45 age band, eligibility conditions, documents and application steps are verified on the official West Bengal State Portal scheme page, which names pbssd.gov.in as the official portal. That page describes it only as a flagship scheme of the Government of West Bengal without naming the administering department, so dept is recorded at that level.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-09-03",
+      "verification_notes": "The West Bengal State Portal gives a general 15–45 age range. PBSSD identifies the Department of Technical Education, Training and Skill Development as the administering department. A specific PBSSD Cashier course detail page states a minimum age of 14 years for that course and currently shows registration unavailable. Age and eligibility therefore must be checked against the selected course; neither 14 nor 15 should be represented as a universal minimum for every course.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "উৎকর্ষ বাংলার প্রশাসনিক দপ্তর ও কোর্সভিত্তিক বয়সের শর্ত আরও নির্দিষ্ট করা হয়েছে; সাধারণ বয়সসীমা ও নির্দিষ্ট কোর্সের ন্যূনতম বয়স আলাদা করে দেখানো হয়েছে।",
+      "last_updated": "2026-11-15",
+      "last_verified_at": "2026-11-15",
       "start_date": ""
     },
     {

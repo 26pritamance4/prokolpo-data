@@ -3,8 +3,8 @@
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
   "total_records": 38,
-  "verified_records": 33,
-  "needs_review_records": 5,
+  "verified_records": 32,
+  "needs_review_records": 6,
   "last_verified_at": "2026-11-22",
   "schemes": [
     {
@@ -1084,12 +1084,12 @@
       "category": "central",
       "dept": "Pension Fund Regulatory and Development Authority, Government of India",
       "description_bn": "অসংগঠিত ক্ষেত্রসহ যোগ্য নাগরিকের বার্ধক্যে নিশ্চিত মাসিক পেনশনের অবদানভিত্তিক প্রকল্প।",
-      "benefit": "৬০ বছর বয়সের পরে অবদান অনুযায়ী মাসে ₹১,০০০, ₹২,০০০, ₹৩,০০০, ₹৪,০০০ বা ₹৫,০০০ ন্যূনতম পেনশন।",
+      "benefit": "৬০ বছর বয়সের পরে অবদান অনুযায়ী মাসে ₹১,০০০, ₹২,০০০, ₹৩,০০০, ₹৪,০০০ বা ₹৫,০০০ নিশ্চিত ন্যূনতম পেনশন; subscriber-এর মৃত্যুর পরে spouse একই পেনশন পান এবং উভয়ের মৃত্যুর পরে nominee pension wealth পান।",
       "eligibility": [
-        "ভারতীয় নাগরিক",
-        "বয়স ১৮ থেকে ৪০ বছর",
-        "ব্যাংক/ডাকঘর সঞ্চয়ী অ্যাকাউন্ট",
-        "১ অক্টোবর ২০২২ থেকে আয়করদাতা নতুন করে যোগ দিতে পারবেন না"
+        "ভারতীয় নাগরিক হতে হবে",
+        "যোগদানের সময় বয়স ১৮ থেকে ৪০ বছরের মধ্যে হতে হবে",
+        "ব্যাংক বা Department of Posts-এ savings bank account থাকতে হবে",
+        "১ অক্টোবর ২০২২ থেকে যিনি income-tax payer বা আগে income-tax payer ছিলেন, তিনি নতুন APY account খুলতে পারবেন না"
       ],
       "documents": [
         "APY registration form",
@@ -1099,10 +1099,11 @@
         "নমিনির তথ্য"
       ],
       "application_process": [
-        "ব্যাংক বা ডাকঘর থেকে APY form নিন",
-        "পেনশন স্তর ও অবদান নির্বাচন করুন",
-        "KYC, জীবনসঙ্গী ও নমিনি তথ্য পূরণ করুন",
-        "Auto-debit সম্মতি দিয়ে জমা দিন"
+        "ব্যাংক শাখা বা ডাকঘর থেকে APY Registration Form সংগ্রহ করুন অথবা PFRDA-র eAPY সুবিধা ব্যবহার করুন",
+        "পাঁচটি guaranteed monthly pension স্তরের মধ্যে একটি নির্বাচন করুন",
+        "ব্যাংক/ডাকঘর account, KYC, spouse ও nominee-এর তথ্য দিন",
+        "নির্ধারিত contribution monthly, quarterly বা half-yearly auto-debit-এর জন্য সম্মতি দিন",
+        "নিবন্ধনের acknowledgement সংরক্ষণ করুন"
       ],
       "official_website": "https://pfrda.org.in/",
       "official_scheme_url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
@@ -1115,25 +1116,31 @@
       "source": [
         {
           "title": "Atal Pension Yojana - PFRDA",
-          "url": "https://pfrda.org.in/schemes/atal-pension-yojana-apy",
+          "url": "https://pfrda.org.in/web/pfrda/schemes/atal-pension-yojana-apy",
           "source_type": "official_scheme_page",
-          "published_or_updated_date": "2026-01-23"
+          "published_or_updated_date": ""
         },
         {
-          "title": "APY FAQs",
+          "title": "Atal Pension Yojana - Department of Financial Services",
+          "url": "https://financialservices.gov.in/atal-pension-yojana-apy",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "APY FAQs - PFRDA",
           "url": "https://www.pfrda.org.in/w/faqs/atal-pension-yojana",
           "source_type": "official_scheme_page",
-          "published_or_updated_date": "2025-08-21"
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Age, tax exclusion and pension choices verified.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-01-23",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Re-verified against current PFRDA and Department of Financial Services pages. Indian citizens aged 18–40 with a savings bank/post-office account may join; persons who are or have been income-tax payers are excluded from new enrolment from 01-10-2022. The five guaranteed pension levels, spouse continuation and nominee pension-wealth benefit are stated by PFRDA. Contributions may be monthly, quarterly or half-yearly; bank/post-office form or eAPY route is available.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "PFRDA-র বর্তমান তথ্য অনুযায়ী spouse-এর pension continuation, nominee-র pension wealth, contribution frequency এবং eAPY-র মাধ্যমে যোগদানের পথ স্পষ্ট করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2015-06-01"
     },
     {
@@ -1145,21 +1152,25 @@
       "description_bn": "৬০ বছর বা তার বেশি বয়সী অর্থনৈতিকভাবে দুর্বল ST প্রবীণদের মাসিক পেনশন প্রকল্প।",
       "benefit": "যোগ্য ST প্রবীণকে মাসিক পেনশন DBT-র মাধ্যমে দেওয়া হয়; বর্তমান অফিসিয়াল পেজে নির্দিষ্ট পরিমাণ স্পষ্ট নয়।",
       "eligibility": [
-        "ST সম্প্রদায়ভুক্ত",
-        "পশ্চিমবঙ্গের বাসিন্দা",
-        "বয়স ৬০ বছর বা তার বেশি",
-        "অন্য অনুরূপ সরকারি পেনশন গ্রহণকারী নন"
+        "পশ্চিমবঙ্গের বাসিন্দা এবং Scheduled Tribe (ST) সম্প্রদায়ভুক্ত হতে হবে",
+        "আবেদনের তারিখে বয়স কমপক্ষে ৬০ বছর হতে হবে",
+        "অন্য কোনো social-security বা সরকারি pension গ্রহণকারী হওয়া যাবে না",
+        "আবেদনকারীর নিজের নামে ব্যাংক অ্যাকাউন্ট থাকতে হবে"
       ],
       "documents": [
-        "বয়সের প্রমাণ",
-        "ST শংসাপত্র",
-        "পরিচয় ও বাসস্থানের প্রমাণ",
-        "ব্যাংক তথ্য"
+        "পাসপোর্ট-সাইজ ছবি",
+        "আবেদনকারীর ST certificate; তা না থাকলে FAQ-তে উল্লিখিত শর্তে পিতৃসূত্রের আত্মীয়ের caste/tribe certificate",
+        "Digital Ration Card",
+        "EPIC/Voter ID",
+        "স্ব-প্রত্যয়িত বাসস্থান/ঠিকানার প্রমাণ",
+        "ব্যাংক passbook-এর কপি",
+        "বয়সের প্রমাণ"
       ],
       "application_process": [
-        "GP, ULB, BDO, জেলা কল্যাণ অফিস বা CSC-তে যোগাযোগ করুন",
-        "ফর্ম পূরণ করে নথি জমা দিন",
-        "যাচাই ও অনুমোদনের অপেক্ষা করুন"
+        "গ্রামীণ এলাকার আবেদনকারী BDO অফিসে, পৌর/নোটিফায়েড এলাকার আবেদনকারী SDO অফিসে এবং Kolkata Municipal Corporation এলাকার আবেদনকারী Municipal Commissioner-এর অফিসে যোগাযোগ করুন",
+        "বিনামূল্যে আবেদন ফর্ম সংগ্রহ করে প্রয়োজনীয় নথি জমা দিন; সরকারি FAQ-তে jaibangla.wb.gov.in-এর online application route-ও উল্লেখ আছে",
+        "স্থানীয় প্রশাসন ও সংশ্লিষ্ট welfare department-এর যাচাই সম্পন্ন হতে দিন",
+        "অনুমোদনের পরে পেনশন সরাসরি আবেদনকারীর ব্যাংক অ্যাকাউন্টে DBT-র মাধ্যমে জমা হয়"
       ],
       "official_website": "https://adibasikalyan.gov.in/",
       "official_scheme_url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
@@ -1170,20 +1181,32 @@
       ],
       "source": [
         {
-          "title": "Jai Johar - Egiye Bangla",
+          "title": "Jai Johar Scheme - Government of West Bengal",
           "url": "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx",
           "source_type": "official_scheme_page",
           "published_or_updated_date": "2026-06-26"
+        },
+        {
+          "title": "FAQ for Toposili Bandhu and Jai Johar - Government of West Bengal",
+          "url": "https://wb.gov.in/duare_sarkar/CCSJJT.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "Jai Bangla pension portal - Government of West Bengal",
+          "url": "https://jaibangla.wb.gov.in/",
+          "source_type": "official_application_portal",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Eligibility and DBT verified; no numerical amount invented because current page omits it.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-06-26",
-      "last_verified_at": "2026-11-07",
+      "verification_status": "needs_review",
+      "verification_notes": "Current West Bengal scheme page (last updated 26-06-2026) confirms ST status, West Bengal residence, age 60+, economic vulnerability, exclusion for similar pension and application through GP/ULB/BDO/District Welfare Office/CSC with DBT, but does not state a numerical pension amount. An older official West Bengal FAQ states ₹1,000 per month paid bi-monthly and gives detailed documents/application routes including Jaibangla portal. Because the current 2026 page omits the amount and the FAQ is older, the record is marked needs_review; ₹1,000 is not asserted as a confirmed current rate.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "বর্তমান WB scheme page ও পুরনো সরকারি FAQ-র মধ্যে pension amount-এর তথ্যের পার্থক্য চিহ্নিত করা হয়েছে; আবেদনপথ ও নথি হালনাগাদ করে বর্তমান হার নিশ্চিত না হওয়ায় needs_review করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2020-04-01"
     },
     {
@@ -1310,12 +1333,12 @@
       "category": "central",
       "dept": "Department of Financial Services, Ministry of Finance, Government of India",
       "description_bn": "ব্যাংক বা ডাকঘর অ্যাকাউন্টধারীদের অল্প প্রিমিয়ামে দুর্ঘটনাজনিত মৃত্যু ও প্রতিবন্ধিতার বিমা।",
-      "benefit": "দুর্ঘটনাজনিত মৃত্যু বা সম্পূর্ণ স্থায়ী অক্ষমতায় ₹২ লক্ষ, আংশিক স্থায়ী অক্ষমতায় ₹১ লক্ষ; বার্ষিক প্রিমিয়াম ₹২০।",
+      "benefit": "এক বছরের renewable personal accident cover: দুর্ঘটনাজনিত মৃত্যু বা সম্পূর্ণ ও স্থায়ী অক্ষমতায় ₹২ লক্ষ; নির্ধারিত আংশিক স্থায়ী অক্ষমতায় ₹১ লক্ষ। বার্ষিক premium ₹২০, যা সম্মতিপ্রাপ্ত bank/post-office account থেকে auto-debit হয়।",
       "eligibility": [
-        "বয়স ১৮ থেকে ৭০ বছর",
-        "অংশগ্রহণকারী ব্যাংক/ডাকঘরের সঞ্চয়ী অ্যাকাউন্ট",
-        "Auto-debit সম্মতি",
-        "এক ব্যক্তির জন্য একটি অ্যাকাউন্টের মাধ্যমে কভার"
+        "অংশগ্রহণকারী ব্যাংক বা ডাকঘরের individual savings account holder হতে হবে",
+        "বয়স ১৮ থেকে ৭০ বছরের মধ্যে হতে হবে",
+        "নির্ধারিত enrollment form/consent দিতে হবে এবং premium auto-debit অনুমোদন করতে হবে",
+        "একাধিক ব্যাংক/ডাকঘর account থাকলেও একজন ব্যক্তি একটি account-এর মাধ্যমেই scheme cover নিতে পারবেন"
       ],
       "documents": [
         "সম্মতি ও ঘোষণা ফর্ম",
@@ -1324,10 +1347,11 @@
         "নমিনির তথ্য"
       ],
       "application_process": [
-        "ব্যাংক/ডাকঘর শাখা, net banking বা mobile banking-এ PMSBY নির্বাচন করুন",
-        "ফর্ম ও নমিনি তথ্য পূরণ করুন",
-        "₹২০ auto-debit অনুমোদন করুন",
-        "Enrollment acknowledgment সংরক্ষণ করুন"
+        "অংশগ্রহণকারী ব্যাংক বা ডাকঘর শাখা, internet banking অথবা mobile banking-এর মাধ্যমে PMSBY-তে যোগদানের বিকল্প নির্বাচন করুন",
+        "নির্ধারিত enrollment/consent form পূরণ করে nominee তথ্য দিন",
+        "বার্ষিক ₹২০ premium auto-debit-এর অনুমতি দিন",
+        "Enrollment acknowledgement ও policy/cover details সংরক্ষণ করুন",
+        "Cover সাধারণত ১ জুন থেকে পরের বছরের ৩১ মে পর্যন্ত; delayed enrolment/renewal নির্ধারিত premium-এ সম্ভব"
       ],
       "official_website": "https://jansuraksha.gov.in/",
       "official_scheme_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
@@ -1339,13 +1363,19 @@
       ],
       "source": [
         {
-          "title": "PMSBY Rules",
+          "title": "Pradhan Mantri Suraksha Bima Yojana - Department of Financial Services",
+          "url": "https://financialservices.gov.in/pmsby",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMSBY Rules - Jan Suraksha",
           "url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
           "source_type": "official_pdf",
           "published_or_updated_date": ""
         },
         {
-          "title": "PMSBY Application Form",
+          "title": "PMSBY Application Form - Jan Suraksha",
           "url": "https://jansuraksha.gov.in/Files/PMSBY/English/ApplicationForm.pdf",
           "source_type": "official_pdf",
           "published_or_updated_date": ""
@@ -1354,11 +1384,11 @@
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Corrected to accidental death/disability only.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Re-verified against the Department of Financial Services current PMSBY page and official Jan Suraksha documents. Current DFS page states ₹20 annual premium, age 18–70, one-year cover from 1 June to 31 May, ₹2 lakh for accidental death/defined total disability and ₹1 lakh for defined partial disability. This is accident cover only; it does not reimburse hospitalization expenses.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "অর্থ মন্ত্রকের বর্তমান PMSBY পেজ অনুযায়ী ₹২০ বার্ষিক premium, ১ জুন–৩১ মে কভার সময়কাল এবং নির্ধারিত total/partial disability-র সুনির্দিষ্ট সুবিধা স্পষ্ট করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2015-05-09"
     },
     {
@@ -1368,13 +1398,13 @@
       "category": "central",
       "dept": "Ministry of Micro, Small and Medium Enterprises, Government of India",
       "description_bn": "নতুন non-farm micro-enterprise স্থাপন করে স্বনিযুক্তি ও কর্মসংস্থানের জন্য subsidy-linked bank credit প্রকল্প।",
-      "benefit": "সাধারণ শ্রেণিতে ১৫%–২৫% এবং বিশেষ শ্রেণিতে ২৫%–৩৫% subsidy; manufacturing প্রকল্পে সর্বোচ্চ ₹৫০ লক্ষ ও service/trading-এ ₹২০ লক্ষ প্রকল্প ব্যয়।",
+      "benefit": "নতুন micro-enterprise-এর জন্য manufacturing প্রকল্পে সর্বোচ্চ ₹৫০ লক্ষ এবং business/service প্রকল্পে সর্বোচ্চ ₹২০ লক্ষ admissible project cost। General category-তে urban ১৫% ও rural ২৫% margin-money subsidy; special category-তে urban ২৫% ও rural ৩৫%। Beneficiary contribution যথাক্রমে general ১০% এবং special ৫%। যোগ্য সফল PMEGP/MUDRA unit-এর expansion/upgradation-এর জন্য পৃথক second-loan সুবিধাও রয়েছে।",
       "eligibility": [
-        "বয়স ১৮ বছরের বেশি",
-        "নতুন micro-enterprise হতে হবে",
-        "নির্ধারিত বড় প্রকল্পে অন্তত অষ্টম শ্রেণি পাস",
-        "আয়ের সর্বোচ্চ সীমা নেই",
-        "এক পরিবারে সাধারণত একজন নতুন-unit সুবিধাভোগী"
+        "যে কোনো ব্যক্তি, বয়স ১৮ বছরের বেশি, আবেদন করতে পারেন",
+        "শুধুমাত্র নতুন eligible micro-enterprise-এর জন্য প্রথম loan; বিদ্যমান unit বা অন্য সরকারি subsidy নেওয়া unit নতুন-unit assistance-এর জন্য যোগ্য নয়",
+        "Manufacturing প্রকল্পে ₹১০ লক্ষের বেশি এবং business/service প্রকল্পে ₹৫ লক্ষের বেশি project cost হলে আবেদনকারীকে অন্তত অষ্টম শ্রেণি পাস হতে হবে",
+        "নির্দিষ্ট eligible institutional categories-ও scheme guidelines অনুযায়ী আবেদন করতে পারে",
+        "বিদ্যমান সফল PMEGP/REGP/MUDRA unit-এর expansion/upgradation-এর জন্য পৃথক second-financial-assistance শর্ত প্রযোজ্য"
       ],
       "documents": [
         "আধার",
@@ -1386,11 +1416,12 @@
         "ব্যাংক ও unit location তথ্য"
       ],
       "application_process": [
-        "PMEGP Online Application খুলুন",
-        "আধার যাচাই করে তথ্য পূরণ করুন",
-        "Project activity, ব্যয় ও কর্মসংস্থান তথ্য দিন",
-        "ব্যাংক নির্বাচন করুন",
-        "নথি ও Project Report আপলোড করে আবেদন জমা দিন"
+        "PMEGP e-portal খুলে নতুন unit বা eligible second-loan application নির্বাচন করুন",
+        "ব্যক্তিগত/প্রতিষ্ঠান, project activity, project cost, location ও employment details পূরণ করুন",
+        "Project Report, পরিচয়, শিক্ষাগত যোগ্যতা এবং প্রযোজ্য category certificate আপলোড করুন",
+        "উপযুক্ত implementing agency ও bank নির্বাচন করে আবেদন জমা দিন",
+        "ব্যাংকের appraisal, sanction, own contribution এবং নির্ধারিত entrepreneurship training/অন্যান্য scheme formalities সম্পন্ন করুন",
+        "Subsidy বা margin-money adjustment scheme guideline অনুযায়ী lock-in ও verification-এর পরে হয়"
       ],
       "official_website": "https://pmegp.msme.gov.in/",
       "official_scheme_url": "https://pmegp.msme.gov.in/",
@@ -1402,26 +1433,32 @@
       ],
       "source": [
         {
-          "title": "PMEGP official portal",
-          "url": "https://pmegp.msme.gov.in/",
+          "title": "Prime Minister Employment Generation Programme - Ministry of MSME",
+          "url": "https://master-msme.digifootprint.gov.in/offerings/schemes-and-services/details/prime-minister-employment-generation-programme-and-other-credit-support-schemes-1-MDMzETMtQWa",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
         {
-          "title": "PMEGP Online Application",
+          "title": "PMEGP official e-portal",
           "url": "https://pmegp.msme.gov.in/Home/HomePage",
           "source_type": "official_application_portal",
+          "published_or_updated_date": ""
+        },
+        {
+          "title": "PMEGP revised guidelines - Ministry of MSME",
+          "url": "https://msme.gov.in/",
+          "source_type": "official_department_page",
           "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Current application route, project ceilings and eligibility verified.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-07-23",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Re-verified against the Ministry of MSME scheme information page and PMEGP e-portal. Current published ceilings are ₹50 lakh manufacturing and ₹20 lakh business/service for new units. Margin-money subsidy varies by beneficiary category and urban/rural location: general 15% urban/25% rural; special 25% urban/35% rural. Beneficiary contribution is 10% general and 5% special. A separate second-loan route exists for eligible existing PMEGP/REGP/MUDRA units; avoid presenting the new-unit ceilings/rates as the second-loan terms.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "MSME মন্ত্রকের বর্তমান scheme page অনুযায়ী subsidy-র urban/rural বিভাজন, beneficiary contribution এবং বিদ্যমান unit-এর পৃথক second-loan বিধান যুক্ত ও স্পষ্ট করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2008-08-01"
     },
     {
@@ -1589,22 +1626,27 @@
       "category": "central",
       "dept": "Ministry of Labour and Employment, Government of India",
       "description_bn": "নতুন কর্মসংস্থান সৃষ্টি, কর্মসংস্থানের আনুষ্ঠানিকীকরণ এবং প্রথমবার EPFO-তে যোগদানকারী কর্মী ও যোগ্য নিয়োগকর্তাদের উৎসাহ দেওয়ার জন্য কেন্দ্রীয় সরকারের কর্মসংস্থান-সংযুক্ত প্রণোদনা প্রকল্প।",
-      "benefit": "প্রথমবার EPFO-তে যোগদানকারী যোগ্য কর্মী সর্বোচ্চ ₹১৫,০০০ পর্যন্ত প্রণোদনা পেতে পারেন। যোগ্য নিয়োগকর্তা প্রতি অতিরিক্ত কর্মীর জন্য মাসে সর্বোচ্চ ₹৩,০০০ পর্যন্ত প্রণোদনা পেতে পারেন, প্রযোজ্য মজুরি-স্ল্যাব অনুযায়ী।",
+      "benefit": "Part A-তে যোগ্য first-time EPFO employee-কে এক মাসের EPF wage-এর সমপরিমাণ এককালীন incentive, সর্বোচ্চ ₹১৫,০০০; এটি ৬ মাসের service-এর পরে প্রথম কিস্তি এবং ১২ মাস continuous service ও mandatory financial-literacy course সম্পন্ন হলে দ্বিতীয় কিস্তিতে দেওয়া হয়। Part B-তে যোগ্য employer-কে প্রতি অতিরিক্ত eligible employee-র জন্য মাসে সর্বোচ্চ ₹৩,০০০ পর্যন্ত incentive দেওয়া হয়, নির্ধারিত wage slab ও employment additionality শর্ত অনুযায়ী।",
       "eligibility": [
-        "কর্মীর যোগদানের তারিখ ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭-এর মধ্যে হতে হবে।",
-        "কর্মীকে ০১-০৮-২০২৫-এর আগে EPFO বা exempted trust-এ contributing member হওয়া যাবে না।",
-        "কর্মীর মাসিক মোট মজুরি ₹১,০০,০০০ পর্যন্ত হতে হবে।",
-        "প্রথম কিস্তির জন্য একই প্রতিষ্ঠানে কমপক্ষে ৬ মাস কাজ করতে হবে।",
-        "নিয়োগকর্তাকে EPFO-registered establishment হতে হবে এবং নির্ধারিত অতিরিক্ত নতুন কর্মসংস্থান সৃষ্টি ও বজায় রাখতে হবে।"
+        "Employee-র joining date ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭ registration period-এর মধ্যে হতে হবে",
+        "Part A first-time employee-কে ০১-০৮-২০২৫-এর আগে EPFO বা exempted trust-এ contributing member হওয়া যাবে না",
+        "Part A-র employee-র monthly gross wage ₹১,০০,০০০ পর্যন্ত হতে হবে",
+        "UAN অবশ্যই UMANG App-এর Face Authentication Technology (FAT) দিয়ে authenticate করতে হবে",
+        "প্রথম কিস্তির জন্য অন্তত ৬ মাস service; দ্বিতীয় কিস্তির জন্য ১২ মাস continuous service এবং mandatory financial-literacy course সম্পন্ন করতে হবে",
+        "Employer-কে EPFO-registered establishment হতে হবে, নির্ধারিত অতিরিক্ত employment threshold পূরণ ও বজায় রাখতে হবে এবং সময়মতো ECR/contributions জমা দিতে হবে"
       ],
       "documents": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "Aadhaar ও UMANG App-এর মাধ্যমে UAN Face Authentication",
+        "নিজের নামে Aadhaar-linked এবং DBT-enabled bank account",
+        "EPFO-তে নথিভুক্ত UAN ও employment/contribution record",
+        "Employer-এর EPFO registration, employee records এবং নিয়মিত ECR/contribution filings"
       ],
       "application_process": [
-        "কর্মী UAN সংগ্রহ/সক্রিয় করুন এবং যোগ্য চাকরিতে যোগদান করুন।",
-        "যোগ্যতা অনুযায়ী EPFO-তে কর্মসংস্থান সংক্রান্ত অবদান ও তথ্য নথিভুক্ত হবে।",
-        "নির্ধারিত সময় কর্মরত থাকার পরে প্রণোদনা Aadhaar-seeded bank account-এ প্রদান করা হবে।",
-        "নিয়োগকর্তা EPFO employer login-এর মাধ্যমে প্রণোদনার জন্য নিবন্ধন করবেন, যোগ্য কর্মী নিয়োগ করবেন এবং নিয়মিত ECR জমা দেবেন।"
+        "যোগ্য চাকরিতে যোগদানের পরে UAN তৈরি/সক্রিয় করুন এবং UMANG App-এ Face Authentication Technology দিয়ে UAN authenticate করুন",
+        "নিশ্চিত করুন employer EPFO-তে employment ও contribution তথ্য সঠিকভাবে নথিভুক্ত করছে এবং সময়মতো ECR জমা দিচ্ছে",
+        "নিজের bank account Aadhaar-linked ও DBT-enabled রাখুন",
+        "৬ মাসের service-এর পরে Part A-র প্রথম কিস্তির eligibility তৈরি হয়; দ্বিতীয় কিস্তির জন্য ১২ মাস continuous service ও financial-literacy course সম্পন্ন করুন",
+        "Employer EPFO employer portal-এর মাধ্যমে establishment ও অতিরিক্ত employment সংক্রান্ত compliance বজায় রাখবে"
       ],
       "official_website": "https://pmvbry.epfindia.gov.in/",
       "official_scheme_url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
@@ -1617,32 +1659,38 @@
       ],
       "source": [
         {
-          "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana - EPFO official scheme page",
+          "title": "PM Viksit Bharat Rozgar Yojana - EPFO official scheme page",
           "url": "https://pmvbry.epfindia.gov.in/pmvbry-scheme/",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
         },
         {
-          "title": "PMVBRY official employee and employer benefits page",
-          "url": "https://pmvbry.epfindia.gov.in/?page_id=7123",
-          "source_type": "official_scheme_page",
+          "title": "PMVBRY Official Guidelines - Ministry of Food Processing Industries",
+          "url": "https://www.mofpi.gov.in/sites/default/files/pradhan_mantri_viksit_bharat_rozgar_yojana_pmvbry_0.pdf",
+          "source_type": "official_pdf",
           "published_or_updated_date": ""
         },
         {
-          "title": "Official PMVBRY Guidelines",
-          "url": "https://pmvbry.epfindia.gov.in/guidelines/",
-          "source_type": "official_scheme_page",
+          "title": "PMVBRY: Face Authentication and DBT requirements - Press Information Bureau",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232762&lang=2&reg=48",
+          "source_type": "official_press_release",
+          "published_or_updated_date": "2026-02-25"
+        },
+        {
+          "title": "PMVBRY employee incentive and financial-literacy details - Press Information Bureau",
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2292862&lang=2&reg=48",
+          "source_type": "official_press_release",
           "published_or_updated_date": ""
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "বর্তমান EPFO-এর সরকারি PMVBRY পোর্টালে কর্মী ও নিয়োগকর্তার যোগ্যতা, ₹১৫,০০০ পর্যন্ত কর্মী প্রণোদনা, প্রতি অতিরিক্ত কর্মীতে সর্বোচ্চ ₹৩,০০০ মাসিক নিয়োগকর্তা প্রণোদনা এবং ০১-০৮-২০২৫ থেকে ৩১-০৭-২০২৭ সময়কাল নিশ্চিত করা হয়েছে।",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-08-14",
-      "last_verified_at": "2026-08-14",
+      "verification_notes": "Re-verified against EPFO scheme page, the official PMVBRY Guidelines PDF hosted by a Government of India ministry, and PIB releases. Registration period is 01-08-2025 to 31-07-2027. First-time employee incentive is one month EPF wage up to ₹15,000, paid in two instalments: after six months, then after 12 months continuous service and completion of financial-literacy course. UAN Face Authentication Technology through UMANG and Aadhaar-linked DBT-enabled bank account are mandatory. Employer incentive depends on additionality, wage slab and ECR/contribution compliance; do not state the maximum as an unconditional entitlement.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "সরকারি নির্দেশিকা অনুযায়ী employee incentive-এর দুই কিস্তি, ১২ মাসের service ও financial-literacy শর্ত, UMANG Face Authentication এবং DBT-enabled bank account-এর বাধ্যবাধকতা যুক্ত করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2025-08-01"
     },
     {

@@ -3,9 +3,9 @@
   "project": "Prokolpo Bondhu",
   "dataset_type": "production",
   "total_records": 38,
-  "verified_records": 36,
-  "needs_review_records": 2,
-  "last_verified_at": "2026-11-15",
+  "verified_records": 35,
+  "needs_review_records": 3,
+  "last_verified_at": "2026-11-22",
   "schemes": [
     {
       "id": "annapurna-yojana",
@@ -276,14 +276,24 @@
         "আয়ের সর্বোচ্চ সীমা নেই"
       ],
       "documents": [
-        "অফিসিয়াল উৎসে স্পষ্টভাবে উল্লেখ নেই"
+        "আবেদনকারীর রঙিন ছবি ও স্বাক্ষর",
+        "সহ-আবেদনকারী/অভিভাবকের রঙিন ছবি ও স্বাক্ষর",
+        "শিক্ষার্থীর আধার কার্ড",
+        "আবেদনকারীর বয়সের প্রমাণ",
+        "সহ-আবেদনকারী/সহ-ঋণগ্রহীতার ঠিকানার প্রমাণ",
+        "ভর্তির রসিদ",
+        "শিক্ষার্থী ও অভিভাবকের PAN কার্ড অথবা PAN না থাকলে নির্ধারিত undertaking",
+        "প্রতিষ্ঠানের prospectus বা competent authority-র certificate, যেখানে admission, examination ও hostel fee-র বিবরণ রয়েছে",
+        "শেষ যোগ্যতা পরীক্ষার মার্কশিট/সার্টিফিকেট"
       ],
       "application_process": [
         "WBSCC-এর অফিসিয়াল পোর্টাল খুলুন",
-        "দেশের ভিতরে বা বিদেশে প্রতিষ্ঠানের ধরন অনুযায়ী Student Registration নির্বাচন করুন",
+        "প্রতিষ্ঠান ভারতে বা ভারতের বাইরে—সেই অনুযায়ী Student Registration নির্বাচন করুন",
         "নিবন্ধন সম্পন্ন করে আবেদনকারী অ্যাকাউন্টে লগইন করুন",
         "ব্যক্তিগত, শিক্ষা, প্রতিষ্ঠান ও ঋণ-সংক্রান্ত তথ্য পূরণ করুন",
-        "প্রয়োজনীয় নথি জমা দিয়ে আবেদন নম্বর সংরক্ষণ করুন"
+        "অফিসিয়াল FAQ-তে উল্লিখিত ছবি, পরিচয়, বয়স, ঠিকানা, ভর্তি ও শিক্ষা-সংক্রান্ত নথি আপলোড করুন",
+        "আবেদন জমা দিন; সংশ্লিষ্ট প্রতিষ্ঠান নথি যাচাই করবে",
+        "আবেদন নম্বর সংরক্ষণ করুন; FAQ অনুযায়ী সম্পূর্ণ অনলাইন আবেদনের হার্ড কপি পাঠানোর প্রয়োজন নেই"
       ],
       "official_website": "https://wbscc.wb.gov.in/",
       "official_scheme_url": "https://wbscc.wb.gov.in/About",
@@ -311,16 +321,22 @@
           "url": "https://wbscc.wb.gov.in/FAQ",
           "source_type": "official_scheme_page",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "WBSCC official English FAQ (document checklist and residence criteria)",
+          "url": "https://wbscc.wb.gov.in/assets/FAQ_English.pdf",
+          "source_type": "official_pdf",
+          "published_or_updated_date": ""
         }
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "This active high-priority West Bengal scheme was not present in the existing dataset and has been added from the official WBSCC portal and FAQ.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Current official WBSCC portal confirms the ₹10 lakh ceiling, 4% simple interest, 1% interest concession for servicing interest during study, age ceiling of 40 and 15-year repayment. Official FAQ supplies the upload checklist and confirms that no separate domicile/caste certificate or hard-copy submission is required; 10-year West Bengal residence is supported by self-declaration.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "সরকারি FAQ থেকে আবেদনকালে আপলোডযোগ্য নথির তালিকা ও অনলাইন জমা-পরবর্তী প্রক্রিয়া স্পষ্ট করে সংশোধন করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2021-06-30"
     },
     {
@@ -443,12 +459,12 @@
       ],
       "government_level": "west_bengal",
       "scheme_status": "active",
-      "verification_status": "verified",
-      "verification_notes": "Eligibility, income ceiling and example scholarship rates verified from the official portal.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-07-23",
-      "last_verified_at": "2026-07-23",
+      "verification_status": "needs_review",
+      "verification_notes": "The official SVMCM portal is live and still displays the ₹2.50 lakh annual income ceiling and published course-wise scholarship rates, but its current About/Guidelines page refers to pass-out years 2025, 2024, 2023, 2022 and 2021. A current 2026-27 pass-year/advertisement rule was not established from the official source checked. Do not present the existing academic-year eligibility as fully current until the 2026-27 notice or portal instructions are confirmed.",
+      "change_type": "correction",
+      "detected_change_summary_bn": "বর্তমান পোর্টালের যোগ্যতা অংশে ২০২৫–২০২১ সালের উত্তীর্ণ-বর্ষের উল্লেখ রয়েছে; ২০২৬–২৭ শিক্ষাবর্ষের প্রযোজ্য উত্তীর্ণ-বর্ষ নিশ্চিত না হওয়ায় রেকর্ডটি পুনঃযাচাইয়ের জন্য চিহ্নিত।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": ""
     },
     {
@@ -504,16 +520,22 @@
           "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
           "source_type": "official_pdf",
           "published_or_updated_date": ""
+        },
+        {
+          "title": "PMFBY administrative dashboard - Kharif season coverage (last updated 22 November 2026)",
+          "url": "https://pmfby.gov.in/adminStatistics/dashboard",
+          "source_type": "official_scheme_page",
+          "published_or_updated_date": "2026-11-22"
         }
       ],
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "Portal active; deadlines vary by state, crop and season.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2026-07-22",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "The official PMFBY dashboard shows Kharif 2026 coverage data and was last updated 22-11-2026. The official revised operational guidelines publish the farmer premium caps: 2% for Kharif foodgrain/oilseed, 1.5% for Rabi foodgrain/oilseed and 5% for annual commercial/horticultural crops (or actuarial rate, whichever is lower). Enrollment deadlines and notified crops/areas remain state-, crop- and season-specific; this record intentionally does not state a universal deadline.",
+      "change_type": "source_changed",
+      "detected_change_summary_bn": "২০২৬ খরিফ মরশুমের সরকারি PMFBY ড্যাশবোর্ড যুক্ত করা হয়েছে; আবেদন-সময়সীমা রাজ্য, ফসল ও মরশুমভেদে পরিবর্তিত হয় বলে নির্দিষ্ট তারিখ সাধারণীকরণ করা হয়নি।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2016-02-18"
     },
     {
@@ -655,7 +677,7 @@
       "category": "central",
       "dept": "Ministry of Housing and Urban Affairs, Government of India",
       "description_bn": "শহরাঞ্চলের যোগ্য পরিবারকে পাকা বাড়ি নির্মাণ, ক্রয় বা সাশ্রয়ী ভাড়া ব্যবস্থার মাধ্যমে আবাসন সহায়তা দেওয়ার কেন্দ্রীয় প্রকল্প।",
-      "benefit": "PMAY-U 2.0-এর চারটি অংশের মাধ্যমে যোগ্য পরিবারকে আর্থিক সহায়তা দেওয়া হয়। BLC-তে যোগ্য EWS পরিবার নিজের জমিতে নতুন পাকা বাড়ি নির্মাণের জন্য সর্বোচ্চ ₹২.৫ লক্ষ সহায়তা পেতে পারে।",
+      "benefit": "PMAY-U 2.0-তে BLC/AHP-এর জন্য পশ্চিমবঙ্গের ক্ষেত্রে কেন্দ্রীয় সহায়তা প্রতি গৃহে ₹১.৫ লক্ষ এবং রাজ্যের ন্যূনতম অংশ ₹১ লক্ষ—অর্থাৎ মোট ন্যূনতম সহায়তা ₹২.৫ লক্ষ, প্রযোজ্য প্রকল্প অনুমোদন ও অন্তত ২৫% উপভোক্তা-অংশের শর্তসাপেক্ষ। ISS-এ যোগ্য গৃহঋণের প্রথম ₹৮ লক্ষে ৪% সুদ ভর্তুকি দেওয়া হয়; সর্বোচ্চ প্রকৃত ছাড় ₹১.৮ লক্ষ।",
       "eligibility": [
         "আবেদনকারী পরিবারকে শহরাঞ্চলে বসবাস করতে হবে",
         "পরিবারের দেশের কোথাও পাকা বাড়ি থাকা যাবে না",
@@ -687,7 +709,7 @@
           "title": "PMAY-U 2.0 scheme guidelines page",
           "url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
           "source_type": "official_scheme_page",
-          "published_or_updated_date": ""
+          "published_or_updated_date": "2024-09-01"
         },
         {
           "title": "PMAY-U 2.0 eligibility and application gateway",
@@ -705,11 +727,11 @@
       "government_level": "central",
       "scheme_status": "active",
       "verification_status": "verified",
-      "verification_notes": "The record now reflects PMAY-U 2.0 rather than the earlier mission version. Exact document requirements were not clearly exposed on the official public eligibility page and are therefore not guessed.",
-      "change_type": "no_change",
-      "detected_change_summary_bn": "এই যাচাই রানে প্রকল্পের তথ্যে কোনো পরিবর্তন পাওয়া যায়নি।",
-      "last_updated": "2024-09-01",
-      "last_verified_at": "2026-07-23",
+      "verification_notes": "Rechecked against the official September 2024 PMAY-U 2.0 Operational Guidelines and the live MoHUA scheme page, which also links the application portal and 2026 Angikaar guidance. For West Bengal (all other States), BLC/AHP funding is ₹1.50 lakh Central assistance plus minimum ₹1.00 lakh State share per unit, subject to State/project approval and minimum 25% beneficiary share. ISS eligibility is EWS/LIG/MIG with annual household income up to ₹3/6/9 lakh; 4% subsidy applies on the first ₹8 lakh of eligible home loan, with maximum actual release ₹1.80 lakh. The portal lists four verticals: BLC, AHP, ARH and ISS.",
+      "change_type": "benefit_changed",
+      "detected_change_summary_bn": "PMAY-U 2.0 নির্দেশিকা অনুযায়ী পশ্চিমবঙ্গের BLC/AHP-তে কেন্দ্র-রাজ্যের অংশ এবং ISS-এর ৪% সুদ ভর্তুকি ও সর্বোচ্চ ₹১.৮ লক্ষ সুবিধা আলাদা করে স্পষ্ট করা হয়েছে।",
+      "last_updated": "2026-11-22",
+      "last_verified_at": "2026-11-22",
       "start_date": "2024-09-01"
     },
     {
